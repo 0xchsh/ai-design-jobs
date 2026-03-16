@@ -56,8 +56,17 @@ function companyDomain(company: string): string {
     Runway: "runwayml.com",
     Replit: "replit.com",
     "Character.ai": "character.ai",
-    "Adept AI": "adept.ai",
-    Midjourney: "midjourney.com",
+    Stripe: "stripe.com",
+    "Scale AI": "scale.com",
+    "Together AI": "together.ai",
+    "Stability AI": "stability.ai",
+    "Hugging Face": "huggingface.co",
+    "Inflection AI": "inflection.ai",
+    Pika: "pika.art",
+    Notion: "notion.so",
+    ElevenLabs: "elevenlabs.io",
+    Cohere: "cohere.com",
+    Ramp: "ramp.com",
   };
   return map[company] || "example.com";
 }

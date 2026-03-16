@@ -52,18 +52,26 @@ const companies: CompanyConfig[] = [
   { company: "Figma", platform: "greenhouse", boardToken: "figma" },
   { company: "Vercel", platform: "greenhouse", boardToken: "vercel" },
   { company: "Runway", platform: "greenhouse", boardToken: "runwayml" },
+  { company: "Stripe", platform: "greenhouse", boardToken: "stripe" },
+  { company: "Scale AI", platform: "greenhouse", boardToken: "scaleai" },
+  { company: "Together AI", platform: "greenhouse", boardToken: "togetherai" },
+  { company: "Stability AI", platform: "greenhouse", boardToken: "stabilityai" },
+  { company: "Hugging Face", platform: "greenhouse", boardToken: "hugging-face" },
+  { company: "Inflection AI", platform: "greenhouse", boardToken: "inflectionai" },
   // Ashby
   { company: "Linear", platform: "ashby", orgSlug: "Linear" },
   { company: "Perplexity", platform: "ashby", orgSlug: "perplexity" },
   { company: "Replit", platform: "ashby", orgSlug: "replit" },
   { company: "Character.ai", platform: "ashby", orgSlug: "character" },
+  { company: "Pika", platform: "ashby", orgSlug: "pika" },
+  { company: "Notion", platform: "ashby", orgSlug: "notion" },
+  { company: "ElevenLabs", platform: "ashby", orgSlug: "elevenlabs" },
+  { company: "Cohere", platform: "ashby", orgSlug: "cohere" },
+  { company: "Ramp", platform: "ashby", orgSlug: "ramp" },
   // Lever
   { company: "Mistral AI", platform: "lever", orgSlug: "mistral" },
   // Custom (URL liveness check only — can't auto-discover new jobs)
-  { company: "OpenAI", platform: "custom", existingJobs: true },
-  { company: "Meta", platform: "custom", existingJobs: true },
   { company: "Cursor", platform: "custom", existingJobs: true },
-  { company: "Adept AI", platform: "custom", existingJobs: true },
 ];
 
 // ── Design role detection ──────────────────────────────────────────
@@ -106,6 +114,11 @@ const EXCLUDE_PATTERNS = [
   /\bmodel quality/i,
   /co-design/i,
   /\bhw-sw\b/i,
+  /\bbackend engineer/i,
+  /\bfrontend engineer/i,
+  /\bstaff frontend/i,
+  /\bproduct manager/i,
+  /\bstaff product manager/i,
 ];
 
 function isDesignRole(title: string, _department: string): boolean {
