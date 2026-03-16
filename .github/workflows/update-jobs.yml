@@ -1,0 +1,40 @@
+name: Update job listings
+
+on:
+  schedule:
+    # Runs daily at 8:00 AM UTC
+    - cron: "0 8 * * *"
+  workflow_dispatch: # Allow manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      - name: Run scraper
+        run: npx tsx scripts/scrape-jobs.ts
+
+      - name: Check for changes
+        id: diff
+        run: |
+          git diff --quiet src/data/jobs.ts && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add src/data/jobs.ts src/app/page.tsx
+          git commit -m "chore: update job listings ($(date -u +%Y-%m-%d))"
+          git push

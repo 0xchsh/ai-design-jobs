@@ -2,6 +2,9 @@
 
 import { useState, useMemo } from "react";
 import type { Job } from "@/data/jobs";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Badge } from "@/components/ui/badge";
 
 const domainMap: Record<string, string> = {
   Anthropic: "anthropic.com",
@@ -61,19 +64,19 @@ export function JobTable({ jobs }: { jobs: Job[] }) {
   function SortIndicator({ field }: { field: SortField }) {
     if (sortField !== field) return null;
     return (
-      <span className="ml-1 text-foreground/40">{sortAsc ? "↑" : "↓"}</span>
+      <span className="ml-0.5 opacity-40">{sortAsc ? "↑" : "↓"}</span>
     );
   }
 
   return (
     <div>
-      {/* Search + filter bar */}
-      <div className="flex items-center gap-3 mb-6">
-        <div className="relative flex-1 max-w-sm">
+      {/* Controls */}
+      <div className="flex items-center gap-2 mb-4">
+        <div className="relative min-w-[400px]">
           <svg
-            className="absolute left-3 top-1/2 -translate-y-1/2 text-muted"
-            width="16"
-            height="16"
+            className="absolute left-2.5 top-1/2 -translate-y-1/2 text-muted-foreground"
+            width="14"
+            height="14"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
@@ -84,122 +87,124 @@ export function JobTable({ jobs }: { jobs: Job[] }) {
             <circle cx="11" cy="11" r="8" />
             <path d="m21 21-4.3-4.3" />
           </svg>
-          <input
+          <Input
             type="text"
             placeholder="Search roles, companies, locations..."
             value={search}
             onChange={(e) => setSearch(e.target.value)}
-            className="w-full h-10 pl-10 pr-4 rounded-full bg-surface border border-border text-[14px] placeholder:text-muted/50 focus:outline-none focus:ring-2 focus:ring-foreground/10 focus:border-foreground/20 transition-all"
+            className="h-8 text-sm pl-8 w-full"
           />
         </div>
         {activeCompany && (
-          <button
+          <Button
+            variant="secondary"
+            size="sm"
             onClick={() => setActiveCompany(null)}
-            className="inline-flex items-center gap-1.5 h-10 px-4 rounded-full bg-foreground text-surface text-[13px] font-medium hover:bg-foreground/80 transition-colors"
           >
             {activeCompany}
             <svg
-              width="14"
-              height="14"
+              width="12"
+              height="12"
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
-              strokeWidth="2"
+              strokeWidth="2.5"
+              className="ml-1"
             >
               <path d="M18 6 6 18M6 6l12 12" />
             </svg>
-          </button>
+          </Button>
         )}
-        <span className="text-[13px] text-muted ml-auto">
-          {filtered.length} position{filtered.length !== 1 ? "s" : ""}
+        <span className="text-sm text-muted-foreground ml-auto">
+          {filtered.length} position{filtered.length !== 1 ? "s" : ""} at{" "}
+          {new Set(filtered.map((j) => j.company)).size} companies
         </span>
       </div>
 
       {/* Table */}
-      <div className="rounded-2xl border border-border bg-surface overflow-hidden">
+      <div className="rounded-xl border border-border bg-card overflow-hidden shadow-xs">
         <div className="overflow-x-auto">
-          <table className="w-full text-[14px]">
+          <table className="w-full text-sm">
             <thead>
-              <tr className="border-b border-border bg-surface-alt">
+              <tr className="border-b border-border bg-muted/50">
                 <th
-                  className="text-left text-[12px] font-medium uppercase tracking-wider text-muted py-3 px-4 cursor-pointer hover:text-foreground transition-colors select-none"
+                  className="text-left text-xs font-medium text-muted-foreground py-2.5 px-3 cursor-pointer hover:text-foreground transition-colors select-none"
                   onClick={() => handleSort("company")}
                 >
                   Company
                   <SortIndicator field="company" />
                 </th>
                 <th
-                  className="text-left text-[12px] font-medium uppercase tracking-wider text-muted py-3 px-4 cursor-pointer hover:text-foreground transition-colors select-none"
+                  className="text-left text-xs font-medium text-muted-foreground py-2.5 px-3 cursor-pointer hover:text-foreground transition-colors select-none"
                   onClick={() => handleSort("title")}
                 >
                   Role
                   <SortIndicator field="title" />
                 </th>
                 <th
-                  className="text-left text-[12px] font-medium uppercase tracking-wider text-muted py-3 px-4 cursor-pointer hover:text-foreground transition-colors hidden md:table-cell select-none"
+                  className="text-left text-xs font-medium text-muted-foreground py-2.5 px-3 cursor-pointer hover:text-foreground transition-colors hidden md:table-cell select-none"
                   onClick={() => handleSort("location")}
                 >
                   Location
                   <SortIndicator field="location" />
                 </th>
                 <th
-                  className="text-left text-[12px] font-medium uppercase tracking-wider text-muted py-3 px-4 cursor-pointer hover:text-foreground transition-colors hidden lg:table-cell select-none"
+                  className="text-left text-xs font-medium text-muted-foreground py-2.5 px-3 cursor-pointer hover:text-foreground transition-colors hidden lg:table-cell select-none"
                   onClick={() => handleSort("department")}
                 >
                   Team
                   <SortIndicator field="department" />
                 </th>
-                <th className="py-3 px-4 w-24"></th>
+                <th className="py-2.5 px-3 w-20"></th>
               </tr>
             </thead>
             <tbody>
               {filtered.map((job, i) => (
                 <tr
                   key={`${job.company}-${job.title}-${i}`}
-                  className="border-b border-border-light last:border-0 group hover:bg-surface-alt transition-colors"
+                  className="border-b border-border/50 last:border-0 group hover:bg-muted/30 transition-colors"
                 >
-                  <td className="py-3.5 px-4 align-middle">
+                  <td className="py-2.5 px-3 align-middle">
                     <button
                       onClick={() =>
                         setActiveCompany(
                           activeCompany === job.company ? null : job.company
                         )
                       }
-                      className="flex items-center gap-2.5 hover:opacity-70 transition-opacity"
+                      className="flex items-center gap-2 hover:opacity-70 transition-opacity"
                     >
                       <img
                         src={`https://www.google.com/s2/favicons?domain=${domainMap[job.company] || "example.com"}&sz=64`}
                         alt=""
-                        width={20}
-                        height={20}
-                        className="rounded-[4px] shrink-0"
+                        width={18}
+                        height={18}
+                        className="rounded-[3px] shrink-0"
                       />
-                      <span className="font-medium text-[14px]">
+                      <span className="font-medium text-sm">
                         {job.company}
                       </span>
                     </button>
                   </td>
-                  <td className="py-3.5 px-4 align-middle">
-                    <span className="group-hover:text-foreground transition-colors">
-                      {job.title}
-                    </span>
+                  <td className="py-2.5 px-3 align-middle text-sm">
+                    {job.title}
                   </td>
-                  <td className="py-3.5 px-4 align-middle hidden md:table-cell text-muted text-[13px]">
+                  <td className="py-2.5 px-3 align-middle hidden md:table-cell text-muted-foreground text-xs">
                     {job.location}
                   </td>
-                  <td className="py-3.5 px-4 align-middle hidden lg:table-cell">
-                    <span className="inline-flex px-2.5 py-0.5 rounded-full bg-surface-alt border border-border-light text-[12px] text-muted">
+                  <td className="py-2.5 px-3 align-middle hidden lg:table-cell">
+                    <Badge variant="outline" className="font-normal">
                       {job.department}
-                    </span>
+                    </Badge>
                   </td>
-                  <td className="py-3.5 px-4 align-middle text-right">
+                  <td className="py-2.5 px-3 align-middle text-right">
                     <a
                       href={job.url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center h-8 px-4 rounded-full bg-foreground text-surface text-[13px] font-medium hover:bg-foreground/80 transition-colors"
                     >
-                      Apply
+                      <Button variant="default" size="xs">
+                        Apply
+                      </Button>
                     </a>
                   </td>
                 </tr>
@@ -210,8 +215,8 @@ export function JobTable({ jobs }: { jobs: Job[] }) {
       </div>
 
       {filtered.length === 0 && (
-        <div className="py-20 text-center">
-          <p className="text-muted text-[14px]">
+        <div className="py-16 text-center">
+          <p className="text-sm text-muted-foreground">
             No positions match your search.
           </p>
         </div>
