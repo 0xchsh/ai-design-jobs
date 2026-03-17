@@ -64,10 +64,12 @@ const CAREERS_URLS: Record<string, string> = {
   Ramp: "https://ramp.com/careers",
   "Mistral AI": "https://mistral.ai/careers",
   Cohere: "https://cohere.com/careers",
+  OpenAI: "https://openai.com/careers",
 };
 
 const companies: CompanyConfig[] = [
   // Greenhouse
+  { company: "OpenAI", platform: "greenhouse", boardToken: "openai" },
   { company: "Anthropic", platform: "greenhouse", boardToken: "anthropic" },
   { company: "Google DeepMind", platform: "greenhouse", boardToken: "deepmind" },
   { company: "Figma", platform: "greenhouse", boardToken: "figma" },
@@ -90,7 +92,6 @@ const companies: CompanyConfig[] = [
   { company: "Dropbox", platform: "greenhouse", boardToken: "dropbox" },
   { company: "Twitch", platform: "greenhouse", boardToken: "twitch" },
   { company: "Reddit", platform: "greenhouse", boardToken: "reddit" },
-  { company: "Airbnb", platform: "greenhouse", boardToken: "airbnb" },
   { company: "Instacart", platform: "greenhouse", boardToken: "instacart" },
   { company: "Robinhood", platform: "greenhouse", boardToken: "robinhood" },
   { company: "Coinbase", platform: "greenhouse", boardToken: "coinbase" },
@@ -104,6 +105,22 @@ const companies: CompanyConfig[] = [
   { company: "Otter", platform: "greenhouse", boardToken: "otter" },
   { company: "HeyGen", platform: "greenhouse", boardToken: "heygen" },
   { company: "Gong", platform: "greenhouse", boardToken: "gongio" },
+  { company: "Lyft", platform: "greenhouse", boardToken: "lyft" },
+  { company: "Asana", platform: "greenhouse", boardToken: "asana" },
+  { company: "Webflow", platform: "greenhouse", boardToken: "webflow" },
+  { company: "Intercom", platform: "greenhouse", boardToken: "intercom" },
+  { company: "Mercury", platform: "greenhouse", boardToken: "mercury" },
+  { company: "Brex", platform: "greenhouse", boardToken: "brex" },
+  { company: "Gusto", platform: "greenhouse", boardToken: "gusto" },
+  { company: "Contentful", platform: "greenhouse", boardToken: "contentful" },
+  { company: "Fivetran", platform: "greenhouse", boardToken: "fivetran" },
+  { company: "Moveworks", platform: "greenhouse", boardToken: "moveworks" },
+  { company: "Braze", platform: "greenhouse", boardToken: "braze" },
+  { company: "Lattice", platform: "greenhouse", boardToken: "lattice" },
+  { company: "Amplitude", platform: "greenhouse", boardToken: "amplitude" },
+  { company: "Bloomreach", platform: "greenhouse", boardToken: "bloomreach" },
+  { company: "Algolia", platform: "greenhouse", boardToken: "algolia" },
+  { company: "Zoox", platform: "greenhouse", boardToken: "zoox" },
   // Ashby
   { company: "Linear", platform: "ashby", orgSlug: "Linear" },
   { company: "Perplexity", platform: "ashby", orgSlug: "perplexity" },
@@ -140,9 +157,19 @@ const companies: CompanyConfig[] = [
   { company: "Factory", platform: "ashby", orgSlug: "factory" },
   { company: "Codegen", platform: "ashby", orgSlug: "codegen" },
   { company: "Railway", platform: "ashby", orgSlug: "railway" },
+  { company: "Stytch", platform: "ashby", orgSlug: "stytch" },
+  { company: "Propel", platform: "ashby", orgSlug: "propel" },
+  { company: "Plain", platform: "ashby", orgSlug: "plain" },
+  { company: "Semgrep", platform: "ashby", orgSlug: "semgrep" },
+  { company: "Socket", platform: "ashby", orgSlug: "socket" },
+  { company: "Sentry", platform: "ashby", orgSlug: "sentry" },
+  { company: "Coder", platform: "ashby", orgSlug: "coder" },
+  { company: "Mux", platform: "ashby", orgSlug: "mux" },
   // Lever
   { company: "Mistral AI", platform: "lever", orgSlug: "mistral" },
   { company: "Palantir", platform: "lever", orgSlug: "palantir" },
+  { company: "Spotify", platform: "lever", orgSlug: "spotify" },
+  { company: "Plaid", platform: "lever", orgSlug: "plaid" },
   // Custom (URL liveness check only — can't auto-discover new jobs)
   { company: "Cursor", platform: "custom", existingJobs: true },
 ];

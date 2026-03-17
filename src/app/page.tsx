@@ -19,7 +19,7 @@ export default function Home() {
           </h1>
           <p className="mt-5 text-[17px] leading-relaxed text-muted-foreground max-w-lg">
             Design and design engineering positions at the
-            world&apos;s leading artificial intelligence companies.
+            world&apos;s leading artificial intelligence teams and companies.
           </p>
           </div>
         </div>
@@ -121,6 +121,33 @@ function companyDomain(company: string): string {
     Factory: "factory.ai",
     Codegen: "codegen.com",
     Railway: "railway.app",
+    Lyft: "lyft.com",
+    Asana: "asana.com",
+    Webflow: "webflow.com",
+    Intercom: "intercom.com",
+    Mercury: "mercury.com",
+    Brex: "brex.com",
+    Gusto: "gusto.com",
+    Contentful: "contentful.com",
+    Fivetran: "fivetran.com",
+    Moveworks: "moveworks.com",
+    Braze: "braze.com",
+    Lattice: "lattice.com",
+    Amplitude: "amplitude.com",
+    Bloomreach: "bloomreach.com",
+    Algolia: "algolia.com",
+    Zoox: "zoox.com",
+    Stytch: "stytch.com",
+    Propel: "propel.com",
+    Plain: "plain.com",
+    Semgrep: "semgrep.com",
+    Socket: "socket.dev",
+    Sentry: "sentry.io",
+    Coder: "coder.com",
+    Mux: "mux.com",
+    Spotify: "spotify.com",
+    Plaid: "plaid.com",
+    OpenAI: "openai.com",
   };
   return map[company] || "example.com";
 }
