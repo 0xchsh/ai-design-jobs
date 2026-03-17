@@ -12,11 +12,11 @@ const AUTO_RIPPLE_RADIUS = 200;
 const AUTO_RIPPLE_COUNT = 3;
 
 const RIPPLE_COLORS = [
-  [100, 120, 220],
-  [130, 100, 200],
-  [80, 140, 240],
-  [160, 100, 220],
-  [90, 160, 200],
+  [0, 0, 0],
+  [30, 30, 30],
+  [50, 50, 50],
+  [20, 20, 20],
+  [40, 40, 40],
 ];
 
 type Cell = {
@@ -132,14 +132,19 @@ export function AsciiBg() {
         const cx = col * CELL_W + CELL_W / 2 + driftOffsetX;
         const cy = row * CELL_H + CELL_H / 2 + driftOffsetY;
 
-        // Fade cycle
+        // Fade cycle — visible pulsing
         const fadeCycle =
-          Math.sin(time * FADE_SPEED + cell.phase) * 0.5 + 0.5;
-        cell.opacity = cell.baseOpacity * (0.3 + fadeCycle * 0.7);
+          Math.sin(time * 0.008 + cell.phase) * 0.5 + 0.5;
+        cell.opacity = cell.baseOpacity * (0.4 + fadeCycle * 0.6);
+
+        // Randomly swap characters over time (ambient motion)
+        if (Math.random() < 0.0005) {
+          cell.char = CHARS[Math.floor(Math.random() * CHARS.length)];
+        }
 
         // Default: subtle colored animation
         const color = RIPPLE_COLORS[cell.colorIdx];
-        const baseAlpha = cell.opacity * 1.5;
+        const baseAlpha = cell.opacity * 2;
 
         // Auto-ripple — ambient glow that drifts across the canvas
         let autoIntensity = 0;
@@ -149,7 +154,11 @@ export function AsciiBg() {
           const adist = Math.sqrt(adx * adx + ady * ady);
           if (adist < AUTO_RIPPLE_RADIUS) {
             const t = 1 - adist / AUTO_RIPPLE_RADIUS;
-            autoIntensity = Math.max(autoIntensity, t * t * 0.45);
+            autoIntensity = Math.max(autoIntensity, t * t * 0.5);
+            // Swap chars inside auto-ripple zones
+            if (t > 0.5 && Math.random() < 0.01) {
+              cell.char = CHARS[Math.floor(Math.random() * CHARS.length)];
+            }
           }
         }
 

@@ -5,6 +5,7 @@ import type { Job } from "@/data/jobs";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Badge } from "@/components/ui/badge";
+import { Checkbox } from "@/components/ui/checkbox";
 
 const domainMap: Record<string, string> = {
   Anthropic: "anthropic.com",
@@ -55,6 +56,36 @@ const domainMap: Record<string, string> = {
   FlutterFlow: "flutterflow.io",
   Netic: "netic.ai",
   Mercor: "mercor.com",
+  Duolingo: "duolingo.com",
+  Discord: "discord.com",
+  Pinterest: "pinterest.com",
+  Dropbox: "dropbox.com",
+  Twitch: "twitch.tv",
+  Reddit: "reddit.com",
+  Airbnb: "airbnb.com",
+  Instacart: "instacart.com",
+  Robinhood: "robinhood.com",
+  Coinbase: "coinbase.com",
+  Airtable: "airtable.com",
+  Grammarly: "grammarly.com",
+  Descript: "descript.com",
+  PlanetScale: "planetscale.com",
+  Hebbia: "hebbia.ai",
+  Forethought: "forethought.ai",
+  Cresta: "cresta.com",
+  Otter: "otter.ai",
+  HeyGen: "heygen.com",
+  Gong: "gong.io",
+  Tavus: "tavus.io",
+  Synthflow: "synthflow.ai",
+  Braintrust: "braintrust.dev",
+  Baseten: "baseten.co",
+  Resend: "resend.com",
+  Raycast: "raycast.com",
+  Granola: "granola.ai",
+  Factory: "factory.ai",
+  Codegen: "codegen.com",
+  Railway: "railway.app",
 };
 
 type SortField = "title" | "company" | "location" | "department";
@@ -64,6 +95,7 @@ export function JobTable({ jobs }: { jobs: Job[] }) {
   const [sortField, setSortField] = useState<SortField>("company");
   const [sortAsc, setSortAsc] = useState(true);
   const [activeCompany, setActiveCompany] = useState<string | null>(null);
+  const [remoteOnly, setRemoteOnly] = useState(false);
 
   const filtered = useMemo(() => {
     const q = search.toLowerCase();
@@ -77,13 +109,16 @@ export function JobTable({ jobs }: { jobs: Job[] }) {
     if (activeCompany) {
       result = result.filter((job) => job.company === activeCompany);
     }
+    if (remoteOnly) {
+      result = result.filter((job) => /remote/i.test(job.location));
+    }
     result.sort((a, b) => {
       const aVal = a[sortField].toLowerCase();
       const bVal = b[sortField].toLowerCase();
       return sortAsc ? aVal.localeCompare(bVal) : bVal.localeCompare(aVal);
     });
     return result;
-  }, [jobs, search, sortField, sortAsc, activeCompany]);
+  }, [jobs, search, sortField, sortAsc, activeCompany, remoteOnly]);
 
   function handleSort(field: SortField) {
     if (sortField === field) {
@@ -125,9 +160,35 @@ export function JobTable({ jobs }: { jobs: Job[] }) {
             placeholder="Search roles, companies, locations..."
             value={search}
             onChange={(e) => setSearch(e.target.value)}
-            className="h-8 text-sm pl-8 w-full"
+            className="h-8 text-sm pl-8 pr-8 w-full"
           />
+          {search && (
+            <button
+              onClick={() => setSearch("")}
+              className="absolute right-2.5 top-1/2 -translate-y-1/2 text-muted-foreground hover:text-foreground transition-colors"
+            >
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <path d="M18 6 6 18M6 6l12 12" />
+              </svg>
+            </button>
+          )}
         </div>
+        <label className="flex items-center gap-1.5 text-sm text-muted-foreground cursor-pointer select-none hover:text-foreground transition-colors">
+          <Checkbox
+            checked={remoteOnly}
+            onCheckedChange={(checked) => setRemoteOnly(checked === true)}
+          />
+          Remote Only
+        </label>
         {activeCompany && (
           <Button
             variant="secondary"
