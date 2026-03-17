@@ -314,6 +314,7 @@ export function JobTable({ jobs }: { jobs: Job[] }) {
                         width={18}
                         height={18}
                         className="rounded-[3px] shrink-0"
+                        onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }}
                       />
                       <span className="font-medium text-sm truncate">
                         {job.company}
