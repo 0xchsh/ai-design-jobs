@@ -285,10 +285,10 @@ export const jobs: Job[] = [
   {
     title: "Senior Design Sourcer",
     company: "Brex",
-    location: "San Francisco, California, United States | New York, New York, United States | Seattle, Washington, United States",
-    url: "https://www.brex.com/careers/8434432002?gh_jid=8434432002",
+    location: "Seattle, Washington, United States | San Francisco, California, United States | New York, New York, United States",
+    url: "https://www.brex.com/careers/8434443002?gh_jid=8434443002",
     department: "",
-    postedAt: "2026-02-23T20:05:17-05:00",
+    postedAt: "2026-02-23T20:40:31-05:00",
   },
   {
     title: "Senior Motion Designer",
@@ -400,9 +400,9 @@ export const jobs: Job[] = [
     title: "Brand Graphic Designer",
     company: "Cloudflare",
     location: "Hybrid",
-    url: "https://boards.greenhouse.io/cloudflare/jobs/7488340?gh_jid=7488340",
+    url: "https://boards.greenhouse.io/cloudflare/jobs/7544527?gh_jid=7544527",
     department: "",
-    postedAt: "2025-12-29T11:27:50-05:00",
+    postedAt: "2026-01-16T11:09:25-05:00",
   },
   {
     title: "Design Engineer, Radar",
@@ -424,9 +424,9 @@ export const jobs: Job[] = [
     title: "Product Design Intern (Summer 2026)",
     company: "Cloudflare",
     location: "In-Office",
-    url: "https://boards.greenhouse.io/cloudflare/jobs/7494477?gh_jid=7494477",
+    url: "https://boards.greenhouse.io/cloudflare/jobs/7488659?gh_jid=7488659",
     department: "",
-    postedAt: "2026-01-05T14:20:00-05:00",
+    postedAt: "2026-01-05T14:19:25-05:00",
   },
   {
     title: "Senior Design Engineer",
@@ -567,10 +567,10 @@ export const jobs: Job[] = [
   {
     title: "Sr. Product Designer",
     company: "Databricks",
-    location: "San Francisco, California | Seattle, Washington",
-    url: "https://databricks.com/company/careers/open-positions/job?gh_jid=8155422002",
+    location: "Seattle, Washington | San Francisco, California",
+    url: "https://databricks.com/company/careers/open-positions/job?gh_jid=8162222002",
     department: "",
-    postedAt: "2025-09-09T11:49:40-04:00",
+    postedAt: "2025-09-10T11:30:50-04:00",
   },
   {
     title: "Sr. Product Designer, AI/BI",
@@ -1245,7 +1245,7 @@ export const jobs: Job[] = [
 
   // ── Infisical ──────────────────────────────────────────────
   {
-    title: "Design Engineer (Americas)",
+    title: "Design Engineer, Platform (Americas)",
     company: "Infisical",
     location: "North to South America",
     url: "https://jobs.ashbyhq.com/infisical/ee25fbbb-c3c6-4c51-a664-1539350616b9",
@@ -1253,12 +1253,20 @@ export const jobs: Job[] = [
     postedAt: "2026-01-19T04:58:46.137+00:00",
   },
   {
-    title: "Design Engineer (San Francisco)",
+    title: "Design Engineer, Platform (San Francisco)",
     company: "Infisical",
     location: "San Francisco",
     url: "https://jobs.ashbyhq.com/infisical/c2d9f82b-59c7-4ea1-885f-b7c6da04447a",
     department: "Engineering",
     postedAt: "2026-01-19T04:59:47.522+00:00",
+  },
+  {
+    title: "Design Engineer, Site (Americas)",
+    company: "Infisical",
+    location: "North to South America",
+    url: "https://jobs.ashbyhq.com/infisical/558d171f-9730-47d6-8d35-1026c2c3e316",
+    department: "Marketing",
+    postedAt: "2026-03-05T19:57:50.788+00:00",
   },
 
   // ── Intercom ───────────────────────────────────────────────
@@ -1447,18 +1455,18 @@ export const jobs: Job[] = [
   {
     title: "Product Designer - Rider Partnerships, Loyalty & Rider Pay",
     company: "Lyft",
-    location: "New York, NY | San Francisco, CA",
-    url: "https://app.careerpuck.com/job-board/lyft/job/8438607002?gh_jid=8438607002",
+    location: "San Francisco, CA | New York, NY",
+    url: "https://app.careerpuck.com/job-board/lyft/job/8434493002?gh_jid=8434493002",
     department: "",
-    postedAt: "2026-02-25T18:38:03-05:00",
+    postedAt: "2026-02-25T18:37:03-05:00",
   },
   {
     title: "Product Designer, Core Rider",
     company: "Lyft",
-    location: "San Francisco, CA | New York, NY",
-    url: "https://app.careerpuck.com/job-board/lyft/job/8357826002?gh_jid=8357826002",
+    location: "New York, NY | San Francisco, CA",
+    url: "https://app.careerpuck.com/job-board/lyft/job/8357844002?gh_jid=8357844002",
     department: "",
-    postedAt: "2026-01-14T17:37:14-05:00",
+    postedAt: "2026-01-14T17:37:15-05:00",
   },
 
   // ── Mercor ─────────────────────────────────────────────────
