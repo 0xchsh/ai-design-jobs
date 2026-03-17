@@ -115,12 +115,26 @@ const domainMap: Record<string, string> = {
   OpenAI: "openai.com",
 };
 
-type SortField = "title" | "company" | "location" | "department";
+type SortField = "title" | "company" | "location" | "postedAt";
+
+function formatDate(iso: string): string {
+  if (!iso) return "—";
+  const date = new Date(iso);
+  const now = new Date();
+  const diffMs = now.getTime() - date.getTime();
+  const diffDays = Math.floor(diffMs / (1000 * 60 * 60 * 24));
+  if (diffDays === 0) return "Today";
+  if (diffDays === 1) return "Yesterday";
+  if (diffDays < 7) return `${diffDays}d ago`;
+  if (diffDays < 30) return `${Math.floor(diffDays / 7)}w ago`;
+  if (diffDays < 365) return `${Math.floor(diffDays / 30)}mo ago`;
+  return `${Math.floor(diffDays / 365)}y ago`;
+}
 
 export function JobTable({ jobs }: { jobs: Job[] }) {
   const [search, setSearch] = useState("");
-  const [sortField, setSortField] = useState<SortField>("company");
-  const [sortAsc, setSortAsc] = useState(true);
+  const [sortField, setSortField] = useState<SortField>("postedAt");
+  const [sortAsc, setSortAsc] = useState(false);
   const [activeCompany, setActiveCompany] = useState<string | null>(null);
   const [remoteOnly, setRemoteOnly] = useState(false);
 
@@ -140,8 +154,8 @@ export function JobTable({ jobs }: { jobs: Job[] }) {
       result = result.filter((job) => /remote/i.test(job.location));
     }
     result.sort((a, b) => {
-      const aVal = a[sortField].toLowerCase();
-      const bVal = b[sortField].toLowerCase();
+      const aVal = a[sortField] ?? "";
+      const bVal = b[sortField] ?? "";
       return sortAsc ? aVal.localeCompare(bVal) : bVal.localeCompare(aVal);
     });
     return result;
@@ -271,10 +285,10 @@ export function JobTable({ jobs }: { jobs: Job[] }) {
                 </th>
                 <th
                   className="text-left text-xs font-medium text-muted-foreground py-2.5 px-3 cursor-pointer hover:text-foreground transition-colors hidden lg:table-cell select-none"
-                  onClick={() => handleSort("department")}
+                  onClick={() => handleSort("postedAt")}
                 >
-                  Team
-                  <SortIndicator field="department" />
+                  Posted
+                  <SortIndicator field="postedAt" />
                 </th>
                 <th className="py-2.5 px-3 w-20"></th>
               </tr>
@@ -312,10 +326,8 @@ export function JobTable({ jobs }: { jobs: Job[] }) {
                   <td className="py-2.5 px-3 align-middle hidden md:table-cell text-muted-foreground text-xs">
                     {job.location}
                   </td>
-                  <td className="py-2.5 px-3 align-middle hidden lg:table-cell">
-                    <Badge variant="outline" className="font-normal">
-                      {job.department}
-                    </Badge>
+                  <td className="py-2.5 px-3 align-middle hidden lg:table-cell text-muted-foreground text-xs">
+                    {formatDate(job.postedAt)}
                   </td>
                   <td className="py-2.5 px-3 align-middle text-right">
                     <a

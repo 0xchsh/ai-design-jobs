@@ -9,6 +9,7 @@ type Job = {
   location: string;
   url: string;
   department: string;
+  postedAt: string; // ISO date string
 };
 
 // Greenhouse: jobs list has no departments — title-only filtering
@@ -17,6 +18,8 @@ type GreenhouseJob = {
   title: string;
   location: { name: string };
   absolute_url: string;
+  first_published: string;
+  updated_at: string;
 };
 
 // Ashby: uses `department` and `team` fields
@@ -27,6 +30,7 @@ type AshbyJob = {
   department: string;
   team: string;
   jobUrl: string;
+  publishedAt: string;
 };
 
 // Lever: uses `categories` object
@@ -35,6 +39,7 @@ type LeverJob = {
   text: string;
   categories: { location: string; team: string; department: string };
   hostedUrl: string;
+  createdAt: number; // Unix ms
 };
 
 // Workable: uses `shortcode` and `department`
@@ -43,6 +48,7 @@ type WorkableJob = {
   shortcode: string;
   title: string;
   department: string[];
+  published: string; // ISO date string
   location: {
     country: string;
     city: string;
@@ -289,37 +295,24 @@ function rewriteUrl(atsUrl: string, company: string): string {
 // ── ATS fetchers ───────────────────────────────────────────────────
 
 async function fetchGreenhouse(boardToken: string, company: string): Promise<Job[]> {
-  // Step 1: Fetch departments (includes jobs nested inside)
-  const deptUrl = `https://boards-api.greenhouse.io/v1/boards/${boardToken}/departments`;
-  const deptRes = await fetch(deptUrl);
-  if (!deptRes.ok) {
-    console.error(`  ✗ Greenhouse API error for ${company}: ${deptRes.status}`);
+  const url = `https://boards-api.greenhouse.io/v1/boards/${boardToken}/jobs`;
+  const res = await fetch(url);
+  if (!res.ok) {
+    console.error(`  ✗ Greenhouse API error for ${company}: ${res.status}`);
     return [];
   }
+  const data = (await res.json()) as { jobs: GreenhouseJob[] };
 
-  type GHDept = {
-    id: number;
-    name: string;
-    jobs: GreenhouseJob[];
-  };
-  const deptData = (await deptRes.json()) as { departments: GHDept[] };
-
-  const results: Job[] = [];
-  for (const dept of deptData.departments) {
-    for (const job of dept.jobs) {
-      if (isDesignRole(job.title, dept.name)) {
-        results.push({
-          title: job.title,
-          company,
-          location: job.location.name,
-          url: job.absolute_url,
-          department: dept.name,
-        });
-      }
-    }
-  }
-
-  return results;
+  return data.jobs
+    .filter((job) => isDesignRole(job.title, ""))
+    .map((job) => ({
+      title: job.title,
+      company,
+      location: job.location.name,
+      url: job.absolute_url,
+      department: "",
+      postedAt: job.first_published ?? job.updated_at ?? "",
+    }));
 }
 
 async function fetchAshby(orgSlug: string, company: string): Promise<Job[]> {
@@ -339,6 +332,7 @@ async function fetchAshby(orgSlug: string, company: string): Promise<Job[]> {
       location: j.location,
       url: j.jobUrl,
       department: j.department || j.team || "Design",
+      postedAt: j.publishedAt ?? "",
     }));
 }
 
@@ -361,6 +355,7 @@ async function fetchLever(orgSlug: string, company: string): Promise<Job[]> {
       location: j.categories.location,
       url: j.hostedUrl,
       department: j.categories.team || j.categories.department || "Design",
+      postedAt: j.createdAt ? new Date(j.createdAt).toISOString() : "",
     }));
 }
 
@@ -389,6 +384,7 @@ async function fetchWorkable(accountSlug: string, company: string): Promise<Job[
         location: loc || "Remote",
         url: `https://apply.workable.com/${accountSlug}/j/${j.shortcode}/`,
         department: (j.department ?? [])[0] || "Design",
+        postedAt: j.published ?? "",
       };
     });
 }
@@ -430,7 +426,7 @@ function loadExistingJobs(): Job[] {
   // Extract the array from the TS file using a simple regex approach
   const jobs: Job[] = [];
   const blockRegex =
-    /\{\s*title:\s*"([^"]*)",\s*company:\s*"([^"]*)",\s*location:\s*"([^"]*)",\s*url:\s*"([^"]*)",\s*department:\s*"([^"]*)",?\s*\}/g;
+    /\{\s*title:\s*"([^"]*)",\s*company:\s*"([^"]*)",\s*location:\s*"([^"]*)",\s*url:\s*"([^"]*)",\s*department:\s*"([^"]*)",\s*postedAt:\s*"([^"]*)",?\s*\}/g;
 
   let match;
   while ((match = blockRegex.exec(content)) !== null) {
@@ -440,6 +436,7 @@ function loadExistingJobs(): Job[] {
       location: match[3],
       url: match[4],
       department: match[5],
+      postedAt: match[6],
     });
   }
 
@@ -519,6 +516,7 @@ async function main() {
   location: string;
   url: string;
   department: string;
+  postedAt: string;
 };
 
 // Auto-updated by scraper — ${today}
@@ -534,6 +532,7 @@ export const jobs: Job[] = [\n`;
       output += `    location: ${JSON.stringify(job.location)},\n`;
       output += `    url: ${JSON.stringify(job.url)},\n`;
       output += `    department: ${JSON.stringify(job.department)},\n`;
+      output += `    postedAt: ${JSON.stringify(job.postedAt ?? "")},\n`;
       output += `  },\n`;
     }
     output += `\n`;
