@@ -251,6 +251,29 @@ export const jobs: Job[] = [
     department: "Design",
   },
 
+  // ── Buildkite ──────────────────────────────────────────────
+  {
+    title: "Senior Brand Designer",
+    company: "Buildkite",
+    location: "Australia or US (Pacific Time Zone)",
+    url: "https://job-boards.greenhouse.io/buildkite/jobs/5121400008",
+    department: "Brand",
+  },
+  {
+    title: "Senior Design Engineer, Product",
+    company: "Buildkite",
+    location: "Australia",
+    url: "https://job-boards.greenhouse.io/buildkite/jobs/5121398008",
+    department: "Brand",
+  },
+  {
+    title: "Senior Design Engineer, Web",
+    company: "Buildkite",
+    location: "Australia or US (Pacific Time Zone)",
+    url: "https://job-boards.greenhouse.io/buildkite/jobs/5103466008",
+    department: "Brand",
+  },
+
   // ── Character.ai ───────────────────────────────────────────
   {
     title: "Product Designer",
@@ -448,6 +471,22 @@ export const jobs: Job[] = [
     location: "San Francisco Bay Area",
     url: "https://job-boards.greenhouse.io/discord/jobs/8359170002",
     department: "Product Design",
+  },
+  {
+    title: "Senior Manager, Product Design - Engagement",
+    company: "Discord",
+    location: "San Francisco, CA or Remote (U.S.)",
+    url: "https://job-boards.greenhouse.io/discord/jobs/8401077002",
+    department: "Product Design",
+  },
+
+  // ── Doji ───────────────────────────────────────────────────
+  {
+    title: "Design Engineer",
+    company: "Doji",
+    location: "New York City",
+    url: "https://jobs.ashbyhq.com/doji/04a98470-d7fa-443f-b31a-679c64f59e7a",
+    department: "Engineering",
   },
 
   // ── ElevenLabs ─────────────────────────────────────────────
@@ -726,7 +765,7 @@ export const jobs: Job[] = [
   {
     title: "Head of Enterprise Design",
     company: "Grammarly",
-    location: "San Francisco; Hybrid",
+    location: "San Francisco, CA",
     url: "https://job-boards.greenhouse.io/grammarly/jobs/7392279",
     department: "Design",
   },
@@ -767,13 +806,6 @@ export const jobs: Job[] = [
   },
 
   // ── Granola ────────────────────────────────────────────────
-  {
-    title: "Product Designer",
-    company: "Granola",
-    location: "London",
-    url: "https://jobs.ashbyhq.com/granola/0897636e-e415-493e-b501-7c610ea72eff",
-    department: "Tech",
-  },
   {
     title: "Web & Brand Designer",
     company: "Granola",
@@ -900,6 +932,31 @@ export const jobs: Job[] = [
     location: "Los Angeles",
     url: "https://job-boards.greenhouse.io/heygen/jobs/4978509007",
     department: "Design",
+  },
+
+  // ── Hugging Face ───────────────────────────────────────────
+  {
+    title: "UX/UI Designer - US Remote",
+    company: "Hugging Face",
+    location: "New York, New York, United States",
+    url: "https://apply.workable.com/huggingface/j/8B7B4CBE27/",
+    department: "Product",
+  },
+
+  // ── Infisical ──────────────────────────────────────────────
+  {
+    title: "Design Engineer (Americas)",
+    company: "Infisical",
+    location: "North to South America",
+    url: "https://jobs.ashbyhq.com/infisical/ee25fbbb-c3c6-4c51-a664-1539350616b9",
+    department: "Engineering",
+  },
+  {
+    title: "Design Engineer (San Francisco)",
+    company: "Infisical",
+    location: "San Francisco",
+    url: "https://jobs.ashbyhq.com/infisical/c2d9f82b-59c7-4ea1-885f-b7c6da04447a",
+    department: "Engineering",
   },
 
   // ── Instacart ──────────────────────────────────────────────
@@ -1196,6 +1253,22 @@ export const jobs: Job[] = [
     department: "Engineering, Product, and Design",
   },
 
+  // ── Noise Labs ─────────────────────────────────────────────
+  {
+    title: "Graphic Designer - Contract",
+    company: "Noise Labs",
+    location: "New York City",
+    url: "https://jobs.ashbyhq.com/noise-labs/5920d199-f7d4-4614-a544-1c2742e4fd0e",
+    department: "Design",
+  },
+  {
+    title: "Senior Design Engineer",
+    company: "Noise Labs",
+    location: "New York City",
+    url: "https://jobs.ashbyhq.com/noise-labs/cf251165-a1a3-4386-930b-ce5879a073bd",
+    department: "Design",
+  },
+
   // ── OpenAI ─────────────────────────────────────────────────
   {
     title: "Content Designer",
@@ -1427,6 +1500,15 @@ export const jobs: Job[] = [
     location: "Remote, US",
     url: "https://job-boards.greenhouse.io/planetscale/jobs/4129420009",
     department: "Marketing",
+  },
+
+  // ── Prime Intellect ────────────────────────────────────────
+  {
+    title: "Lead Design Engineer",
+    company: "Prime Intellect",
+    location: "San Francisco",
+    url: "https://jobs.ashbyhq.com/PrimeIntellect/fd798bc6-b2a5-4d73-ac18-77730e24a6bd",
+    department: "Product",
   },
 
   // ── Propel ─────────────────────────────────────────────────
@@ -1718,6 +1800,13 @@ export const jobs: Job[] = [
     department: "Advertising R&D",
   },
   {
+    title: "Product Designer - Strategic AI Partnerships",
+    company: "Spotify",
+    location: "London",
+    url: "https://jobs.lever.co/spotify/2ea95c25-216a-4215-973f-83ef8c8859f5",
+    department: "Experience",
+  },
+  {
     title: "Product Designer I - Core Experience",
     company: "Spotify",
     location: "London",
@@ -1887,17 +1976,17 @@ export const jobs: Job[] = [
     department: "Commercial",
   },
   {
-    title: "Manager of Product Design",
-    company: "Synthesia",
-    location: "London",
-    url: "https://jobs.ashbyhq.com/synthesia/2247ac3e-7fdc-4860-b761-186cbf974001",
-    department: "Product",
-  },
-  {
     title: "Product Designer (Senior/Principal-level)",
     company: "Synthesia",
     location: "London",
     url: "https://jobs.ashbyhq.com/synthesia/8b8c8ae0-3074-4087-94fa-0002c8894063",
+    department: "Product",
+  },
+  {
+    title: "Product Designer, Growth",
+    company: "Synthesia",
+    location: "Europe",
+    url: "https://jobs.ashbyhq.com/synthesia/eb06b813-b691-45fa-884e-abc06c674390",
     department: "Product",
   },
   {

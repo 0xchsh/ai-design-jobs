@@ -37,12 +37,27 @@ type LeverJob = {
   hostedUrl: string;
 };
 
+// Workable: uses `shortcode` and `department`
+type WorkableJob = {
+  id: number;
+  shortcode: string;
+  title: string;
+  department: string[];
+  location: {
+    country: string;
+    city: string;
+    region: string;
+  };
+  locations: { country: string; city: string; region: string }[];
+};
+
 // ── Company configs ────────────────────────────────────────────────
 
 type CompanyConfig =
   | { company: string; platform: "greenhouse"; boardToken: string; careersUrl?: string }
   | { company: string; platform: "ashby"; orgSlug: string; careersUrl?: string }
   | { company: string; platform: "lever"; orgSlug: string; careersUrl?: string }
+  | { company: string; platform: "workable"; accountSlug: string; careersUrl?: string }
   | { company: string; platform: "custom"; existingJobs: true };
 
 // Maps company → careers page URL (for linking to company sites instead of ATS)
@@ -120,6 +135,7 @@ const companies: CompanyConfig[] = [
   { company: "Sourcegraph", platform: "greenhouse", boardToken: "sourcegraph91" },
   { company: "CoreWeave", platform: "greenhouse", boardToken: "coreweave" },
   { company: "Figure AI", platform: "greenhouse", boardToken: "figureai" },
+  { company: "Buildkite", platform: "greenhouse", boardToken: "buildkite" },
   { company: "You.com", platform: "greenhouse", boardToken: "youcom" },
   // Ashby
   { company: "Linear", platform: "ashby", orgSlug: "Linear" },
@@ -153,6 +169,13 @@ const companies: CompanyConfig[] = [
   { company: "Lambda", platform: "ashby", orgSlug: "lambda" },
   { company: "Quora", platform: "ashby", orgSlug: "quora" },
   { company: "Krea", platform: "ashby", orgSlug: "krea" },
+  { company: "The Browser Company", platform: "ashby", orgSlug: "The Browser Company" },
+  { company: "Infisical", platform: "ashby", orgSlug: "infisical" },
+  { company: "Arcade", platform: "ashby", orgSlug: "arcade" },
+  { company: "Prime Intellect", platform: "ashby", orgSlug: "PrimeIntellect" },
+  { company: "Noise Labs", platform: "ashby", orgSlug: "noise-labs" },
+  { company: "Doji", platform: "ashby", orgSlug: "doji" },
+  { company: "Navattic", platform: "ashby", orgSlug: "navattic" },
   { company: "Tavus", platform: "ashby", orgSlug: "tavus" },
   { company: "Synthflow", platform: "ashby", orgSlug: "synthflow" },
   { company: "Braintrust", platform: "ashby", orgSlug: "braintrust" },
@@ -161,7 +184,6 @@ const companies: CompanyConfig[] = [
   { company: "Raycast", platform: "ashby", orgSlug: "raycast" },
   { company: "Granola", platform: "ashby", orgSlug: "granola" },
   { company: "Factory", platform: "ashby", orgSlug: "factory" },
-  { company: "Codegen", platform: "ashby", orgSlug: "codegen" },
   { company: "Railway", platform: "ashby", orgSlug: "railway" },
   { company: "Stytch", platform: "ashby", orgSlug: "stytch" },
   { company: "Propel", platform: "ashby", orgSlug: "propel" },
@@ -177,6 +199,8 @@ const companies: CompanyConfig[] = [
   { company: "Spotify", platform: "lever", orgSlug: "spotify" },
   { company: "Plaid", platform: "lever", orgSlug: "plaid" },
   { company: "Zoox", platform: "lever", orgSlug: "zoox" },
+  // Workable
+  { company: "Hugging Face", platform: "workable", accountSlug: "huggingface" },
   // Custom (URL liveness check only — can't auto-discover new jobs)
   { company: "Cursor", platform: "custom", existingJobs: true },
 ];
@@ -299,7 +323,7 @@ async function fetchGreenhouse(boardToken: string, company: string): Promise<Job
 }
 
 async function fetchAshby(orgSlug: string, company: string): Promise<Job[]> {
-  const url = `https://api.ashbyhq.com/posting-api/job-board/${orgSlug}`;
+  const url = `https://api.ashbyhq.com/posting-api/job-board/${encodeURIComponent(orgSlug)}`;
   const res = await fetch(url);
   if (!res.ok) {
     console.error(`  ✗ Ashby API error for ${company}: ${res.status}`);
@@ -338,6 +362,35 @@ async function fetchLever(orgSlug: string, company: string): Promise<Job[]> {
       url: j.hostedUrl,
       department: j.categories.team || j.categories.department || "Design",
     }));
+}
+
+async function fetchWorkable(accountSlug: string, company: string): Promise<Job[]> {
+  const url = `https://apply.workable.com/api/v3/accounts/${accountSlug}/jobs`;
+  const res = await fetch(url, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({}),
+  });
+  if (!res.ok) {
+    console.error(`  ✗ Workable API error for ${company}: ${res.status}`);
+    return [];
+  }
+  const data = (await res.json()) as { results: WorkableJob[] };
+
+  return data.results
+    .filter((j) => isDesignRole(j.title, (j.department ?? []).join(" ")))
+    .map((j) => {
+      const loc = j.locations?.length
+        ? j.locations.map((l) => [l.city, l.region, l.country].filter(Boolean).join(", ")).join(" | ")
+        : [j.location?.city, j.location?.region, j.location?.country].filter(Boolean).join(", ");
+      return {
+        title: j.title,
+        company,
+        location: loc || "Remote",
+        url: `https://apply.workable.com/${accountSlug}/j/${j.shortcode}/`,
+        department: (j.department ?? [])[0] || "Design",
+      };
+    });
 }
 
 // ── URL liveness check for custom companies ────────────────────────
@@ -415,6 +468,9 @@ async function main() {
         break;
       case "lever":
         jobs = await fetchLever(config.orgSlug, config.company);
+        break;
+      case "workable":
+        jobs = await fetchWorkable(config.accountSlug, config.company);
         break;
       case "custom": {
         const companyJobs = existingJobs.filter((j) => j.company === config.company);
