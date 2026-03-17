@@ -24,6 +24,8 @@ jobs:
 
       - name: Run scraper
         run: npx tsx scripts/scrape-jobs.ts
+        env:
+          EXA_API_KEY: ${{ secrets.EXA_API_KEY }}
 
       - name: Check for changes
         id: diff
