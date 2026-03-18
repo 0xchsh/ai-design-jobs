@@ -7,7 +7,7 @@ export type Job = {
   postedAt: string;
 };
 
-// Auto-updated by scraper — 2026-03-17
+// Auto-updated by scraper — 2026-03-18
 export const jobs: Job[] = [
   // ── Affirm ─────────────────────────────────────────────────
   {
@@ -361,6 +361,24 @@ export const jobs: Job[] = [
     postedAt: "2025-12-17T16:18:49-05:00",
   },
 
+  // ── CI&T ───────────────────────────────────────────────────
+  {
+    title: "[Job - 27407] Senior Product Designer, Colombia",
+    company: "CI&T",
+    location: "Colombia",
+    url: "https://jobs.lever.co/ciandt/efe23ec6-d22e-41c6-8105-f5df7e73fc02",
+    department: "Prod_Theta",
+    postedAt: "2026-02-04T20:05:38.119Z",
+  },
+  {
+    title: "[Job-27020] Senior Design Systems Manager, Portugal",
+    company: "CI&T",
+    location: "Lisboa",
+    url: "https://jobs.lever.co/ciandt/a86579b0-1e8f-42f5-b5b6-c945ba14cf0c",
+    department: "Prod_Lovelace",
+    postedAt: "2026-01-19T15:56:53.556Z",
+  },
+
   // ── Clay ───────────────────────────────────────────────────
   {
     title: "Brand Designer, Production",
@@ -567,26 +585,26 @@ export const jobs: Job[] = [
   {
     title: "Sr. Product Designer",
     company: "Databricks",
-    location: "Seattle, Washington | San Francisco, California",
-    url: "https://databricks.com/company/careers/open-positions/job?gh_jid=8162222002",
+    location: "San Francisco, California | Seattle, Washington",
+    url: "https://databricks.com/company/careers/open-positions/job?gh_jid=8155422002",
     department: "",
-    postedAt: "2025-09-10T11:30:50-04:00",
+    postedAt: "2025-09-09T11:49:40-04:00",
   },
   {
     title: "Sr. Product Designer, AI/BI",
     company: "Databricks",
-    location: "Seattle, Washington | Mountain View, California; San Francisco, California",
-    url: "https://databricks.com/company/careers/open-positions/job?gh_jid=8428820002",
+    location: "Mountain View, California; San Francisco, California | Seattle, Washington",
+    url: "https://databricks.com/company/careers/open-positions/job?gh_jid=8429978002",
     department: "",
-    postedAt: "2026-02-19T13:08:36-05:00",
+    postedAt: "2026-02-19T13:08:38-05:00",
   },
   {
     title: "Sr. Product Designer, Data Engineering",
     company: "Databricks",
-    location: "San Francisco, California | Seattle, Washington",
-    url: "https://databricks.com/company/careers/open-positions/job?gh_jid=8373533002",
+    location: "Seattle, Washington | San Francisco, California",
+    url: "https://databricks.com/company/careers/open-positions/job?gh_jid=8373566002",
     department: "",
-    postedAt: "2026-01-13T19:48:09-05:00",
+    postedAt: "2026-01-13T19:48:10-05:00",
   },
 
   // ── Datadog ────────────────────────────────────────────────
@@ -843,14 +861,6 @@ export const jobs: Job[] = [
     url: "https://job-boards.greenhouse.io/gleanwork/jobs/4577381005",
     department: "",
     postedAt: "2025-10-29T11:29:40-04:00",
-  },
-  {
-    title: "Website Designer",
-    company: "Glean",
-    location: "Bangalore",
-    url: "https://job-boards.greenhouse.io/gleanwork/jobs/4657292005",
-    department: "",
-    postedAt: "2026-02-05T12:14:35-05:00",
   },
 
   // ── GlossGenius ────────────────────────────────────────────
@@ -1545,6 +1555,48 @@ export const jobs: Job[] = [
     postedAt: "2026-02-12T17:20:00.635+00:00",
   },
 
+  // ── Mythic ─────────────────────────────────────────────────
+  {
+    title: "RTL Design Engineer",
+    company: "Mythic",
+    location: "Austin, TX",
+    url: "https://jobs.lever.co/mythic-ai.com/08079bf3-6fed-4de1-bb79-8390788d814f",
+    department: "Digital Design",
+    postedAt: "2025-09-26T21:45:18.073Z",
+  },
+  {
+    title: "Senior Engineer: Physical Design",
+    company: "Mythic",
+    location: "Bangalore",
+    url: "https://jobs.lever.co/mythic-ai.com/5c01af40-87d7-4fd3-9810-57b44023cfa3",
+    department: "System-on-Chip",
+    postedAt: "2026-02-23T05:56:02.231Z",
+  },
+  {
+    title: "Senior RTL Design Engineer",
+    company: "Mythic",
+    location: "Austin, TX",
+    url: "https://jobs.lever.co/mythic-ai.com/e32d9759-38db-41dd-96d2-867fc9be6ab2",
+    department: "Digital Design",
+    postedAt: "2025-10-08T16:19:51.360Z",
+  },
+  {
+    title: "Senior SoC RTL Design Engineer",
+    company: "Mythic",
+    location: "Bangalore",
+    url: "https://jobs.lever.co/mythic-ai.com/c79de972-9f57-4029-9e32-0f086819ed2a",
+    department: "System-on-Chip",
+    postedAt: "2025-11-19T17:01:38.680Z",
+  },
+  {
+    title: "Sr Staff/ Staff Engineer: Physical Design",
+    company: "Mythic",
+    location: "Bangalore",
+    url: "https://jobs.lever.co/mythic-ai.com/583fdf07-b48b-43d2-8a93-b1005229bfdc",
+    department: "System-on-Chip",
+    postedAt: "2025-12-16T21:53:46.274Z",
+  },
+
   // ── Netic ──────────────────────────────────────────────────
   {
     title: "Founding UI/UX Engineer",
@@ -1919,6 +1971,16 @@ export const jobs: Job[] = [
     postedAt: "2026-02-25T18:18:51-05:00",
   },
 
+  // ── redpine ────────────────────────────────────────────────
+  {
+    title: "Design Lead",
+    company: "redpine",
+    location: "Redpine HQ, central Stockholm",
+    url: "https://jobs.ashbyhq.com/redpine/1ce4da85-256c-4ecc-86c8-005183211117",
+    department: "Tech",
+    postedAt: "2026-01-08T11:14:30.088+00:00",
+  },
+
   // ── Replit ─────────────────────────────────────────────────
   {
     title: "Brand Design Lead",
@@ -1971,6 +2033,34 @@ export const jobs: Job[] = [
     postedAt: "2026-03-04T19:01:43.726+00:00",
   },
 
+  // ── Revel ──────────────────────────────────────────────────
+  {
+    title: "Product Designer",
+    company: "Revel",
+    location: "Los Angeles",
+    url: "https://jobs.lever.co/revel/cae2b56a-8535-458d-931d-243887ed068e",
+    department: "Product",
+    postedAt: "2026-01-22T23:39:37.603Z",
+  },
+
+  // ── revenuecat ─────────────────────────────────────────────
+  {
+    title: "Brand Design Lead",
+    company: "revenuecat",
+    location: "Americas",
+    url: "https://jobs.ashbyhq.com/revenuecat/58445811-a838-4f83-99f4-507d0ddaf577",
+    department: "Growth",
+    postedAt: "2026-02-19T02:43:05.157+00:00",
+  },
+  {
+    title: "Senior Product Designer",
+    company: "revenuecat",
+    location: "Americas",
+    url: "https://jobs.ashbyhq.com/revenuecat/c3fe34a4-dc40-4ac5-b707-7d99eaf13fc4",
+    department: "Design",
+    postedAt: "2026-01-13T15:53:54.824+00:00",
+  },
+
   // ── Robinhood ──────────────────────────────────────────────
   {
     title: "Product Designer, Growth",
@@ -2021,32 +2111,6 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/roboflow/0acaa172-53de-4792-9d80-e87cc6f20539",
     department: "Marketing",
     postedAt: "2025-11-21T13:49:13.791+00:00",
-  },
-
-  // ── Rogo ───────────────────────────────────────────────────
-  {
-    title: "Brand Designer ",
-    company: "Rogo",
-    location: "New York City",
-    url: "https://jobs.ashbyhq.com/Rogo/e7f8cd1c-6dad-433a-b3fe-0b59a8d3a4f5",
-    department: "Product",
-    postedAt: "2025-10-30T17:20:46.606+00:00",
-  },
-  {
-    title: "Design Engineer",
-    company: "Rogo",
-    location: "New York City",
-    url: "https://jobs.ashbyhq.com/Rogo/83b7c477-ffce-4a64-b68a-43772aeeadef",
-    department: "Product",
-    postedAt: "2025-10-30T17:38:24.375+00:00",
-  },
-  {
-    title: "Product Designer ",
-    company: "Rogo",
-    location: "New York City",
-    url: "https://jobs.ashbyhq.com/Rogo/0fde5cb5-3c42-4395-b9f6-8912080d533a",
-    department: "Product",
-    postedAt: "2024-07-17T19:25:16.003+00:00",
   },
 
   // ── Runway ─────────────────────────────────────────────────
@@ -2361,6 +2425,24 @@ export const jobs: Job[] = [
     url: "https://job-boards.greenhouse.io/togetherai/jobs/5074088007",
     department: "",
     postedAt: "2026-03-11T21:14:47-04:00",
+  },
+
+  // ── Triple Whale ───────────────────────────────────────────
+  {
+    title: "Senior Product Designer",
+    company: "Triple Whale",
+    location: "Remote US",
+    url: "https://job-boards.greenhouse.io/triplewhale/jobs/5084427008",
+    department: "",
+    postedAt: "2026-01-23T14:47:39-05:00",
+  },
+  {
+    title: "Visual Designer",
+    company: "Triple Whale",
+    location: "Remote- US ",
+    url: "https://job-boards.greenhouse.io/triplewhale/jobs/5098108008",
+    department: "",
+    postedAt: "2026-02-11T12:31:40-05:00",
   },
 
   // ── Twelve Labs ────────────────────────────────────────────
