@@ -7,7 +7,7 @@ export type Job = {
   postedAt: string;
 };
 
-// Auto-updated by scraper — 2026-03-19
+// Auto-updated by scraper — 2026-03-20
 export const jobs: Job[] = [
   // ── Affirm ─────────────────────────────────────────────────
   {
@@ -43,6 +43,32 @@ export const jobs: Job[] = [
     url: "https://job-boards.greenhouse.io/airtable/jobs/8228847002",
     department: "",
     postedAt: "2026-03-11T19:38:00-04:00",
+  },
+
+  // ── Altium ─────────────────────────────────────────────────
+  {
+    title: "Product Designer",
+    company: "Altium",
+    location: "La Jolla, California, United States",
+    url: "https://job-boards.greenhouse.io/altium/jobs/4647322006",
+    department: "",
+    postedAt: "2026-01-26T09:16:05-05:00",
+  },
+  {
+    title: "UX/UI Designer",
+    company: "Altium",
+    location: "Los Angeles, California, United States",
+    url: "https://job-boards.greenhouse.io/altium/jobs/4653544006",
+    department: "",
+    postedAt: "2026-02-17T16:14:00-05:00",
+  },
+  {
+    title: "Web & UX Designer",
+    company: "Altium",
+    location: "Belgrade, Belgrade, Serbia",
+    url: "https://job-boards.greenhouse.io/altium/jobs/4659486006",
+    department: "",
+    postedAt: "2026-03-06T05:52:35-05:00",
   },
 
   // ── Amplitude ──────────────────────────────────────────────
@@ -87,6 +113,14 @@ export const jobs: Job[] = [
     url: "https://job-boards.greenhouse.io/anthropic/jobs/5117705008",
     department: "",
     postedAt: "2026-02-13T19:44:24-05:00",
+  },
+  {
+    title: "Policy Design Manager, Age-Appropriate Design",
+    company: "Anthropic",
+    location: "San Francisco, CA | New York City, NY",
+    url: "https://job-boards.greenhouse.io/anthropic/jobs/5156326008",
+    department: "",
+    postedAt: "2026-03-19T16:21:09-04:00",
   },
   {
     title: "Product Designer",
@@ -197,10 +231,10 @@ export const jobs: Job[] = [
   {
     title: "Senior Product Designer",
     company: "Bloomreach",
-    location: "Czechia | Slovakia",
-    url: "https://job-boards.greenhouse.io/bloomreach/jobs/7649080",
+    location: "Slovakia | Czechia",
+    url: "https://job-boards.greenhouse.io/bloomreach/jobs/7649079",
     department: "",
-    postedAt: "2026-02-24T03:28:55-05:00",
+    postedAt: "2026-02-24T03:28:56-05:00",
   },
 
   // ── Bolt ───────────────────────────────────────────────────
@@ -240,6 +274,14 @@ export const jobs: Job[] = [
     department: "Marketing",
     postedAt: "2026-02-10T19:56:18.443+00:00",
   },
+  {
+    title: "Senior Product Designer",
+    company: "brandlight",
+    location: "TLV",
+    url: "https://jobs.ashbyhq.com/brandlight/ec088723-ed99-4ff7-9d72-30da13bbf627",
+    department: "Product Design",
+    postedAt: "2026-03-19T15:41:30.561+00:00",
+  },
 
   // ── Braze ──────────────────────────────────────────────────
   {
@@ -263,10 +305,10 @@ export const jobs: Job[] = [
   {
     title: "Senior Design Sourcer",
     company: "Brex",
-    location: "Seattle, Washington, United States | New York, New York, United States | San Francisco, California, United States",
-    url: "https://www.brex.com/careers/8434443002?gh_jid=8434443002",
+    location: "San Francisco, California, United States | New York, New York, United States | Seattle, Washington, United States",
+    url: "https://www.brex.com/careers/8434432002?gh_jid=8434432002",
     department: "",
-    postedAt: "2026-02-23T20:40:31-05:00",
+    postedAt: "2026-02-23T20:05:17-05:00",
   },
   {
     title: "Senior Motion Designer",
@@ -535,6 +577,14 @@ export const jobs: Job[] = [
 
   // ── Databricks ─────────────────────────────────────────────
   {
+    title: "Manager, GTM Commissions Design",
+    company: "Databricks",
+    location: "Mountain View, California; San Francisco, California; Seattle, Washington",
+    url: "https://databricks.com/company/careers/open-positions/job?gh_jid=8461584002",
+    department: "",
+    postedAt: "2026-03-16T19:50:55-04:00",
+  },
+  {
     title: "Sr. Product Designer",
     company: "Databricks",
     location: "Seattle, Washington | San Francisco, California",
@@ -545,18 +595,18 @@ export const jobs: Job[] = [
   {
     title: "Sr. Product Designer, AI/BI",
     company: "Databricks",
-    location: "Mountain View, California; San Francisco, California | Seattle, Washington",
-    url: "https://databricks.com/company/careers/open-positions/job?gh_jid=8429978002",
+    location: "Seattle, Washington | Mountain View, California; San Francisco, California",
+    url: "https://databricks.com/company/careers/open-positions/job?gh_jid=8428820002",
     department: "",
-    postedAt: "2026-02-19T13:08:38-05:00",
+    postedAt: "2026-02-19T13:08:36-05:00",
   },
   {
     title: "Sr. Product Designer, Data Engineering",
     company: "Databricks",
-    location: "San Francisco, California | Seattle, Washington",
-    url: "https://databricks.com/company/careers/open-positions/job?gh_jid=8373533002",
+    location: "Seattle, Washington | San Francisco, California",
+    url: "https://databricks.com/company/careers/open-positions/job?gh_jid=8373566002",
     department: "",
-    postedAt: "2026-01-13T19:48:09-05:00",
+    postedAt: "2026-01-13T19:48:10-05:00",
   },
 
   // ── Datadog ────────────────────────────────────────────────
@@ -575,14 +625,6 @@ export const jobs: Job[] = [
     url: "https://careers.datadoghq.com/detail/7481495/?gh_jid=7481495",
     department: "",
     postedAt: "2025-12-29T10:53:11-05:00",
-  },
-  {
-    title: "Senior Director, Product Design",
-    company: "Datadog",
-    location: "New York, New York, USA",
-    url: "https://careers.datadoghq.com/detail/7376371/?gh_jid=7376371",
-    department: "",
-    postedAt: "2026-01-12T09:40:32-05:00",
   },
   {
     title: "Senior Interaction Designer, Design Lab",
@@ -1160,14 +1202,6 @@ export const jobs: Job[] = [
     department: "",
     postedAt: "2026-02-05T11:18:24-05:00",
   },
-  {
-    title: "Senior Product Designer, Customer Studio",
-    company: "Hightouch",
-    location: "Remote (North America)",
-    url: "https://job-boards.greenhouse.io/hightouch/jobs/5793428004",
-    department: "",
-    postedAt: "2026-02-06T15:18:58-05:00",
-  },
 
   // ── HubSpot ────────────────────────────────────────────────
   {
@@ -1429,16 +1463,6 @@ export const jobs: Job[] = [
     postedAt: "2026-01-14T17:37:15-05:00",
   },
 
-  // ── Mercor ─────────────────────────────────────────────────
-  {
-    title: "Senior Product Designer",
-    company: "Mercor",
-    location: "San Francisco",
-    url: "https://jobs.ashbyhq.com/mercor/fa165009-f687-48da-a141-ca49593336e5",
-    department: "Engineering",
-    postedAt: "2026-03-03T16:36:03.550+00:00",
-  },
-
   // ── Mercury ────────────────────────────────────────────────
   {
     title: "Executive Creative Director",
@@ -1467,24 +1491,6 @@ export const jobs: Job[] = [
     postedAt: "2026-02-11T17:05:12.940+00:00",
   },
 
-  // ── Modal ──────────────────────────────────────────────────
-  {
-    title: "Founding Brand Designer",
-    company: "Modal",
-    location: "New York",
-    url: "https://jobs.ashbyhq.com/modal/23311dfd-2a80-40dc-a41c-1ff7202e15a2",
-    department: "Design",
-    postedAt: "2026-01-05T19:01:29.917+00:00",
-  },
-  {
-    title: "Member of Design Staff (Product)",
-    company: "Modal",
-    location: "New York",
-    url: "https://jobs.ashbyhq.com/modal/c7fb59d8-5dfd-4e0c-a565-f94219a0c9ee",
-    department: "Design",
-    postedAt: "2025-06-23T21:09:58.104+00:00",
-  },
-
   // ── Moveworks ──────────────────────────────────────────────
   {
     title: "Senior Visual Designer (Contract)",
@@ -1503,6 +1509,24 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/mux/62a252e1-2b70-42e7-878f-b54eaab5d867",
     department: "Marketing ",
     postedAt: "2026-02-12T17:20:00.635+00:00",
+  },
+
+  // ── Nebius ─────────────────────────────────────────────────
+  {
+    title: "Data Center Design Lead",
+    company: "Nebius",
+    location: "Remote - United States",
+    url: "https://careers.nebius.com/?gh_jid=4774875101",
+    department: "",
+    postedAt: "2026-02-05T14:29:47-05:00",
+  },
+  {
+    title: "Structured Cable Design Engineer",
+    company: "Nebius",
+    location: "Remote - United States",
+    url: "https://careers.nebius.com/?gh_jid=4752767101",
+    department: "",
+    postedAt: "2026-02-04T15:12:40-05:00",
   },
 
   // ── Netic ──────────────────────────────────────────────────
@@ -1959,16 +1983,6 @@ export const jobs: Job[] = [
     postedAt: "2026-01-13T15:53:54.824+00:00",
   },
 
-  // ── rhombuspower ───────────────────────────────────────────
-  {
-    title: "UI/UX Designer, Palo Alto",
-    company: "rhombuspower",
-    location: "Palo Alto, California, United States",
-    url: "https://job-boards.greenhouse.io/rhombuspower/jobs/7659142003",
-    department: "",
-    postedAt: "2026-03-09T17:32:11-04:00",
-  },
-
   // ── Robinhood ──────────────────────────────────────────────
   {
     title: "Product Designer, Growth",
@@ -2165,6 +2179,14 @@ export const jobs: Job[] = [
     postedAt: "2026-02-09T22:17:52.938+00:00",
   },
   {
+    title: "Product Design Intern",
+    company: "skydio",
+    location: "San Mateo, California, United States",
+    url: "https://jobs.ashbyhq.com/skydio/6f4c5fff-db33-4458-b811-152e706fe0b9",
+    department: "R&D",
+    postedAt: "2026-03-19T20:47:25.551+00:00",
+  },
+  {
     title: "RF Design Engineer",
     company: "skydio",
     location: "San Mateo, California, United States",
@@ -2315,40 +2337,6 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/synthesia/6874477a-ae89-4502-bdac-c980fa765891",
     department: "Commercial",
     postedAt: "2026-02-06T18:00:39.393+00:00",
-  },
-
-  // ── Tavus ──────────────────────────────────────────────────
-  {
-    title: "Brand & Product Designer",
-    company: "Tavus",
-    location: "San Francisco",
-    url: "https://jobs.ashbyhq.com/tavus/9b368b5a-d42f-4c2f-9152-f61c4808085a",
-    department: "Engineering, Product, & Design",
-    postedAt: "2026-03-02T18:51:53.879+00:00",
-  },
-  {
-    title: "Senior Product Designer",
-    company: "Tavus",
-    location: "San Francisco",
-    url: "https://jobs.ashbyhq.com/tavus/2f3a9e2d-813f-4f28-bae4-ba8f970b1a06",
-    department: "Engineering, Product, & Design",
-    postedAt: "2025-07-29T17:06:26.677+00:00",
-  },
-  {
-    title: "Visual & Motion Designer",
-    company: "Tavus",
-    location: "San Francisco",
-    url: "https://jobs.ashbyhq.com/tavus/2b9c14b5-7c73-4a3b-832d-fa08e2f8e154",
-    department: "Engineering, Product, & Design",
-    postedAt: "2026-03-02T23:10:06.041+00:00",
-  },
-  {
-    title: "Visual & Motion Designer ",
-    company: "Tavus",
-    location: "San Francisco",
-    url: "https://jobs.ashbyhq.com/tavus/60e309f3-be21-4ecd-ba34-1b860c0b2858",
-    department: "Engineering, Product, & Design",
-    postedAt: "2026-03-02T23:15:28.045+00:00",
   },
 
   // ── Together AI ────────────────────────────────────────────
