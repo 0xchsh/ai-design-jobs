@@ -7,7 +7,7 @@ export type Job = {
   postedAt: string;
 };
 
-// Auto-updated by scraper — 2026-03-21
+// Auto-updated by scraper — 2026-03-22
 export const jobs: Job[] = [
   // ── Affirm ─────────────────────────────────────────────────
   {
@@ -43,32 +43,6 @@ export const jobs: Job[] = [
     url: "https://job-boards.greenhouse.io/airtable/jobs/8228847002",
     department: "",
     postedAt: "2026-03-11T19:38:00-04:00",
-  },
-
-  // ── Altium ─────────────────────────────────────────────────
-  {
-    title: "Product Designer",
-    company: "Altium",
-    location: "La Jolla, California, United States",
-    url: "https://job-boards.greenhouse.io/altium/jobs/4647322006",
-    department: "",
-    postedAt: "2026-01-26T09:16:05-05:00",
-  },
-  {
-    title: "UX/UI Designer",
-    company: "Altium",
-    location: "Los Angeles, California, United States",
-    url: "https://job-boards.greenhouse.io/altium/jobs/4653544006",
-    department: "",
-    postedAt: "2026-02-17T16:14:00-05:00",
-  },
-  {
-    title: "Web & UX Designer",
-    company: "Altium",
-    location: "Belgrade, Belgrade, Serbia",
-    url: "https://job-boards.greenhouse.io/altium/jobs/4659486006",
-    department: "",
-    postedAt: "2026-03-06T05:52:35-05:00",
   },
 
   // ── Amplitude ──────────────────────────────────────────────
@@ -985,6 +959,14 @@ export const jobs: Job[] = [
     postedAt: "2026-03-17T13:28:00-04:00",
   },
   {
+    title: "Staff AI Product Designer, Mobile, GeminiApp",
+    company: "Google DeepMind",
+    location: "Mountain View, California, US; Seattle, Washington, US",
+    url: "https://job-boards.greenhouse.io/deepmind/jobs/7522171",
+    department: "",
+    postedAt: "2026-01-08T12:11:19-05:00",
+  },
+  {
     title: "Staff Model UX Content Designer, Gemini App",
     company: "Google DeepMind",
     location: "Mountain View, California, US",
@@ -1285,352 +1267,6 @@ export const jobs: Job[] = [
     postedAt: "2025-06-30T18:14:29-04:00",
   },
 
-  // ── Jobgether ──────────────────────────────────────────────
-  {
-    title: "Graphic Designer Senior - Remote",
-    company: "Jobgether",
-    location: "Washington",
-    url: "https://jobs.lever.co/jobgether/a325bfa2-0e49-4c4d-9323-ee480dfb4738",
-    department: "General",
-    postedAt: "2026-03-20T16:02:27.531Z",
-  },
-  {
-    title: "Lead Graphic Designer (Remote)",
-    company: "Jobgether",
-    location: "Colorado",
-    url: "https://jobs.lever.co/jobgether/8824b4e9-6f8a-43e4-81ef-18eff96946ba",
-    department: "General",
-    postedAt: "2026-03-20T16:02:20.936Z",
-  },
-  {
-    title: "Lead Graphic Designer Remote",
-    company: "Jobgether",
-    location: "Texas",
-    url: "https://jobs.lever.co/jobgether/69050198-9978-448d-bdb2-1ca22e998cce",
-    department: "General",
-    postedAt: "2026-03-20T16:02:27.056Z",
-  },
-  {
-    title: "Lead Product Designer",
-    company: "Jobgether",
-    location: "Thailand | Croatia | Argentina | Chile | Romania | Nigeria | Switzerland | Norway | Czechia | Saudi Arabia | Kenya | South Africa | Belgium | Finland | Estonia | Turkey | United Arab Emirates | US | Colombia | New Zealand | Slovenia | Greece | Denmark | Austria | Luxembourg | Hungary | Bulgaria",
-    url: "https://jobs.lever.co/jobgether/10db6d1d-6b15-4566-8b68-73b87f4e429f",
-    department: "Design",
-    postedAt: "2026-03-16T05:49:12.955Z",
-  },
-  {
-    title: "Lead UX Researcher - Remote",
-    company: "Jobgether",
-    location: "Florida",
-    url: "https://jobs.lever.co/jobgether/12843b46-ca62-45a4-9bc7-8252700130cd",
-    department: "General",
-    postedAt: "2026-03-20T16:02:11.373Z",
-  },
-  {
-    title: "Lead UX Researcher (Remote)",
-    company: "Jobgether",
-    location: "Michigan",
-    url: "https://jobs.lever.co/jobgether/11a337f5-c74d-446e-adad-673e72cfb37a",
-    department: "General",
-    postedAt: "2026-03-20T16:02:15.057Z",
-  },
-  {
-    title: "Remote Graphic Designer - Senior",
-    company: "Jobgether",
-    location: "Pennsylvania | California",
-    url: "https://jobs.lever.co/jobgether/4f53ac4e-ee7d-4976-a140-807751dc5133",
-    department: "General",
-    postedAt: "2026-03-20T16:02:26.534Z",
-  },
-  {
-    title: "Remote Graphic Designer - Sr.",
-    company: "Jobgether",
-    location: "Maryland",
-    url: "https://jobs.lever.co/jobgether/ec902df8-7824-44c1-afd3-c437d2b004b9",
-    department: "General",
-    postedAt: "2026-03-20T16:02:23.835Z",
-  },
-  {
-    title: "Remote Lead Graphic Designer",
-    company: "Jobgether",
-    location: "Minnesota",
-    url: "https://jobs.lever.co/jobgether/09b9ba9b-3b1a-4c2e-8f7c-7d986a2d739c",
-    department: "General",
-    postedAt: "2026-03-20T16:02:22.789Z",
-  },
-  {
-    title: "Remote Lead UX Researcher",
-    company: "Jobgether",
-    location: "Pennsylvania",
-    url: "https://jobs.lever.co/jobgether/5f8c0aff-104f-4f54-8317-d21c8e3c0cfe",
-    department: "General",
-    postedAt: "2026-03-20T16:02:17.323Z",
-  },
-  {
-    title: "Remote Senior Graphic Designer",
-    company: "Jobgether",
-    location: "Florida",
-    url: "https://jobs.lever.co/jobgether/c63b3452-ecbd-40ba-9617-e8389038657f",
-    department: "General",
-    postedAt: "2026-03-20T16:02:20.462Z",
-  },
-  {
-    title: "Remote Senior Graphic Designer - Lead",
-    company: "Jobgether",
-    location: "Maine",
-    url: "https://jobs.lever.co/jobgether/6214806a-24c5-4fd0-8614-1c59e3771408",
-    department: "General",
-    postedAt: "2026-03-20T16:02:24.751Z",
-  },
-  {
-    title: "Remote Senior Graphic Designer (Lead)",
-    company: "Jobgether",
-    location: "Virginia",
-    url: "https://jobs.lever.co/jobgether/346bd410-147a-4de5-b218-33fea1a5c50c",
-    department: "General",
-    postedAt: "2026-03-20T16:02:27.998Z",
-  },
-  {
-    title: "Remote Senior Graphic Designer (Sr.)",
-    company: "Jobgether",
-    location: "New York",
-    url: "https://jobs.lever.co/jobgether/4437cd61-9cb7-4e24-ae13-ca71ee4b8f36",
-    department: "General",
-    postedAt: "2026-03-20T16:02:26.054Z",
-  },
-  {
-    title: "Remote Senior UX Researcher",
-    company: "Jobgether",
-    location: "Colorado | Maryland",
-    url: "https://jobs.lever.co/jobgether/8f74f258-a1af-4a0a-b6e5-2fd5d5ebb9c6",
-    department: "General",
-    postedAt: "2026-03-20T16:02:11.876Z",
-  },
-  {
-    title: "Remote Senior UX Researcher (Sr.)",
-    company: "Jobgether",
-    location: "Washington",
-    url: "https://jobs.lever.co/jobgether/ba97d03a-83d8-4413-a735-cf08b707d55b",
-    department: "General",
-    postedAt: "2026-03-20T16:02:18.184Z",
-  },
-  {
-    title: "Remote Sr Graphic Designer",
-    company: "Jobgether",
-    location: "North Carolina",
-    url: "https://jobs.lever.co/jobgether/f105c2a1-cab3-4062-a4a5-15bb347f94de",
-    department: "General",
-    postedAt: "2026-03-20T16:02:25.618Z",
-  },
-  {
-    title: "Remote Sr UX Researcher",
-    company: "Jobgether",
-    location: "Minnesota",
-    url: "https://jobs.lever.co/jobgether/90fc88a0-6209-4508-b5c0-2c93c59fd9ed",
-    department: "General",
-    postedAt: "2026-03-20T16:02:13.646Z",
-  },
-  {
-    title: "Remote Sr. Graphic Designer",
-    company: "Jobgether",
-    location: "Columbia",
-    url: "https://jobs.lever.co/jobgether/17a6f415-5bad-4e7d-b55a-75e51b05f747",
-    department: "General",
-    postedAt: "2026-03-20T16:02:21.411Z",
-  },
-  {
-    title: "Remote UX Research Lead",
-    company: "Jobgether",
-    location: "North Carolina",
-    url: "https://jobs.lever.co/jobgether/897e07ac-f52c-45ee-a2ad-6b7321162eee",
-    department: "General",
-    postedAt: "2026-03-20T16:02:16.405Z",
-  },
-  {
-    title: "Remote UX Researcher",
-    company: "Jobgether",
-    location: "California",
-    url: "https://jobs.lever.co/jobgether/cb7b751c-77b9-4011-a252-49d2b0d4a872",
-    department: "General",
-    postedAt: "2026-03-20T16:02:10.918Z",
-  },
-  {
-    title: "Remote UX Researcher - Senior",
-    company: "Jobgether",
-    location: "Illinois",
-    url: "https://jobs.lever.co/jobgether/44a92656-1892-476a-b293-bc44851e0e69",
-    department: "General",
-    postedAt: "2026-03-20T16:02:12.748Z",
-  },
-  {
-    title: "Remote UX Researcher Sr.",
-    company: "Jobgether",
-    location: "Texas",
-    url: "https://jobs.lever.co/jobgether/00e88b87-82b5-4a3e-ac0c-f08fcd590829",
-    department: "General",
-    postedAt: "2026-03-20T16:02:17.722Z",
-  },
-  {
-    title: "Senior Design Engineer - REMOTE",
-    company: "Jobgether",
-    location: "Finland",
-    url: "https://jobs.lever.co/jobgether/43b55878-cf51-412c-895b-a08ef1b27646",
-    department: "General",
-    postedAt: "2026-03-20T15:48:07.846Z",
-  },
-  {
-    title: "Senior Graphic Designer - Remote",
-    company: "Jobgether",
-    location: "Massachusetts",
-    url: "https://jobs.lever.co/jobgether/52e440b2-07a7-40d2-a022-f61cb994da32",
-    department: "General",
-    postedAt: "2026-03-20T16:02:23.367Z",
-  },
-  {
-    title: "Senior Graphic Designer - REMOTE",
-    company: "Jobgether",
-    location: "Arizona",
-    url: "https://jobs.lever.co/jobgether/8dbad828-26a1-42d9-8a53-7c6b7ff36647",
-    department: "General",
-    postedAt: "2026-03-20T16:02:19.037Z",
-  },
-  {
-    title: "Senior Graphic Designer (Remote)",
-    company: "Jobgether",
-    location: "Illinois",
-    url: "https://jobs.lever.co/jobgether/585f3752-b473-4aeb-a207-cac515b2f77a",
-    department: "General",
-    postedAt: "2026-03-20T16:02:21.895Z",
-  },
-  {
-    title: "Senior Graphic Designer REMOTE",
-    company: "Jobgether",
-    location: "New Jersey",
-    url: "https://jobs.lever.co/jobgether/551bc61a-f2e8-46cd-813a-b0af2296d0f4",
-    department: "General",
-    postedAt: "2026-03-20T16:02:25.169Z",
-  },
-  {
-    title: "Senior Product Designer - REMOTE",
-    company: "Jobgether",
-    location: "Austria",
-    url: "https://jobs.lever.co/jobgether/864b9741-51b5-48bb-9ef7-12f58ba7fc06",
-    department: "General",
-    postedAt: "2026-03-20T15:47:15.570Z",
-  },
-  {
-    title: "Senior UI Developer - REMOTE",
-    company: "Jobgether",
-    location: "Austria",
-    url: "https://jobs.lever.co/jobgether/91a362a8-5fba-45a7-bd9c-9f6c7d3757bc",
-    department: "General",
-    postedAt: "2026-03-20T15:48:13.303Z",
-  },
-  {
-    title: "Senior UX Designer",
-    company: "Jobgether",
-    location: "US",
-    url: "https://jobs.lever.co/jobgether/60811700-d3e6-402e-a873-6fdf59241c56",
-    department: "Marketing",
-    postedAt: "2026-03-16T07:12:07.564Z",
-  },
-  {
-    title: "Senior UX Researcher - remote",
-    company: "Jobgether",
-    location: "Maine",
-    url: "https://jobs.lever.co/jobgether/b71fb929-553b-4350-9709-374dff9247ea",
-    department: "General",
-    postedAt: "2026-03-20T16:02:15.509Z",
-  },
-  {
-    title: "Senior UX Researcher - REMOTE",
-    company: "Jobgether",
-    location: "Arizona",
-    url: "https://jobs.lever.co/jobgether/3a1fe9b7-4bed-4c28-9f45-21056b2a57cb",
-    department: "General",
-    postedAt: "2026-03-20T16:02:09.981Z",
-  },
-  {
-    title: "Senior UX Researcher (Remote)",
-    company: "Jobgether",
-    location: "Idaho | Finland",
-    url: "https://jobs.lever.co/jobgether/0e1e580f-a8f9-4525-8e27-b2069f4729e4",
-    department: "General",
-    postedAt: "2026-03-20T16:02:13.192Z",
-  },
-  {
-    title: "Sr UX Researcher - REMOTE",
-    company: "Jobgether",
-    location: "Columbia",
-    url: "https://jobs.lever.co/jobgether/c610d376-d92c-4782-a722-9f4bb3875c37",
-    department: "General",
-    postedAt: "2026-03-20T16:02:12.314Z",
-  },
-  {
-    title: "Sr UX Researcher (Remote)",
-    company: "Jobgether",
-    location: "New Jersey",
-    url: "https://jobs.lever.co/jobgether/53102301-014c-4497-8cf4-08864ab70276",
-    department: "General",
-    postedAt: "2026-03-20T16:02:15.998Z",
-  },
-  {
-    title: "Sr. Graphic Designer - REMOTE",
-    company: "Jobgether",
-    location: "Idaho",
-    url: "https://jobs.lever.co/jobgether/b1d3b89c-3c34-44e8-abde-4dd029001150",
-    department: "General",
-    postedAt: "2026-03-20T16:02:22.320Z",
-  },
-  {
-    title: "Sr. Graphic Designer (Remote)",
-    company: "Jobgether",
-    location: "Connecticut",
-    url: "https://jobs.lever.co/jobgether/3bfcd1df-3d00-42b4-be05-dfa2117ac7e3",
-    department: "General",
-    postedAt: "2026-03-20T16:02:19.508Z",
-  },
-  {
-    title: "Sr. Graphic Designer Remote",
-    company: "Jobgether",
-    location: "Michigan",
-    url: "https://jobs.lever.co/jobgether/3675a340-e42a-458f-a6f8-53edde1001f5",
-    department: "General",
-    postedAt: "2026-03-20T16:02:24.268Z",
-  },
-  {
-    title: "Sr. UX Researcher - Remote",
-    company: "Jobgether",
-    location: "Virginia",
-    url: "https://jobs.lever.co/jobgether/6942240d-342d-42b0-a1b2-218289705609",
-    department: "General",
-    postedAt: "2026-03-20T16:02:18.613Z",
-  },
-  {
-    title: "Sr. UX Researcher (Remote)",
-    company: "Jobgether",
-    location: "Connecticut",
-    url: "https://jobs.lever.co/jobgether/16b08efd-473b-4a1f-b720-92717ae70db9",
-    department: "General",
-    postedAt: "2026-03-20T16:02:10.448Z",
-  },
-  {
-    title: "UX Research Lead - Remote",
-    company: "Jobgether",
-    location: "New York",
-    url: "https://jobs.lever.co/jobgether/63a90a22-fa4d-4d51-9642-c7b9eea3b844",
-    department: "General",
-    postedAt: "2026-03-20T16:02:16.876Z",
-  },
-  {
-    title: "UX Researcher - REMOTE",
-    company: "Jobgether",
-    location: "Massachusetts",
-    url: "https://jobs.lever.co/jobgether/e1526566-5d5e-4246-b4a0-8d10b8c63330",
-    department: "General",
-    postedAt: "2026-03-20T16:02:14.100Z",
-  },
-
   // ── Klaviyo ────────────────────────────────────────────────
   {
     title: "Lead Product Designer ",
@@ -1811,6 +1447,16 @@ export const jobs: Job[] = [
     postedAt: "2026-01-14T17:37:14-05:00",
   },
 
+  // ── mento ──────────────────────────────────────────────────
+  {
+    title: "Product Design Coach (VP+)",
+    company: "mento",
+    location: "Remote",
+    url: "https://job-boards.greenhouse.io/mento/jobs/4506662005",
+    department: "",
+    postedAt: "2024-12-09T11:51:19-05:00",
+  },
+
   // ── Mercury ────────────────────────────────────────────────
   {
     title: "Executive Creative Director",
@@ -1911,16 +1557,6 @@ export const jobs: Job[] = [
     url: "https://www.okta.com/company/careers/opportunity/7733384?gh_jid=7733384",
     department: "",
     postedAt: "2026-03-20T10:54:38-04:00",
-  },
-
-  // ── Open Positions ─────────────────────────────────────────
-  {
-    title: "Creative Director",
-    company: "Open Positions",
-    location: "Chicago, Illinois, United States",
-    url: "https://syndigo.com/open-positions/?gh_jid=5808929004",
-    department: "",
-    postedAt: "2026-02-23T13:42:04-05:00",
   },
 
   // ── OpenAI ─────────────────────────────────────────────────
@@ -2261,6 +1897,16 @@ export const jobs: Job[] = [
     postedAt: "2026-02-25T18:18:51-05:00",
   },
 
+  // ── redpine ────────────────────────────────────────────────
+  {
+    title: "Design Lead",
+    company: "redpine",
+    location: "Redpine HQ, central Stockholm",
+    url: "https://jobs.ashbyhq.com/redpine/1ce4da85-256c-4ecc-86c8-005183211117",
+    department: "Tech",
+    postedAt: "2026-01-08T11:14:30.088+00:00",
+  },
+
   // ── Replit ─────────────────────────────────────────────────
   {
     title: "Brand Design Lead",
@@ -2341,6 +1987,16 @@ export const jobs: Job[] = [
     postedAt: "2026-01-13T15:53:54.824+00:00",
   },
 
+  // ── Rhombus Power, Inc. ────────────────────────────────────
+  {
+    title: "UI/UX Designer, Palo Alto",
+    company: "Rhombus Power, Inc.",
+    location: "Palo Alto, California, United States",
+    url: "https://job-boards.greenhouse.io/rhombuspower/jobs/7659142003",
+    department: "",
+    postedAt: "2026-03-09T17:32:11-04:00",
+  },
+
   // ── Robinhood ──────────────────────────────────────────────
   {
     title: "Product Designer, Growth",
@@ -2391,32 +2047,6 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/roboflow/0acaa172-53de-4792-9d80-e87cc6f20539",
     department: "Marketing",
     postedAt: "2025-11-21T13:49:13.791+00:00",
-  },
-
-  // ── Rogo ───────────────────────────────────────────────────
-  {
-    title: "Brand Designer ",
-    company: "Rogo",
-    location: "New York City",
-    url: "https://jobs.ashbyhq.com/Rogo/e7f8cd1c-6dad-433a-b3fe-0b59a8d3a4f5",
-    department: "Product",
-    postedAt: "2025-10-30T17:20:46.606+00:00",
-  },
-  {
-    title: "Design Engineer",
-    company: "Rogo",
-    location: "New York City",
-    url: "https://jobs.ashbyhq.com/Rogo/83b7c477-ffce-4a64-b68a-43772aeeadef",
-    department: "Product",
-    postedAt: "2025-10-30T17:38:24.375+00:00",
-  },
-  {
-    title: "Product Designer ",
-    company: "Rogo",
-    location: "New York City",
-    url: "https://jobs.ashbyhq.com/Rogo/0fde5cb5-3c42-4395-b9f6-8912080d533a",
-    department: "Product",
-    postedAt: "2024-07-17T19:25:16.003+00:00",
   },
 
   // ── Runway ─────────────────────────────────────────────────
@@ -2633,6 +2263,24 @@ export const jobs: Job[] = [
     postedAt: "2026-03-16T16:46:43-04:00",
   },
 
+  // ── standardbots ───────────────────────────────────────────
+  {
+    title: "Brand Design Lead",
+    company: "standardbots",
+    location: "New York City, NY",
+    url: "https://jobs.ashbyhq.com/standardbots/b0af098d-448d-4daa-b189-3690920d400e",
+    department: "Marketing ",
+    postedAt: "2026-02-20T20:01:18.253+00:00",
+  },
+  {
+    title: "Product Designer",
+    company: "standardbots",
+    location: "New York City, NY",
+    url: "https://jobs.ashbyhq.com/standardbots/22c1c1af-7aec-4cb9-9f60-51638bbecc49",
+    department: "Product",
+    postedAt: "2026-02-06T17:44:23.561+00:00",
+  },
+
   // ── Stripe ─────────────────────────────────────────────────
   {
     title: "Brand Designer, Art Direction",
@@ -2721,6 +2369,24 @@ export const jobs: Job[] = [
     url: "https://job-boards.greenhouse.io/togetherai/jobs/5074088007",
     department: "",
     postedAt: "2026-03-11T21:14:47-04:00",
+  },
+
+  // ── torq ───────────────────────────────────────────────────
+  {
+    title: "Lead Product Designer",
+    company: "torq",
+    location: "Tel Aviv",
+    url: "https://job-boards.greenhouse.io/torq/jobs/5618579004",
+    department: "",
+    postedAt: "2025-08-12T10:28:58-04:00",
+  },
+  {
+    title: "Senior Product Designer",
+    company: "torq",
+    location: "Tel Aviv",
+    url: "https://job-boards.greenhouse.io/torq/jobs/5734768004",
+    department: "",
+    postedAt: "2025-12-11T05:44:45-05:00",
   },
 
   // ── Triple Whale ───────────────────────────────────────────
