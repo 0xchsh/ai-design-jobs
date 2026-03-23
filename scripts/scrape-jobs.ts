@@ -661,6 +661,7 @@ async function discoverViaExa(): Promise<Job[]> {
     "clovirtualfashion",  // 3D fashion software
     "agiloft",            // contract management
     "weave",              // dental/vet practice management
+    "jobgether",          // job aggregator, not a real company
   ]);
   const knownGreenhouse = new Set([
     ...companies.filter((c) => c.platform === "greenhouse").map((c) => (c as { boardToken: string }).boardToken),
