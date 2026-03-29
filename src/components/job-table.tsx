@@ -393,7 +393,7 @@ export function JobTable({ jobs }: { jobs: Job[] }) {
                   Posted
                   <SortIndicator field="postedAt" />
                 </th>
-                <th className="py-2.5 px-3 w-20 sm:static sm:shadow-none sm:bg-muted/50 sticky right-0 bg-muted [-webkit-box-shadow:-4px_0_8px_0_rgba(0,0,0,0.06)] [box-shadow:-4px_0_8px_0_rgba(0,0,0,0.06)]"></th>
+                <th className="py-2.5 px-3 w-20 sm:static sm:bg-muted/50 sticky right-0 z-10 bg-muted"></th>
               </tr>
             </thead>
             <tbody>
@@ -426,7 +426,7 @@ export function JobTable({ jobs }: { jobs: Job[] }) {
                   <td className="py-2.5 px-3 align-middle text-muted-foreground text-sm">
                     {formatDate(job.postedAt)}
                   </td>
-                  <td className="py-2.5 px-3 align-middle text-right sm:static sm:shadow-none sm:bg-transparent sticky right-0 bg-card group-hover:bg-muted/30 transition-colors [-webkit-box-shadow:-4px_0_8px_0_rgba(0,0,0,0.06)] [box-shadow:-4px_0_8px_0_rgba(0,0,0,0.06)]">
+                  <td className="py-2.5 px-3 align-middle text-right sm:static sm:bg-transparent sticky right-0 bg-card group-hover:bg-muted/30 transition-colors">
                     <a
                       href={job.url}
                       target="_blank"
