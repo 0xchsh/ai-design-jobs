@@ -393,7 +393,7 @@ export function JobTable({ jobs }: { jobs: Job[] }) {
                   Posted
                   <SortIndicator field="postedAt" />
                 </th>
-                <th className="py-2.5 px-3 w-20 sticky right-0 bg-muted"></th>
+                <th className="py-2.5 px-3 w-20 sticky right-0"></th>
               </tr>
             </thead>
             <tbody>
