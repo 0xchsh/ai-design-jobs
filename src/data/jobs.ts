@@ -7,7 +7,7 @@ export type Job = {
   postedAt: string;
 };
 
-// Auto-updated by scraper — 2026-03-28
+// Auto-updated by scraper — 2026-03-29
 export const jobs: Job[] = [
   // ── Affirm ─────────────────────────────────────────────────
   {
@@ -885,40 +885,6 @@ export const jobs: Job[] = [
     postedAt: "2025-11-21T10:48:47-05:00",
   },
 
-  // ── Filevine ───────────────────────────────────────────────
-  {
-    title: "Art Director",
-    company: "Filevine",
-    location: "United States",
-    url: "https://jobs.lever.co/filevine/bd06d777-dc1c-4240-affc-bc19f9222626",
-    department: "Brand",
-    postedAt: "2026-03-26T20:12:11.219Z",
-  },
-  {
-    title: "Product Design Engineer",
-    company: "Filevine",
-    location: "San Francisco",
-    url: "https://jobs.lever.co/filevine/9641701e-4c66-4d97-bb4f-3dcb0c1e716b",
-    department: "Product",
-    postedAt: "2026-01-20T23:42:55.702Z",
-  },
-  {
-    title: "UI Engineer",
-    company: "Filevine",
-    location: "San Francisco",
-    url: "https://jobs.lever.co/filevine/a27935cb-42f5-48c7-bcf0-9bb8f7093ec9",
-    department: "Product",
-    postedAt: "2026-01-20T23:47:18.771Z",
-  },
-  {
-    title: "UX/UI Designer",
-    company: "Filevine",
-    location: "United States",
-    url: "https://jobs.lever.co/filevine/ecc41d41-acbf-4b9f-8ede-1fd234837931",
-    department: "Brand",
-    postedAt: "2026-02-12T09:12:52.681Z",
-  },
-
   // ── Fireworks AI ───────────────────────────────────────────
   {
     title: "Product Designer ",
@@ -1587,26 +1553,26 @@ export const jobs: Job[] = [
   {
     title: "Product Designer - Rider Partnerships, Loyalty & Rider Pay",
     company: "Lyft",
-    location: "New York, NY | San Francisco, CA",
-    url: "https://app.careerpuck.com/job-board/lyft/job/8438607002?gh_jid=8438607002",
+    location: "San Francisco, CA | New York, NY",
+    url: "https://app.careerpuck.com/job-board/lyft/job/8434493002?gh_jid=8434493002",
     department: "",
-    postedAt: "2026-02-25T18:38:03-05:00",
+    postedAt: "2026-02-25T18:37:03-05:00",
   },
   {
     title: "Product Designer, Core Rider",
     company: "Lyft",
-    location: "San Francisco, CA | New York, NY",
-    url: "https://app.careerpuck.com/job-board/lyft/job/8357826002?gh_jid=8357826002",
+    location: "New York, NY | San Francisco, CA",
+    url: "https://app.careerpuck.com/job-board/lyft/job/8357844002?gh_jid=8357844002",
     department: "",
-    postedAt: "2026-01-14T17:37:14-05:00",
+    postedAt: "2026-01-14T17:37:15-05:00",
   },
   {
     title: "Senior Content Designer",
     company: "Lyft",
-    location: "San Francisco, CA | New York, NY",
-    url: "https://app.careerpuck.com/job-board/lyft/job/8477564002?gh_jid=8477564002",
+    location: "New York, NY | San Francisco, CA",
+    url: "https://app.careerpuck.com/job-board/lyft/job/8479259002?gh_jid=8479259002",
     department: "",
-    postedAt: "2026-03-24T16:52:28-04:00",
+    postedAt: "2026-03-25T11:07:37-04:00",
   },
 
   // ── Mercor ─────────────────────────────────────────────────
@@ -2029,16 +1995,6 @@ export const jobs: Job[] = [
     postedAt: "2025-02-17T16:13:59.635+00:00",
   },
 
-  // ── Project Healthy Minds ──────────────────────────────────
-  {
-    title: "Lead Product Designer",
-    company: "Project Healthy Minds",
-    location: "New York, NY",
-    url: "https://jobs.lever.co/project-healthy-minds/86969c81-c703-4783-bd70-6adf04ba35d6",
-    department: "Product Design",
-    postedAt: "2025-12-17T21:04:11.764Z",
-  },
-
   // ── Propel ─────────────────────────────────────────────────
   {
     title: "Product Design Lead, Marketplace",
@@ -2197,10 +2153,10 @@ export const jobs: Job[] = [
     postedAt: "2026-03-04T19:01:43.726+00:00",
   },
 
-  // ── Revel ──────────────────────────────────────────────────
+  // ── revel ──────────────────────────────────────────────────
   {
     title: "Product Designer",
-    company: "Revel",
+    company: "revel",
     location: "Los Angeles",
     url: "https://jobs.lever.co/revel/cae2b56a-8535-458d-931d-243887ed068e",
     department: "Product",
@@ -2561,16 +2517,6 @@ export const jobs: Job[] = [
     postedAt: "2026-03-26T19:47:06.078Z",
   },
 
-  // ── Triple Whale ───────────────────────────────────────────
-  {
-    title: "Senior Product Designer",
-    company: "Triple Whale",
-    location: "Remote US",
-    url: "https://job-boards.greenhouse.io/triplewhale/jobs/5084427008",
-    department: "",
-    postedAt: "2026-01-23T14:47:39-05:00",
-  },
-
   // ── Twelve Labs ────────────────────────────────────────────
   {
     title: "Staff Product Designer ",
@@ -2641,6 +2587,24 @@ export const jobs: Job[] = [
     url: "https://job-boards.greenhouse.io/vercel/jobs/5735407004",
     department: "",
     postedAt: "2026-01-09T19:30:55-05:00",
+  },
+
+  // ── viggle ─────────────────────────────────────────────────
+  {
+    title: "Creative Motion Designer",
+    company: "viggle",
+    location: "Toronto",
+    url: "https://jobs.ashbyhq.com/viggle/257701d8-83b6-4f9d-bdab-18950e62917f",
+    department: "Growth",
+    postedAt: "2026-03-27T18:37:18.043+00:00",
+  },
+  {
+    title: "Designer",
+    company: "viggle",
+    location: "Toronto",
+    url: "https://jobs.ashbyhq.com/viggle/a3edb383-9bf2-4152-99b1-05b18d2179cc",
+    department: "Engineering",
+    postedAt: "2025-04-28T06:26:25.597+00:00",
   },
 
   // ── Waymo ──────────────────────────────────────────────────
@@ -2725,6 +2689,24 @@ export const jobs: Job[] = [
     url: "https://job-boards.greenhouse.io/webflow/jobs/7624566",
     department: "",
     postedAt: "2026-02-17T20:38:20-05:00",
+  },
+
+  // ── Workato ────────────────────────────────────────────────
+  {
+    title: "Senior UX Designer",
+    company: "Workato",
+    location: "New York, New York; Palo Alto, California",
+    url: "https://job-boards.greenhouse.io/workato/jobs/8426434002",
+    department: "",
+    postedAt: "2026-03-25T10:54:34-04:00",
+  },
+  {
+    title: "UX Designer",
+    company: "Workato",
+    location: "Austin, Texas; Boston, Massachusetts; Charlotte, North Carolina; Denver, Colorado; New York, New York; Palo Alto, California",
+    url: "https://job-boards.greenhouse.io/workato/jobs/8406030002",
+    department: "",
+    postedAt: "2026-02-05T17:53:49-05:00",
   },
 
   // ── Writer ─────────────────────────────────────────────────
