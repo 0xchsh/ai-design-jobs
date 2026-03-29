@@ -362,7 +362,7 @@ export function JobTable({ jobs }: { jobs: Job[] }) {
       {/* Table */}
       <div className="rounded-xl border border-border bg-card overflow-hidden shadow-xs">
         <div className="overflow-x-auto">
-          <table className="w-full text-sm">
+          <table className="w-full text-sm whitespace-nowrap">
             <thead>
               <tr className="border-b border-border bg-muted/50">
                 <th
@@ -380,20 +380,20 @@ export function JobTable({ jobs }: { jobs: Job[] }) {
                   <SortIndicator field="title" />
                 </th>
                 <th
-                  className="text-left text-xs font-medium text-muted-foreground py-2.5 px-3 cursor-pointer hover:text-foreground transition-colors hidden md:table-cell select-none"
+                  className="text-left text-xs font-medium text-muted-foreground py-2.5 px-3 cursor-pointer hover:text-foreground transition-colors select-none"
                   onClick={() => handleSort("location")}
                 >
                   Location
                   <SortIndicator field="location" />
                 </th>
                 <th
-                  className="text-left text-xs font-medium text-muted-foreground py-2.5 px-3 cursor-pointer hover:text-foreground transition-colors hidden lg:table-cell select-none"
+                  className="text-left text-xs font-medium text-muted-foreground py-2.5 px-3 cursor-pointer hover:text-foreground transition-colors select-none"
                   onClick={() => handleSort("postedAt")}
                 >
                   Posted
                   <SortIndicator field="postedAt" />
                 </th>
-                <th className="py-2.5 px-3 w-20"></th>
+                <th className="py-2.5 px-3 w-20 sm:static sm:shadow-none sm:bg-muted/50 sticky right-0 bg-muted [-webkit-box-shadow:-4px_0_8px_0_rgba(0,0,0,0.06)] [box-shadow:-4px_0_8px_0_rgba(0,0,0,0.06)]"></th>
               </tr>
             </thead>
             <tbody>
@@ -420,13 +420,13 @@ export function JobTable({ jobs }: { jobs: Job[] }) {
                   <td className="py-2.5 px-3 align-middle text-sm">
                     {job.title}
                   </td>
-                  <td className="py-2.5 px-3 align-middle hidden md:table-cell text-muted-foreground text-sm max-w-[240px] truncate">
+                  <td className="py-2.5 px-3 align-middle text-muted-foreground text-sm max-w-[240px] truncate">
                     {job.location}
                   </td>
-                  <td className="py-2.5 px-3 align-middle hidden lg:table-cell text-muted-foreground text-sm">
+                  <td className="py-2.5 px-3 align-middle text-muted-foreground text-sm">
                     {formatDate(job.postedAt)}
                   </td>
-                  <td className="py-2.5 px-3 align-middle text-right">
+                  <td className="py-2.5 px-3 align-middle text-right sm:static sm:shadow-none sm:bg-transparent sticky right-0 bg-card group-hover:bg-muted/30 transition-colors [-webkit-box-shadow:-4px_0_8px_0_rgba(0,0,0,0.06)] [box-shadow:-4px_0_8px_0_rgba(0,0,0,0.06)]">
                     <a
                       href={job.url}
                       target="_blank"
