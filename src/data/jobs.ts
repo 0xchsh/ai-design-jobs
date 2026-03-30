@@ -7,7 +7,7 @@ export type Job = {
   postedAt: string;
 };
 
-// Auto-updated by scraper — 2026-03-29
+// Auto-updated by scraper — 2026-03-30
 export const jobs: Job[] = [
   // ── Affirm ─────────────────────────────────────────────────
   {
@@ -331,10 +331,10 @@ export const jobs: Job[] = [
   {
     title: "Lead Design Engineer",
     company: "Braze",
-    location: "Austin | Chicago | New York City | San Francisco",
-    url: "https://boards.greenhouse.io/braze/jobs/7614563?gh_jid=7614563",
+    location: "San Francisco | Chicago | New York City | Austin",
+    url: "https://boards.greenhouse.io/braze/jobs/7614566?gh_jid=7614566",
     department: "",
-    postedAt: "2026-02-13T10:32:48-05:00",
+    postedAt: "2026-02-13T10:32:49-05:00",
   },
 
   // ── Brex ───────────────────────────────────────────────────
@@ -488,9 +488,9 @@ export const jobs: Job[] = [
     title: "Product Design Intern (Summer 2026)",
     company: "Cloudflare",
     location: "In-Office",
-    url: "https://boards.greenhouse.io/cloudflare/jobs/7492740?gh_jid=7492740",
+    url: "https://boards.greenhouse.io/cloudflare/jobs/7494477?gh_jid=7494477",
     department: "",
-    postedAt: "2026-01-05T14:19:46-05:00",
+    postedAt: "2026-01-05T14:20:00-05:00",
   },
   {
     title: "Senior Design Engineer",
@@ -655,10 +655,10 @@ export const jobs: Job[] = [
   {
     title: "Sr. Product Designer, AI/BI",
     company: "Databricks",
-    location: "Seattle, Washington | Mountain View, California; San Francisco, California",
-    url: "https://databricks.com/company/careers/open-positions/job?gh_jid=8428820002",
+    location: "Mountain View, California; San Francisco, California | Seattle, Washington",
+    url: "https://databricks.com/company/careers/open-positions/job?gh_jid=8429978002",
     department: "",
-    postedAt: "2026-02-19T13:08:36-05:00",
+    postedAt: "2026-02-19T13:08:38-05:00",
   },
   {
     title: "Sr. Product Designer, Enterprise Platform",
@@ -701,14 +701,6 @@ export const jobs: Job[] = [
     url: "https://careers.datadoghq.com/detail/7674133/?gh_jid=7674133",
     department: "",
     postedAt: "2026-03-03T14:05:48-05:00",
-  },
-  {
-    title: "Staff Product Designer - AI Observability",
-    company: "Datadog",
-    location: "New York, New York, USA",
-    url: "https://careers.datadoghq.com/detail/7514704/?gh_jid=7514704",
-    department: "",
-    postedAt: "2026-01-27T09:05:24-05:00",
   },
   {
     title: "Staff Visual Designer, Design Lab",
@@ -771,6 +763,16 @@ export const jobs: Job[] = [
     url: "https://careers.duolingo.com/jobs/8200010002?gh_jid=8200010002",
     department: "",
     postedAt: "2025-10-06T20:17:41-04:00",
+  },
+
+  // ── education ──────────────────────────────────────────────
+  {
+    title: "Staff Brand Experience Designer",
+    company: "education",
+    location: "Redwood City, CA (Hybrid)",
+    url: "https://job-boards.greenhouse.io/education/jobs/7476957",
+    department: "",
+    postedAt: "2026-01-15T19:08:05-05:00",
   },
 
   // ── Elastic ────────────────────────────────────────────────
@@ -1127,16 +1129,6 @@ export const jobs: Job[] = [
     postedAt: "2026-02-27T11:47:12-05:00",
   },
 
-  // ── Govini ─────────────────────────────────────────────────
-  {
-    title: "Senior Product Designer",
-    company: "Govini",
-    location: "Pittsburgh, Pennsylvania, United States",
-    url: "https://job-boards.greenhouse.io/govini/jobs/4195630009",
-    department: "",
-    postedAt: "2026-03-25T15:05:57-04:00",
-  },
-
   // ── Grammarly ──────────────────────────────────────────────
   {
     title: "Head of Enterprise Design",
@@ -1395,16 +1387,6 @@ export const jobs: Job[] = [
     postedAt: "2026-03-05T19:57:50.788+00:00",
   },
 
-  // ── infiterra ──────────────────────────────────────────────
-  {
-    title: "Product Designer",
-    company: "infiterra",
-    location: "Athens | Thessaloniki",
-    url: "https://jobs.ashbyhq.com/infiterra/8eddc415-b87f-4a70-8d9e-aef32245b0ec",
-    department: "Product",
-    postedAt: "2026-03-17T13:46:26.925+00:00",
-  },
-
   // ── Intercom ───────────────────────────────────────────────
   {
     title: "Staff Brand Designer",
@@ -1573,6 +1555,16 @@ export const jobs: Job[] = [
     url: "https://app.careerpuck.com/job-board/lyft/job/8479259002?gh_jid=8479259002",
     department: "",
     postedAt: "2026-03-25T11:07:37-04:00",
+  },
+
+  // ── Maven Clinic ───────────────────────────────────────────
+  {
+    title: "Senior Brand Designer",
+    company: "Maven Clinic",
+    location: "New York, NY; Remote, US (Hub cities)",
+    url: "https://job-boards.greenhouse.io/mavenclinic/jobs/8422947002",
+    department: "",
+    postedAt: "2026-02-13T15:08:07-05:00",
   },
 
   // ── Mercor ─────────────────────────────────────────────────
@@ -2179,16 +2171,6 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/revenuecat/c3fe34a4-dc40-4ac5-b707-7d99eaf13fc4",
     department: "Design",
     postedAt: "2026-01-13T15:53:54.824+00:00",
-  },
-
-  // ── Rhombus Power, Inc. ────────────────────────────────────
-  {
-    title: "UI/UX Designer, Palo Alto",
-    company: "Rhombus Power, Inc.",
-    location: "Palo Alto, California, United States",
-    url: "https://job-boards.greenhouse.io/rhombuspower/jobs/7659142003",
-    department: "",
-    postedAt: "2026-03-09T17:32:11-04:00",
   },
 
   // ── Robinhood ──────────────────────────────────────────────
