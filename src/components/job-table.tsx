@@ -236,8 +236,8 @@ function formatDate(iso: string): string {
 
 export function JobTable({ jobs }: { jobs: Job[] }) {
   const [search, setSearch] = useState("");
-  const [sortField, setSortField] = useState<SortField>("company");
-  const [sortAsc, setSortAsc] = useState(true);
+  const [sortField, setSortField] = useState<SortField>("postedAt");
+  const [sortAsc, setSortAsc] = useState(false);
   const [activeCompany, setActiveCompany] = useState<string | null>(null);
   const [remoteOnly, setRemoteOnly] = useState(false);
 
