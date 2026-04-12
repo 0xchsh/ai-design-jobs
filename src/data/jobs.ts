@@ -7,7 +7,7 @@ export type Job = {
   postedAt: string;
 };
 
-// Auto-updated by scraper — 2026-04-11
+// Auto-updated by scraper — 2026-04-12
 export const jobs: Job[] = [
   // ── Affirm ─────────────────────────────────────────────────
   {
@@ -201,6 +201,16 @@ export const jobs: Job[] = [
     postedAt: "2026-02-27T17:11:24-05:00",
   },
 
+  // ── baselane ───────────────────────────────────────────────
+  {
+    title: "Senior Product Designer",
+    company: "baselane",
+    location: "Toronto",
+    url: "https://jobs.lever.co/baselane/8812ceb6-098a-48c2-b263-31aecb773a03",
+    department: "Product & Design",
+    postedAt: "2026-01-22T19:25:47.232Z",
+  },
+
   // ── Benchling ──────────────────────────────────────────────
   {
     title: "Product Designer, App Foundations",
@@ -303,10 +313,10 @@ export const jobs: Job[] = [
   {
     title: "Staff Product Designer",
     company: "Brex",
-    location: "New York, New York, United States | San Francisco, California, United States",
-    url: "https://www.brex.com/careers/8124973002?gh_jid=8124973002",
+    location: "San Francisco, California, United States | New York, New York, United States",
+    url: "https://www.brex.com/careers/7669111002?gh_jid=7669111002",
     department: "",
-    postedAt: "2025-08-18T14:45:19-04:00",
+    postedAt: "2024-10-03T14:09:29-04:00",
   },
 
   // ── Browserbase ────────────────────────────────────────────
@@ -1247,6 +1257,16 @@ export const jobs: Job[] = [
     postedAt: "2026-03-30T17:05:17-04:00",
   },
 
+  // ── Hightouch ──────────────────────────────────────────────
+  {
+    title: "Brand Designer",
+    company: "Hightouch",
+    location: "Remote (North America)",
+    url: "https://job-boards.greenhouse.io/hightouch/jobs/5823458004",
+    department: "",
+    postedAt: "2026-03-10T16:26:31-04:00",
+  },
+
   // ── HubSpot ────────────────────────────────────────────────
   {
     title: "Staff Product Designer - Eastern or Central Time zones",
@@ -1447,6 +1467,16 @@ export const jobs: Job[] = [
     postedAt: "2025-11-17T21:13:18.880+00:00",
   },
 
+  // ── Lucas Museum of Narrative Art ──────────────────────────
+  {
+    title: "Designer",
+    company: "Lucas Museum of Narrative Art",
+    location: "Los Angeles",
+    url: "https://jobs.lever.co/lucasmuseum/26cf1394-bd20-46f7-b2e5-1a3062a1efff",
+    department: "Design",
+    postedAt: "2026-03-06T20:14:31.582Z",
+  },
+
   // ── Lucid Software ─────────────────────────────────────────
   {
     title: "UX Designer",
@@ -1477,46 +1507,22 @@ export const jobs: Job[] = [
     postedAt: "2026-03-25T05:30:02.107+00:00",
   },
 
-  // ── Metalab ────────────────────────────────────────────────
+  // ── Merge API ──────────────────────────────────────────────
   {
-    title: "Brand Designer ",
-    company: "Metalab",
-    location: "Remote",
-    url: "https://job-boards.greenhouse.io/metalab/jobs/7371139",
+    title: "Brand Designer",
+    company: "Merge API",
+    location: "New York, NY; ",
+    url: "https://job-boards.greenhouse.io/merge/jobs/5034491004",
     department: "",
-    postedAt: "2025-10-31T15:42:59-04:00",
+    postedAt: "2026-02-10T16:23:26-05:00",
   },
   {
-    title: "Design Lead",
-    company: "Metalab",
-    location: "Remote",
-    url: "https://job-boards.greenhouse.io/metalab/jobs/7496357",
+    title: "Sr/Staff, Product Designer",
+    company: "Merge API",
+    location: "San Francisco, CA; New York City, NY",
+    url: "https://job-boards.greenhouse.io/merge/jobs/5746719004",
     department: "",
-    postedAt: "2025-12-24T13:29:50-05:00",
-  },
-  {
-    title: "Executive Design Director (Brand & Product)",
-    company: "Metalab",
-    location: "Remote",
-    url: "https://job-boards.greenhouse.io/metalab/jobs/7648496",
-    department: "",
-    postedAt: "2026-02-23T17:32:32-05:00",
-  },
-  {
-    title: "Principal Brand Designer",
-    company: "Metalab",
-    location: "Remote",
-    url: "https://job-boards.greenhouse.io/metalab/jobs/7336870",
-    department: "",
-    postedAt: "2025-10-15T20:57:59-04:00",
-  },
-  {
-    title: "Principal Product Designer",
-    company: "Metalab",
-    location: "Remote",
-    url: "https://job-boards.greenhouse.io/metalab/jobs/6632721",
-    department: "",
-    postedAt: "2025-02-13T23:35:05-05:00",
+    postedAt: "2026-01-02T14:56:04-05:00",
   },
 
   // ── Mintlify ───────────────────────────────────────────────
@@ -1928,6 +1934,14 @@ export const jobs: Job[] = [
     department: "Design",
     postedAt: "2026-02-09T20:22:43.425+00:00",
   },
+  {
+    title: "Senior Web Designer",
+    company: "Ramp",
+    location: "New York, NY (HQ)",
+    url: "https://jobs.ashbyhq.com/ramp/b67f938f-b966-4d56-83d5-71db39c22474",
+    department: "Marketing",
+    postedAt: "2026-04-11T11:34:34.426+00:00",
+  },
 
   // ── Reddit ─────────────────────────────────────────────────
   {
@@ -2163,6 +2177,16 @@ export const jobs: Job[] = [
     postedAt: "2026-03-20T17:55:34.624+00:00",
   },
 
+  // ── sevenai ────────────────────────────────────────────────
+  {
+    title: "Visual Designer",
+    company: "sevenai",
+    location: "Boston, MA",
+    url: "https://jobs.ashbyhq.com/sevenai/c532651d-2a9d-4cdb-8f6f-b868eda99d31",
+    department: "Product",
+    postedAt: "2025-12-18T16:07:25.001+00:00",
+  },
+
   // ── Sierra AI ──────────────────────────────────────────────
   {
     title: "Agent Experience Designer, Voice (Multilingual)",
@@ -2209,10 +2233,10 @@ export const jobs: Job[] = [
   {
     title: "Staff Product Designer",
     company: "Sigma Computing",
-    location: "San Francisco, CA | New York City, NY",
-    url: "https://job-boards.greenhouse.io/sigmacomputing/jobs/7690413003",
+    location: "New York City, NY | San Francisco, CA",
+    url: "https://job-boards.greenhouse.io/sigmacomputing/jobs/7690414003",
     department: "",
-    postedAt: "2026-04-06T01:38:44-04:00",
+    postedAt: "2026-04-06T01:39:13-04:00",
   },
 
   // ── Skio ───────────────────────────────────────────────────
