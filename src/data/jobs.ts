@@ -7,7 +7,7 @@ export type Job = {
   postedAt: string;
 };
 
-// Auto-updated by scraper — 2026-04-12
+// Auto-updated by scraper — 2026-04-13
 export const jobs: Job[] = [
   // ── Affirm ─────────────────────────────────────────────────
   {
@@ -201,16 +201,6 @@ export const jobs: Job[] = [
     postedAt: "2026-02-27T17:11:24-05:00",
   },
 
-  // ── baselane ───────────────────────────────────────────────
-  {
-    title: "Senior Product Designer",
-    company: "baselane",
-    location: "Toronto",
-    url: "https://jobs.lever.co/baselane/8812ceb6-098a-48c2-b263-31aecb773a03",
-    department: "Product & Design",
-    postedAt: "2026-01-22T19:25:47.232Z",
-  },
-
   // ── Benchling ──────────────────────────────────────────────
   {
     title: "Product Designer, App Foundations",
@@ -263,8 +253,8 @@ export const jobs: Job[] = [
   {
     title: "Lead Design Engineer",
     company: "Braze",
-    location: "Austin | New York City | San Francisco | Chicago",
-    url: "https://boards.greenhouse.io/braze/jobs/7614563?gh_jid=7614563",
+    location: "Chicago | San Francisco | Austin | New York City",
+    url: "https://boards.greenhouse.io/braze/jobs/7614562?gh_jid=7614562",
     department: "",
     postedAt: "2026-02-13T10:32:48-05:00",
   },
@@ -420,9 +410,9 @@ export const jobs: Job[] = [
     title: "Product Design Intern (Summer 2026)",
     company: "Cloudflare",
     location: "In-Office",
-    url: "https://boards.greenhouse.io/cloudflare/jobs/7492740?gh_jid=7492740",
+    url: "https://boards.greenhouse.io/cloudflare/jobs/7488659?gh_jid=7488659",
     department: "",
-    postedAt: "2026-01-05T14:19:46-05:00",
+    postedAt: "2026-01-05T14:19:25-05:00",
   },
 
   // ── Coder ──────────────────────────────────────────────────
@@ -571,10 +561,10 @@ export const jobs: Job[] = [
   {
     title: "Sr. Product Designer",
     company: "Databricks",
-    location: "San Francisco, California | Seattle, Washington",
-    url: "https://databricks.com/company/careers/open-positions/job?gh_jid=8155422002",
+    location: "Seattle, Washington | San Francisco, California",
+    url: "https://databricks.com/company/careers/open-positions/job?gh_jid=8162222002",
     department: "",
-    postedAt: "2025-09-09T11:49:40-04:00",
+    postedAt: "2025-09-10T11:30:50-04:00",
   },
   {
     title: "Sr. Product Designer, AI/BI",
@@ -661,16 +651,6 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/doji/04a98470-d7fa-443f-b31a-679c64f59e7a",
     department: "Engineering",
     postedAt: "2026-01-28T00:07:22.208+00:00",
-  },
-
-  // ── Drivemode ──────────────────────────────────────────────
-  {
-    title: "Senior Product Designer",
-    company: "Drivemode",
-    location: "Mountain View, CA",
-    url: "https://jobs.lever.co/drivemode/c4c36a6d-5efc-4a5a-b05e-a4d30ff5b4f3",
-    department: "Design",
-    postedAt: "2025-03-12T03:29:24.291Z",
   },
 
   // ── Duolingo ───────────────────────────────────────────────
@@ -877,16 +857,6 @@ export const jobs: Job[] = [
     url: "https://www.fivetran.com/careers/job?gh_jid=7618110003",
     department: "",
     postedAt: "2026-02-19T14:36:47-05:00",
-  },
-
-  // ── Fixify ─────────────────────────────────────────────────
-  {
-    title: "Senior UX Designer",
-    company: "Fixify",
-    location: "United States",
-    url: "https://job-boards.greenhouse.io/fixify/jobs/5124301008",
-    department: "",
-    postedAt: "2026-03-09T13:48:46-04:00",
   },
 
   // ── FlutterFlow ────────────────────────────────────────────
@@ -1475,16 +1445,6 @@ export const jobs: Job[] = [
     url: "https://jobs.lever.co/lucasmuseum/26cf1394-bd20-46f7-b2e5-1a3062a1efff",
     department: "Design",
     postedAt: "2026-03-06T20:14:31.582Z",
-  },
-
-  // ── Lucid Software ─────────────────────────────────────────
-  {
-    title: "UX Designer",
-    company: "Lucid Software",
-    location: "Salt Lake City, UT | Raleigh, NC",
-    url: "https://job-boards.greenhouse.io/lucidsoftware/jobs/5812414004",
-    department: "",
-    postedAt: "2026-03-02T18:30:47-05:00",
   },
 
   // ── Lyft ───────────────────────────────────────────────────
@@ -2139,6 +2099,40 @@ export const jobs: Job[] = [
     postedAt: "2024-07-17T19:25:16.003+00:00",
   },
 
+  // ── runway-ml ──────────────────────────────────────────────
+  {
+    title: "Art Director",
+    company: "runway-ml",
+    location: "Remote",
+    url: "https://jobs.ashbyhq.com/runway-ml/9847d13d-9f03-4060-bf62-f450e7a049bc",
+    department: "Marketing & Creative",
+    postedAt: "2026-04-10T21:14:36.697+00:00",
+  },
+  {
+    title: "Creative Director",
+    company: "runway-ml",
+    location: "Remote",
+    url: "https://jobs.ashbyhq.com/runway-ml/0ea253c8-590b-4d5b-b72d-2ca08b2ee0e2",
+    department: "Marketing & Creative",
+    postedAt: "2026-04-10T20:43:18.896+00:00",
+  },
+  {
+    title: "Design Engineer",
+    company: "runway-ml",
+    location: "Remote",
+    url: "https://jobs.ashbyhq.com/runway-ml/92044f68-4957-4cf0-9590-98952732b219",
+    department: "Runway Labs",
+    postedAt: "2024-02-16T14:13:47.318+00:00",
+  },
+  {
+    title: "Sr./Staff Product Designer",
+    company: "runway-ml",
+    location: "Remote",
+    url: "https://jobs.ashbyhq.com/runway-ml/e0fec99f-ae6e-4f92-ac1a-7d227179261f",
+    department: "Product Design",
+    postedAt: "2023-08-31T19:41:06.375+00:00",
+  },
+
   // ── Scale AI ───────────────────────────────────────────────
   {
     title: "Senior Motion Designer",
@@ -2233,10 +2227,10 @@ export const jobs: Job[] = [
   {
     title: "Staff Product Designer",
     company: "Sigma Computing",
-    location: "New York City, NY | San Francisco, CA",
-    url: "https://job-boards.greenhouse.io/sigmacomputing/jobs/7690414003",
+    location: "San Francisco, CA | New York City, NY",
+    url: "https://job-boards.greenhouse.io/sigmacomputing/jobs/7690413003",
     department: "",
-    postedAt: "2026-04-06T01:39:13-04:00",
+    postedAt: "2026-04-06T01:38:44-04:00",
   },
 
   // ── Skio ───────────────────────────────────────────────────
@@ -2561,6 +2555,24 @@ export const jobs: Job[] = [
     url: "https://job-boards.greenhouse.io/webflow/jobs/7624566",
     department: "",
     postedAt: "2026-02-17T20:38:20-05:00",
+  },
+
+  // ── Workato ────────────────────────────────────────────────
+  {
+    title: "Senior UX Designer",
+    company: "Workato",
+    location: "New York, New York; Palo Alto, California",
+    url: "https://job-boards.greenhouse.io/workato/jobs/8426434002",
+    department: "",
+    postedAt: "2026-03-25T10:54:34-04:00",
+  },
+  {
+    title: "UX Designer",
+    company: "Workato",
+    location: "Austin, Texas; Boston, Massachusetts; Charlotte, North Carolina; Denver, Colorado; New York, New York; Palo Alto, California",
+    url: "https://job-boards.greenhouse.io/workato/jobs/8406030002",
+    department: "",
+    postedAt: "2026-02-05T17:53:49-05:00",
   },
 
   // ── Writer ─────────────────────────────────────────────────
