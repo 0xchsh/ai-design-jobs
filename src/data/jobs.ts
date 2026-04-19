@@ -7,7 +7,7 @@ export type Job = {
   postedAt: string;
 };
 
-// Auto-updated by scraper — 2026-04-18
+// Auto-updated by scraper — 2026-04-19
 export const jobs: Job[] = [
   // ── Affirm ─────────────────────────────────────────────────
   {
@@ -613,16 +613,6 @@ export const jobs: Job[] = [
     postedAt: "2026-04-01T17:34:21-04:00",
   },
 
-  // ── crosby ─────────────────────────────────────────────────
-  {
-    title: "Product Design Lead",
-    company: "crosby",
-    location: "New York City",
-    url: "https://jobs.ashbyhq.com/crosby/bb995339-455b-443c-90a9-81dcf862a26c",
-    department: "Product",
-    postedAt: "2026-04-01T19:56:37.327+00:00",
-  },
-
   // ── Databricks ─────────────────────────────────────────────
   {
     title: "Manager, GTM Commissions Design",
@@ -1121,6 +1111,24 @@ export const jobs: Job[] = [
     postedAt: "2026-02-27T14:02:17-05:00",
   },
 
+  // ── gumloop ────────────────────────────────────────────────
+  {
+    title: "Brand Designer",
+    company: "gumloop",
+    location: "San Francisco Office",
+    url: "https://jobs.ashbyhq.com/gumloop/9bf3a57a-799c-489d-850a-940da2fdb043",
+    department: "Design",
+    postedAt: "2026-02-07T02:31:09.416+00:00",
+  },
+  {
+    title: "Staff Product Designer",
+    company: "gumloop",
+    location: "San Francisco Office",
+    url: "https://jobs.ashbyhq.com/gumloop/d3d8321d-6b1d-4a93-bfac-0a5a850c82ec",
+    department: "Design",
+    postedAt: "2025-12-19T23:13:31.701+00:00",
+  },
+
   // ── Gusto ──────────────────────────────────────────────────
   {
     title: "Brand Design Manager",
@@ -1539,6 +1547,16 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/lovable/c394b8d2-bed1-442f-bda7-ae773840d53d",
     department: "Product",
     postedAt: "2025-11-17T21:13:18.880+00:00",
+  },
+
+  // ── Lucas Museum of Narrative Art ──────────────────────────
+  {
+    title: "Designer",
+    company: "Lucas Museum of Narrative Art",
+    location: "Los Angeles",
+    url: "https://jobs.lever.co/lucasmuseum/26cf1394-bd20-46f7-b2e5-1a3062a1efff",
+    department: "Design",
+    postedAt: "2026-03-06T20:14:31.582Z",
   },
 
   // ── Lyft ───────────────────────────────────────────────────
@@ -2001,6 +2019,16 @@ export const jobs: Job[] = [
     postedAt: "2026-02-25T18:18:51-05:00",
   },
 
+  // ── RegScale ───────────────────────────────────────────────
+  {
+    title: "UX Designer",
+    company: "RegScale",
+    location: "Remote",
+    url: "https://job-boards.greenhouse.io/regscale/jobs/5113183007",
+    department: "",
+    postedAt: "2026-04-17T16:30:00-04:00",
+  },
+
   // ── Replit ─────────────────────────────────────────────────
   {
     title: "Design Engineer",
@@ -2421,16 +2449,6 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/suno/487bc7df-f9e6-410d-b38c-58aeb08cf202",
     department: "Product",
     postedAt: "2026-04-08T19:22:46.820+00:00",
-  },
-
-  // ── The Trade Desk ─────────────────────────────────────────
-  {
-    title: "Brand Art Director",
-    company: "The Trade Desk",
-    location: "New York",
-    url: "https://job-boards.greenhouse.io/thetradedesk/jobs/5096475007",
-    department: "",
-    postedAt: "2026-04-01T14:47:12-04:00",
   },
 
   // ── Together AI ────────────────────────────────────────────
