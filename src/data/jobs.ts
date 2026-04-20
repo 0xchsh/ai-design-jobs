@@ -7,7 +7,7 @@ export type Job = {
   postedAt: string;
 };
 
-// Auto-updated by scraper — 2026-04-19
+// Auto-updated by scraper — 2026-04-20
 export const jobs: Job[] = [
   // ── Affirm ─────────────────────────────────────────────────
   {
@@ -295,24 +295,6 @@ export const jobs: Job[] = [
     postedAt: "2024-10-09T20:55:56.052+00:00",
   },
 
-  // ── brandlight ─────────────────────────────────────────────
-  {
-    title: "Brand Designer ",
-    company: "brandlight",
-    location: "TLV",
-    url: "https://jobs.ashbyhq.com/brandlight/5fc6f583-3e6b-4aef-a713-4bc073d4c393",
-    department: "Marketing",
-    postedAt: "2026-02-10T19:56:18.443+00:00",
-  },
-  {
-    title: "Senior Product Designer",
-    company: "brandlight",
-    location: "TLV",
-    url: "https://jobs.ashbyhq.com/brandlight/ec088723-ed99-4ff7-9d72-30da13bbf627",
-    department: "Product Design",
-    postedAt: "2026-03-19T15:41:30.561+00:00",
-  },
-
   // ── Braze ──────────────────────────────────────────────────
   {
     title: "Lead Design Engineer",
@@ -389,6 +371,16 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/browserbase/e5437e00-4afb-4d39-8f30-0e04bf2080d0",
     department: "Design",
     postedAt: "2025-10-10T05:06:10.213+00:00",
+  },
+
+  // ── Careers & Jobs ─────────────────────────────────────────
+  {
+    title: "Senior Product Designer",
+    company: "Careers & Jobs",
+    location: "Tel Aviv | Sofia",
+    url: "https://www.yotpo.com/careers/gid-7552689?gh_jid=7552689",
+    department: "",
+    postedAt: "2026-01-21T08:04:07-05:00",
   },
 
   // ── Chime ──────────────────────────────────────────────────
@@ -551,16 +543,6 @@ export const jobs: Job[] = [
     postedAt: "2026-04-07T15:59:18-04:00",
   },
 
-  // ── Contentsquare ──────────────────────────────────────────
-  {
-    title: "Junior Brand Designer",
-    company: "Contentsquare",
-    location: "Barcelona",
-    url: "https://jobs.lever.co/contentsquare/74b31e41-3916-4e53-a535-8044dccb7ec3",
-    department: "Brand & Creative",
-    postedAt: "2026-02-27T13:36:03.039Z",
-  },
-
   // ── CoreWeave ──────────────────────────────────────────────
   {
     title: "Design Program Coordinator",
@@ -613,6 +595,16 @@ export const jobs: Job[] = [
     postedAt: "2026-04-01T17:34:21-04:00",
   },
 
+  // ── crosby ─────────────────────────────────────────────────
+  {
+    title: "Product Design Lead",
+    company: "crosby",
+    location: "New York City",
+    url: "https://jobs.ashbyhq.com/crosby/bb995339-455b-443c-90a9-81dcf862a26c",
+    department: "Product",
+    postedAt: "2026-04-01T19:56:37.327+00:00",
+  },
+
   // ── Databricks ─────────────────────────────────────────────
   {
     title: "Manager, GTM Commissions Design",
@@ -625,10 +617,10 @@ export const jobs: Job[] = [
   {
     title: "Sr. Product Designer",
     company: "Databricks",
-    location: "San Francisco, California | Seattle, Washington",
-    url: "https://databricks.com/company/careers/open-positions/job?gh_jid=8155422002",
+    location: "Seattle, Washington | San Francisco, California",
+    url: "https://databricks.com/company/careers/open-positions/job?gh_jid=8162222002",
     department: "",
-    postedAt: "2025-09-09T11:49:40-04:00",
+    postedAt: "2025-09-10T11:30:50-04:00",
   },
   {
     title: "Sr. Product Designer, AI/BI",
@@ -877,14 +869,6 @@ export const jobs: Job[] = [
     url: "https://boards.greenhouse.io/figma/jobs/5711595004?gh_jid=5711595004",
     department: "",
     postedAt: "2025-11-21T10:48:47-05:00",
-  },
-  {
-    title: "UX Writer, AI ",
-    company: "Figma",
-    location: "San Francisco, CA • New York, NY • United States",
-    url: "https://boards.greenhouse.io/figma/jobs/5839202004?gh_jid=5839202004",
-    department: "",
-    postedAt: "2026-04-14T17:57:08-04:00",
   },
 
   // ── Fireworks AI ───────────────────────────────────────────
@@ -1563,18 +1547,18 @@ export const jobs: Job[] = [
   {
     title: "Product Designer, Core Rider",
     company: "Lyft",
-    location: "San Francisco, CA | New York, NY",
-    url: "https://app.careerpuck.com/job-board/lyft/job/8357826002?gh_jid=8357826002",
+    location: "New York, NY | San Francisco, CA",
+    url: "https://app.careerpuck.com/job-board/lyft/job/8357844002?gh_jid=8357844002",
     department: "",
-    postedAt: "2026-01-14T17:37:14-05:00",
+    postedAt: "2026-01-14T17:37:15-05:00",
   },
   {
     title: "Senior Design Program Manager, Design Foundations & AI Transformation",
     company: "Lyft",
-    location: "San Francisco, CA | New York, NY",
-    url: "https://app.careerpuck.com/job-board/lyft/job/8503978002?gh_jid=8503978002",
+    location: "New York, NY | San Francisco, CA",
+    url: "https://app.careerpuck.com/job-board/lyft/job/8504066002?gh_jid=8504066002",
     department: "",
-    postedAt: "2026-04-13T15:01:20-04:00",
+    postedAt: "2026-04-13T15:01:21-04:00",
   },
 
   // ── Mercor ─────────────────────────────────────────────────
@@ -2391,6 +2375,22 @@ export const jobs: Job[] = [
     postedAt: "2026-04-08T17:25:34-04:00",
   },
   {
+    title: "Creative Design Operations Associate (Motion)",
+    company: "Stripe",
+    location: "Bengaluru",
+    url: "https://stripe.com/jobs/search?gh_jid=7824139",
+    department: "",
+    postedAt: "2026-04-20T05:10:47-04:00",
+  },
+  {
+    title: "Creative Design Operations Associate (Static)",
+    company: "Stripe",
+    location: "Bengaluru",
+    url: "https://stripe.com/jobs/search?gh_jid=7824143",
+    department: "",
+    postedAt: "2026-04-20T05:07:52-04:00",
+  },
+  {
     title: "Senior Staff Product Designer, Agentic Commerce",
     company: "Stripe",
     location: "SF, Seattle, New York, Remote in the US",
@@ -2449,6 +2449,16 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/suno/487bc7df-f9e6-410d-b38c-58aeb08cf202",
     department: "Product",
     postedAt: "2026-04-08T19:22:46.820+00:00",
+  },
+
+  // ── The Trade Desk ─────────────────────────────────────────
+  {
+    title: "Brand Art Director",
+    company: "The Trade Desk",
+    location: "New York",
+    url: "https://job-boards.greenhouse.io/thetradedesk/jobs/5096475007",
+    department: "",
+    postedAt: "2026-04-01T14:47:12-04:00",
   },
 
   // ── Together AI ────────────────────────────────────────────
