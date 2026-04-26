@@ -7,7 +7,7 @@ export type Job = {
   postedAt: string;
 };
 
-// Auto-updated by scraper — 2026-04-25
+// Auto-updated by scraper — 2026-04-26
 export const jobs: Job[] = [
   // ── Affirm ─────────────────────────────────────────────────
   {
@@ -411,10 +411,10 @@ export const jobs: Job[] = [
   {
     title: "Senior Design Sourcer",
     company: "Brex",
-    location: "New York, New York, United States | Seattle, Washington, United States | San Francisco, California, United States",
-    url: "https://www.brex.com/careers/8434442002?gh_jid=8434442002",
+    location: "Seattle, Washington, United States | San Francisco, California, United States | New York, New York, United States",
+    url: "https://www.brex.com/careers/8434443002?gh_jid=8434443002",
     department: "",
-    postedAt: "2026-02-23T20:40:30-05:00",
+    postedAt: "2026-02-23T20:40:31-05:00",
   },
   {
     title: "Senior Motion Designer",
@@ -443,10 +443,10 @@ export const jobs: Job[] = [
   {
     title: "Staff Product Designer",
     company: "Brex",
-    location: "San Francisco, California, United States | New York, New York, United States",
-    url: "https://www.brex.com/careers/7669111002?gh_jid=7669111002",
+    location: "New York, New York, United States | San Francisco, California, United States",
+    url: "https://www.brex.com/careers/8124973002?gh_jid=8124973002",
     department: "",
-    postedAt: "2024-10-03T14:09:29-04:00",
+    postedAt: "2025-08-18T14:45:19-04:00",
   },
 
   // ── Browserbase ────────────────────────────────────────────
@@ -493,6 +493,24 @@ export const jobs: Job[] = [
     url: "https://www.yotpo.com/careers/gid-4242702?gh_jid=4242702",
     department: "",
     postedAt: "2022-05-16T05:57:22-04:00",
+  },
+
+  // ── Chalk ──────────────────────────────────────────────────
+  {
+    title: "Brand Designer",
+    company: "Chalk",
+    location: "NY, SF, or LA",
+    url: "https://job-boards.greenhouse.io/chalkinc/jobs/4688392005",
+    department: "",
+    postedAt: "2026-04-23T16:01:22-04:00",
+  },
+  {
+    title: "Product Designer",
+    company: "Chalk",
+    location: "United States",
+    url: "https://job-boards.greenhouse.io/chalkinc/jobs/4566924005",
+    department: "",
+    postedAt: "2025-05-19T17:22:01-04:00",
   },
 
   // ── Chime ──────────────────────────────────────────────────
@@ -695,16 +713,6 @@ export const jobs: Job[] = [
     url: "https://job-boards.greenhouse.io/cresta/jobs/5173681008",
     department: "",
     postedAt: "2026-04-01T17:34:21-04:00",
-  },
-
-  // ── crosby ─────────────────────────────────────────────────
-  {
-    title: "Product Design Lead",
-    company: "crosby",
-    location: "New York City",
-    url: "https://jobs.ashbyhq.com/crosby/bb995339-455b-443c-90a9-81dcf862a26c",
-    department: "Product",
-    postedAt: "2026-04-01T19:56:37.327+00:00",
   },
 
   // ── Databricks ─────────────────────────────────────────────
@@ -1189,6 +1197,16 @@ export const jobs: Job[] = [
     postedAt: "2026-02-27T14:02:17-05:00",
   },
 
+  // ── Govini ─────────────────────────────────────────────────
+  {
+    title: "Senior Product Designer",
+    company: "Govini",
+    location: "Pittsburgh, Pennsylvania, United States",
+    url: "https://job-boards.greenhouse.io/govini/jobs/4195630009",
+    department: "",
+    postedAt: "2026-03-25T15:05:57-04:00",
+  },
+
   // ── Gusto ──────────────────────────────────────────────────
   {
     title: "Principal Product Designer, CoreX AI",
@@ -1279,6 +1297,16 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/harvey/24616c39-e293-4bcc-a3dd-e6f33a71c8ee",
     department: "Design",
     postedAt: "2025-09-12T23:39:38.961+00:00",
+  },
+
+  // ── Head of Product Design & User Research ─────────────────
+  {
+    title: "Head of Product Design & User Research",
+    company: "Head of Product Design & User Research",
+    location: "San Francisco, CA",
+    url: "https://job-boards.greenhouse.io/amaehealth/jobs/4184954009",
+    department: "",
+    postedAt: "2026-03-17T17:38:38-04:00",
   },
 
   // ── Hebbia ─────────────────────────────────────────────────
@@ -1551,16 +1579,6 @@ export const jobs: Job[] = [
     postedAt: "2025-11-17T21:13:18.880+00:00",
   },
 
-  // ── Lucas Museum of Narrative Art ──────────────────────────
-  {
-    title: "Designer",
-    company: "Lucas Museum of Narrative Art",
-    location: "Los Angeles",
-    url: "https://jobs.lever.co/lucasmuseum/26cf1394-bd20-46f7-b2e5-1a3062a1efff",
-    department: "Design",
-    postedAt: "2026-03-06T20:14:31.582Z",
-  },
-
   // ── Lyft ───────────────────────────────────────────────────
   {
     title: "Senior Design Program Manager, Design Foundations & AI Transformation",
@@ -1633,32 +1651,6 @@ export const jobs: Job[] = [
     url: "https://www.moveworks.com/us/en/company/careers/position?gh_jid=7604915002&gh_jid=7604915002",
     department: "",
     postedAt: "2024-08-26T22:42:01-04:00",
-  },
-
-  // ── Nebius ─────────────────────────────────────────────────
-  {
-    title: "Brand Designer",
-    company: "Nebius",
-    location: "Remote",
-    url: "https://careers.nebius.com/?gh_jid=4830500101",
-    department: "",
-    postedAt: "2026-04-10T10:28:02-04:00",
-  },
-  {
-    title: "Data Center Design Lead",
-    company: "Nebius",
-    location: "Remote - United States",
-    url: "https://careers.nebius.com/?gh_jid=4774875101",
-    department: "",
-    postedAt: "2026-02-05T14:29:47-05:00",
-  },
-  {
-    title: "Designer (UX + Visual) ",
-    company: "Nebius",
-    location: "Remote",
-    url: "https://careers.nebius.com/?gh_jid=4837117101",
-    department: "",
-    postedAt: "2026-04-16T11:24:16-04:00",
   },
 
   // ── Netic ──────────────────────────────────────────────────
@@ -2169,6 +2161,16 @@ export const jobs: Job[] = [
     postedAt: "2023-08-31T19:41:06.375+00:00",
   },
 
+  // ── sanctuary ──────────────────────────────────────────────
+  {
+    title: "Senior UX Designer (6 month contract)",
+    company: "sanctuary",
+    location: "Vancouver, BC",
+    url: "https://jobs.lever.co/sanctuary/2d200482-49b7-4ae5-9550-13537ba633b0",
+    department: "UI/UX",
+    postedAt: "2026-02-19T23:20:23.715Z",
+  },
+
   // ── Scale AI ───────────────────────────────────────────────
   {
     title: "Senior Motion Designer",
@@ -2254,27 +2256,9 @@ export const jobs: Job[] = [
     title: "Senior Product Designer, AI ",
     company: "Sigma Computing",
     location: "San Francisco, CA",
-    url: "https://job-boards.greenhouse.io/sigmacomputing/jobs/7694488003",
+    url: "https://job-boards.greenhouse.io/sigmacomputing/jobs/7714479003",
     department: "",
-    postedAt: "2026-04-14T13:06:50-04:00",
-  },
-
-  // ── Skio ───────────────────────────────────────────────────
-  {
-    title: "Product Designer",
-    company: "Skio",
-    location: "San Francisco, New York, or Remote",
-    url: "https://jobs.lever.co/skio/0110e9f5-4640-4daf-bc53-da03d6a4e642",
-    department: "Product",
-    postedAt: "2026-01-12T16:24:14.734Z",
-  },
-  {
-    title: "UX Engineer",
-    company: "Skio",
-    location: "San Francisco, New York, or Remote",
-    url: "https://jobs.lever.co/skio/ba7c8bc7-9692-47bd-b212-6f2a4cea0c70",
-    department: "Engineering",
-    postedAt: "2021-10-21T01:10:43.363Z",
+    postedAt: "2026-04-25T19:00:46-04:00",
   },
 
   // ── Snowflake ──────────────────────────────────────────────
@@ -2479,6 +2463,16 @@ export const jobs: Job[] = [
     postedAt: "2026-03-11T21:14:47-04:00",
   },
 
+  // ── Trellis ────────────────────────────────────────────────
+  {
+    title: "Product Designer (Remote)",
+    company: "Trellis",
+    location: "Anywhere in the US",
+    url: "https://jobs.lever.co/trellis/56eacd2c-5981-4614-a847-7e8d7de42cff",
+    department: "Design",
+    postedAt: "2026-03-26T19:47:06.078Z",
+  },
+
   // ── Twelve Labs ────────────────────────────────────────────
   {
     title: "Lead Product Designer ",
@@ -2493,7 +2487,7 @@ export const jobs: Job[] = [
   {
     title: "Product Design Intern",
     company: "Typeface",
-    location: "Palo Alto, CA or Bellevue, WA",
+    location: "Bellevue, WA",
     url: "https://job-boards.greenhouse.io/typeface/jobs/4987351007",
     department: "",
     postedAt: "2025-11-19T17:08:18-05:00",
@@ -2619,16 +2613,6 @@ export const jobs: Job[] = [
     url: "https://job-boards.greenhouse.io/webflow/jobs/7624566",
     department: "",
     postedAt: "2026-02-17T20:38:20-05:00",
-  },
-
-  // ── Workshop ───────────────────────────────────────────────
-  {
-    title: "Brand Designer",
-    company: "Workshop",
-    location: "Omaha, Nebraska, United States",
-    url: "https://job-boards.greenhouse.io/workshop/jobs/5101403007",
-    department: "",
-    postedAt: "2026-04-07T15:40:09-04:00",
   },
 
   // ── Writer ─────────────────────────────────────────────────
