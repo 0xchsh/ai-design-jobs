@@ -7,7 +7,7 @@ export type Job = {
   postedAt: string;
 };
 
-// Auto-updated by scraper — 2026-04-26
+// Auto-updated by scraper — 2026-04-27
 export const jobs: Job[] = [
   // ── Affirm ─────────────────────────────────────────────────
   {
@@ -209,6 +209,16 @@ export const jobs: Job[] = [
     postedAt: "2026-02-27T17:11:24-05:00",
   },
 
+  // ── Auxia ──────────────────────────────────────────────────
+  {
+    title: "Senior UX Designer",
+    company: "Auxia",
+    location: "Bengaluru",
+    url: "https://jobs.lever.co/auxia/1c3d01f1-7ade-4e07-92f4-846da141d87c",
+    department: "Product Design",
+    postedAt: "2026-03-25T10:03:34.996Z",
+  },
+
   // ── Benchling ──────────────────────────────────────────────
   {
     title: "Product Designer, App Foundations",
@@ -223,8 +233,8 @@ export const jobs: Job[] = [
   {
     title: "Senior Product Designer",
     company: "Bloomreach",
-    location: "Czechia | Slovakia",
-    url: "https://job-boards.greenhouse.io/bloomreach/jobs/7820226",
+    location: "Slovakia | Czechia",
+    url: "https://job-boards.greenhouse.io/bloomreach/jobs/7820227",
     department: "",
     postedAt: "2026-04-16T02:48:52-04:00",
   },
@@ -343,10 +353,10 @@ export const jobs: Job[] = [
   {
     title: "Integrated Designer (Digital & Motion)",
     company: "Brandtech+ (formerly known as OLIVER+)",
-    location: "South Africa (Remote)  | Mumbai, Maharashtra ",
-    url: "https://job-boards.greenhouse.io/brandtechplus/jobs/7830475",
+    location: "Mumbai, Maharashtra  | South Africa (Remote) ",
+    url: "https://job-boards.greenhouse.io/brandtechplus/jobs/7772632",
     department: "",
-    postedAt: "2026-04-20T04:09:56-04:00",
+    postedAt: "2026-04-20T03:11:56-04:00",
   },
   {
     title: "Integrated Designer (German/English Fluent)",
@@ -373,12 +383,12 @@ export const jobs: Job[] = [
     postedAt: "2026-02-16T18:23:48-05:00",
   },
   {
-    title: "Senior Integrated Designer (Design + Motion Exp)",
+    title: "Senior Integrated Designer (Graphic Designer)",
     company: "Brandtech+ (formerly known as OLIVER+)",
     location: "South Africa (Remote)",
-    url: "https://job-boards.greenhouse.io/brandtechplus/jobs/7828958",
+    url: "https://job-boards.greenhouse.io/brandtechplus/jobs/7808154",
     department: "",
-    postedAt: "2026-04-19T09:20:40-04:00",
+    postedAt: "2026-04-27T00:51:22-04:00",
   },
   {
     title: "Snr. Integrated Designer ",
@@ -735,10 +745,10 @@ export const jobs: Job[] = [
   {
     title: "Sr. Product Designer, AI/BI",
     company: "Databricks",
-    location: "Seattle, Washington | Mountain View, California; San Francisco, California",
-    url: "https://databricks.com/company/careers/open-positions/job?gh_jid=8428820002",
+    location: "Mountain View, California; San Francisco, California | Seattle, Washington",
+    url: "https://databricks.com/company/careers/open-positions/job?gh_jid=8429978002",
     department: "",
-    postedAt: "2026-02-19T13:08:36-05:00",
+    postedAt: "2026-02-19T13:08:38-05:00",
   },
   {
     title: "Sr. Product Designer, Enterprise Platform",
@@ -1017,6 +1027,24 @@ export const jobs: Job[] = [
     postedAt: "2026-02-19T14:36:47-05:00",
   },
 
+  // ── flowlife ───────────────────────────────────────────────
+  {
+    title: "Senior Interior Designer",
+    company: "flowlife",
+    location: "Bay Harbor Islands, FL",
+    url: "https://jobs.lever.co/flowlife/4ab653a7-0495-42dc-b59f-7690d6e95a14",
+    department: "Program Design & Development",
+    postedAt: "2026-01-09T21:24:52.580Z",
+  },
+  {
+    title: "Senior Product Designer",
+    company: "flowlife",
+    location: "Palo Alto, CA",
+    url: "https://jobs.lever.co/flowlife/d8f1bf3a-d65d-407c-8b62-62b33ef9f849",
+    department: "Product Design",
+    postedAt: "2026-02-05T02:46:06.722Z",
+  },
+
   // ── FlutterFlow ────────────────────────────────────────────
   {
     title: "Sr. Product Designer",
@@ -1207,6 +1235,24 @@ export const jobs: Job[] = [
     postedAt: "2026-03-25T15:05:57-04:00",
   },
 
+  // ── gumloop ────────────────────────────────────────────────
+  {
+    title: "Brand Designer",
+    company: "gumloop",
+    location: "San Francisco Office",
+    url: "https://jobs.ashbyhq.com/gumloop/9bf3a57a-799c-489d-850a-940da2fdb043",
+    department: "Design",
+    postedAt: "2026-02-07T02:31:09.416+00:00",
+  },
+  {
+    title: "Staff Product Designer",
+    company: "gumloop",
+    location: "San Francisco Office",
+    url: "https://jobs.ashbyhq.com/gumloop/d3d8321d-6b1d-4a93-bfac-0a5a850c82ec",
+    department: "Design",
+    postedAt: "2025-12-19T23:13:31.701+00:00",
+  },
+
   // ── Gusto ──────────────────────────────────────────────────
   {
     title: "Principal Product Designer, CoreX AI",
@@ -1297,16 +1343,6 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/harvey/24616c39-e293-4bcc-a3dd-e6f33a71c8ee",
     department: "Design",
     postedAt: "2025-09-12T23:39:38.961+00:00",
-  },
-
-  // ── Head of Product Design & User Research ─────────────────
-  {
-    title: "Head of Product Design & User Research",
-    company: "Head of Product Design & User Research",
-    location: "San Francisco, CA",
-    url: "https://job-boards.greenhouse.io/amaehealth/jobs/4184954009",
-    department: "",
-    postedAt: "2026-03-17T17:38:38-04:00",
   },
 
   // ── Hebbia ─────────────────────────────────────────────────
@@ -1547,7 +1583,7 @@ export const jobs: Job[] = [
     postedAt: "2025-07-17T16:03:07.517+00:00",
   },
   {
-    title: "Senior / Staff Brand Designer",
+    title: "Staff / Principal Brand Designer",
     company: "Lovable",
     location: "Stockholm",
     url: "https://jobs.ashbyhq.com/lovable/2c16cc1e-303e-440e-8c33-bcdcaeb321ff",
@@ -1555,7 +1591,7 @@ export const jobs: Job[] = [
     postedAt: "2026-04-15T09:32:18.301+00:00",
   },
   {
-    title: "Senior / Staff Design Engineer (Web & Brand)",
+    title: "Staff / Principal Design Engineer (Web & Brand)",
     company: "Lovable",
     location: "Stockholm",
     url: "https://jobs.ashbyhq.com/lovable/51885ae5-4f4c-46c4-abd3-d7aad1c8d9c0",
@@ -1563,7 +1599,7 @@ export const jobs: Job[] = [
     postedAt: "2026-04-15T09:32:55.364+00:00",
   },
   {
-    title: "Senior / Staff Product Designer",
+    title: "Staff / Principal Product Designer",
     company: "Lovable",
     location: "Stockholm",
     url: "https://jobs.ashbyhq.com/lovable/5635b88f-a361-4f5f-8209-ca343a003947",
@@ -2041,16 +2077,6 @@ export const jobs: Job[] = [
     postedAt: "2026-02-06T21:20:25.204+00:00",
   },
 
-  // ── revel ──────────────────────────────────────────────────
-  {
-    title: "Product Designer",
-    company: "revel",
-    location: "Los Angeles",
-    url: "https://jobs.lever.co/revel/cae2b56a-8535-458d-931d-243887ed068e",
-    department: "Product",
-    postedAt: "2026-01-22T23:39:37.603Z",
-  },
-
   // ── Robinhood ──────────────────────────────────────────────
   {
     title: "Product Designer, Growth",
@@ -2159,16 +2185,6 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/runway-ml/e0fec99f-ae6e-4f92-ac1a-7d227179261f",
     department: "Product Design",
     postedAt: "2023-08-31T19:41:06.375+00:00",
-  },
-
-  // ── sanctuary ──────────────────────────────────────────────
-  {
-    title: "Senior UX Designer (6 month contract)",
-    company: "sanctuary",
-    location: "Vancouver, BC",
-    url: "https://jobs.lever.co/sanctuary/2d200482-49b7-4ae5-9550-13537ba633b0",
-    department: "UI/UX",
-    postedAt: "2026-02-19T23:20:23.715Z",
   },
 
   // ── Scale AI ───────────────────────────────────────────────
@@ -2613,6 +2629,16 @@ export const jobs: Job[] = [
     url: "https://job-boards.greenhouse.io/webflow/jobs/7624566",
     department: "",
     postedAt: "2026-02-17T20:38:20-05:00",
+  },
+
+  // ── Workshop ───────────────────────────────────────────────
+  {
+    title: "Brand Designer",
+    company: "Workshop",
+    location: "Omaha, Nebraska, United States",
+    url: "https://job-boards.greenhouse.io/workshop/jobs/5101403007",
+    department: "",
+    postedAt: "2026-04-07T15:40:09-04:00",
   },
 
   // ── Writer ─────────────────────────────────────────────────
