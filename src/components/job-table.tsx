@@ -402,17 +402,18 @@ export function JobTable({ jobs }: { jobs: Job[] }) {
                   key={`${job.company}-${job.title}-${i}`}
                   className="border-b border-border/50 last:border-0 group hover:bg-muted/30 transition-colors"
                 >
-                  <td className="py-2.5 px-3 align-middle max-w-[180px]">
+                  <td className="py-2.5 px-3 align-middle">
                     <button
                       onClick={() =>
                         setActiveCompany(
                           activeCompany === job.company ? null : job.company
                         )
                       }
-                      className="flex items-center gap-2 hover:opacity-70 transition-opacity text-left min-w-0"
+                      className="flex items-center gap-2 hover:opacity-70 transition-opacity text-left max-w-[180px]"
+                      title={job.company}
                     >
                       <CompanyIcon company={job.company} />
-                      <span className="font-medium text-sm truncate">
+                      <span className="font-medium text-sm truncate min-w-0">
                         {job.company}
                       </span>
                     </button>
