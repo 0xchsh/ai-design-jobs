@@ -7,7 +7,7 @@ export type Job = {
   postedAt: string;
 };
 
-// Auto-updated by scraper — 2026-04-30
+// Auto-updated by scraper — 2026-05-01
 export const jobs: Job[] = [
   // ── Affirm ─────────────────────────────────────────────────
   {
@@ -19,6 +19,16 @@ export const jobs: Job[] = [
     postedAt: "2026-02-03T12:33:07-05:00",
   },
 
+  // ── aift ───────────────────────────────────────────────────
+  {
+    title: "Senior Product Designer, AIFT Enterprise",
+    company: "aift",
+    location: "Taipei, Taiwan",
+    url: "https://job-boards.greenhouse.io/aift/jobs/5749286004",
+    department: "",
+    postedAt: "2026-01-06T03:23:19-05:00",
+  },
+
   // ── Airtable ───────────────────────────────────────────────
   {
     title: "Design Technologist",
@@ -27,30 +37,6 @@ export const jobs: Job[] = [
     url: "https://job-boards.greenhouse.io/airtable/jobs/8455969002",
     department: "",
     postedAt: "2026-03-11T19:08:23-04:00",
-  },
-  {
-    title: "Product Design Manager, Enterprise ",
-    company: "Airtable",
-    location: "San Francisco, CA",
-    url: "https://job-boards.greenhouse.io/airtable/jobs/8455967002",
-    department: "",
-    postedAt: "2026-03-11T19:11:46-04:00",
-  },
-  {
-    title: "Product Design Manager, Self Serve ",
-    company: "Airtable",
-    location: "San Francisco, CA",
-    url: "https://job-boards.greenhouse.io/airtable/jobs/8228847002",
-    department: "",
-    postedAt: "2026-03-11T19:38:00-04:00",
-  },
-  {
-    title: "Product Designer",
-    company: "Airtable",
-    location: "San Francisco, CA",
-    url: "https://job-boards.greenhouse.io/airtable/jobs/8474256002",
-    department: "",
-    postedAt: "2026-04-15T15:28:09-04:00",
   },
 
   // ── Anthropic ──────────────────────────────────────────────
@@ -218,6 +204,14 @@ export const jobs: Job[] = [
     department: "",
     postedAt: "2026-04-16T02:48:52-04:00",
   },
+  {
+    title: "UI Developer",
+    company: "Bloomreach",
+    location: "Czechia | Slovakia",
+    url: "https://job-boards.greenhouse.io/bloomreach/jobs/7871035",
+    department: "",
+    postedAt: "2026-04-30T10:33:16-04:00",
+  },
 
   // ── Bolt ───────────────────────────────────────────────────
   {
@@ -289,6 +283,22 @@ export const jobs: Job[] = [
     url: "https://job-boards.greenhouse.io/brandtechplus/jobs/7711753",
     department: "",
     postedAt: "2026-03-12T11:44:19-04:00",
+  },
+  {
+    title: "Digital Designer (French fluent)",
+    company: "Brandtech+ (formerly known as OLIVER+)",
+    location: "Mumbai, Maharashtra",
+    url: "https://job-boards.greenhouse.io/brandtechplus/jobs/7870007",
+    department: "",
+    postedAt: "2026-04-30T06:28:36-04:00",
+  },
+  {
+    title: "Digital Designer (German fluent)",
+    company: "Brandtech+ (formerly known as OLIVER+)",
+    location: "Mumbai, Maharashtra ",
+    url: "https://job-boards.greenhouse.io/brandtechplus/jobs/7869997",
+    department: "",
+    postedAt: "2026-04-30T06:32:03-04:00",
   },
   {
     title: "GenAI Motion Designer ",
@@ -371,6 +381,14 @@ export const jobs: Job[] = [
     postedAt: "2026-04-29T11:53:37-04:00",
   },
   {
+    title: "Snr  Integrated Designer ",
+    company: "Brandtech+ (formerly known as OLIVER+)",
+    location: "Remote (Colombia)",
+    url: "https://job-boards.greenhouse.io/brandtechplus/jobs/7872386",
+    department: "",
+    postedAt: "2026-04-30T16:56:52-04:00",
+  },
+  {
     title: "Snr Integrated Designer",
     company: "Brandtech+ (formerly known as OLIVER+)",
     location: "Remote (México) | Remote (Colombia)",
@@ -378,23 +396,15 @@ export const jobs: Job[] = [
     department: "",
     postedAt: "2026-04-29T17:05:18-04:00",
   },
-  {
-    title: "Snr. Integrated Designer ",
-    company: "Brandtech+ (formerly known as OLIVER+)",
-    location: "Remote (Colombia)",
-    url: "https://job-boards.greenhouse.io/brandtechplus/jobs/7477877",
-    department: "",
-    postedAt: "2025-12-16T20:03:57-05:00",
-  },
 
   // ── Braze ──────────────────────────────────────────────────
   {
     title: "Lead Design Engineer",
     company: "Braze",
-    location: "New York City | San Francisco | Austin | Chicago",
-    url: "https://boards.greenhouse.io/braze/jobs/7592334?gh_jid=7592334",
+    location: "Chicago | New York City | San Francisco | Austin",
+    url: "https://boards.greenhouse.io/braze/jobs/7614562?gh_jid=7614562",
     department: "",
-    postedAt: "2026-02-13T10:32:47-05:00",
+    postedAt: "2026-02-13T10:32:48-05:00",
   },
 
   // ── Brex ───────────────────────────────────────────────────
@@ -681,20 +691,12 @@ export const jobs: Job[] = [
     postedAt: "2026-03-16T19:50:55-04:00",
   },
   {
-    title: "Sr. Product Designer",
-    company: "Databricks",
-    location: "San Francisco, California | Seattle, Washington",
-    url: "https://databricks.com/company/careers/open-positions/job?gh_jid=8155422002",
-    department: "",
-    postedAt: "2025-09-09T11:49:40-04:00",
-  },
-  {
     title: "Sr. Product Designer, AI/BI",
     company: "Databricks",
-    location: "Seattle, Washington | Mountain View, California; San Francisco, California",
-    url: "https://databricks.com/company/careers/open-positions/job?gh_jid=8428820002",
+    location: "Mountain View, California; San Francisco, California | Seattle, Washington",
+    url: "https://databricks.com/company/careers/open-positions/job?gh_jid=8429978002",
     department: "",
-    postedAt: "2026-02-19T13:08:36-05:00",
+    postedAt: "2026-02-19T13:08:38-05:00",
   },
   {
     title: "Sr. Product Designer, Enterprise Platform",
@@ -775,16 +777,6 @@ export const jobs: Job[] = [
     postedAt: "2026-01-28T00:07:22.208+00:00",
   },
 
-  // ── duck-duck-go ───────────────────────────────────────────
-  {
-    title: "Senior Product Designer",
-    company: "duck-duck-go",
-    location: "Remote",
-    url: "https://jobs.ashbyhq.com/duck-duck-go/776bd1c8-81aa-4719-8238-ba357e1f5271",
-    department: "Design",
-    postedAt: "2026-04-27T12:02:37.132+00:00",
-  },
-
   // ── Duolingo ───────────────────────────────────────────────
   {
     title: "Director of Product Design",
@@ -797,24 +789,24 @@ export const jobs: Job[] = [
   {
     title: "Senior Design Sourcer",
     company: "Duolingo",
-    location: "New York, NY | Pittsburgh, PA",
-    url: "https://careers.duolingo.com/jobs/8455014002?gh_jid=8455014002",
+    location: "Pittsburgh, PA | New York, NY",
+    url: "https://careers.duolingo.com/jobs/8455005002?gh_jid=8455005002",
     department: "",
-    postedAt: "2026-03-09T09:36:57-04:00",
+    postedAt: "2026-03-09T09:36:56-04:00",
   },
   {
     title: "Senior Narrative Designer",
     company: "Duolingo",
-    location: "New York, NY | Seattle, WA",
-    url: "https://careers.duolingo.com/jobs/8521454002?gh_jid=8521454002",
+    location: "Seattle, WA | New York, NY",
+    url: "https://careers.duolingo.com/jobs/8494064002?gh_jid=8494064002",
     department: "",
-    postedAt: "2026-04-23T15:15:48-04:00",
+    postedAt: "2026-04-03T16:47:03-04:00",
   },
   {
     title: "Senior Product Design Manager",
     company: "Duolingo",
-    location: "New York, NY | Pittsburgh, PA",
-    url: "https://careers.duolingo.com/jobs/8385193002?gh_jid=8385193002",
+    location: "Pittsburgh, PA | New York, NY",
+    url: "https://careers.duolingo.com/jobs/8385195002?gh_jid=8385195002",
     department: "",
     postedAt: "2026-01-21T20:53:46-05:00",
   },
@@ -829,8 +821,8 @@ export const jobs: Job[] = [
   {
     title: "Staff Product Designer",
     company: "Duolingo",
-    location: "New York, NY | Pittsburgh, PA",
-    url: "https://careers.duolingo.com/jobs/8200010002?gh_jid=8200010002",
+    location: "Pittsburgh, PA | New York, NY",
+    url: "https://careers.duolingo.com/jobs/8200009002?gh_jid=8200009002",
     department: "",
     postedAt: "2025-10-06T20:17:41-04:00",
   },
@@ -1275,16 +1267,6 @@ export const jobs: Job[] = [
     postedAt: "2025-09-12T23:39:38.961+00:00",
   },
 
-  // ── Head of Product Design & User Research ─────────────────
-  {
-    title: "Head of Product Design & User Research",
-    company: "Head of Product Design & User Research",
-    location: "San Francisco, CA",
-    url: "https://job-boards.greenhouse.io/amaehealth/jobs/4184954009",
-    department: "",
-    postedAt: "2026-03-17T17:38:38-04:00",
-  },
-
   // ── Hebbia ─────────────────────────────────────────────────
   {
     title: "Brand Designer",
@@ -1573,6 +1555,14 @@ export const jobs: Job[] = [
     url: "https://app.careerpuck.com/job-board/lyft/job/8503978002?gh_jid=8503978002",
     department: "",
     postedAt: "2026-04-13T15:01:20-04:00",
+  },
+  {
+    title: "Senior Illustrator, Design Foundations & AI Transformation",
+    company: "Lyft",
+    location: "New York, NY; San Francisco, CA",
+    url: "https://app.careerpuck.com/job-board/lyft/job/8532132002?gh_jid=8532132002",
+    department: "",
+    postedAt: "2026-04-30T20:36:58-04:00",
   },
   {
     title: "Senior Product Designer, Driver",
@@ -1983,16 +1973,6 @@ export const jobs: Job[] = [
     postedAt: "2026-02-25T18:18:51-05:00",
   },
 
-  // ── RegScale ───────────────────────────────────────────────
-  {
-    title: "UX Designer",
-    company: "RegScale",
-    location: "Remote",
-    url: "https://job-boards.greenhouse.io/regscale/jobs/5113183007",
-    department: "",
-    postedAt: "2026-04-17T16:30:00-04:00",
-  },
-
   // ── Replit ─────────────────────────────────────────────────
   {
     title: "Design Engineer",
@@ -2333,6 +2313,14 @@ export const jobs: Job[] = [
     postedAt: "2026-04-20T05:07:52-04:00",
   },
   {
+    title: "Design Program Manager, AI",
+    company: "Stripe",
+    location: "US",
+    url: "https://stripe.com/jobs/search?gh_jid=7868564",
+    department: "",
+    postedAt: "2026-04-30T21:27:17-04:00",
+  },
+  {
     title: "Senior Staff Product Designer, Agentic Commerce",
     company: "Stripe",
     location: "SF, Seattle, New York, Remote in the US",
@@ -2550,14 +2538,6 @@ export const jobs: Job[] = [
   },
 
   // ── Waymo ──────────────────────────────────────────────────
-  {
-    title: "Senior Android Engineer, Depot UX",
-    company: "Waymo",
-    location: "Warsaw, Masovian Voivodeship",
-    url: "https://careers.withwaymo.com/jobs?gh_jid=7456602",
-    department: "",
-    postedAt: "2025-12-10T14:22:13-05:00",
-  },
   {
     title: "Senior Industrial Designer",
     company: "Waymo",
