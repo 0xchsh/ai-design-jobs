@@ -7,7 +7,7 @@ export type Job = {
   postedAt: string;
 };
 
-// Auto-updated by scraper — 2026-05-02
+// Auto-updated by scraper — 2026-05-03
 export const jobs: Job[] = [
   // ── Affirm ─────────────────────────────────────────────────
   {
@@ -473,16 +473,6 @@ export const jobs: Job[] = [
     url: "https://www.rubrik.com/company/careers/departments/job.7576642?gh_jid=7576642",
     department: "",
     postedAt: "2026-02-05T20:02:17-05:00",
-  },
-
-  // ── Careers & Jobs ─────────────────────────────────────────
-  {
-    title: "Senior Product Designer",
-    company: "Careers & Jobs",
-    location: "Tel Aviv | Sofia",
-    url: "https://www.yotpo.com/careers/gid-7552689?gh_jid=7552689",
-    department: "",
-    postedAt: "2026-01-21T08:04:07-05:00",
   },
 
   // ── Chime ──────────────────────────────────────────────────
@@ -1337,16 +1327,6 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/infisical/558d171f-9730-47d6-8d35-1026c2c3e316",
     department: "Marketing",
     postedAt: "2026-03-05T19:57:50.788+00:00",
-  },
-
-  // ── Kaizen Gaming Careers ──────────────────────────────────
-  {
-    title: "Senior Product Designer",
-    company: "Kaizen Gaming Careers",
-    location: "Thessaloniki, Greece | Athens, Greece",
-    url: "https://careers.kaizengaming.com/job-details/7602254003?gh_jid=7602254003",
-    department: "",
-    postedAt: "2026-01-23T11:30:24-05:00",
   },
 
   // ── Klaviyo ────────────────────────────────────────────────
