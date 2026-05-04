@@ -7,7 +7,7 @@ export type Job = {
   postedAt: string;
 };
 
-// Auto-updated by scraper — 2026-05-03
+// Auto-updated by scraper — 2026-05-04
 export const jobs: Job[] = [
   // ── Affirm ─────────────────────────────────────────────────
   {
@@ -195,7 +195,7 @@ export const jobs: Job[] = [
     postedAt: "2026-04-16T02:48:52-04:00",
   },
   {
-    title: "UI Developer",
+    title: "Senior UI Developer",
     company: "Bloomreach",
     location: "Czechia | Slovakia",
     url: "https://job-boards.greenhouse.io/bloomreach/jobs/7871035",
@@ -325,10 +325,10 @@ export const jobs: Job[] = [
   {
     title: "Integrated Designer (Digital & Motion)",
     company: "Brandtech+ (formerly known as OLIVER+)",
-    location: "South Africa (Remote)  | Mumbai, Maharashtra ",
-    url: "https://job-boards.greenhouse.io/brandtechplus/jobs/7830475",
+    location: "Mumbai, Maharashtra  | South Africa (Remote) ",
+    url: "https://job-boards.greenhouse.io/brandtechplus/jobs/7772632",
     department: "",
-    postedAt: "2026-04-20T04:09:56-04:00",
+    postedAt: "2026-04-20T03:11:56-04:00",
   },
   {
     title: "Integrated Designer (German/English Fluent)",
@@ -349,10 +349,10 @@ export const jobs: Job[] = [
   {
     title: "Senior Integrated Designer",
     company: "Brandtech+ (formerly known as OLIVER+)",
-    location: "Remote (México) | Colombia | Remote (Colombia)",
-    url: "https://job-boards.greenhouse.io/brandtechplus/jobs/7863465",
+    location: "Remote (Colombia) | Colombia | Remote (México)",
+    url: "https://job-boards.greenhouse.io/brandtechplus/jobs/7863499",
     department: "",
-    postedAt: "2026-04-28T19:07:15-04:00",
+    postedAt: "2026-04-28T19:07:17-04:00",
   },
   {
     title: "Senior Integrated Designer (Graphic Designer)",
@@ -381,20 +381,20 @@ export const jobs: Job[] = [
   {
     title: "Snr Integrated Designer",
     company: "Brandtech+ (formerly known as OLIVER+)",
-    location: "Remote (México) | Remote (Colombia)",
-    url: "https://job-boards.greenhouse.io/brandtechplus/jobs/7868407",
+    location: "Remote (Colombia) | Remote (México)",
+    url: "https://job-boards.greenhouse.io/brandtechplus/jobs/7868476",
     department: "",
-    postedAt: "2026-04-29T17:05:18-04:00",
+    postedAt: "2026-04-29T17:05:22-04:00",
   },
 
   // ── Braze ──────────────────────────────────────────────────
   {
     title: "Lead Design Engineer",
     company: "Braze",
-    location: "Austin | New York City | Chicago | San Francisco",
-    url: "https://boards.greenhouse.io/braze/jobs/7614563?gh_jid=7614563",
+    location: "New York City | San Francisco | Chicago | Austin",
+    url: "https://boards.greenhouse.io/braze/jobs/7592334?gh_jid=7592334",
     department: "",
-    postedAt: "2026-02-13T10:32:48-05:00",
+    postedAt: "2026-02-13T10:32:47-05:00",
   },
 
   // ── Brex ───────────────────────────────────────────────────
@@ -663,10 +663,10 @@ export const jobs: Job[] = [
   {
     title: "Sr. Product Designer, AI/BI",
     company: "Databricks",
-    location: "Mountain View, California; San Francisco, California | Seattle, Washington",
-    url: "https://databricks.com/company/careers/open-positions/job?gh_jid=8429978002",
+    location: "Seattle, Washington | Mountain View, California; San Francisco, California",
+    url: "https://databricks.com/company/careers/open-positions/job?gh_jid=8428820002",
     department: "",
-    postedAt: "2026-02-19T13:08:38-05:00",
+    postedAt: "2026-02-19T13:08:36-05:00",
   },
   {
     title: "Sr. Product Designer, Enterprise Platform",
@@ -1117,16 +1117,6 @@ export const jobs: Job[] = [
     postedAt: "2026-02-27T14:02:17-05:00",
   },
 
-  // ── Govini ─────────────────────────────────────────────────
-  {
-    title: "Senior Product Designer",
-    company: "Govini",
-    location: "Pittsburgh, Pennsylvania, United States",
-    url: "https://job-boards.greenhouse.io/govini/jobs/4195630009",
-    department: "",
-    postedAt: "2026-03-25T15:05:57-04:00",
-  },
-
   // ── gumloop ────────────────────────────────────────────────
   {
     title: "Brand Designer",
@@ -1329,6 +1319,16 @@ export const jobs: Job[] = [
     postedAt: "2026-03-05T19:57:50.788+00:00",
   },
 
+  // ── Kaizen Gaming Careers ──────────────────────────────────
+  {
+    title: "Senior Product Designer",
+    company: "Kaizen Gaming Careers",
+    location: "Thessaloniki, Greece | Athens, Greece",
+    url: "https://careers.kaizengaming.com/job-details/7602254003?gh_jid=7602254003",
+    department: "",
+    postedAt: "2026-01-23T11:30:24-05:00",
+  },
+
   // ── Klaviyo ────────────────────────────────────────────────
   {
     title: "Lead Product Designer",
@@ -1381,26 +1381,6 @@ export const jobs: Job[] = [
     url: "https://job-boards.greenhouse.io/launchdarkly/jobs/7629005003",
     department: "",
     postedAt: "2026-02-11T17:16:28-05:00",
-  },
-
-  // ── Level AI ───────────────────────────────────────────────
-  {
-    title: "Senior Product Designer",
-    company: "Level AI",
-    location: "Noida",
-    url: "https://jobs.lever.co/levelai/c700e4da-1a3f-4917-898e-0f04c6b5e625",
-    department: "Product",
-    postedAt: "2026-04-01T18:04:05.969Z",
-  },
-
-  // ── lexroom ────────────────────────────────────────────────
-  {
-    title: "Visual Designer",
-    company: "lexroom",
-    location: "Milan",
-    url: "https://jobs.ashbyhq.com/lexroom/2636cbd9-b4bf-4467-becb-193994c89875",
-    department: "Brand",
-    postedAt: "2026-04-28T15:46:10.695+00:00",
   },
 
   // ── Lindy ──────────────────────────────────────────────────
@@ -1521,10 +1501,10 @@ export const jobs: Job[] = [
   {
     title: "Senior Design Program Manager, Design Foundations & AI Transformation",
     company: "Lyft",
-    location: "San Francisco, CA | New York, NY",
-    url: "https://app.careerpuck.com/job-board/lyft/job/8503978002?gh_jid=8503978002",
+    location: "New York, NY | San Francisco, CA",
+    url: "https://app.careerpuck.com/job-board/lyft/job/8504066002?gh_jid=8504066002",
     department: "",
-    postedAt: "2026-04-13T15:01:20-04:00",
+    postedAt: "2026-04-13T15:01:21-04:00",
   },
   {
     title: "Senior Illustrator, Design Foundations & AI Transformation",
@@ -2243,6 +2223,14 @@ export const jobs: Job[] = [
 
   // ── Stripe ─────────────────────────────────────────────────
   {
+    title: "Art Director - Team Lead (SDC)",
+    company: "Stripe",
+    location: "Bengaluru",
+    url: "https://stripe.com/jobs/search?gh_jid=7823683",
+    department: "",
+    postedAt: "2026-05-04T05:30:14-04:00",
+  },
+  {
     title: "Brand Designer, Creative Labs",
     company: "Stripe",
     location: "NYC",
@@ -2257,22 +2245,6 @@ export const jobs: Job[] = [
     url: "https://stripe.com/jobs/search?gh_jid=7721132",
     department: "",
     postedAt: "2026-04-27T23:06:00-04:00",
-  },
-  {
-    title: "Creative Design Operations Associate (Motion)",
-    company: "Stripe",
-    location: "Bengaluru",
-    url: "https://stripe.com/jobs/search?gh_jid=7824139",
-    department: "",
-    postedAt: "2026-04-20T05:10:47-04:00",
-  },
-  {
-    title: "Creative Design Operations Associate (Static)",
-    company: "Stripe",
-    location: "Bengaluru",
-    url: "https://stripe.com/jobs/search?gh_jid=7824143",
-    department: "",
-    postedAt: "2026-04-20T05:07:52-04:00",
   },
   {
     title: "Design Program Manager, AI",
@@ -2479,24 +2451,6 @@ export const jobs: Job[] = [
     url: "https://job-boards.greenhouse.io/vercel/jobs/5735407004",
     department: "",
     postedAt: "2026-01-09T19:30:55-05:00",
-  },
-
-  // ── viggle ─────────────────────────────────────────────────
-  {
-    title: "Creative Motion Designer",
-    company: "viggle",
-    location: "Toronto",
-    url: "https://jobs.ashbyhq.com/viggle/257701d8-83b6-4f9d-bdab-18950e62917f",
-    department: "Growth",
-    postedAt: "2026-03-27T18:37:18.043+00:00",
-  },
-  {
-    title: "Designer",
-    company: "viggle",
-    location: "Toronto",
-    url: "https://jobs.ashbyhq.com/viggle/a3edb383-9bf2-4152-99b1-05b18d2179cc",
-    department: "Engineering",
-    postedAt: "2025-04-28T06:26:25.597+00:00",
   },
 
   // ── Waymo ──────────────────────────────────────────────────
