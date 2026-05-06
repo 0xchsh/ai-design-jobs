@@ -7,7 +7,7 @@ export type Job = {
   postedAt: string;
 };
 
-// Auto-updated by scraper — 2026-05-05
+// Auto-updated by scraper — 2026-05-06
 export const jobs: Job[] = [
   // ── Affirm ─────────────────────────────────────────────────
   {
@@ -175,6 +175,16 @@ export const jobs: Job[] = [
     postedAt: "2026-02-27T17:11:24-05:00",
   },
 
+  // ── baselane ───────────────────────────────────────────────
+  {
+    title: "Senior Product Designer",
+    company: "baselane",
+    location: "Toronto",
+    url: "https://jobs.lever.co/baselane/8812ceb6-098a-48c2-b263-31aecb773a03",
+    department: "Product & Design",
+    postedAt: "2026-01-22T19:25:47.232Z",
+  },
+
   // ── Benchling ──────────────────────────────────────────────
   {
     title: "Product Designer, App Foundations",
@@ -339,6 +349,14 @@ export const jobs: Job[] = [
     postedAt: "2025-07-06T16:18:31-04:00",
   },
   {
+    title: "Motion Graphics Designer ",
+    company: "Brandtech+ (formerly known as OLIVER+)",
+    location: "South Africa (Remote)",
+    url: "https://job-boards.greenhouse.io/brandtechplus/jobs/7751534",
+    department: "",
+    postedAt: "2026-04-09T05:20:08-04:00",
+  },
+  {
     title: "Senior Designer (Social)",
     company: "Brandtech+ (formerly known as OLIVER+)",
     location: "South Africa Only (Remote)",
@@ -357,7 +375,7 @@ export const jobs: Job[] = [
   {
     title: "Senior Integrated Designer",
     company: "Brandtech+ (formerly known as OLIVER+)",
-    location: "Remote (México) | Colombia | Remote (Colombia)",
+    location: "Remote (México) | Remote (Colombia) | Colombia",
     url: "https://job-boards.greenhouse.io/brandtechplus/jobs/7863465",
     department: "",
     postedAt: "2026-04-28T19:07:15-04:00",
@@ -399,10 +417,10 @@ export const jobs: Job[] = [
   {
     title: "Lead Design Engineer",
     company: "Braze",
-    location: "San Francisco | Austin | Chicago | New York City",
-    url: "https://boards.greenhouse.io/braze/jobs/7614566?gh_jid=7614566",
+    location: "Chicago | Austin | San Francisco | New York City",
+    url: "https://boards.greenhouse.io/braze/jobs/7614562?gh_jid=7614562",
     department: "",
-    postedAt: "2026-02-13T10:32:49-05:00",
+    postedAt: "2026-02-13T10:32:48-05:00",
   },
 
   // ── Brex ───────────────────────────────────────────────────
@@ -597,6 +615,32 @@ export const jobs: Job[] = [
     postedAt: "2026-04-16T20:43:14.235+00:00",
   },
 
+  // ── console ────────────────────────────────────────────────
+  {
+    title: "Design Engineer",
+    company: "console",
+    location: "San Francisco (On-site)",
+    url: "https://jobs.ashbyhq.com/console/158ec72f-61b6-4701-b952-b2a230e957af",
+    department: "Engineering",
+    postedAt: "2025-09-15T00:50:19.625+00:00",
+  },
+  {
+    title: "Founding Brand Designer",
+    company: "console",
+    location: "San Francisco (On-site)",
+    url: "https://jobs.ashbyhq.com/console/d814ca2d-98d8-43f0-9e72-aba4c847332f",
+    department: "GTM",
+    postedAt: "2026-01-28T05:41:41.358+00:00",
+  },
+  {
+    title: "Sr. Product Designer",
+    company: "console",
+    location: "San Francisco (On-site)",
+    url: "https://jobs.ashbyhq.com/console/765f867f-cfda-419e-a493-ac3f897d1dad",
+    department: "Design",
+    postedAt: "2025-01-20T06:27:44.916+00:00",
+  },
+
   // ── Contentful ─────────────────────────────────────────────
   {
     title: "Product Designer",
@@ -735,10 +779,10 @@ export const jobs: Job[] = [
   {
     title: "Director of Product Design",
     company: "Duolingo",
-    location: "Pittsburgh, PA | New York, NY",
-    url: "https://careers.duolingo.com/jobs/8398180002?gh_jid=8398180002",
+    location: "New York, NY | Pittsburgh, PA",
+    url: "https://careers.duolingo.com/jobs/8398191002?gh_jid=8398191002",
     department: "",
-    postedAt: "2026-01-30T09:43:56-05:00",
+    postedAt: "2026-01-30T09:43:57-05:00",
   },
   {
     title: "Senior Design Sourcer",
@@ -827,22 +871,12 @@ export const jobs: Job[] = [
     postedAt: "2026-04-08T14:31:06-04:00",
   },
   {
-    title: "Staff Product Designer, Discovery Experience ",
+    title: "Staff Product Designer",
     company: "Faire",
     location: "New York City, NY; San Francisco, CA",
     url: "https://boards.greenhouse.io/faire/jobs/8445628002?gh_jid=8445628002",
     department: "",
     postedAt: "2026-03-02T18:38:24-05:00",
-  },
-
-  // ── fampay ─────────────────────────────────────────────────
-  {
-    title: "Senior Product Designer",
-    company: "fampay",
-    location: "Bengaluru",
-    url: "https://jobs.lever.co/fampay/71660518-13c5-48ee-826c-fa0963dfadfc",
-    department: "Design",
-    postedAt: "2026-03-19T11:35:47.896Z",
   },
 
   // ── Figma ──────────────────────────────────────────────────
@@ -1344,17 +1378,17 @@ export const jobs: Job[] = [
     title: "Product Designer",
     company: "Klaviyo",
     location: "Boston, MA",
-    url: "https://www.klaviyo.com/careers/jobs?gh_jid=7503712003",
+    url: "https://www.klaviyo.com/careers/jobs?gh_jid=7708678003",
     department: "",
-    postedAt: "2025-10-24T15:05:56-04:00",
+    postedAt: "2026-05-05T14:49:59-04:00",
   },
   {
     title: "Senior Product Designer",
     company: "Klaviyo",
     location: "Boston, MA",
-    url: "https://www.klaviyo.com/careers/jobs?gh_jid=7503717003",
+    url: "https://www.klaviyo.com/careers/jobs?gh_jid=7720047003",
     department: "",
-    postedAt: "2025-10-21T10:50:00-04:00",
+    postedAt: "2026-05-05T10:54:54-04:00",
   },
 
   // ── Krea ───────────────────────────────────────────────────
@@ -1393,6 +1427,16 @@ export const jobs: Job[] = [
     url: "https://job-boards.greenhouse.io/launchdarkly/jobs/7629005003",
     department: "",
     postedAt: "2026-02-11T17:16:28-05:00",
+  },
+
+  // ── Level AI ───────────────────────────────────────────────
+  {
+    title: "Senior Product Designer",
+    company: "Level AI",
+    location: "Noida",
+    url: "https://jobs.lever.co/levelai/c700e4da-1a3f-4917-898e-0f04c6b5e625",
+    department: "Product",
+    postedAt: "2026-04-01T18:04:05.969Z",
   },
 
   // ── Lindy ──────────────────────────────────────────────────
@@ -1513,10 +1557,10 @@ export const jobs: Job[] = [
   {
     title: "Senior Design Program Manager, Design Foundations & AI Transformation",
     company: "Lyft",
-    location: "San Francisco, CA | New York, NY",
-    url: "https://app.careerpuck.com/job-board/lyft/job/8503978002?gh_jid=8503978002",
+    location: "New York, NY | San Francisco, CA",
+    url: "https://app.careerpuck.com/job-board/lyft/job/8504066002?gh_jid=8504066002",
     department: "",
-    postedAt: "2026-04-13T15:01:20-04:00",
+    postedAt: "2026-04-13T15:01:21-04:00",
   },
   {
     title: "Senior Illustrator, Design Foundations & AI Transformation",
@@ -1655,6 +1699,14 @@ export const jobs: Job[] = [
 
   // ── OpenAI ─────────────────────────────────────────────────
   {
+    title: "Art Director ",
+    company: "OpenAI",
+    location: "Remote - US",
+    url: "https://jobs.ashbyhq.com/openai/631796f2-73af-4b94-9679-38204182e677",
+    department: "Marketing",
+    postedAt: "2026-05-05T19:30:56.363+00:00",
+  },
+  {
     title: "Content Designer",
     company: "OpenAI",
     location: "San Francisco",
@@ -1757,32 +1809,6 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/openai/250c5184-edb5-49eb-bb7e-1ddb47f1140d",
     department: "Data Science",
     postedAt: "2026-02-09T17:04:53.099+00:00",
-  },
-  {
-    title: "Research Engineer/Scientist - Generative UI, Consumer Devices",
-    company: "OpenAI",
-    location: "San Francisco",
-    url: "https://jobs.ashbyhq.com/openai/8a99798d-eeb7-49b8-931c-2890a00837e8",
-    department: "Consumer Products",
-    postedAt: "2026-03-11T20:11:44.900+00:00",
-  },
-
-  // ── PadSplit ───────────────────────────────────────────────
-  {
-    title: "Product Designer (Fully Remote)",
-    company: "PadSplit",
-    location: "Atlanta, GA",
-    url: "https://jobs.lever.co/padsplit/d65ac87c-0d18-4229-9077-9c033d5bca3d",
-    department: "Product Design",
-    postedAt: "2026-01-30T14:45:48.344Z",
-  },
-  {
-    title: "Senior Product Designer (Fully Remote)",
-    company: "PadSplit",
-    location: "Atlanta, GA",
-    url: "https://jobs.lever.co/padsplit/82ea697a-ffad-404f-b1a5-af1922a425f3",
-    department: "Product Design",
-    postedAt: "2026-02-05T05:05:06.235Z",
   },
 
   // ── Palantir ───────────────────────────────────────────────
@@ -2205,32 +2231,6 @@ export const jobs: Job[] = [
     postedAt: "2026-04-25T19:00:46-04:00",
   },
 
-  // ── skydio ─────────────────────────────────────────────────
-  {
-    title: "Product Design Engineer (All Levels)",
-    company: "skydio",
-    location: "San Mateo, California, United States",
-    url: "https://jobs.ashbyhq.com/skydio/3f02ead1-8efe-4e3f-9c75-625e74ab57d1",
-    department: "R&D",
-    postedAt: "2026-02-09T22:17:52.938+00:00",
-  },
-  {
-    title: "RF Design Engineer",
-    company: "skydio",
-    location: "San Mateo, California, United States",
-    url: "https://jobs.ashbyhq.com/skydio/f72f1fa5-d3d6-459e-8722-a94ce92ad1c8",
-    department: "R&D",
-    postedAt: "2026-02-19T18:34:56.598+00:00",
-  },
-  {
-    title: "Senior Brand Designer (Contract)",
-    company: "skydio",
-    location: "San Mateo, California, United States",
-    url: "https://jobs.ashbyhq.com/skydio/5ae7e25f-7da3-4523-a8be-8866aa89e8df",
-    department: "Operations",
-    postedAt: "2026-01-07T00:21:31.150+00:00",
-  },
-
   // ── Snowflake ──────────────────────────────────────────────
   {
     title: "Senior Product Designer",
@@ -2335,6 +2335,14 @@ export const jobs: Job[] = [
     postedAt: "2026-04-30T21:27:17-04:00",
   },
   {
+    title: "Product Designer, Terminal",
+    company: "Stripe",
+    location: "Toronto",
+    url: "https://stripe.com/jobs/search?gh_jid=7894884",
+    department: "",
+    postedAt: "2026-05-05T12:01:57-04:00",
+  },
+  {
     title: "Senior Staff Product Designer, Agentic Commerce",
     company: "Stripe",
     location: "SF, Seattle, New York, Remote in the US",
@@ -2402,6 +2410,14 @@ export const jobs: Job[] = [
     department: "Product",
     postedAt: "2026-04-08T19:22:46.820+00:00",
   },
+  {
+    title: "Staff Product Designer",
+    company: "Suno",
+    location: "NYC",
+    url: "https://jobs.ashbyhq.com/suno/6b7837b7-72ec-46a3-9b21-74c1dfa997b6",
+    department: "Product",
+    postedAt: "2026-05-05T19:39:17.165+00:00",
+  },
 
   // ── Supabase ───────────────────────────────────────────────
   {
@@ -2421,6 +2437,16 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/synthesia/f16a63d9-4418-4ad3-b7e9-003e0bd1f051",
     department: "Commercial",
     postedAt: "2026-04-29T23:18:57.616+00:00",
+  },
+
+  // ── The Trade Desk ─────────────────────────────────────────
+  {
+    title: "Brand Art Director",
+    company: "The Trade Desk",
+    location: "New York",
+    url: "https://job-boards.greenhouse.io/thetradedesk/jobs/5096475007",
+    department: "",
+    postedAt: "2026-04-01T14:47:12-04:00",
   },
 
   // ── Together AI ────────────────────────────────────────────
@@ -2463,28 +2489,12 @@ export const jobs: Job[] = [
 
   // ── Typeface ───────────────────────────────────────────────
   {
-    title: "Product Design Intern",
-    company: "Typeface",
-    location: "Bellevue, WA",
-    url: "https://job-boards.greenhouse.io/typeface/jobs/4987351007",
-    department: "",
-    postedAt: "2025-11-19T17:08:18-05:00",
-  },
-  {
     title: "Staff Product Designer",
     company: "Typeface",
     location: "Palo Alto, CA ",
     url: "https://job-boards.greenhouse.io/typeface/jobs/4617046007",
     department: "",
     postedAt: "2025-01-08T09:59:18-05:00",
-  },
-  {
-    title: "Visual Design Intern",
-    company: "Typeface",
-    location: "Palo Alto, CA ",
-    url: "https://job-boards.greenhouse.io/typeface/jobs/4987356007",
-    department: "",
-    postedAt: "2025-11-19T14:09:47-05:00",
   },
   {
     title: "Visual Designer ",
