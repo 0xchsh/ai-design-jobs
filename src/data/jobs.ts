@@ -7,7 +7,7 @@ export type Job = {
   postedAt: string;
 };
 
-// Auto-updated by scraper — 2026-05-09
+// Auto-updated by scraper — 2026-05-10
 export const jobs: Job[] = [
   // ── Affirm ─────────────────────────────────────────────────
   {
@@ -689,16 +689,6 @@ export const jobs: Job[] = [
     postedAt: "2026-04-01T17:34:21-04:00",
   },
 
-  // ── crosby ─────────────────────────────────────────────────
-  {
-    title: "Product Design Lead",
-    company: "crosby",
-    location: "New York City",
-    url: "https://jobs.ashbyhq.com/crosby/bb995339-455b-443c-90a9-81dcf862a26c",
-    department: "Product",
-    postedAt: "2026-04-01T19:56:37.327+00:00",
-  },
-
   // ── Databricks ─────────────────────────────────────────────
   {
     title: "Manager, GTM Commissions Design",
@@ -983,16 +973,6 @@ export const jobs: Job[] = [
     url: "https://www.fivetran.com/careers/job?gh_jid=7618110003",
     department: "",
     postedAt: "2026-02-19T14:36:47-05:00",
-  },
-
-  // ── flowlife ───────────────────────────────────────────────
-  {
-    title: "Senior Interior Designer",
-    company: "flowlife",
-    location: "Bay Harbor Islands, FL",
-    url: "https://jobs.lever.co/flowlife/4ab653a7-0495-42dc-b59f-7690d6e95a14",
-    department: "Program Design & Development",
-    postedAt: "2026-01-09T21:24:52.580Z",
   },
 
   // ── FlutterFlow ────────────────────────────────────────────
@@ -1907,40 +1887,6 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/propel/a855d939-3394-439b-9fec-e2e5e3118892",
     department: "Design",
     postedAt: "2026-05-07T19:56:06.892+00:00",
-  },
-
-  // ── quince ─────────────────────────────────────────────────
-  {
-    title: "Senior Technical Designer, Apparel",
-    company: "quince",
-    location: "San Francisco, California, United States",
-    url: "https://job-boards.greenhouse.io/quince/jobs/5155685008",
-    department: "",
-    postedAt: "2026-03-16T22:02:13-04:00",
-  },
-  {
-    title: "Senior Technical Designer, Kids & Baby",
-    company: "quince",
-    location: "San Francisco, California, United States",
-    url: "https://job-boards.greenhouse.io/quince/jobs/5172243008",
-    department: "",
-    postedAt: "2026-03-31T19:08:06-04:00",
-  },
-  {
-    title: "Senior Technical Designer, Men's Suiting, Outerwear",
-    company: "quince",
-    location: "San Francisco, California, United States",
-    url: "https://job-boards.greenhouse.io/quince/jobs/5106332008",
-    department: "",
-    postedAt: "2026-02-04T23:19:50-05:00",
-  },
-  {
-    title: "Strategy & Operations - Interior Design",
-    company: "quince",
-    location: "Palo Alto, California, United States",
-    url: "https://job-boards.greenhouse.io/quince/jobs/5207198008",
-    department: "",
-    postedAt: "2026-04-30T20:41:47-04:00",
   },
 
   // ── Railway ────────────────────────────────────────────────
