@@ -7,7 +7,7 @@ export type Job = {
   postedAt: string;
 };
 
-// Auto-updated by scraper — 2026-05-16
+// Auto-updated by scraper — 2026-05-17
 export const jobs: Job[] = [
   // ── Affirm ─────────────────────────────────────────────────
   {
@@ -529,6 +529,16 @@ export const jobs: Job[] = [
     url: "https://job-boards.greenhouse.io/cresta/jobs/5173681008",
     department: "",
     postedAt: "2026-04-01T17:34:21-04:00",
+  },
+
+  // ── crosby ─────────────────────────────────────────────────
+  {
+    title: "Product Design Lead",
+    company: "crosby",
+    location: "New York City",
+    url: "https://jobs.ashbyhq.com/crosby/bb995339-455b-443c-90a9-81dcf862a26c",
+    department: "Product",
+    postedAt: "2026-04-01T19:56:37.327+00:00",
   },
 
   // ── Databricks ─────────────────────────────────────────────
@@ -1199,6 +1209,16 @@ export const jobs: Job[] = [
     postedAt: "2026-03-05T19:57:50.788+00:00",
   },
 
+  // ── Instrumentl ────────────────────────────────────────────
+  {
+    title: "Senior Product Designer",
+    company: "Instrumentl",
+    location: "Remote",
+    url: "https://jobs.lever.co/Instrumentl/ad8ecbe7-dbc1-474c-92f0-4fbf3ea4d9fd",
+    department: "Design",
+    postedAt: "2026-05-11T22:00:21.810Z",
+  },
+
   // ── Intercom ───────────────────────────────────────────────
   {
     title: "Staff Brand Designer",
@@ -1323,40 +1343,6 @@ export const jobs: Job[] = [
     postedAt: "2019-11-14T18:46:37.581Z",
   },
 
-  // ── lightspeedhq ───────────────────────────────────────────
-  {
-    title: "Content Designer II",
-    company: "lightspeedhq",
-    location: "Tbilisi | Yerevan",
-    url: "https://jobs.ashbyhq.com/lightspeedhq/af72addb-f7cd-4dcd-9275-c7239988bfb5",
-    department: "Product",
-    postedAt: "2026-05-07T14:41:52.018+00:00",
-  },
-  {
-    title: "Graphic Designer, Brand",
-    company: "lightspeedhq",
-    location: "Montreal",
-    url: "https://jobs.ashbyhq.com/lightspeedhq/1a180820-7a14-4687-8246-4401cb6d44d7",
-    department: "Marketing",
-    postedAt: "2026-04-27T16:39:01.926+00:00",
-  },
-  {
-    title: "Product Designer II, Wholesale Core",
-    company: "lightspeedhq",
-    location: "Montreal | Toronto",
-    url: "https://jobs.ashbyhq.com/lightspeedhq/50f0cb30-3e90-4893-9644-098a57237d19",
-    department: "Product",
-    postedAt: "2026-05-14T13:26:52.246+00:00",
-  },
-  {
-    title: "Senior Product Designer, Instore Selling",
-    company: "lightspeedhq",
-    location: "Toronto | Montreal",
-    url: "https://jobs.ashbyhq.com/lightspeedhq/4a60479c-7dd0-4c5d-90ad-99fdf1bf763b",
-    department: "Product",
-    postedAt: "2026-04-15T18:45:45.065+00:00",
-  },
-
   // ── Lindy ──────────────────────────────────────────────────
   {
     title: "Senior Product Designer",
@@ -1459,6 +1445,16 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/lovable/c394b8d2-bed1-442f-bda7-ae773840d53d",
     department: "Product",
     postedAt: "2025-11-17T21:13:18.880+00:00",
+  },
+
+  // ── Lucid Software ─────────────────────────────────────────
+  {
+    title: "UX Designer",
+    company: "Lucid Software",
+    location: "Raleigh, NC | Salt Lake City, UT",
+    url: "https://job-boards.greenhouse.io/lucidsoftware/jobs/5817343004",
+    department: "",
+    postedAt: "2026-03-02T18:30:47-05:00",
   },
 
   // ── Lyft ───────────────────────────────────────────────────
@@ -1985,40 +1981,6 @@ export const jobs: Job[] = [
     postedAt: "2026-05-04T15:07:35-04:00",
   },
 
-  // ── runway-ml ──────────────────────────────────────────────
-  {
-    title: "Art Director",
-    company: "runway-ml",
-    location: "Remote",
-    url: "https://jobs.ashbyhq.com/runway-ml/9847d13d-9f03-4060-bf62-f450e7a049bc",
-    department: "Marketing & Creative",
-    postedAt: "2026-04-10T21:14:36.697+00:00",
-  },
-  {
-    title: "Creative Director",
-    company: "runway-ml",
-    location: "Remote",
-    url: "https://jobs.ashbyhq.com/runway-ml/0ea253c8-590b-4d5b-b72d-2ca08b2ee0e2",
-    department: "Marketing & Creative",
-    postedAt: "2026-04-10T20:43:18.896+00:00",
-  },
-  {
-    title: "Design Engineer",
-    company: "runway-ml",
-    location: "Remote",
-    url: "https://jobs.ashbyhq.com/runway-ml/92044f68-4957-4cf0-9590-98952732b219",
-    department: "Runway Labs",
-    postedAt: "2024-02-16T14:13:47.318+00:00",
-  },
-  {
-    title: "Sr./Staff Product Designer",
-    company: "runway-ml",
-    location: "Remote",
-    url: "https://jobs.ashbyhq.com/runway-ml/e0fec99f-ae6e-4f92-ac1a-7d227179261f",
-    department: "Product Design",
-    postedAt: "2023-08-31T19:41:06.375+00:00",
-  },
-
   // ── Scale AI ───────────────────────────────────────────────
   {
     title: "Product Designer, Global Public Sector",
@@ -2523,16 +2485,6 @@ export const jobs: Job[] = [
     url: "https://job-boards.greenhouse.io/xai/jobs/4879789007",
     department: "",
     postedAt: "2025-09-13T16:32:24-04:00",
-  },
-
-  // ── Y Soft ─────────────────────────────────────────────────
-  {
-    title: "Creative Specialist (Design & Video) ",
-    company: "Y Soft",
-    location: "Brno",
-    url: "https://job-boards.greenhouse.io/ysoftcorporation/jobs/7730150003",
-    department: "",
-    postedAt: "2026-05-11T08:52:27-04:00",
   },
 
   // ── Zoox ───────────────────────────────────────────────────
