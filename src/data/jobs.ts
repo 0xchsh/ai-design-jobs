@@ -7,7 +7,7 @@ export type Job = {
   postedAt: string;
 };
 
-// Auto-updated by scraper — 2026-05-17
+// Auto-updated by scraper — 2026-05-18
 export const jobs: Job[] = [
   // ── Affirm ─────────────────────────────────────────────────
   {
@@ -223,10 +223,10 @@ export const jobs: Job[] = [
   {
     title: "Senior UI Developer",
     company: "Bloomreach",
-    location: "Slovakia | Czechia",
-    url: "https://job-boards.greenhouse.io/bloomreach/jobs/7871036",
+    location: "Czechia | Slovakia",
+    url: "https://job-boards.greenhouse.io/bloomreach/jobs/7871035",
     department: "",
-    postedAt: "2026-04-30T10:35:39-04:00",
+    postedAt: "2026-04-30T10:33:16-04:00",
   },
 
   // ── Bolt ───────────────────────────────────────────────────
@@ -1270,9 +1270,9 @@ export const jobs: Job[] = [
     title: "Product Designer",
     company: "Klaviyo",
     location: "Boston, MA",
-    url: "https://www.klaviyo.com/careers/jobs?gh_jid=7708678003",
+    url: "https://www.klaviyo.com/careers/jobs?gh_jid=7503712003",
     department: "",
-    postedAt: "2026-05-05T14:49:59-04:00",
+    postedAt: "2025-10-24T15:05:56-04:00",
   },
   {
     title: "Senior Product Designer",
@@ -1483,24 +1483,6 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/mercor/fa165009-f687-48da-a141-ca49593336e5",
     department: "Engineering",
     postedAt: "2026-03-25T05:30:02.107+00:00",
-  },
-
-  // ── Merge API ──────────────────────────────────────────────
-  {
-    title: "Brand Designer",
-    company: "Merge API",
-    location: "New York, NY; San Francisco, CA",
-    url: "https://job-boards.greenhouse.io/merge/jobs/5034491004",
-    department: "",
-    postedAt: "2026-02-10T16:23:26-05:00",
-  },
-  {
-    title: "Product Designer",
-    company: "Merge API",
-    location: "New York City, NY",
-    url: "https://job-boards.greenhouse.io/merge/jobs/5746719004",
-    department: "",
-    postedAt: "2026-01-02T14:56:04-05:00",
   },
 
   // ── Mintlify ───────────────────────────────────────────────
@@ -1773,6 +1755,16 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/qualified-health-pbc/6a99d1e2-b17d-4e1a-8d40-417cdfb11fdd",
     department: "Product",
     postedAt: "2026-02-07T18:56:08.395+00:00",
+  },
+
+  // ── RADAR ──────────────────────────────────────────────────
+  {
+    title: "Lead Product Designer",
+    company: "RADAR",
+    location: "New York, NY",
+    url: "https://job-boards.greenhouse.io/radar/jobs/7921372",
+    department: "",
+    postedAt: "2026-05-15T17:44:29-04:00",
   },
 
   // ── Railway ────────────────────────────────────────────────
