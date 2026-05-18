@@ -47,6 +47,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <script
+          src="https://cdn.visitors.now/v.js"
+          data-token="22664fe4-9982-4d10-9319-6bb9a19e67dd"
+        ></script>
+      </head>
       <body className="antialiased">
         {children}
         {process.env.NODE_ENV === "development" && <Agentation />}
