@@ -7,7 +7,7 @@ export type Job = {
   postedAt: string;
 };
 
-// Auto-updated by scraper — 2026-05-23
+// Auto-updated by scraper — 2026-05-24
 export const jobs: Job[] = [
   // ── Affirm ─────────────────────────────────────────────────
   {
@@ -743,56 +743,6 @@ export const jobs: Job[] = [
     url: "https://job-boards.greenhouse.io/education/jobs/7476957",
     department: "",
     postedAt: "2026-01-15T19:08:05-05:00",
-  },
-
-  // ── Eliyan ─────────────────────────────────────────────────
-  {
-    title: "Digital - Digital Design Engineer (title will reflect experience)",
-    company: "Eliyan",
-    location: "Bay Area, Vancouver or Toronto",
-    url: "https://jobs.lever.co/eliyan/2bd2f619-b88a-4c99-8183-c71726a21d9c",
-    department: "Engineering",
-    postedAt: "2025-12-18T18:22:11.854Z",
-  },
-  {
-    title: "Digital - SerDes Digital Design Lead",
-    company: "Eliyan",
-    location: "Bay Area",
-    url: "https://jobs.lever.co/eliyan/808bcffb-e244-454a-a360-d9a57d80d0f4",
-    department: "Engineering",
-    postedAt: "2026-02-20T20:01:58.536Z",
-  },
-  {
-    title: "Digital - Staff Digital Design Engineer - PHY",
-    company: "Eliyan",
-    location: "Bay Area, Vancouver or Toronto",
-    url: "https://jobs.lever.co/eliyan/1ea86733-e4f2-4971-829f-cba324f4cf8b",
-    department: "Engineering",
-    postedAt: "2025-12-23T17:37:40.213Z",
-  },
-  {
-    title: "PD - IP Lead – Sr Staff, Physical Design",
-    company: "Eliyan",
-    location: "Bay Area",
-    url: "https://jobs.lever.co/eliyan/6bc78a76-542c-4f81-9255-410643d0290d",
-    department: "Engineering",
-    postedAt: "2026-02-09T17:19:59.568Z",
-  },
-  {
-    title: "PD - Principal, Physical Design",
-    company: "Eliyan",
-    location: "Bay Area",
-    url: "https://jobs.lever.co/eliyan/2063125a-3861-433e-9822-cd341889252a",
-    department: "Engineering",
-    postedAt: "2026-02-09T17:29:10.879Z",
-  },
-  {
-    title: "PD - Sr Staff  — CAD & Design Methodology | RTL-to-GDSII Flow | Advanced Node Methodology |",
-    company: "Eliyan",
-    location: "Bay Area",
-    url: "https://jobs.lever.co/eliyan/4c74e7c0-5215-4cee-996d-d7c689ee9f5f",
-    department: "Engineering",
-    postedAt: "2026-05-11T23:28:09.024Z",
   },
 
   // ── Factory ────────────────────────────────────────────────
@@ -1781,6 +1731,16 @@ export const jobs: Job[] = [
     postedAt: "2025-04-03T18:13:34.536Z",
   },
 
+  // ── pandektes ──────────────────────────────────────────────
+  {
+    title: "Senior Product Designer ",
+    company: "pandektes",
+    location: "Copenhagen",
+    url: "https://jobs.ashbyhq.com/pandektes/e8b0ad19-66b7-4e1c-b5cf-3d6346009d19",
+    department: "Product & Engineering",
+    postedAt: "2026-05-18T15:10:27.639+00:00",
+  },
+
   // ── Pinterest ──────────────────────────────────────────────
   {
     title: "Sr. Product Designer, Measurement & Conversion",
@@ -2119,40 +2079,6 @@ export const jobs: Job[] = [
     postedAt: "2026-04-25T19:00:46-04:00",
   },
 
-  // ── skydio ─────────────────────────────────────────────────
-  {
-    title: "Product Design Engineer (All Levels)",
-    company: "skydio",
-    location: "San Mateo, California, United States",
-    url: "https://jobs.ashbyhq.com/skydio/3f02ead1-8efe-4e3f-9c75-625e74ab57d1",
-    department: "R&D",
-    postedAt: "2026-02-09T22:17:52.938+00:00",
-  },
-  {
-    title: "RF Design Engineer",
-    company: "skydio",
-    location: "San Mateo, California, United States",
-    url: "https://jobs.ashbyhq.com/skydio/f72f1fa5-d3d6-459e-8722-a94ce92ad1c8",
-    department: "R&D",
-    postedAt: "2026-02-19T18:34:56.598+00:00",
-  },
-  {
-    title: "Senior Brand Designer (Contract)",
-    company: "skydio",
-    location: "San Mateo, California, United States",
-    url: "https://jobs.ashbyhq.com/skydio/5ae7e25f-7da3-4523-a8be-8866aa89e8df",
-    department: "Operations",
-    postedAt: "2026-01-07T00:21:31.150+00:00",
-  },
-  {
-    title: "Senior RF Design Engineer",
-    company: "skydio",
-    location: "San Mateo, California, United States",
-    url: "https://jobs.ashbyhq.com/skydio/7bd047de-b65b-42b2-a2bf-7d33ceabd083",
-    department: "R&D",
-    postedAt: "2026-05-20T18:31:32.890+00:00",
-  },
-
   // ── Snowflake ──────────────────────────────────────────────
   {
     title: "Senior Product Design Manager, Observe by Snowflake",
@@ -2307,14 +2233,6 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/suno/e4b620ad-d1ba-410f-8042-4753c740e7cb",
     department: "Growth",
     postedAt: "2026-04-07T15:38:05.758+00:00",
-  },
-  {
-    title: "Senior Qualitative UX Researcher",
-    company: "Suno",
-    location: "San Francisco",
-    url: "https://jobs.ashbyhq.com/suno/487bc7df-f9e6-410d-b38c-58aeb08cf202",
-    department: "Product",
-    postedAt: "2026-04-08T19:22:46.820+00:00",
   },
   {
     title: "Staff Product Designer",
@@ -2509,32 +2427,6 @@ export const jobs: Job[] = [
     url: "https://jobs.lever.co/wisecode/83c3ce33-ad80-4c5b-a128-c55639d74620",
     department: "Product",
     postedAt: "2026-05-13T17:13:49.003Z",
-  },
-
-  // ── Workato ────────────────────────────────────────────────
-  {
-    title: "Creative Director, Product",
-    company: "Workato",
-    location: "Boston, Massachusetts; Denver, Colorado; New York, New York; Palo Alto, California; San Francisco, California",
-    url: "https://www.workato.com/careers?gh_jid=8513001002#open-roles",
-    department: "",
-    postedAt: "2026-05-19T13:26:25-04:00",
-  },
-  {
-    title: "Product Design Manager",
-    company: "Workato",
-    location: "Austin, Texas; Boston, Massachusetts; Denver, Colorado; New York, New York; Palo Alto, California",
-    url: "https://www.workato.com/careers?gh_jid=8533795002#open-roles",
-    department: "",
-    postedAt: "2026-05-19T13:13:34-04:00",
-  },
-  {
-    title: "Senior UX Designer",
-    company: "Workato",
-    location: "New York, New York; Palo Alto, California",
-    url: "https://www.workato.com/careers?gh_jid=8426434002#open-roles",
-    department: "",
-    postedAt: "2026-03-25T10:54:34-04:00",
   },
 
   // ── Writer ─────────────────────────────────────────────────
