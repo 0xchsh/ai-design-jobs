@@ -7,7 +7,7 @@ export type Job = {
   postedAt: string;
 };
 
-// Auto-updated by scraper — 2026-05-24
+// Auto-updated by scraper — 2026-05-25
 export const jobs: Job[] = [
   // ── Affirm ─────────────────────────────────────────────────
   {
@@ -327,10 +327,10 @@ export const jobs: Job[] = [
   {
     title: "Lead Design Engineer",
     company: "Braze",
-    location: "San Francisco | Austin | New York City | Chicago",
-    url: "https://boards.greenhouse.io/braze/jobs/7614566?gh_jid=7614566",
+    location: "New York City | Austin | San Francisco | Chicago",
+    url: "https://boards.greenhouse.io/braze/jobs/7592334?gh_jid=7592334",
     department: "",
-    postedAt: "2026-02-13T10:32:49-05:00",
+    postedAt: "2026-02-13T10:32:47-05:00",
   },
 
   // ── Brex ───────────────────────────────────────────────────
@@ -599,10 +599,10 @@ export const jobs: Job[] = [
   {
     title: "Sr. Product Designer, AI/BI",
     company: "Databricks",
-    location: "Mountain View, California; San Francisco, California | Seattle, Washington",
-    url: "https://databricks.com/company/careers/open-positions/job?gh_jid=8429978002",
+    location: "Seattle, Washington | Mountain View, California; San Francisco, California",
+    url: "https://databricks.com/company/careers/open-positions/job?gh_jid=8428820002",
     department: "",
-    postedAt: "2026-02-19T13:08:38-05:00",
+    postedAt: "2026-02-19T13:08:36-05:00",
   },
   {
     title: "Sr. Product Designer, Enterprise Platform",
@@ -1211,56 +1211,6 @@ export const jobs: Job[] = [
     url: "https://job-boards.greenhouse.io/hightouch/jobs/5823458004",
     department: "",
     postedAt: "2026-03-10T16:26:31-04:00",
-  },
-
-  // ── hpiq ───────────────────────────────────────────────────
-  {
-    title: "Lead Intelligent Systems Designer",
-    company: "hpiq",
-    location: "San Francisco, CA",
-    url: "https://job-boards.greenhouse.io/hpiq/jobs/5424843004",
-    department: "",
-    postedAt: "2025-01-22T18:50:03-05:00",
-  },
-  {
-    title: "Senior Administrative Partner, Design",
-    company: "hpiq",
-    location: "San Francisco, CA",
-    url: "https://job-boards.greenhouse.io/hpiq/jobs/5850254004",
-    department: "",
-    postedAt: "2026-05-04T16:17:31-04:00",
-  },
-  {
-    title: "Senior Design Producer",
-    company: "hpiq",
-    location: "San Francisco, CA",
-    url: "https://job-boards.greenhouse.io/hpiq/jobs/5979617004",
-    department: "",
-    postedAt: "2026-05-04T18:41:29-04:00",
-  },
-  {
-    title: "Senior Digital Product Designer",
-    company: "hpiq",
-    location: "San Francisco, CA",
-    url: "https://job-boards.greenhouse.io/hpiq/jobs/5503714004",
-    department: "",
-    postedAt: "2025-05-05T21:25:16-04:00",
-  },
-  {
-    title: "Senior Product Design Engineer",
-    company: "hpiq",
-    location: "San Francisco, CA",
-    url: "https://job-boards.greenhouse.io/hpiq/jobs/5652426004",
-    department: "",
-    postedAt: "2025-09-16T20:24:21-04:00",
-  },
-  {
-    title: "Senior User Experience Designer & Architect ",
-    company: "hpiq",
-    location: "San Francisco, CA",
-    url: "https://job-boards.greenhouse.io/hpiq/jobs/5613885004",
-    department: "",
-    postedAt: "2025-08-08T10:59:23-04:00",
   },
 
   // ── Ideogram ───────────────────────────────────────────────
@@ -2074,9 +2024,9 @@ export const jobs: Job[] = [
     title: "Senior Product Designer, AI ",
     company: "Sigma Computing",
     location: "San Francisco, CA",
-    url: "https://job-boards.greenhouse.io/sigmacomputing/jobs/7714479003",
+    url: "https://job-boards.greenhouse.io/sigmacomputing/jobs/7747569003",
     department: "",
-    postedAt: "2026-04-25T19:00:46-04:00",
+    postedAt: "2026-05-25T00:16:44-04:00",
   },
 
   // ── Snowflake ──────────────────────────────────────────────
