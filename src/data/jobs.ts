@@ -7,7 +7,7 @@ export type Job = {
   postedAt: string;
 };
 
-// Auto-updated by scraper — 2026-05-30
+// Auto-updated by scraper — 2026-05-31
 export const jobs: Job[] = [
   // ── Affirm ─────────────────────────────────────────────────
   {
@@ -1191,7 +1191,7 @@ export const jobs: Job[] = [
 
   // ── Klaviyo ────────────────────────────────────────────────
   {
-    title: "Lead Product Designer ",
+    title: "Lead Product Designer, AI & Analytics",
     company: "Klaviyo",
     location: "Boston, MA",
     url: "https://www.klaviyo.com/careers/jobs?gh_jid=7636105003",
@@ -1231,24 +1231,6 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/krea/658fb41c-6cf8-49c7-bcd6-e68e0cc2a217",
     department: "Product",
     postedAt: "2026-01-24T17:26:05.773+00:00",
-  },
-
-  // ── lightspeedhq ───────────────────────────────────────────
-  {
-    title: "Content Designer II",
-    company: "lightspeedhq",
-    location: "Tbilisi | Yerevan",
-    url: "https://jobs.ashbyhq.com/lightspeedhq/af72addb-f7cd-4dcd-9275-c7239988bfb5",
-    department: "Product",
-    postedAt: "2026-05-07T14:41:52.018+00:00",
-  },
-  {
-    title: "Product Designer II, Wholesale Core",
-    company: "lightspeedhq",
-    location: "Montreal | Toronto",
-    url: "https://jobs.ashbyhq.com/lightspeedhq/50f0cb30-3e90-4893-9644-098a57237d19",
-    department: "Product",
-    postedAt: "2026-05-14T13:26:52.246+00:00",
   },
 
   // ── Linear ─────────────────────────────────────────────────
@@ -1409,6 +1391,16 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/netic/2b65d752-605f-4ccc-a25e-c7a8b18c191e",
     department: "Engineering, Product, and Design",
     postedAt: "2026-02-16T22:50:36.829+00:00",
+  },
+
+  // ── Neuron 7 ───────────────────────────────────────────────
+  {
+    title: "Lead Product Designer",
+    company: "Neuron 7",
+    location: "Bengaluru",
+    url: "https://jobs.lever.co/neuron7/ee70e6a6-898b-4a1a-ab33-49eb84d83594",
+    department: "Product Design",
+    postedAt: "2026-05-21T16:27:20.939Z",
   },
 
   // ── Noise Labs ─────────────────────────────────────────────
@@ -1677,6 +1669,16 @@ export const jobs: Job[] = [
     url: "https://job-boards.greenhouse.io/reddit/jobs/7701558",
     department: "",
     postedAt: "2026-03-10T17:57:04-04:00",
+  },
+
+  // ── RegScale ───────────────────────────────────────────────
+  {
+    title: "UX Designer",
+    company: "RegScale",
+    location: "Remote",
+    url: "https://job-boards.greenhouse.io/regscale/jobs/5113183007",
+    department: "",
+    postedAt: "2026-04-17T16:30:00-04:00",
   },
 
   // ── Replit ─────────────────────────────────────────────────
@@ -2119,6 +2121,24 @@ export const jobs: Job[] = [
     url: "https://jobs.lever.co/trellis/56eacd2c-5981-4614-a847-7e8d7de42cff",
     department: "Design",
     postedAt: "2026-03-26T19:47:06.078Z",
+  },
+
+  // ── trm-labs ───────────────────────────────────────────────
+  {
+    title: "Senior Brand Designer ",
+    company: "trm-labs",
+    location: "United States",
+    url: "https://jobs.ashbyhq.com/trm-labs/3a658a20-8030-4c40-8182-04634af7c9a8",
+    department: "GTM",
+    postedAt: "2026-05-06T18:24:09.913+00:00",
+  },
+  {
+    title: "Senior Product Designer",
+    company: "trm-labs",
+    location: "North America",
+    url: "https://jobs.ashbyhq.com/trm-labs/16660699-5a97-42da-a8b7-9b91f81cf199",
+    department: "R&D",
+    postedAt: "2025-12-19T15:08:36.021+00:00",
   },
 
   // ── Typeface ───────────────────────────────────────────────
