@@ -7,7 +7,7 @@ export type Job = {
   postedAt: string;
 };
 
-// Auto-updated by scraper — 2026-05-31
+// Auto-updated by scraper — 2026-06-01
 export const jobs: Job[] = [
   // ── Affirm ─────────────────────────────────────────────────
   {
@@ -277,10 +277,10 @@ export const jobs: Job[] = [
   {
     title: "Lead Design Engineer",
     company: "Braze",
-    location: "New York City | Austin | Chicago | San Francisco",
-    url: "https://boards.greenhouse.io/braze/jobs/7592334?gh_jid=7592334",
+    location: "Chicago | Austin | San Francisco | New York City",
+    url: "https://boards.greenhouse.io/braze/jobs/7614562?gh_jid=7614562",
     department: "",
-    postedAt: "2026-02-13T10:32:47-05:00",
+    postedAt: "2026-02-13T10:32:48-05:00",
   },
 
   // ── Brex ───────────────────────────────────────────────────
@@ -1713,24 +1713,6 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/replit/1baa97c3-46e0-497f-bd30-05a926162e07",
     department: "Design",
     postedAt: "2026-02-06T21:20:25.204+00:00",
-  },
-
-  // ── Revel ──────────────────────────────────────────────────
-  {
-    title: "Graphic Designer",
-    company: "Revel",
-    location: "Los Angeles",
-    url: "https://jobs.lever.co/revel/63c96bee-60ae-431f-902f-0f139434e26b",
-    department: "Design",
-    postedAt: "2026-04-28T20:42:08.635Z",
-  },
-  {
-    title: "Product Designer",
-    company: "Revel",
-    location: "Los Angeles",
-    url: "https://jobs.lever.co/revel/cae2b56a-8535-458d-931d-243887ed068e",
-    department: "Product",
-    postedAt: "2026-01-22T23:39:37.603Z",
   },
 
   // ── Robinhood ──────────────────────────────────────────────
