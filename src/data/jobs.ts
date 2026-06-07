@@ -7,7 +7,7 @@ export type Job = {
   postedAt: string;
 };
 
-// Auto-updated by scraper — 2026-06-06
+// Auto-updated by scraper — 2026-06-07
 export const jobs: Job[] = [
   // ── Affirm ─────────────────────────────────────────────────
   {
@@ -27,80 +27,6 @@ export const jobs: Job[] = [
     url: "https://job-boards.greenhouse.io/airtable/jobs/8455969002",
     department: "",
     postedAt: "2026-03-11T19:08:23-04:00",
-  },
-
-  // ── alfredbeneschco ────────────────────────────────────────
-  {
-    title: "Aviation Designer",
-    company: "alfredbeneschco",
-    location: "Kansas City, KS; Kansas City, MO; Manhattan, KS; Overland Park, KS; Topeka, KS; Wichita, KS | Lincoln, NE; Grand Island, NE; Omaha, NE; Bellevue, NE",
-    url: "https://www.benesch.com/job-openings/5088285007?gh_jid=5088285007",
-    department: "",
-    postedAt: "2026-03-24T15:06:05-04:00",
-  },
-  {
-    title: "Bridge Design Project Manager ",
-    company: "alfredbeneschco",
-    location: "Raleigh, NC | Boston, MA",
-    url: "https://www.benesch.com/job-openings/4771072007?gh_jid=4771072007",
-    department: "",
-    postedAt: "2025-06-24T16:56:46-04:00",
-  },
-  {
-    title: "Bridge Design Technical Manager ",
-    company: "alfredbeneschco",
-    location: "Raleigh, NC",
-    url: "https://www.benesch.com/job-openings/4771064007?gh_jid=4771064007",
-    department: "",
-    postedAt: "2025-06-24T17:01:26-04:00",
-  },
-  {
-    title: "Bridge Designer (EIT)",
-    company: "alfredbeneschco",
-    location: "Fort Worth, TX",
-    url: "https://www.benesch.com/job-openings/4655359007?gh_jid=4655359007",
-    department: "",
-    postedAt: "2025-02-18T13:28:17-05:00",
-  },
-  {
-    title: "Civil Designer",
-    company: "alfredbeneschco",
-    location: "Chicago, IL",
-    url: "https://www.benesch.com/job-openings/5096563007?gh_jid=5096563007",
-    department: "",
-    postedAt: "2026-04-06T13:02:17-04:00",
-  },
-  {
-    title: "Civil Site Designer II",
-    company: "alfredbeneschco",
-    location: "Charlotte, NC; Raleigh, NC; Wilmington, NC | Franklin, TN; Nashville, TN",
-    url: "https://www.benesch.com/job-openings/4100876007?gh_jid=4100876007",
-    department: "",
-    postedAt: "2023-10-11T18:04:28-04:00",
-  },
-  {
-    title: "Project Manager - Railroad Civil Track Design",
-    company: "alfredbeneschco",
-    location: "Remote",
-    url: "https://www.benesch.com/job-openings/4513377007?gh_jid=4513377007",
-    department: "",
-    postedAt: "2024-09-10T06:51:24-04:00",
-  },
-  {
-    title: "Roadway Design Technical Manager ",
-    company: "alfredbeneschco",
-    location: "Raleigh, NC",
-    url: "https://www.benesch.com/job-openings/4869556007?gh_jid=4869556007",
-    department: "",
-    postedAt: "2025-10-29T12:24:58-04:00",
-  },
-  {
-    title: "Transportation Design Practice Leader - Florida ",
-    company: "alfredbeneschco",
-    location: "Fort Lauderdale, FL; Jacksonville, FL; Miami, FL; Tampa, FL; Orlando, FL",
-    url: "https://www.benesch.com/job-openings/4840853007?gh_jid=4840853007",
-    department: "",
-    postedAt: "2025-08-29T13:27:48-04:00",
   },
 
   // ── Anthropic ──────────────────────────────────────────────
@@ -1865,6 +1791,24 @@ export const jobs: Job[] = [
     postedAt: "2026-05-25T00:16:44-04:00",
   },
 
+  // ── skio ───────────────────────────────────────────────────
+  {
+    title: "Product Designer",
+    company: "skio",
+    location: "San Francisco, New York, or Remote",
+    url: "https://jobs.lever.co/skio/0110e9f5-4640-4daf-bc53-da03d6a4e642",
+    department: "Product",
+    postedAt: "2026-01-12T16:24:14.734Z",
+  },
+  {
+    title: "UX Engineer",
+    company: "skio",
+    location: "San Francisco, New York, or Remote",
+    url: "https://jobs.lever.co/skio/ba7c8bc7-9692-47bd-b212-6f2a4cea0c70",
+    department: "Engineering",
+    postedAt: "2021-10-21T01:10:43.363Z",
+  },
+
   // ── Snowflake ──────────────────────────────────────────────
   {
     title: "Senior Product Design Manager, Observe by Snowflake",
@@ -2057,16 +2001,6 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/synthesia/f16a63d9-4418-4ad3-b7e9-003e0bd1f051",
     department: "Commercial",
     postedAt: "2026-04-29T23:18:57.616+00:00",
-  },
-
-  // ── Taxbit ─────────────────────────────────────────────────
-  {
-    title: "Designer, Brand & Motion",
-    company: "Taxbit",
-    location: "San Francisco, California",
-    url: "https://job-boards.greenhouse.io/taxbit/jobs/6007613004",
-    department: "",
-    postedAt: "2026-05-27T16:28:24-04:00",
   },
 
   // ── Tessera Labs ───────────────────────────────────────────
