@@ -7,7 +7,7 @@ export type Job = {
   postedAt: string;
 };
 
-// Auto-updated by scraper — 2026-06-07
+// Auto-updated by scraper — 2026-06-08
 export const jobs: Job[] = [
   // ── Affirm ─────────────────────────────────────────────────
   {
@@ -27,6 +27,80 @@ export const jobs: Job[] = [
     url: "https://job-boards.greenhouse.io/airtable/jobs/8455969002",
     department: "",
     postedAt: "2026-03-11T19:08:23-04:00",
+  },
+
+  // ── alfredbeneschco ────────────────────────────────────────
+  {
+    title: "Aviation Designer",
+    company: "alfredbeneschco",
+    location: "Kansas City, KS; Kansas City, MO; Manhattan, KS; Overland Park, KS; Topeka, KS; Wichita, KS | Lincoln, NE; Grand Island, NE; Omaha, NE; Bellevue, NE",
+    url: "https://www.benesch.com/job-openings/5088285007?gh_jid=5088285007",
+    department: "",
+    postedAt: "2026-03-24T15:06:05-04:00",
+  },
+  {
+    title: "Bridge Design Project Manager ",
+    company: "alfredbeneschco",
+    location: "Raleigh, NC | Boston, MA",
+    url: "https://www.benesch.com/job-openings/4771072007?gh_jid=4771072007",
+    department: "",
+    postedAt: "2025-06-24T16:56:46-04:00",
+  },
+  {
+    title: "Bridge Design Technical Manager ",
+    company: "alfredbeneschco",
+    location: "Raleigh, NC",
+    url: "https://www.benesch.com/job-openings/4771064007?gh_jid=4771064007",
+    department: "",
+    postedAt: "2025-06-24T17:01:26-04:00",
+  },
+  {
+    title: "Bridge Designer (EIT)",
+    company: "alfredbeneschco",
+    location: "Fort Worth, TX",
+    url: "https://www.benesch.com/job-openings/4655359007?gh_jid=4655359007",
+    department: "",
+    postedAt: "2025-02-18T13:28:17-05:00",
+  },
+  {
+    title: "Civil Designer",
+    company: "alfredbeneschco",
+    location: "Chicago, IL",
+    url: "https://www.benesch.com/job-openings/5096563007?gh_jid=5096563007",
+    department: "",
+    postedAt: "2026-04-06T13:02:17-04:00",
+  },
+  {
+    title: "Civil Site Designer II",
+    company: "alfredbeneschco",
+    location: "Charlotte, NC; Raleigh, NC; Wilmington, NC | Franklin, TN; Nashville, TN",
+    url: "https://www.benesch.com/job-openings/4100876007?gh_jid=4100876007",
+    department: "",
+    postedAt: "2023-10-11T18:04:28-04:00",
+  },
+  {
+    title: "Project Manager - Railroad Civil Track Design",
+    company: "alfredbeneschco",
+    location: "Remote",
+    url: "https://www.benesch.com/job-openings/4513377007?gh_jid=4513377007",
+    department: "",
+    postedAt: "2024-09-10T06:51:24-04:00",
+  },
+  {
+    title: "Roadway Design Technical Manager ",
+    company: "alfredbeneschco",
+    location: "Raleigh, NC",
+    url: "https://www.benesch.com/job-openings/4869556007?gh_jid=4869556007",
+    department: "",
+    postedAt: "2025-10-29T12:24:58-04:00",
+  },
+  {
+    title: "Transportation Design Practice Leader - Florida ",
+    company: "alfredbeneschco",
+    location: "Fort Lauderdale, FL; Jacksonville, FL; Miami, FL; Tampa, FL; Orlando, FL",
+    url: "https://www.benesch.com/job-openings/4840853007?gh_jid=4840853007",
+    department: "",
+    postedAt: "2025-08-29T13:27:48-04:00",
   },
 
   // ── Anthropic ──────────────────────────────────────────────
@@ -205,7 +279,7 @@ export const jobs: Job[] = [
   {
     title: "Lead Design Engineer",
     company: "Braze",
-    location: "Austin | New York City | Chicago | San Francisco",
+    location: "Austin | San Francisco | Chicago | New York City",
     url: "https://boards.greenhouse.io/braze/jobs/7614563?gh_jid=7614563",
     department: "",
     postedAt: "2026-02-13T10:32:48-05:00",
@@ -593,6 +667,66 @@ export const jobs: Job[] = [
     url: "https://job-boards.greenhouse.io/education/jobs/7476957",
     department: "",
     postedAt: "2026-01-15T19:08:05-05:00",
+  },
+
+  // ── Eliyan ─────────────────────────────────────────────────
+  {
+    title: "Digital - Digital Design Engineer (title will reflect experience)",
+    company: "Eliyan",
+    location: "Bay Area, Vancouver or Toronto",
+    url: "https://jobs.lever.co/eliyan/2bd2f619-b88a-4c99-8183-c71726a21d9c",
+    department: "Engineering",
+    postedAt: "2025-12-18T18:22:11.854Z",
+  },
+  {
+    title: "Digital - SerDes Digital Design Lead",
+    company: "Eliyan",
+    location: "Bay Area",
+    url: "https://jobs.lever.co/eliyan/808bcffb-e244-454a-a360-d9a57d80d0f4",
+    department: "Engineering",
+    postedAt: "2026-02-20T20:01:58.536Z",
+  },
+  {
+    title: "Digital - Staff Digital Design Engineer - PHY",
+    company: "Eliyan",
+    location: "Bay Area, Vancouver or Toronto",
+    url: "https://jobs.lever.co/eliyan/1ea86733-e4f2-4971-829f-cba324f4cf8b",
+    department: "Engineering",
+    postedAt: "2025-12-23T17:37:40.213Z",
+  },
+  {
+    title: "PD - IP Lead – Sr Staff, Physical Design",
+    company: "Eliyan",
+    location: "Bay Area",
+    url: "https://jobs.lever.co/eliyan/6bc78a76-542c-4f81-9255-410643d0290d",
+    department: "Engineering",
+    postedAt: "2026-02-09T17:19:59.568Z",
+  },
+  {
+    title: "PD - Principal, Physical Design",
+    company: "Eliyan",
+    location: "Bay Area",
+    url: "https://jobs.lever.co/eliyan/2063125a-3861-433e-9822-cd341889252a",
+    department: "Engineering",
+    postedAt: "2026-02-09T17:29:10.879Z",
+  },
+  {
+    title: "PD - Sr Staff  — CAD & Design Methodology | RTL-to-GDSII Flow | Advanced Node Methodology |",
+    company: "Eliyan",
+    location: "Bay Area",
+    url: "https://jobs.lever.co/eliyan/4c74e7c0-5215-4cee-996d-d7c689ee9f5f",
+    department: "Engineering",
+    postedAt: "2026-05-11T23:28:09.024Z",
+  },
+
+  // ── Ethena ─────────────────────────────────────────────────
+  {
+    title: "Principal Product Designer",
+    company: "Ethena",
+    location: "Remote",
+    url: "https://jobs.lever.co/ethena/448fe98a-0075-4615-8a78-3c059aedccc5",
+    department: "Design",
+    postedAt: "2026-05-14T22:43:27.479Z",
   },
 
   // ── Factory ────────────────────────────────────────────────
@@ -1053,6 +1187,32 @@ export const jobs: Job[] = [
     postedAt: "2026-03-10T16:26:31-04:00",
   },
 
+  // ── hiive ──────────────────────────────────────────────────
+  {
+    title: "Director of Product Design",
+    company: "hiive",
+    location: "Vancouver, BC (HQ)",
+    url: "https://jobs.ashbyhq.com/hiive/50db0972-912f-4aa1-81bd-9bd8ed1f267c",
+    department: "Product Design",
+    postedAt: "2026-01-23T04:07:50.748+00:00",
+  },
+  {
+    title: "Product Designer",
+    company: "hiive",
+    location: "Vancouver, BC (HQ)",
+    url: "https://jobs.ashbyhq.com/hiive/574d0653-6f71-4d82-9f11-05d74c003c07",
+    department: "Product Design",
+    postedAt: "2026-02-04T18:43:14.026+00:00",
+  },
+  {
+    title: "Senior Product Designer",
+    company: "hiive",
+    location: "Vancouver, BC (HQ)",
+    url: "https://jobs.ashbyhq.com/hiive/df677d5d-0150-4e46-9372-917731143cda",
+    department: "Product Design",
+    postedAt: "2026-02-04T18:42:55.260+00:00",
+  },
+
   // ── Ideogram ───────────────────────────────────────────────
   {
     title: "Technical Brand Designer",
@@ -1253,10 +1413,10 @@ export const jobs: Job[] = [
   {
     title: "Senior Design Program Manager, Design Foundations & AI Transformation",
     company: "Lyft",
-    location: "San Francisco, CA | New York, NY",
-    url: "https://app.careerpuck.com/job-board/lyft/job/8503978002?gh_jid=8503978002",
+    location: "New York, NY | San Francisco, CA",
+    url: "https://app.careerpuck.com/job-board/lyft/job/8504066002?gh_jid=8504066002",
     department: "",
-    postedAt: "2026-04-13T15:01:20-04:00",
+    postedAt: "2026-04-13T15:01:21-04:00",
   },
   {
     title: "Senior Illustrator, Design Foundations & AI Transformation",
@@ -1301,24 +1461,6 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/netic/2b65d752-605f-4ccc-a25e-c7a8b18c191e",
     department: "Engineering, Product, and Design",
     postedAt: "2026-02-16T22:50:36.829+00:00",
-  },
-
-  // ── neye-systems-inc. ──────────────────────────────────────
-  {
-    title: "Senior MEMS Design Engineer",
-    company: "neye-systems-inc.",
-    location: "Santa Clara, CA",
-    url: "https://jobs.lever.co/neye-systems-inc./264c07fb-2f23-4a7e-8d81-c77aa65deb15",
-    department: "Product Development",
-    postedAt: "2025-10-21T17:10:54.504Z",
-  },
-  {
-    title: "Senior Silicon Photonics Designer",
-    company: "neye-systems-inc.",
-    location: "Santa Clara, CA",
-    url: "https://jobs.lever.co/neye-systems-inc./d4e7b314-316a-43cf-95b4-e0a5f8160cd3",
-    department: "Product Development",
-    postedAt: "2026-03-12T17:31:29.453Z",
   },
 
   // ── Noise Labs ─────────────────────────────────────────────
@@ -1467,16 +1609,6 @@ export const jobs: Job[] = [
     postedAt: "2025-04-03T18:13:34.536Z",
   },
 
-  // ── pandektes ──────────────────────────────────────────────
-  {
-    title: "Senior Product Designer ",
-    company: "pandektes",
-    location: "Copenhagen",
-    url: "https://jobs.ashbyhq.com/pandektes/e8b0ad19-66b7-4e1c-b5cf-3d6346009d19",
-    department: "Product & Engineering",
-    postedAt: "2026-05-18T15:10:27.639+00:00",
-  },
-
   // ── Perplexity ─────────────────────────────────────────────
   {
     title: "Member of Creative Studio (Motion Designer)",
@@ -1589,6 +1721,16 @@ export const jobs: Job[] = [
     url: "https://job-boards.greenhouse.io/reddit/jobs/7624178",
     department: "",
     postedAt: "2026-02-25T18:18:51-05:00",
+  },
+
+  // ── RegScale ───────────────────────────────────────────────
+  {
+    title: "UX Designer",
+    company: "RegScale",
+    location: "Remote",
+    url: "https://job-boards.greenhouse.io/regscale/jobs/5113183007",
+    department: "",
+    postedAt: "2026-04-17T16:30:00-04:00",
   },
 
   // ── Replit ─────────────────────────────────────────────────
@@ -1817,6 +1959,14 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/snowflake/5f82009a-104d-49e6-ad0d-b3924a3a1a48",
     department: "Product Management",
     postedAt: "2026-04-03T16:26:45.259+00:00",
+  },
+  {
+    title: "Senior Product Designer",
+    company: "Snowflake",
+    location: "US-WA-Bellevue",
+    url: "https://jobs.ashbyhq.com/snowflake/17502002-8d67-4697-aeb8-b6555ebb7094",
+    department: "Product Management",
+    postedAt: "2026-06-08T02:53:46.042+00:00",
   },
   {
     title: "Senior Product Designer, Observe by Snowflake",
