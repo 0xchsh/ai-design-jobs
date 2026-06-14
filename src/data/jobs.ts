@@ -7,7 +7,7 @@ export type Job = {
   postedAt: string;
 };
 
-// Auto-updated by scraper — 2026-06-13
+// Auto-updated by scraper — 2026-06-14
 export const jobs: Job[] = [
   // ── Affirm ─────────────────────────────────────────────────
   {
@@ -183,6 +183,14 @@ export const jobs: Job[] = [
     postedAt: "2026-06-12T16:46:34-04:00",
   },
   {
+    title: "Designer",
+    company: "Asana",
+    location: "Warsaw",
+    url: "https://www.asana.com/jobs/apply/7587002?gh_jid=7587002",
+    department: "",
+    postedAt: "2026-06-13T19:47:18-04:00",
+  },
+  {
     title: "Digital Designer",
     company: "Asana",
     location: "San Francisco",
@@ -205,6 +213,48 @@ export const jobs: Job[] = [
     url: "https://www.asana.com/jobs/apply/7952123?gh_jid=7952123",
     department: "",
     postedAt: "2026-06-11T15:07:58-04:00",
+  },
+
+  // ── ashby ──────────────────────────────────────────────────
+  {
+    title: "Design Engineer, Americas",
+    company: "ashby",
+    location: "Remote - US",
+    url: "https://jobs.ashbyhq.com/ashby/fd86edd7-3af0-4977-a61a-215212c296fa",
+    department: "Engineering",
+    postedAt: "2026-06-12T21:11:08.658+00:00",
+  },
+  {
+    title: "Junior Design Engineer, Americas",
+    company: "ashby",
+    location: "Remote - US",
+    url: "https://jobs.ashbyhq.com/ashby/aa872384-2ea3-4aab-b437-5133c8dbc446",
+    department: "Engineering",
+    postedAt: "2026-06-12T21:25:38.519+00:00",
+  },
+  {
+    title: "Senior Product Designer",
+    company: "ashby",
+    location: "Remote - US",
+    url: "https://jobs.ashbyhq.com/ashby/f40ef345-82a8-4956-9150-193b4fdf8183",
+    department: "Design",
+    postedAt: "2025-12-05T22:43:22.147+00:00",
+  },
+  {
+    title: "Staff Design Engineer, Americas",
+    company: "ashby",
+    location: "Remote - US",
+    url: "https://jobs.ashbyhq.com/ashby/cc846e56-27dd-41b5-bf5b-64d5eeb5ff1a",
+    department: "Engineering",
+    postedAt: "2025-11-14T01:04:25.832+00:00",
+  },
+  {
+    title: "Staff Product Designer",
+    company: "ashby",
+    location: "Remote - US",
+    url: "https://jobs.ashbyhq.com/ashby/2373fcd5-144b-4d66-a98b-dd0efb4eb9d1",
+    department: "Design",
+    postedAt: "2025-12-11T04:38:54.143+00:00",
   },
 
   // ── Benchling ──────────────────────────────────────────────
@@ -433,16 +483,6 @@ export const jobs: Job[] = [
     url: "https://boards.greenhouse.io/cloudflare/jobs/6998777?gh_jid=6998777",
     department: "",
     postedAt: "2025-06-20T12:34:51-04:00",
-  },
-
-  // ── Clozd ──────────────────────────────────────────────────
-  {
-    title: "Senior UX Designer",
-    company: "Clozd",
-    location: "Lehi, UT",
-    url: "https://jobs.lever.co/Clozd/0f604b31-8490-4886-9da2-13b7610d47fa",
-    department: "Product",
-    postedAt: "2026-05-18T18:04:53.030Z",
   },
 
   // ── Coframe ────────────────────────────────────────────────
@@ -731,24 +771,6 @@ export const jobs: Job[] = [
     url: "https://jobs.lever.co/ethena/448fe98a-0075-4615-8a78-3c059aedccc5",
     department: "Design",
     postedAt: "2026-05-14T22:43:27.479Z",
-  },
-
-  // ── exa ────────────────────────────────────────────────────
-  {
-    title: "Brand Designer",
-    company: "exa",
-    location: "San Francisco, California",
-    url: "https://jobs.ashbyhq.com/exa/7e52b8c9-255a-4848-a54a-efdc1fb25a69",
-    department: "Product",
-    postedAt: "2025-03-31T00:09:08.938+00:00",
-  },
-  {
-    title: "Design Engineer",
-    company: "exa",
-    location: "San Francisco, California",
-    url: "https://jobs.ashbyhq.com/exa/237cc096-2234-48ee-9c98-8c7221845484",
-    department: "Product",
-    postedAt: "2026-04-27T23:03:20.484+00:00",
   },
 
   // ── Factory ────────────────────────────────────────────────
@@ -1171,6 +1193,16 @@ export const jobs: Job[] = [
     url: "https://jobs.lever.co/Instrumentl/513688c0-2efa-442e-b4de-19f0da10519c",
     department: "Design",
     postedAt: "2026-06-08T20:06:41.790Z",
+  },
+
+  // ── Integrate ──────────────────────────────────────────────
+  {
+    title: "Design Engineer",
+    company: "Integrate",
+    location: "Seattle, WA",
+    url: "https://jobs.lever.co/integrate/5e21c3cb-f4a4-47e7-b0a5-26b62aaeea60",
+    department: "Product",
+    postedAt: "2026-05-01T20:20:27.120Z",
   },
 
   // ── Kaizen Gaming Careers ──────────────────────────────────
