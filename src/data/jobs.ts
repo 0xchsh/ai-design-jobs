@@ -7,7 +7,7 @@ export type Job = {
   postedAt: string;
 };
 
-// Auto-updated by scraper — 2026-06-14
+// Auto-updated by scraper — 2026-06-15
 export const jobs: Job[] = [
   // ── Affirm ─────────────────────────────────────────────────
   {
@@ -33,18 +33,18 @@ export const jobs: Job[] = [
   {
     title: "Aviation Designer",
     company: "alfredbeneschco",
-    location: "Kansas City, KS; Kansas City, MO; Manhattan, KS; Overland Park, KS; Topeka, KS; Wichita, KS | Lincoln, NE; Grand Island, NE; Omaha, NE; Bellevue, NE",
-    url: "https://www.benesch.com/job-openings/5088285007?gh_jid=5088285007",
+    location: "Lincoln, NE; Grand Island, NE; Omaha, NE; Bellevue, NE | Kansas City, KS; Kansas City, MO; Manhattan, KS; Overland Park, KS; Topeka, KS; Wichita, KS",
+    url: "https://www.benesch.com/job-openings/4988830007?gh_jid=4988830007",
     department: "",
-    postedAt: "2026-03-24T15:06:05-04:00",
+    postedAt: "2025-12-02T16:25:46-05:00",
   },
   {
     title: "Bridge Design Project Manager ",
     company: "alfredbeneschco",
-    location: "Boston, MA | Raleigh, NC",
-    url: "https://www.benesch.com/job-openings/4042776007?gh_jid=4042776007",
+    location: "Raleigh, NC | Boston, MA",
+    url: "https://www.benesch.com/job-openings/4771072007?gh_jid=4771072007",
     department: "",
-    postedAt: "2023-08-02T10:22:57-04:00",
+    postedAt: "2025-06-24T16:56:46-04:00",
   },
   {
     title: "Bridge Design Technical Manager ",
@@ -215,46 +215,14 @@ export const jobs: Job[] = [
     postedAt: "2026-06-11T15:07:58-04:00",
   },
 
-  // ── ashby ──────────────────────────────────────────────────
+  // ── assembledhq ────────────────────────────────────────────
   {
-    title: "Design Engineer, Americas",
-    company: "ashby",
-    location: "Remote - US",
-    url: "https://jobs.ashbyhq.com/ashby/fd86edd7-3af0-4977-a61a-215212c296fa",
-    department: "Engineering",
-    postedAt: "2026-06-12T21:11:08.658+00:00",
-  },
-  {
-    title: "Junior Design Engineer, Americas",
-    company: "ashby",
-    location: "Remote - US",
-    url: "https://jobs.ashbyhq.com/ashby/aa872384-2ea3-4aab-b437-5133c8dbc446",
-    department: "Engineering",
-    postedAt: "2026-06-12T21:25:38.519+00:00",
-  },
-  {
-    title: "Senior Product Designer",
-    company: "ashby",
-    location: "Remote - US",
-    url: "https://jobs.ashbyhq.com/ashby/f40ef345-82a8-4956-9150-193b4fdf8183",
-    department: "Design",
-    postedAt: "2025-12-05T22:43:22.147+00:00",
-  },
-  {
-    title: "Staff Design Engineer, Americas",
-    company: "ashby",
-    location: "Remote - US",
-    url: "https://jobs.ashbyhq.com/ashby/cc846e56-27dd-41b5-bf5b-64d5eeb5ff1a",
-    department: "Engineering",
-    postedAt: "2025-11-14T01:04:25.832+00:00",
-  },
-  {
-    title: "Staff Product Designer",
-    company: "ashby",
-    location: "Remote - US",
-    url: "https://jobs.ashbyhq.com/ashby/2373fcd5-144b-4d66-a98b-dd0efb4eb9d1",
-    department: "Design",
-    postedAt: "2025-12-11T04:38:54.143+00:00",
+    title: "Brand Designer",
+    company: "assembledhq",
+    location: "San Francisco, CA",
+    url: "https://jobs.ashbyhq.com/assembledhq/6d0d0a27-e694-4808-86a5-8fb7dee6eab3",
+    department: "Marketing",
+    postedAt: "2026-06-11T05:31:43.998+00:00",
   },
 
   // ── Benchling ──────────────────────────────────────────────
@@ -311,7 +279,7 @@ export const jobs: Job[] = [
   {
     title: "Lead Design Engineer",
     company: "Braze",
-    location: "San Francisco | Chicago | Austin | New York City",
+    location: "San Francisco | Austin | Chicago | New York City",
     url: "https://boards.greenhouse.io/braze/jobs/7614566?gh_jid=7614566",
     department: "",
     postedAt: "2026-02-13T10:32:49-05:00",
@@ -485,6 +453,16 @@ export const jobs: Job[] = [
     postedAt: "2025-06-20T12:34:51-04:00",
   },
 
+  // ── Clozd ──────────────────────────────────────────────────
+  {
+    title: "Senior UX Designer",
+    company: "Clozd",
+    location: "Lehi, UT",
+    url: "https://jobs.lever.co/Clozd/0f604b31-8490-4886-9da2-13b7610d47fa",
+    department: "Product",
+    postedAt: "2026-05-18T18:04:53.030Z",
+  },
+
   // ── Coframe ────────────────────────────────────────────────
   {
     title: "Senior Product Designer",
@@ -618,6 +596,14 @@ export const jobs: Job[] = [
   },
 
   // ── Datadog ────────────────────────────────────────────────
+  {
+    title: "Associate Product Designer",
+    company: "Datadog",
+    location: "New York, New York, USA",
+    url: "https://careers.datadoghq.com/detail/7346437/?gh_jid=7346437",
+    department: "",
+    postedAt: "2025-10-27T09:17:44-04:00",
+  },
   {
     title: "Director, User Research - Product Design",
     company: "Datadog",
@@ -1195,16 +1181,6 @@ export const jobs: Job[] = [
     postedAt: "2026-06-08T20:06:41.790Z",
   },
 
-  // ── Integrate ──────────────────────────────────────────────
-  {
-    title: "Design Engineer",
-    company: "Integrate",
-    location: "Seattle, WA",
-    url: "https://jobs.lever.co/integrate/5e21c3cb-f4a4-47e7-b0a5-26b62aaeea60",
-    department: "Product",
-    postedAt: "2026-05-01T20:20:27.120Z",
-  },
-
   // ── Kaizen Gaming Careers ──────────────────────────────────
   {
     title: "Senior Product Designer, Sportsbook",
@@ -1228,9 +1204,9 @@ export const jobs: Job[] = [
     title: "Product Designer",
     company: "Klaviyo",
     location: "Boston, MA",
-    url: "https://www.klaviyo.com/careers/jobs?gh_jid=7503712003",
+    url: "https://www.klaviyo.com/careers/jobs?gh_jid=7708678003",
     department: "",
-    postedAt: "2025-10-24T15:05:56-04:00",
+    postedAt: "2026-05-05T14:49:59-04:00",
   },
   {
     title: "Senior Product Designer",
@@ -1357,10 +1333,10 @@ export const jobs: Job[] = [
   {
     title: "Senior Design Program Manager, Design Foundations & AI Transformation",
     company: "Lyft",
-    location: "San Francisco, CA | New York, NY",
-    url: "https://app.careerpuck.com/job-board/lyft/job/8503978002?gh_jid=8503978002",
+    location: "New York, NY | San Francisco, CA",
+    url: "https://app.careerpuck.com/job-board/lyft/job/8504066002?gh_jid=8504066002",
     department: "",
-    postedAt: "2026-04-13T15:01:20-04:00",
+    postedAt: "2026-04-13T15:01:21-04:00",
   },
   {
     title: "Senior Illustrator, Design Foundations & AI Transformation",
@@ -2105,16 +2081,6 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/synthesia/f16a63d9-4418-4ad3-b7e9-003e0bd1f051",
     department: "Commercial",
     postedAt: "2026-04-29T23:18:57.616+00:00",
-  },
-
-  // ── Taxbit ─────────────────────────────────────────────────
-  {
-    title: "Designer, Brand & Motion",
-    company: "Taxbit",
-    location: "San Francisco, California",
-    url: "https://job-boards.greenhouse.io/taxbit/jobs/6007613004",
-    department: "",
-    postedAt: "2026-05-27T16:28:24-04:00",
   },
 
   // ── Tessera Labs ───────────────────────────────────────────
