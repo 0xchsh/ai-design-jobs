@@ -7,7 +7,7 @@ export type Job = {
   postedAt: string;
 };
 
-// Auto-updated by scraper — 2026-06-16
+// Auto-updated by scraper — 2026-06-17
 export const jobs: Job[] = [
   // ── Affirm ─────────────────────────────────────────────────
   {
@@ -41,10 +41,10 @@ export const jobs: Job[] = [
   {
     title: "Bridge Design Project Manager ",
     company: "alfredbeneschco",
-    location: "Boston, MA | Raleigh, NC",
-    url: "https://www.benesch.com/job-openings/4042776007?gh_jid=4042776007",
+    location: "Raleigh, NC | Boston, MA",
+    url: "https://www.benesch.com/job-openings/4771072007?gh_jid=4771072007",
     department: "",
-    postedAt: "2023-08-02T10:22:57-04:00",
+    postedAt: "2025-06-24T16:56:46-04:00",
   },
   {
     title: "Bridge Design Technical Manager ",
@@ -73,10 +73,10 @@ export const jobs: Job[] = [
   {
     title: "Civil Site Designer II",
     company: "alfredbeneschco",
-    location: "Franklin, TN; Nashville, TN | Charlotte, NC; Raleigh, NC; Wilmington, NC",
-    url: "https://www.benesch.com/job-openings/5146414007?gh_jid=5146414007",
+    location: "Charlotte, NC; Raleigh, NC; Wilmington, NC | Franklin, TN; Nashville, TN",
+    url: "https://www.benesch.com/job-openings/4100876007?gh_jid=4100876007",
     department: "",
-    postedAt: "2026-05-29T10:38:09-04:00",
+    postedAt: "2023-10-11T18:04:28-04:00",
   },
   {
     title: "Project Manager - Railroad Civil Track Design",
@@ -289,10 +289,10 @@ export const jobs: Job[] = [
   {
     title: "Lead Design Engineer",
     company: "Braze",
-    location: "Austin | Chicago | New York City | San Francisco",
-    url: "https://boards.greenhouse.io/braze/jobs/7614563?gh_jid=7614563",
+    location: "San Francisco | Chicago | New York City | Austin",
+    url: "https://boards.greenhouse.io/braze/jobs/7614566?gh_jid=7614566",
     department: "",
-    postedAt: "2026-02-13T10:32:48-05:00",
+    postedAt: "2026-02-13T10:32:49-05:00",
   },
 
   // ── Brex ───────────────────────────────────────────────────
@@ -537,6 +537,14 @@ export const jobs: Job[] = [
     postedAt: "2026-05-21T10:06:32-04:00",
   },
   {
+    title: "Sr. Manager, White Space Design",
+    company: "CoreWeave",
+    location: "Livingston, NJ / New York, NY / Sunnyvale, CA / San Francisco, CA / Bellevue, WA",
+    url: "https://coreweave.com/careers/job?4689896006&board=coreweave&gh_jid=4689896006",
+    department: "",
+    postedAt: "2026-06-16T17:26:57-04:00",
+  },
+  {
     title: "Sr. UI/UX Designer",
     company: "CoreWeave",
     location: "Livingston, NJ / New York, NY / Sunnyvale, CA / San Francisco, CA / Bellevue, WA / Dallas, TX",
@@ -701,56 +709,6 @@ export const jobs: Job[] = [
     postedAt: "2025-10-06T20:17:41-04:00",
   },
 
-  // ── Eliyan ─────────────────────────────────────────────────
-  {
-    title: "Digital - Digital Design Engineer (title will reflect experience)",
-    company: "Eliyan",
-    location: "Bay Area, Vancouver or Toronto",
-    url: "https://jobs.lever.co/eliyan/2bd2f619-b88a-4c99-8183-c71726a21d9c",
-    department: "Engineering",
-    postedAt: "2025-12-18T18:22:11.854Z",
-  },
-  {
-    title: "Digital - SerDes Digital Design Lead",
-    company: "Eliyan",
-    location: "Bay Area",
-    url: "https://jobs.lever.co/eliyan/808bcffb-e244-454a-a360-d9a57d80d0f4",
-    department: "Engineering",
-    postedAt: "2026-02-20T20:01:58.536Z",
-  },
-  {
-    title: "Digital - Staff Digital Design Engineer - PHY",
-    company: "Eliyan",
-    location: "Bay Area, Vancouver or Toronto",
-    url: "https://jobs.lever.co/eliyan/1ea86733-e4f2-4971-829f-cba324f4cf8b",
-    department: "Engineering",
-    postedAt: "2025-12-23T17:37:40.213Z",
-  },
-  {
-    title: "PD - IP Lead – Sr Staff, Physical Design",
-    company: "Eliyan",
-    location: "Bay Area",
-    url: "https://jobs.lever.co/eliyan/6bc78a76-542c-4f81-9255-410643d0290d",
-    department: "Engineering",
-    postedAt: "2026-02-09T17:19:59.568Z",
-  },
-  {
-    title: "PD - Principal, Physical Design",
-    company: "Eliyan",
-    location: "Bay Area",
-    url: "https://jobs.lever.co/eliyan/2063125a-3861-433e-9822-cd341889252a",
-    department: "Engineering",
-    postedAt: "2026-02-09T17:29:10.879Z",
-  },
-  {
-    title: "PD - Sr Staff  — CAD & Design Methodology | RTL-to-GDSII Flow | Advanced Node Methodology |",
-    company: "Eliyan",
-    location: "Bay Area",
-    url: "https://jobs.lever.co/eliyan/4c74e7c0-5215-4cee-996d-d7c689ee9f5f",
-    department: "Engineering",
-    postedAt: "2026-05-11T23:28:09.024Z",
-  },
-
   // ── Ethena ─────────────────────────────────────────────────
   {
     title: "Principal Product Designer",
@@ -909,10 +867,10 @@ export const jobs: Job[] = [
   {
     title: "Product Designer, AI Products",
     company: "Glean",
-    location: "San Francisco, CA | Mountain View, CA",
-    url: "https://job-boards.greenhouse.io/gleanwork/jobs/4577381005",
+    location: "Mountain View, CA | San Francisco, CA",
+    url: "https://job-boards.greenhouse.io/gleanwork/jobs/4696058005",
     department: "",
-    postedAt: "2025-10-29T11:29:40-04:00",
+    postedAt: "2026-05-15T13:20:43-04:00",
   },
 
   // ── GlossGenius ────────────────────────────────────────────
@@ -1053,7 +1011,7 @@ export const jobs: Job[] = [
   {
     title: "Staff Product Designer, Contractors",
     company: "Gusto",
-    location: "Denver, CO;San Francisco, CA;New York, NY;Los Angeles, CA;Seattle, WA;Toronto, Ontario, CAN - Remote",
+    location: "New York, NY; San Fransisco, CA ",
     url: "https://job-boards.greenhouse.io/gusto/jobs/7488373",
     department: "",
     postedAt: "2026-01-07T19:11:34-05:00",
@@ -1232,9 +1190,9 @@ export const jobs: Job[] = [
     title: "Product Designer",
     company: "Klaviyo",
     location: "Boston, MA",
-    url: "https://www.klaviyo.com/careers/jobs?gh_jid=7503712003",
+    url: "https://www.klaviyo.com/careers/jobs?gh_jid=7708678003",
     department: "",
-    postedAt: "2025-10-24T15:05:56-04:00",
+    postedAt: "2026-05-05T14:49:59-04:00",
   },
   {
     title: "Senior Product Designer",
@@ -1493,6 +1451,14 @@ export const jobs: Job[] = [
     postedAt: "2025-11-10T19:39:05.240+00:00",
   },
   {
+    title: "Lead Industrial Designer, Robotics",
+    company: "OpenAI",
+    location: "San Francisco",
+    url: "https://jobs.ashbyhq.com/openai/04a780c7-f672-43d1-9e73-37ce17b82403",
+    department: "Research",
+    postedAt: "2026-06-16T19:29:41.084+00:00",
+  },
+  {
     title: "Physical Design Engineer ",
     company: "OpenAI",
     location: "San Francisco",
@@ -1717,14 +1683,6 @@ export const jobs: Job[] = [
     url: "https://boards.greenhouse.io/robinhood/jobs/7511787?t=gh_src=&gh_jid=7511787",
     department: "",
     postedAt: "2026-01-06T15:48:23-05:00",
-  },
-  {
-    title: "Senior Product Designer, Crypto",
-    company: "Robinhood",
-    location: "Bellevue, WA; Menlo Park, CA; New York, NY",
-    url: "https://boards.greenhouse.io/robinhood/jobs/7940160?t=gh_src=&gh_jid=7940160",
-    department: "",
-    postedAt: "2026-06-09T12:03:05-04:00",
   },
   {
     title: "Staff Product Designer, Brokerage",
@@ -2095,16 +2053,6 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/tessera-labs/742eb648-a305-4da8-90fa-6d3af8e16f8d",
     department: "Product",
     postedAt: "2026-05-13T22:30:48.154+00:00",
-  },
-
-  // ── Thunkable ──────────────────────────────────────────────
-  {
-    title: "Product Designer",
-    company: "Thunkable",
-    location: "San Francisco, CA",
-    url: "https://jobs.lever.co/thunkable/9bbcc4b9-ee31-4921-b844-d8f1e0bc533f",
-    department: "Product Design",
-    postedAt: "2026-06-02T21:57:12.412Z",
   },
 
   // ── Together AI ────────────────────────────────────────────
