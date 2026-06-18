@@ -7,7 +7,7 @@ export type Job = {
   postedAt: string;
 };
 
-// Auto-updated by scraper — 2026-06-17
+// Auto-updated by scraper — 2026-06-18
 export const jobs: Job[] = [
   // ── Affirm ─────────────────────────────────────────────────
   {
@@ -33,10 +33,10 @@ export const jobs: Job[] = [
   {
     title: "Aviation Designer",
     company: "alfredbeneschco",
-    location: "Kansas City, KS; Kansas City, MO; Manhattan, KS; Overland Park, KS; Topeka, KS; Wichita, KS | Lincoln, NE; Grand Island, NE; Omaha, NE; Bellevue, NE",
-    url: "https://www.benesch.com/job-openings/5088285007?gh_jid=5088285007",
+    location: "Lincoln, NE; Grand Island, NE; Omaha, NE; Bellevue, NE | Kansas City, KS; Kansas City, MO; Manhattan, KS; Overland Park, KS; Topeka, KS; Wichita, KS",
+    url: "https://www.benesch.com/job-openings/4988830007?gh_jid=4988830007",
     department: "",
-    postedAt: "2026-03-24T15:06:05-04:00",
+    postedAt: "2025-12-02T16:25:46-05:00",
   },
   {
     title: "Bridge Design Project Manager ",
@@ -73,10 +73,18 @@ export const jobs: Job[] = [
   {
     title: "Civil Site Designer II",
     company: "alfredbeneschco",
-    location: "Charlotte, NC; Raleigh, NC; Wilmington, NC | Franklin, TN; Nashville, TN",
-    url: "https://www.benesch.com/job-openings/4100876007?gh_jid=4100876007",
+    location: "Franklin, TN; Nashville, TN | Charlotte, NC; Raleigh, NC; Wilmington, NC",
+    url: "https://www.benesch.com/job-openings/5146414007?gh_jid=5146414007",
     department: "",
-    postedAt: "2023-10-11T18:04:28-04:00",
+    postedAt: "2026-05-29T10:38:09-04:00",
+  },
+  {
+    title: "Director of Transportation Design ",
+    company: "alfredbeneschco",
+    location: "Fort Lauderdale, FL; Jacksonville, FL; Miami, FL; Tampa, FL; Orlando, FL",
+    url: "https://www.benesch.com/job-openings/4840853007?gh_jid=4840853007",
+    department: "",
+    postedAt: "2025-08-29T13:27:48-04:00",
   },
   {
     title: "Project Manager - Railroad Civil Track Design",
@@ -101,14 +109,6 @@ export const jobs: Job[] = [
     url: "https://www.benesch.com/job-openings/5154242007?gh_jid=5154242007",
     department: "",
     postedAt: "2026-06-09T14:59:22-04:00",
-  },
-  {
-    title: "Transportation Design Practice Leader - Florida ",
-    company: "alfredbeneschco",
-    location: "Fort Lauderdale, FL; Jacksonville, FL; Miami, FL; Tampa, FL; Orlando, FL",
-    url: "https://www.benesch.com/job-openings/4840853007?gh_jid=4840853007",
-    department: "",
-    postedAt: "2025-08-29T13:27:48-04:00",
   },
 
   // ── Anthropic ──────────────────────────────────────────────
@@ -289,10 +289,10 @@ export const jobs: Job[] = [
   {
     title: "Lead Design Engineer",
     company: "Braze",
-    location: "San Francisco | Chicago | New York City | Austin",
-    url: "https://boards.greenhouse.io/braze/jobs/7614566?gh_jid=7614566",
+    location: "Chicago | San Francisco | Austin | New York City",
+    url: "https://boards.greenhouse.io/braze/jobs/7614562?gh_jid=7614562",
     department: "",
-    postedAt: "2026-02-13T10:32:49-05:00",
+    postedAt: "2026-02-13T10:32:48-05:00",
   },
 
   // ── Brex ───────────────────────────────────────────────────
@@ -423,16 +423,6 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/claylabs/a284a622-0736-4558-be7a-76434f0dd147",
     department: "Product & Design",
     postedAt: "2026-04-22T21:21:09.451+00:00",
-  },
-
-  // ── clickup ────────────────────────────────────────────────
-  {
-    title: "Senior Product Designer",
-    company: "clickup",
-    location: "United States",
-    url: "https://jobs.ashbyhq.com/clickup/0b715fff-f8c2-4e87-880d-d390bb0cbc40",
-    department: "Product",
-    postedAt: "2026-06-08T14:19:46.188+00:00",
   },
 
   // ── cloaked ────────────────────────────────────────────────
@@ -834,14 +824,6 @@ export const jobs: Job[] = [
     department: "",
     postedAt: "2026-03-09T18:05:25-04:00",
   },
-  {
-    title: "Senior UX Researcher",
-    company: "Fivetran",
-    location: "Oakland, California, United States, AMER",
-    url: "https://www.fivetran.com/careers/job?gh_jid=7618110003",
-    department: "",
-    postedAt: "2026-02-19T14:36:47-05:00",
-  },
 
   // ── FlutterFlow ────────────────────────────────────────────
   {
@@ -861,16 +843,6 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/gigaml/c0d9a6fd-47db-43d1-a322-2d6b7a03a501",
     department: "Strategy & Operations",
     postedAt: "2026-04-25T00:27:41.622+00:00",
-  },
-
-  // ── Glean ──────────────────────────────────────────────────
-  {
-    title: "Product Designer, AI Products",
-    company: "Glean",
-    location: "Mountain View, CA | San Francisco, CA",
-    url: "https://job-boards.greenhouse.io/gleanwork/jobs/4696058005",
-    department: "",
-    postedAt: "2026-05-15T13:20:43-04:00",
   },
 
   // ── GlossGenius ────────────────────────────────────────────
@@ -1069,14 +1041,6 @@ export const jobs: Job[] = [
 
   // ── Hex ────────────────────────────────────────────────────
   {
-    title: "Head of Brand Design",
-    company: "Hex",
-    location: "SF, NYC, or Remote (US)",
-    url: "https://hex.tech/careers/5837632004/?gh_jid=5837632004",
-    department: "",
-    postedAt: "2026-03-25T17:57:05-04:00",
-  },
-  {
     title: "Web Designer",
     company: "Hex",
     location: "SF, NY or Remote (US)",
@@ -1182,7 +1146,7 @@ export const jobs: Job[] = [
     title: "Lead Product Designer, AI & Analytics",
     company: "Klaviyo",
     location: "Boston, MA",
-    url: "https://www.klaviyo.com/careers/jobs?gh_jid=7636105003",
+    url: "https://www.klaviyo.com/careers/jobs/7636105003?gh_jid=7636105003",
     department: "",
     postedAt: "2026-03-20T13:32:26-04:00",
   },
@@ -1190,7 +1154,7 @@ export const jobs: Job[] = [
     title: "Product Designer",
     company: "Klaviyo",
     location: "Boston, MA",
-    url: "https://www.klaviyo.com/careers/jobs?gh_jid=7708678003",
+    url: "https://www.klaviyo.com/careers/jobs/7708678003?gh_jid=7708678003",
     department: "",
     postedAt: "2026-05-05T14:49:59-04:00",
   },
@@ -1198,7 +1162,7 @@ export const jobs: Job[] = [
     title: "Senior Product Designer",
     company: "Klaviyo",
     location: "Boston, MA",
-    url: "https://www.klaviyo.com/careers/jobs?gh_jid=7503717003",
+    url: "https://www.klaviyo.com/careers/jobs/7503717003?gh_jid=7503717003",
     department: "",
     postedAt: "2025-10-21T10:50:00-04:00",
   },
@@ -1206,7 +1170,7 @@ export const jobs: Job[] = [
     title: "Senior Product Designer - Growth",
     company: "Klaviyo",
     location: "Boston, MA",
-    url: "https://www.klaviyo.com/careers/jobs?gh_jid=7636082003",
+    url: "https://www.klaviyo.com/careers/jobs/7636082003?gh_jid=7636082003",
     department: "",
     postedAt: "2026-06-08T13:59:40-04:00",
   },
@@ -1214,7 +1178,7 @@ export const jobs: Job[] = [
     title: "Senior Product Designer, Editors",
     company: "Klaviyo",
     location: "Boston, MA",
-    url: "https://www.klaviyo.com/careers/jobs?gh_jid=7720047003",
+    url: "https://www.klaviyo.com/careers/jobs/7720047003?gh_jid=7720047003",
     department: "",
     postedAt: "2026-05-05T10:54:54-04:00",
   },
@@ -1514,14 +1478,6 @@ export const jobs: Job[] = [
     department: "Data Science",
     postedAt: "2026-02-09T17:04:53.099+00:00",
   },
-  {
-    title: "Senior Project Manager, Design and Construction",
-    company: "OpenAI",
-    location: "San Francisco",
-    url: "https://jobs.ashbyhq.com/openai/744601f1-bc04-4722-bd76-2e79441e40a9",
-    department: "Workplace",
-    postedAt: "2026-05-21T19:15:25.198+00:00",
-  },
 
   // ── Palantir ───────────────────────────────────────────────
   {
@@ -1671,10 +1627,10 @@ export const jobs: Job[] = [
   {
     title: "Senior Product Designer",
     company: "Robinhood",
-    location: "Menlo Park, CA | Menlo Park, CA; New York, NY",
-    url: "https://boards.greenhouse.io/robinhood/jobs/7960697?t=gh_src=&gh_jid=7960697",
+    location: "Menlo Park, CA; New York, NY | Menlo Park, CA",
+    url: "https://boards.greenhouse.io/robinhood/jobs/7490017?t=gh_src=&gh_jid=7490017",
     department: "",
-    postedAt: "2026-06-02T15:41:03-04:00",
+    postedAt: "2026-05-29T14:34:41-04:00",
   },
   {
     title: "Senior Product Designer, Banking",
@@ -1879,6 +1835,32 @@ export const jobs: Job[] = [
     url: "http://www.squarespace.com/about/careers?gh_jid=7829004",
     department: "",
     postedAt: "2026-04-20T16:58:42-04:00",
+  },
+
+  // ── standtogether ──────────────────────────────────────────
+  {
+    title: "Associate Creative Director",
+    company: "standtogether",
+    location: "Arlington, Virginia",
+    url: "https://jobs.lever.co/standtogether/69b55ce2-2747-4bd9-929e-f8ea88eb91c6",
+    department: "Creative Operations",
+    postedAt: "2026-04-23T15:36:49.395Z",
+  },
+  {
+    title: "Associate Design Director",
+    company: "standtogether",
+    location: "Arlington, Virginia",
+    url: "https://jobs.lever.co/standtogether/d5a584f6-dd02-45dc-ab94-5342f6355311",
+    department: "Creative Operations",
+    postedAt: "2026-04-23T13:29:52.952Z",
+  },
+  {
+    title: "Senior UX Designer",
+    company: "standtogether",
+    location: "Arlington, VA",
+    url: "https://jobs.lever.co/standtogether/5798ea85-2b4d-43d4-b040-a395c1e1afa0",
+    department: "Operational Excellence",
+    postedAt: "2026-06-12T19:07:12.854Z",
   },
 
   // ── Stripe ─────────────────────────────────────────────────
