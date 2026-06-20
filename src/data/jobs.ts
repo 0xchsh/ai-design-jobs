@@ -7,7 +7,7 @@ export type Job = {
   postedAt: string;
 };
 
-// Auto-updated by scraper — 2026-06-19
+// Auto-updated by scraper — 2026-06-20
 export const jobs: Job[] = [
   // ── Affirm ─────────────────────────────────────────────────
   {
@@ -77,14 +77,6 @@ export const jobs: Job[] = [
     url: "https://www.benesch.com/job-openings/4100876007?gh_jid=4100876007",
     department: "",
     postedAt: "2023-10-11T18:04:28-04:00",
-  },
-  {
-    title: "Director of Transportation Design ",
-    company: "alfredbeneschco",
-    location: "Fort Lauderdale, FL; Jacksonville, FL; Miami, FL; Tampa, FL; Orlando, FL",
-    url: "https://www.benesch.com/job-openings/4840853007?gh_jid=4840853007",
-    department: "",
-    postedAt: "2025-08-29T13:27:48-04:00",
   },
   {
     title: "Project Manager - Railroad Civil Track Design",
@@ -233,16 +225,6 @@ export const jobs: Job[] = [
     postedAt: "2026-06-11T05:31:43.998+00:00",
   },
 
-  // ── Auxia ──────────────────────────────────────────────────
-  {
-    title: "Senior UX Designer",
-    company: "Auxia",
-    location: "Bengaluru",
-    url: "https://jobs.lever.co/auxia/1c3d01f1-7ade-4e07-92f4-846da141d87c",
-    department: "Product Design",
-    postedAt: "2026-03-25T10:03:34.996Z",
-  },
-
   // ── Benchling ──────────────────────────────────────────────
   {
     title: "Product Designer, App Foundations",
@@ -295,10 +277,10 @@ export const jobs: Job[] = [
   {
     title: "Lead Design Engineer",
     company: "Braze",
-    location: "Austin | San Francisco | Chicago | New York City",
-    url: "https://boards.greenhouse.io/braze/jobs/7614563?gh_jid=7614563",
+    location: "New York City | Chicago | San Francisco | Austin",
+    url: "https://boards.greenhouse.io/braze/jobs/7592334?gh_jid=7592334",
     department: "",
-    postedAt: "2026-02-13T10:32:48-05:00",
+    postedAt: "2026-02-13T10:32:47-05:00",
   },
 
   // ── Brex ───────────────────────────────────────────────────
@@ -673,8 +655,8 @@ export const jobs: Job[] = [
   {
     title: "Senior Product Design Manager",
     company: "Duolingo",
-    location: "Pittsburgh, PA | New York, NY",
-    url: "https://careers.duolingo.com/jobs/8385195002?gh_jid=8385195002",
+    location: "New York, NY | Pittsburgh, PA",
+    url: "https://careers.duolingo.com/jobs/8385193002?gh_jid=8385193002",
     department: "",
     postedAt: "2026-01-21T20:53:46-05:00",
   },
@@ -853,10 +835,10 @@ export const jobs: Job[] = [
   {
     title: "Staff Product Designer",
     company: "GlossGenius",
-    location: "Hybrid - New York City  | Hybrid - San Francisco ",
-    url: "https://job-boards.greenhouse.io/glossgenius/jobs/7580118003",
+    location: "Hybrid - San Francisco  | Hybrid - New York City ",
+    url: "https://job-boards.greenhouse.io/glossgenius/jobs/7728313003",
     department: "",
-    postedAt: "2026-01-06T15:28:32-05:00",
+    postedAt: "2026-05-08T10:05:00-04:00",
   },
 
   // ── Gong ───────────────────────────────────────────────────
@@ -1035,6 +1017,24 @@ export const jobs: Job[] = [
     url: "https://hex.tech/careers/5731792004/?gh_jid=5731792004",
     department: "",
     postedAt: "2025-12-07T23:03:28-05:00",
+  },
+
+  // ── Hightouch ──────────────────────────────────────────────
+  {
+    title: "AI Creative Designer, Email",
+    company: "Hightouch",
+    location: "Remote, United States",
+    url: "https://job-boards.greenhouse.io/hightouch/jobs/6097447004",
+    department: "",
+    postedAt: "2026-06-18T20:41:33-04:00",
+  },
+  {
+    title: "Brand Designer",
+    company: "Hightouch",
+    location: "Remote (North America)",
+    url: "https://job-boards.greenhouse.io/hightouch/jobs/5823458004",
+    department: "",
+    postedAt: "2026-03-10T16:26:31-04:00",
   },
 
   // ── hiive ──────────────────────────────────────────────────
@@ -1271,10 +1271,10 @@ export const jobs: Job[] = [
   {
     title: "Senior Design Program Manager, Design Foundations & AI Transformation",
     company: "Lyft",
-    location: "San Francisco, CA | New York, NY",
-    url: "https://app.careerpuck.com/job-board/lyft/job/8503978002?gh_jid=8503978002",
+    location: "New York, NY | San Francisco, CA",
+    url: "https://app.careerpuck.com/job-board/lyft/job/8504066002?gh_jid=8504066002",
     department: "",
-    postedAt: "2026-04-13T15:01:20-04:00",
+    postedAt: "2026-04-13T15:01:21-04:00",
   },
   {
     title: "Senior Illustrator, Design Foundations & AI Transformation",
@@ -1459,6 +1459,16 @@ export const jobs: Job[] = [
     postedAt: "2025-04-03T18:13:34.536Z",
   },
 
+  // ── pandektes ──────────────────────────────────────────────
+  {
+    title: "Senior Product Designer ",
+    company: "pandektes",
+    location: "Copenhagen",
+    url: "https://jobs.ashbyhq.com/pandektes/e8b0ad19-66b7-4e1c-b5cf-3d6346009d19",
+    department: "Product & Engineering",
+    postedAt: "2026-05-18T15:10:27.639+00:00",
+  },
+
   // ── Pendo ──────────────────────────────────────────────────
   {
     title: "Staff Product Designer",
@@ -1519,6 +1529,32 @@ export const jobs: Job[] = [
     url: "https://www.pinterestcareers.com/jobs/?gh_jid=7747116",
     department: "",
     postedAt: "2026-04-21T11:48:45-04:00",
+  },
+
+  // ── Qualysoft ──────────────────────────────────────────────
+  {
+    title: "Frontend Developer (Angular, UI/UX Designer & Developer)",
+    company: "Qualysoft",
+    location: "Wien",
+    url: "https://jobs.lever.co/qualysoft/71047c9f-5621-4f9c-9f67-f1ae1ecd63cb",
+    department: "Software Development",
+    postedAt: "2025-09-18T09:35:21.444Z",
+  },
+  {
+    title: "Senior UI/UX Designer - Energy Domain",
+    company: "Qualysoft",
+    location: "Bucharest",
+    url: "https://jobs.lever.co/qualysoft/59fce624-2e3f-424d-a7ed-0d5820b47cf2",
+    department: "Software Development",
+    postedAt: "2026-06-02T06:36:56.111Z",
+  },
+  {
+    title: "Solution Architect/ Solution Designer",
+    company: "Qualysoft",
+    location: "Wien",
+    url: "https://jobs.lever.co/qualysoft/15616ed5-b1e0-4092-bc42-09e96c34e797",
+    department: "Software Development",
+    postedAt: "2025-08-20T07:35:44.049Z",
   },
 
   // ── Railway ────────────────────────────────────────────────
@@ -1605,10 +1641,10 @@ export const jobs: Job[] = [
   {
     title: "Senior Product Designer",
     company: "Robinhood",
-    location: "Menlo Park, CA | Menlo Park, CA; New York, NY",
-    url: "https://boards.greenhouse.io/robinhood/jobs/7960697?t=gh_src=&gh_jid=7960697",
+    location: "Menlo Park, CA; New York, NY | Menlo Park, CA",
+    url: "https://boards.greenhouse.io/robinhood/jobs/7490017?t=gh_src=&gh_jid=7490017",
     department: "",
-    postedAt: "2026-06-02T15:41:03-04:00",
+    postedAt: "2026-05-29T14:34:41-04:00",
   },
   {
     title: "Senior Product Designer, Banking",
@@ -1749,24 +1785,6 @@ export const jobs: Job[] = [
     url: "https://job-boards.greenhouse.io/sigmacomputing/jobs/7767897003",
     department: "",
     postedAt: "2026-06-10T01:38:03-04:00",
-  },
-
-  // ── skio ───────────────────────────────────────────────────
-  {
-    title: "Product Designer",
-    company: "skio",
-    location: "San Francisco, New York, or Remote",
-    url: "https://jobs.lever.co/skio/0110e9f5-4640-4daf-bc53-da03d6a4e642",
-    department: "Product",
-    postedAt: "2026-01-12T16:24:14.734Z",
-  },
-  {
-    title: "UX Engineer",
-    company: "skio",
-    location: "San Francisco, New York, or Remote",
-    url: "https://jobs.lever.co/skio/ba7c8bc7-9692-47bd-b212-6f2a4cea0c70",
-    department: "Engineering",
-    postedAt: "2021-10-21T01:10:43.363Z",
   },
 
   // ── Snowflake ──────────────────────────────────────────────
@@ -1977,16 +1995,6 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/synthesia/f16a63d9-4418-4ad3-b7e9-003e0bd1f051",
     department: "Commercial",
     postedAt: "2026-04-29T23:18:57.616+00:00",
-  },
-
-  // ── Tessera Labs ───────────────────────────────────────────
-  {
-    title: "Senior Product Designer",
-    company: "Tessera Labs",
-    location: "Remote in the U.S.",
-    url: "https://jobs.ashbyhq.com/tessera-labs/742eb648-a305-4da8-90fa-6d3af8e16f8d",
-    department: "Product",
-    postedAt: "2026-05-13T22:30:48.154+00:00",
   },
 
   // ── Text ───────────────────────────────────────────────────
