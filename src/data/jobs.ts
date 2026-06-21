@@ -7,7 +7,7 @@ export type Job = {
   postedAt: string;
 };
 
-// Auto-updated by scraper — 2026-06-20
+// Auto-updated by scraper — 2026-06-21
 export const jobs: Job[] = [
   // ── Affirm ─────────────────────────────────────────────────
   {
@@ -245,24 +245,6 @@ export const jobs: Job[] = [
     postedAt: "2026-04-16T02:48:52-04:00",
   },
 
-  // ── brainco ────────────────────────────────────────────────
-  {
-    title: "Product Designer",
-    company: "brainco",
-    location: "San Francisco Bay Area",
-    url: "https://jobs.ashbyhq.com/brainco/2d637c98-2622-4cc8-b083-f94f6e520669",
-    department: "Product",
-    postedAt: "2025-06-25T17:51:09.244+00:00",
-  },
-  {
-    title: "Product Designer, MENA",
-    company: "brainco",
-    location: "Abu Dhabi",
-    url: "https://jobs.ashbyhq.com/brainco/df599704-142b-4403-9168-61ff17e2d584",
-    department: "Product",
-    postedAt: "2026-06-18T17:10:22.623+00:00",
-  },
-
   // ── Braintrust ─────────────────────────────────────────────
   {
     title: "Design Engineer",
@@ -277,10 +259,10 @@ export const jobs: Job[] = [
   {
     title: "Lead Design Engineer",
     company: "Braze",
-    location: "New York City | Chicago | San Francisco | Austin",
-    url: "https://boards.greenhouse.io/braze/jobs/7592334?gh_jid=7592334",
+    location: "Austin | San Francisco | Chicago | New York City",
+    url: "https://boards.greenhouse.io/braze/jobs/7614563?gh_jid=7614563",
     department: "",
-    postedAt: "2026-02-13T10:32:47-05:00",
+    postedAt: "2026-02-13T10:32:48-05:00",
   },
 
   // ── Brex ───────────────────────────────────────────────────
@@ -655,8 +637,8 @@ export const jobs: Job[] = [
   {
     title: "Senior Product Design Manager",
     company: "Duolingo",
-    location: "New York, NY | Pittsburgh, PA",
-    url: "https://careers.duolingo.com/jobs/8385193002?gh_jid=8385193002",
+    location: "Pittsburgh, PA | New York, NY",
+    url: "https://careers.duolingo.com/jobs/8385195002?gh_jid=8385195002",
     department: "",
     postedAt: "2026-01-21T20:53:46-05:00",
   },
@@ -835,10 +817,10 @@ export const jobs: Job[] = [
   {
     title: "Staff Product Designer",
     company: "GlossGenius",
-    location: "Hybrid - San Francisco  | Hybrid - New York City ",
-    url: "https://job-boards.greenhouse.io/glossgenius/jobs/7728313003",
+    location: "Hybrid - New York City  | Hybrid - San Francisco ",
+    url: "https://job-boards.greenhouse.io/glossgenius/jobs/7580118003",
     department: "",
-    postedAt: "2026-05-08T10:05:00-04:00",
+    postedAt: "2026-01-06T15:28:32-05:00",
   },
 
   // ── Gong ───────────────────────────────────────────────────
@@ -1019,24 +1001,6 @@ export const jobs: Job[] = [
     postedAt: "2025-12-07T23:03:28-05:00",
   },
 
-  // ── Hightouch ──────────────────────────────────────────────
-  {
-    title: "AI Creative Designer, Email",
-    company: "Hightouch",
-    location: "Remote, United States",
-    url: "https://job-boards.greenhouse.io/hightouch/jobs/6097447004",
-    department: "",
-    postedAt: "2026-06-18T20:41:33-04:00",
-  },
-  {
-    title: "Brand Designer",
-    company: "Hightouch",
-    location: "Remote (North America)",
-    url: "https://job-boards.greenhouse.io/hightouch/jobs/5823458004",
-    department: "",
-    postedAt: "2026-03-10T16:26:31-04:00",
-  },
-
   // ── hiive ──────────────────────────────────────────────────
   {
     title: "Director of Product Design",
@@ -1132,9 +1096,9 @@ export const jobs: Job[] = [
     title: "Product Designer",
     company: "Klaviyo",
     location: "Boston, MA",
-    url: "https://www.klaviyo.com/careers/jobs/7503712003?gh_jid=7503712003",
+    url: "https://www.klaviyo.com/careers/jobs/7708678003?gh_jid=7708678003",
     department: "",
-    postedAt: "2025-10-24T15:05:56-04:00",
+    postedAt: "2026-05-05T14:49:59-04:00",
   },
   {
     title: "Senior Product Designer",
@@ -1641,10 +1605,10 @@ export const jobs: Job[] = [
   {
     title: "Senior Product Designer",
     company: "Robinhood",
-    location: "Menlo Park, CA; New York, NY | Menlo Park, CA",
-    url: "https://boards.greenhouse.io/robinhood/jobs/7490017?t=gh_src=&gh_jid=7490017",
+    location: "Menlo Park, CA | Menlo Park, CA; New York, NY",
+    url: "https://boards.greenhouse.io/robinhood/jobs/7960697?t=gh_src=&gh_jid=7960697",
     department: "",
-    postedAt: "2026-05-29T14:34:41-04:00",
+    postedAt: "2026-06-02T15:41:03-04:00",
   },
   {
     title: "Senior Product Designer, Banking",
@@ -1785,6 +1749,24 @@ export const jobs: Job[] = [
     url: "https://job-boards.greenhouse.io/sigmacomputing/jobs/7767897003",
     department: "",
     postedAt: "2026-06-10T01:38:03-04:00",
+  },
+
+  // ── skio ───────────────────────────────────────────────────
+  {
+    title: "Product Designer",
+    company: "skio",
+    location: "San Francisco, New York, or Remote",
+    url: "https://jobs.lever.co/skio/0110e9f5-4640-4daf-bc53-da03d6a4e642",
+    department: "Product",
+    postedAt: "2026-01-12T16:24:14.734Z",
+  },
+  {
+    title: "UX Engineer",
+    company: "skio",
+    location: "San Francisco, New York, or Remote",
+    url: "https://jobs.lever.co/skio/ba7c8bc7-9692-47bd-b212-6f2a4cea0c70",
+    department: "Engineering",
+    postedAt: "2021-10-21T01:10:43.363Z",
   },
 
   // ── Snowflake ──────────────────────────────────────────────
