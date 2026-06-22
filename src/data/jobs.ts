@@ -7,7 +7,7 @@ export type Job = {
   postedAt: string;
 };
 
-// Auto-updated by scraper — 2026-06-21
+// Auto-updated by scraper — 2026-06-22
 export const jobs: Job[] = [
   // ── Affirm ─────────────────────────────────────────────────
   {
@@ -33,18 +33,18 @@ export const jobs: Job[] = [
   {
     title: "Aviation Designer",
     company: "alfredbeneschco",
-    location: "Lincoln, NE; Grand Island, NE; Omaha, NE; Bellevue, NE | Kansas City, KS; Kansas City, MO; Manhattan, KS; Overland Park, KS; Topeka, KS; Wichita, KS",
-    url: "https://www.benesch.com/job-openings/4988830007?gh_jid=4988830007",
+    location: "Kansas City, KS; Kansas City, MO; Manhattan, KS; Overland Park, KS; Topeka, KS; Wichita, KS | Lincoln, NE; Grand Island, NE; Omaha, NE; Bellevue, NE",
+    url: "https://www.benesch.com/job-openings/5088285007?gh_jid=5088285007",
     department: "",
-    postedAt: "2025-12-02T16:25:46-05:00",
+    postedAt: "2026-03-24T15:06:05-04:00",
   },
   {
     title: "Bridge Design Project Manager ",
     company: "alfredbeneschco",
-    location: "Raleigh, NC | Boston, MA",
-    url: "https://www.benesch.com/job-openings/4771072007?gh_jid=4771072007",
+    location: "Boston, MA | Raleigh, NC",
+    url: "https://www.benesch.com/job-openings/4042776007?gh_jid=4042776007",
     department: "",
-    postedAt: "2025-06-24T16:56:46-04:00",
+    postedAt: "2023-08-02T10:22:57-04:00",
   },
   {
     title: "Bridge Design Technical Manager ",
@@ -73,10 +73,10 @@ export const jobs: Job[] = [
   {
     title: "Civil Site Designer II",
     company: "alfredbeneschco",
-    location: "Charlotte, NC; Raleigh, NC; Wilmington, NC | Franklin, TN; Nashville, TN",
-    url: "https://www.benesch.com/job-openings/4100876007?gh_jid=4100876007",
+    location: "Franklin, TN; Nashville, TN | Charlotte, NC; Raleigh, NC; Wilmington, NC",
+    url: "https://www.benesch.com/job-openings/5146414007?gh_jid=5146414007",
     department: "",
-    postedAt: "2023-10-11T18:04:28-04:00",
+    postedAt: "2026-05-29T10:38:09-04:00",
   },
   {
     title: "Project Manager - Railroad Civil Track Design",
@@ -259,10 +259,10 @@ export const jobs: Job[] = [
   {
     title: "Lead Design Engineer",
     company: "Braze",
-    location: "Austin | San Francisco | Chicago | New York City",
-    url: "https://boards.greenhouse.io/braze/jobs/7614563?gh_jid=7614563",
+    location: "New York City | Chicago | Austin | San Francisco",
+    url: "https://boards.greenhouse.io/braze/jobs/7592334?gh_jid=7592334",
     department: "",
-    postedAt: "2026-02-13T10:32:48-05:00",
+    postedAt: "2026-02-13T10:32:47-05:00",
   },
 
   // ── Brex ───────────────────────────────────────────────────
@@ -935,7 +935,7 @@ export const jobs: Job[] = [
   {
     title: "Staff Product Designer, Contractors",
     company: "Gusto",
-    location: "New York, NY; San Fransisco, CA ",
+    location: "Denver, CO;San Francisco, CA;New York, NY;Los Angeles, CA;Seattle, WA;Toronto, Ontario, CAN - Remote",
     url: "https://job-boards.greenhouse.io/gusto/jobs/7488373",
     department: "",
     postedAt: "2026-01-07T19:11:34-05:00",
@@ -999,6 +999,24 @@ export const jobs: Job[] = [
     url: "https://hex.tech/careers/5731792004/?gh_jid=5731792004",
     department: "",
     postedAt: "2025-12-07T23:03:28-05:00",
+  },
+
+  // ── Hightouch ──────────────────────────────────────────────
+  {
+    title: "AI Creative Designer, Email",
+    company: "Hightouch",
+    location: "Remote, United States",
+    url: "https://job-boards.greenhouse.io/hightouch/jobs/6097447004",
+    department: "",
+    postedAt: "2026-06-18T20:41:33-04:00",
+  },
+  {
+    title: "Brand Designer",
+    company: "Hightouch",
+    location: "Remote (North America)",
+    url: "https://job-boards.greenhouse.io/hightouch/jobs/5823458004",
+    department: "",
+    postedAt: "2026-03-10T16:26:31-04:00",
   },
 
   // ── hiive ──────────────────────────────────────────────────
@@ -1096,9 +1114,9 @@ export const jobs: Job[] = [
     title: "Product Designer",
     company: "Klaviyo",
     location: "Boston, MA",
-    url: "https://www.klaviyo.com/careers/jobs/7708678003?gh_jid=7708678003",
+    url: "https://www.klaviyo.com/careers/jobs/7503712003?gh_jid=7503712003",
     department: "",
-    postedAt: "2026-05-05T14:49:59-04:00",
+    postedAt: "2025-10-24T15:05:56-04:00",
   },
   {
     title: "Senior Product Designer",
@@ -1505,12 +1523,12 @@ export const jobs: Job[] = [
     postedAt: "2025-09-18T09:35:21.444Z",
   },
   {
-    title: "Senior UI/UX Designer - Energy Domain",
+    title: "Senior Solution Design",
     company: "Qualysoft",
     location: "Bucharest",
-    url: "https://jobs.lever.co/qualysoft/59fce624-2e3f-424d-a7ed-0d5820b47cf2",
-    department: "Software Development",
-    postedAt: "2026-06-02T06:36:56.111Z",
+    url: "https://jobs.lever.co/qualysoft/31aa1f84-72a5-4b30-8b35-64ae0bcaa43f",
+    department: "Product Management",
+    postedAt: "2026-03-17T11:29:28.934Z",
   },
   {
     title: "Solution Architect/ Solution Designer",
