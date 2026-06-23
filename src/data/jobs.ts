@@ -7,7 +7,7 @@ export type Job = {
   postedAt: string;
 };
 
-// Auto-updated by scraper — 2026-06-22
+// Auto-updated by scraper — 2026-06-23
 export const jobs: Job[] = [
   // ── Affirm ─────────────────────────────────────────────────
   {
@@ -28,23 +28,31 @@ export const jobs: Job[] = [
     department: "",
     postedAt: "2026-03-11T19:08:23-04:00",
   },
+  {
+    title: "Product Designer (8+ YOE)",
+    company: "Airtable",
+    location: "San Francisco, CA",
+    url: "https://job-boards.greenhouse.io/airtable/jobs/8400776002",
+    department: "",
+    postedAt: "2026-06-22T13:38:07-04:00",
+  },
 
   // ── alfredbeneschco ────────────────────────────────────────
   {
     title: "Aviation Designer",
     company: "alfredbeneschco",
-    location: "Kansas City, KS; Kansas City, MO; Manhattan, KS; Overland Park, KS; Topeka, KS; Wichita, KS | Lincoln, NE; Grand Island, NE; Omaha, NE; Bellevue, NE",
-    url: "https://www.benesch.com/job-openings/5088285007?gh_jid=5088285007",
+    location: "Lincoln, NE; Grand Island, NE; Omaha, NE; Bellevue, NE | Kansas City, KS; Kansas City, MO; Manhattan, KS; Overland Park, KS; Topeka, KS; Wichita, KS",
+    url: "https://www.benesch.com/job-openings/4988830007?gh_jid=4988830007",
     department: "",
-    postedAt: "2026-03-24T15:06:05-04:00",
+    postedAt: "2025-12-02T16:25:46-05:00",
   },
   {
     title: "Bridge Design Project Manager ",
     company: "alfredbeneschco",
-    location: "Boston, MA | Raleigh, NC",
-    url: "https://www.benesch.com/job-openings/4042776007?gh_jid=4042776007",
+    location: "Raleigh, NC | Boston, MA",
+    url: "https://www.benesch.com/job-openings/4771072007?gh_jid=4771072007",
     department: "",
-    postedAt: "2023-08-02T10:22:57-04:00",
+    postedAt: "2025-06-24T16:56:46-04:00",
   },
   {
     title: "Bridge Design Technical Manager ",
@@ -259,10 +267,10 @@ export const jobs: Job[] = [
   {
     title: "Lead Design Engineer",
     company: "Braze",
-    location: "New York City | Chicago | Austin | San Francisco",
-    url: "https://boards.greenhouse.io/braze/jobs/7592334?gh_jid=7592334",
+    location: "Austin | San Francisco | New York City | Chicago",
+    url: "https://boards.greenhouse.io/braze/jobs/7614563?gh_jid=7614563",
     department: "",
-    postedAt: "2026-02-13T10:32:47-05:00",
+    postedAt: "2026-02-13T10:32:48-05:00",
   },
 
   // ── Brex ───────────────────────────────────────────────────
@@ -746,14 +754,6 @@ export const jobs: Job[] = [
     department: "",
     postedAt: "2025-11-21T10:48:47-05:00",
   },
-  {
-    title: "UX Writer, AI ",
-    company: "Figma",
-    location: "San Francisco, CA • New York, NY • United States",
-    url: "https://boards.greenhouse.io/figma/jobs/5839202004?gh_jid=5839202004",
-    department: "",
-    postedAt: "2026-04-14T17:57:08-04:00",
-  },
 
   // ── Figure AI ──────────────────────────────────────────────
   {
@@ -793,16 +793,6 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/FlutterFlow/224be149-19f8-469c-9767-f2f263f0ae5c",
     department: "Design",
     postedAt: "2026-03-05T16:20:31.878+00:00",
-  },
-
-  // ── gigaml ─────────────────────────────────────────────────
-  {
-    title: "Brand Designer",
-    company: "gigaml",
-    location: "San Francisco",
-    url: "https://jobs.ashbyhq.com/gigaml/c0d9a6fd-47db-43d1-a322-2d6b7a03a501",
-    department: "Strategy & Operations",
-    postedAt: "2026-04-25T00:27:41.622+00:00",
   },
 
   // ── GlossGenius ────────────────────────────────────────────
@@ -1057,20 +1047,20 @@ export const jobs: Job[] = [
 
   // ── Infisical ──────────────────────────────────────────────
   {
+    title: "Brand Designer",
+    company: "Infisical",
+    location: "North to South America",
+    url: "https://jobs.ashbyhq.com/infisical/361a7451-0cfe-491e-b07a-80eac6e29a43",
+    department: "Marketing",
+    postedAt: "2026-05-18T20:43:41.422+00:00",
+  },
+  {
     title: "Design Engineer, Platform",
     company: "Infisical",
     location: "North to South America",
     url: "https://jobs.ashbyhq.com/infisical/ee25fbbb-c3c6-4c51-a664-1539350616b9",
     department: "Engineering",
     postedAt: "2026-01-19T04:58:46.137+00:00",
-  },
-  {
-    title: "Founding Designer",
-    company: "Infisical",
-    location: "North to South America",
-    url: "https://jobs.ashbyhq.com/infisical/361a7451-0cfe-491e-b07a-80eac6e29a43",
-    department: "Marketing",
-    postedAt: "2026-05-18T20:43:41.422+00:00",
   },
 
   // ── Instrumentl ────────────────────────────────────────────
@@ -1249,14 +1239,6 @@ export const jobs: Job[] = [
     url: "https://app.careerpuck.com/job-board/lyft/job/8584091002?gh_jid=8584091002",
     department: "",
     postedAt: "2026-06-09T12:11:41-04:00",
-  },
-  {
-    title: "Senior Design Program Manager, Design Foundations & AI Transformation",
-    company: "Lyft",
-    location: "New York, NY | San Francisco, CA",
-    url: "https://app.careerpuck.com/job-board/lyft/job/8504066002?gh_jid=8504066002",
-    department: "",
-    postedAt: "2026-04-13T15:01:21-04:00",
   },
   {
     title: "Senior Illustrator, Design Foundations & AI Transformation",
@@ -1843,12 +1825,12 @@ export const jobs: Job[] = [
     postedAt: "2026-05-04T05:30:14-04:00",
   },
   {
-    title: "Brand Designer, Privy",
+    title: "Creative Director, Brand Experiences",
     company: "Stripe",
-    location: "NYC-Privy",
-    url: "https://stripe.com/jobs/search?gh_jid=7721132",
+    location: "US",
+    url: "https://stripe.com/jobs/search?gh_jid=8001909",
     department: "",
-    postedAt: "2026-04-27T23:06:00-04:00",
+    postedAt: "2026-06-15T22:21:12-04:00",
   },
   {
     title: "Creative Director, Copy & Campaigns",
@@ -1857,14 +1839,6 @@ export const jobs: Job[] = [
     url: "https://stripe.com/jobs/search?gh_jid=8001341",
     department: "",
     postedAt: "2026-06-18T21:05:52-04:00",
-  },
-  {
-    title: "Design Manager, Experiential",
-    company: "Stripe",
-    location: "US",
-    url: "https://stripe.com/jobs/search?gh_jid=8001909",
-    department: "",
-    postedAt: "2026-06-15T22:21:12-04:00",
   },
   {
     title: "Design Program Manager, AI",
@@ -1897,14 +1871,6 @@ export const jobs: Job[] = [
     url: "https://stripe.com/jobs/search?gh_jid=8001660",
     department: "",
     postedAt: "2026-06-11T16:32:01-04:00",
-  },
-  {
-    title: "Staff Brand Designer, Link",
-    company: "Stripe",
-    location: "US",
-    url: "https://stripe.com/jobs/search?gh_jid=7917716",
-    department: "",
-    postedAt: "2026-05-12T15:33:31-04:00",
   },
 
   // ── Stytch ─────────────────────────────────────────────────
