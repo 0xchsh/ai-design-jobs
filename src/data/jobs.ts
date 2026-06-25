@@ -7,7 +7,7 @@ export type Job = {
   postedAt: string;
 };
 
-// Auto-updated by scraper — 2026-06-24
+// Auto-updated by scraper — 2026-06-25
 export const jobs: Job[] = [
   // ── Affirm ─────────────────────────────────────────────────
   {
@@ -275,10 +275,10 @@ export const jobs: Job[] = [
   {
     title: "Lead Design Engineer",
     company: "Braze",
-    location: "Austin | Chicago | San Francisco | New York City",
-    url: "https://boards.greenhouse.io/braze/jobs/7614563?gh_jid=7614563",
+    location: "San Francisco | Chicago | New York City | Austin",
+    url: "https://boards.greenhouse.io/braze/jobs/7614566?gh_jid=7614566",
     department: "",
-    postedAt: "2026-02-13T10:32:48-05:00",
+    postedAt: "2026-02-13T10:32:49-05:00",
   },
 
   // ── Brex ───────────────────────────────────────────────────
@@ -635,8 +635,8 @@ export const jobs: Job[] = [
   {
     title: "Senior Product Design Manager",
     company: "Duolingo",
-    location: "New York, NY | Pittsburgh, PA",
-    url: "https://careers.duolingo.com/jobs/8385193002?gh_jid=8385193002",
+    location: "Pittsburgh, PA | New York, NY",
+    url: "https://careers.duolingo.com/jobs/8385195002?gh_jid=8385195002",
     department: "",
     postedAt: "2026-01-21T20:53:46-05:00",
   },
@@ -721,6 +721,14 @@ export const jobs: Job[] = [
     postedAt: "2026-02-04T11:41:24-05:00",
   },
   {
+    title: "People Partner, Product & Design",
+    company: "Figma",
+    location: "San Francisco, CA • New York, NY • United States",
+    url: "https://boards.greenhouse.io/figma/jobs/6100107004?gh_jid=6100107004",
+    department: "",
+    postedAt: "2026-06-24T13:21:19-04:00",
+  },
+  {
     title: "Product Designer, AI Models",
     company: "Figma",
     location: "San Francisco, CA • New York, NY • United States",
@@ -743,14 +751,6 @@ export const jobs: Job[] = [
     url: "https://boards.greenhouse.io/figma/jobs/5711595004?gh_jid=5711595004",
     department: "",
     postedAt: "2025-11-21T10:48:47-05:00",
-  },
-  {
-    title: "UX Writer, AI ",
-    company: "Figma",
-    location: "San Francisco, CA • New York, NY • United States",
-    url: "https://boards.greenhouse.io/figma/jobs/5839202004?gh_jid=5839202004",
-    department: "",
-    postedAt: "2026-04-14T17:57:08-04:00",
   },
 
   // ── Figure AI ──────────────────────────────────────────────
@@ -941,18 +941,18 @@ export const jobs: Job[] = [
   {
     title: "Senior Product Designer",
     company: "Harvey AI",
-    location: "San Francisco | New York",
-    url: "https://jobs.ashbyhq.com/harvey/c7e0635d-0b26-4f94-a6f7-023d03a3b4b2",
+    location: "New York | San Francisco",
+    url: "https://jobs.ashbyhq.com/harvey/93268ee0-0192-45e2-aa68-e2eccd9f8459",
     department: "Design",
-    postedAt: "2025-12-22T19:55:08.179+00:00",
+    postedAt: "2025-12-22T20:10:03.508+00:00",
   },
   {
     title: "Staff Design Systems Designer",
     company: "Harvey AI",
-    location: "San Francisco | New York",
-    url: "https://jobs.ashbyhq.com/harvey/aede4098-91f4-44f5-9d53-27c15cb2bae7",
+    location: "New York | San Francisco",
+    url: "https://jobs.ashbyhq.com/harvey/9814b9ca-5917-43f8-8f76-6df7aa7e2be3",
     department: "Design",
-    postedAt: "2026-02-12T14:51:35.093+00:00",
+    postedAt: "2026-02-12T14:49:37.515+00:00",
   },
   {
     title: "Staff Motion Designer",
@@ -965,7 +965,7 @@ export const jobs: Job[] = [
   {
     title: "Staff Product Designer",
     company: "Harvey AI",
-    location: "San Francisco | New York | Toronto",
+    location: "San Francisco | Toronto | New York",
     url: "https://jobs.ashbyhq.com/harvey/24616c39-e293-4bcc-a3dd-e6f33a71c8ee",
     department: "Design",
     postedAt: "2025-09-12T23:39:38.961+00:00",
@@ -1412,6 +1412,14 @@ export const jobs: Job[] = [
     department: "Design",
     postedAt: "2025-04-03T18:13:34.536Z",
   },
+  {
+    title: "Web Design Engineer",
+    company: "Palantir",
+    location: "New York, NY",
+    url: "https://jobs.lever.co/palantir/a3eaa0ef-3378-495f-8308-edbd9a93d26c",
+    department: "Communications",
+    postedAt: "2026-06-23T20:45:30.367Z",
+  },
 
   // ── pandektes ──────────────────────────────────────────────
   {
@@ -1585,10 +1593,10 @@ export const jobs: Job[] = [
   {
     title: "Senior Product Designer",
     company: "Robinhood",
-    location: "Menlo Park, CA; New York, NY | Menlo Park, CA",
-    url: "https://boards.greenhouse.io/robinhood/jobs/7490017?t=gh_src=&gh_jid=7490017",
+    location: "Menlo Park, CA | Menlo Park, CA; New York, NY",
+    url: "https://boards.greenhouse.io/robinhood/jobs/7960697?t=gh_src=&gh_jid=7960697",
     department: "",
-    postedAt: "2026-05-29T14:34:41-04:00",
+    postedAt: "2026-06-02T15:41:03-04:00",
   },
   {
     title: "Senior Product Designer, Banking",
@@ -1783,16 +1791,6 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/socket/26f87d20-56a0-48fd-a98c-13f3d6214848",
     department: "Engineering",
     postedAt: "2025-12-04T23:32:17.053+00:00",
-  },
-
-  // ── Squarespace ────────────────────────────────────────────
-  {
-    title: "Senior Staff Product Designer",
-    company: "Squarespace",
-    location: "New York City",
-    url: "http://www.squarespace.com/about/careers?gh_jid=7829004",
-    department: "",
-    postedAt: "2026-04-20T16:58:42-04:00",
   },
 
   // ── Stripe ─────────────────────────────────────────────────
