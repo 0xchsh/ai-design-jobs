@@ -7,7 +7,7 @@ export type Job = {
   postedAt: string;
 };
 
-// Auto-updated by scraper — 2026-06-27
+// Auto-updated by scraper — 2026-06-28
 export const jobs: Job[] = [
   // ── Affirm ─────────────────────────────────────────────────
   {
@@ -41,18 +41,18 @@ export const jobs: Job[] = [
   {
     title: "Aviation Designer",
     company: "alfredbeneschco",
-    location: "Kansas City, KS; Kansas City, MO; Manhattan, KS; Overland Park, KS; Topeka, KS; Wichita, KS | Lincoln, NE; Grand Island, NE; Omaha, NE; Bellevue, NE",
-    url: "https://www.benesch.com/job-openings/5088285007?gh_jid=5088285007",
+    location: "Lincoln, NE; Grand Island, NE; Omaha, NE; Bellevue, NE | Kansas City, KS; Kansas City, MO; Manhattan, KS; Overland Park, KS; Topeka, KS; Wichita, KS",
+    url: "https://www.benesch.com/job-openings/4988830007?gh_jid=4988830007",
     department: "",
-    postedAt: "2026-03-24T15:06:05-04:00",
+    postedAt: "2025-12-02T16:25:46-05:00",
   },
   {
     title: "Bridge Design Project Manager ",
     company: "alfredbeneschco",
-    location: "Raleigh, NC | Boston, MA",
-    url: "https://www.benesch.com/job-openings/4771072007?gh_jid=4771072007",
+    location: "Boston, MA | Raleigh, NC",
+    url: "https://www.benesch.com/job-openings/4042776007?gh_jid=4042776007",
     department: "",
-    postedAt: "2025-06-24T16:56:46-04:00",
+    postedAt: "2023-08-02T10:22:57-04:00",
   },
   {
     title: "Bridge Design Technical Manager ",
@@ -81,10 +81,10 @@ export const jobs: Job[] = [
   {
     title: "Civil Site Designer II",
     company: "alfredbeneschco",
-    location: "Charlotte, NC; Raleigh, NC; Wilmington, NC | Franklin, TN; Nashville, TN",
-    url: "https://www.benesch.com/job-openings/4100876007?gh_jid=4100876007",
+    location: "Franklin, TN; Nashville, TN | Charlotte, NC; Raleigh, NC; Wilmington, NC",
+    url: "https://www.benesch.com/job-openings/5146414007?gh_jid=5146414007",
     department: "",
-    postedAt: "2023-10-11T18:04:28-04:00",
+    postedAt: "2026-05-29T10:38:09-04:00",
   },
   {
     title: "Project Manager - Railroad Civil Track Design",
@@ -299,6 +299,24 @@ export const jobs: Job[] = [
     postedAt: "2025-12-11T04:38:54.143+00:00",
   },
 
+  // ── assembledhq ────────────────────────────────────────────
+  {
+    title: "Brand Designer",
+    company: "assembledhq",
+    location: "San Francisco, CA",
+    url: "https://jobs.ashbyhq.com/assembledhq/6d0d0a27-e694-4808-86a5-8fb7dee6eab3",
+    department: "Marketing",
+    postedAt: "2026-06-11T05:31:43.998+00:00",
+  },
+  {
+    title: "Product Designer, AI Agents",
+    company: "assembledhq",
+    location: "San Francisco, CA",
+    url: "https://jobs.ashbyhq.com/assembledhq/1e6165e1-4274-4ed6-9410-5ebb05639486",
+    department: "Product Design & UX",
+    postedAt: "2026-06-26T23:05:09.841+00:00",
+  },
+
   // ── Bloomreach ─────────────────────────────────────────────
   {
     title: " Conversational AI UX Designer ",
@@ -323,7 +341,7 @@ export const jobs: Job[] = [
   {
     title: "Lead Design Engineer",
     company: "Braze",
-    location: "New York City | Chicago | Austin | San Francisco",
+    location: "New York City | Austin | Chicago | San Francisco",
     url: "https://boards.greenhouse.io/braze/jobs/7592334?gh_jid=7592334",
     department: "",
     postedAt: "2026-02-13T10:32:47-05:00",
@@ -365,10 +383,10 @@ export const jobs: Job[] = [
   {
     title: "Staff Product Designer",
     company: "Brex",
-    location: "San Francisco, California, United States | New York, New York, United States",
-    url: "https://www.brex.com/careers/7669111002?gh_jid=7669111002",
+    location: "New York, New York, United States | San Francisco, California, United States",
+    url: "https://www.brex.com/careers/8124973002?gh_jid=8124973002",
     department: "",
-    postedAt: "2024-10-03T14:09:29-04:00",
+    postedAt: "2025-08-18T14:45:19-04:00",
   },
 
   // ── Buildkite ──────────────────────────────────────────────
@@ -379,48 +397,6 @@ export const jobs: Job[] = [
     url: "https://job-boards.greenhouse.io/buildkite/jobs/5121398008",
     department: "",
     postedAt: "2026-02-15T18:16:31-05:00",
-  },
-
-  // ── CesiumAstro ────────────────────────────────────────────
-  {
-    title: "Principal Antenna Design Engineer I",
-    company: "CesiumAstro",
-    location: "Westminster, CO",
-    url: "https://jobs.lever.co/CesiumAstro/1712797e-5e68-46bb-bd06-ab688ba21f81",
-    department: "Antenna",
-    postedAt: "2025-10-09T14:33:38.214Z",
-  },
-  {
-    title: "Principal Launch Vehicle Design Engineer II",
-    company: "CesiumAstro",
-    location: "El Segundo, CA",
-    url: "https://jobs.lever.co/CesiumAstro/46db5b15-5824-4643-9437-d5d4f6cc2b11",
-    department: "Engineering",
-    postedAt: "2025-09-23T18:11:37.301Z",
-  },
-  {
-    title: "Senior Antenna Design Engineer I",
-    company: "CesiumAstro",
-    location: "Westminster, CO | Melbourne, FL",
-    url: "https://jobs.lever.co/CesiumAstro/bfe63f66-f954-4c6b-83d3-3b65870d8e4d",
-    department: "Antenna",
-    postedAt: "2025-10-02T15:22:44.276Z",
-  },
-  {
-    title: "Senior Launch Vehicle Design Engineer I",
-    company: "CesiumAstro",
-    location: "El Segundo, CA",
-    url: "https://jobs.lever.co/CesiumAstro/334a9393-0463-4f32-8b36-30460212cf33",
-    department: "Engineering",
-    postedAt: "2026-06-03T17:57:26.064Z",
-  },
-  {
-    title: "Senior Valve Design Engineer I",
-    company: "CesiumAstro",
-    location: "El Segundo, CA",
-    url: "https://jobs.lever.co/CesiumAstro/104e0154-8309-4e42-8737-10439ba770b1",
-    department: "Engineering",
-    postedAt: "2026-06-03T17:20:45.735Z",
   },
 
   // ── Chime ──────────────────────────────────────────────────
@@ -871,10 +847,10 @@ export const jobs: Job[] = [
   {
     title: "Staff Product Designer",
     company: "GlossGenius",
-    location: "Hybrid - New York City  | Hybrid - San Francisco ",
-    url: "https://job-boards.greenhouse.io/glossgenius/jobs/7580118003",
+    location: "Hybrid - San Francisco  | Hybrid - New York City ",
+    url: "https://job-boards.greenhouse.io/glossgenius/jobs/7728313003",
     department: "",
-    postedAt: "2026-01-06T15:28:32-05:00",
+    postedAt: "2026-05-08T10:05:00-04:00",
   },
 
   // ── Gong ───────────────────────────────────────────────────
@@ -1101,14 +1077,40 @@ export const jobs: Job[] = [
     postedAt: "2026-01-19T04:58:46.137+00:00",
   },
 
+  // ── Iru ────────────────────────────────────────────────────
+  {
+    title: "Creative Director",
+    company: "Iru",
+    location: "Miami",
+    url: "https://jobs.lever.co/iru/1586b4f5-d9ac-423f-a069-e95ee8ba7631",
+    department: "Marketing",
+    postedAt: "2026-06-26T17:05:49.692Z",
+  },
+  {
+    title: "Principal UI/UX Designer",
+    company: "Iru",
+    location: "Miami",
+    url: "https://jobs.lever.co/iru/0bf50a9a-1a25-492e-8b9d-03c6a0f6d5d8",
+    department: "Product Design",
+    postedAt: "2026-06-25T18:45:41.251Z",
+  },
+  {
+    title: "Visual Designer",
+    company: "Iru",
+    location: "Miami",
+    url: "https://jobs.lever.co/iru/f35ce733-dc18-4193-9853-5e6b5fbc81b5",
+    department: "Marketing",
+    postedAt: "2026-04-14T14:24:45.249Z",
+  },
+
   // ── Kaizen Gaming Careers ──────────────────────────────────
   {
     title: "Senior Product Designer, Sportsbook",
     company: "Kaizen Gaming Careers",
-    location: "Athens, Greece | Sliema, Malta",
-    url: "https://careers.kaizengaming.com/job-details/7471120003?gh_jid=7471120003",
+    location: "Sliema, Malta | Athens, Greece",
+    url: "https://careers.kaizengaming.com/job-details/7786455003?gh_jid=7786455003",
     department: "",
-    postedAt: "2026-01-07T07:55:07-05:00",
+    postedAt: "2026-06-26T02:08:33-04:00",
   },
 
   // ── Klaviyo ────────────────────────────────────────────────
@@ -1469,6 +1471,16 @@ export const jobs: Job[] = [
     postedAt: "2026-06-23T20:45:30.367Z",
   },
 
+  // ── pandektes ──────────────────────────────────────────────
+  {
+    title: "Senior Product Designer ",
+    company: "pandektes",
+    location: "Copenhagen",
+    url: "https://jobs.ashbyhq.com/pandektes/e8b0ad19-66b7-4e1c-b5cf-3d6346009d19",
+    department: "Product & Engineering",
+    postedAt: "2026-05-18T15:10:27.639+00:00",
+  },
+
   // ── Pendo ──────────────────────────────────────────────────
   {
     title: "Staff Product Designer",
@@ -1605,10 +1617,10 @@ export const jobs: Job[] = [
   {
     title: "Senior Product Designer",
     company: "Robinhood",
-    location: "Menlo Park, CA | Menlo Park, CA; New York, NY",
-    url: "https://boards.greenhouse.io/robinhood/jobs/7960697?t=gh_src=&gh_jid=7960697",
+    location: "Menlo Park, CA; New York, NY | Menlo Park, CA",
+    url: "https://boards.greenhouse.io/robinhood/jobs/7490017?t=gh_src=&gh_jid=7490017",
     department: "",
-    postedAt: "2026-06-02T15:41:03-04:00",
+    postedAt: "2026-05-29T14:34:41-04:00",
   },
   {
     title: "Senior Product Designer, Banking",
@@ -2001,6 +2013,24 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/tessera-labs/742eb648-a305-4da8-90fa-6d3af8e16f8d",
     department: "Product",
     postedAt: "2026-05-13T22:30:48.154+00:00",
+  },
+
+  // ── Text ───────────────────────────────────────────────────
+  {
+    title: "Senior Product Designer - Lifecycle Growth",
+    company: "Text",
+    location: "Wrocław",
+    url: "https://jobs.lever.co/livechatinc/48351ae1-0f3b-4538-982d-91a47e44ebae",
+    department: "Lifecycle Growth",
+    postedAt: "2026-05-08T11:54:38.749Z",
+  },
+  {
+    title: "VP of Product Design",
+    company: "Text",
+    location: "Wrocław",
+    url: "https://jobs.lever.co/livechatinc/a31ee831-c45c-41d9-96c2-c519db99b70e",
+    department: "Text VPs",
+    postedAt: "2025-09-04T16:13:22.704Z",
   },
 
   // ── Thunkable ──────────────────────────────────────────────
