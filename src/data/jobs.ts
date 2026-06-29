@@ -7,7 +7,7 @@ export type Job = {
   postedAt: string;
 };
 
-// Auto-updated by scraper — 2026-06-28
+// Auto-updated by scraper — 2026-06-29
 export const jobs: Job[] = [
   // ── Affirm ─────────────────────────────────────────────────
   {
@@ -341,10 +341,10 @@ export const jobs: Job[] = [
   {
     title: "Lead Design Engineer",
     company: "Braze",
-    location: "New York City | Austin | Chicago | San Francisco",
-    url: "https://boards.greenhouse.io/braze/jobs/7592334?gh_jid=7592334",
+    location: "Chicago | Austin | San Francisco | New York City",
+    url: "https://boards.greenhouse.io/braze/jobs/7614562?gh_jid=7614562",
     department: "",
-    postedAt: "2026-02-13T10:32:47-05:00",
+    postedAt: "2026-02-13T10:32:48-05:00",
   },
 
   // ── Brex ───────────────────────────────────────────────────
@@ -387,16 +387,6 @@ export const jobs: Job[] = [
     url: "https://www.brex.com/careers/8124973002?gh_jid=8124973002",
     department: "",
     postedAt: "2025-08-18T14:45:19-04:00",
-  },
-
-  // ── Buildkite ──────────────────────────────────────────────
-  {
-    title: "Senior Design Engineer, Product",
-    company: "Buildkite",
-    location: "US",
-    url: "https://job-boards.greenhouse.io/buildkite/jobs/5121398008",
-    department: "",
-    postedAt: "2026-02-15T18:16:31-05:00",
   },
 
   // ── Chime ──────────────────────────────────────────────────
@@ -1107,10 +1097,10 @@ export const jobs: Job[] = [
   {
     title: "Senior Product Designer, Sportsbook",
     company: "Kaizen Gaming Careers",
-    location: "Sliema, Malta | Athens, Greece",
-    url: "https://careers.kaizengaming.com/job-details/7786455003?gh_jid=7786455003",
+    location: "Athens, Greece | Sliema, Malta",
+    url: "https://careers.kaizengaming.com/job-details/7471120003?gh_jid=7471120003",
     department: "",
-    postedAt: "2026-06-26T02:08:33-04:00",
+    postedAt: "2026-01-07T07:55:07-05:00",
   },
 
   // ── Klaviyo ────────────────────────────────────────────────
