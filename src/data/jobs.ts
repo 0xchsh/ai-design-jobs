@@ -7,7 +7,7 @@ export type Job = {
   postedAt: string;
 };
 
-// Auto-updated by scraper — 2026-06-30
+// Auto-updated by scraper — 2026-07-01
 export const jobs: Job[] = [
   // ── Affirm ─────────────────────────────────────────────────
   {
@@ -41,18 +41,18 @@ export const jobs: Job[] = [
   {
     title: "Aviation Designer",
     company: "alfredbeneschco",
-    location: "Lincoln, NE; Grand Island, NE; Omaha, NE; Bellevue, NE | Kansas City, KS; Kansas City, MO; Manhattan, KS; Overland Park, KS; Topeka, KS; Wichita, KS",
-    url: "https://www.benesch.com/job-openings/4988830007?gh_jid=4988830007",
+    location: "Kansas City, KS; Kansas City, MO; Manhattan, KS; Overland Park, KS; Topeka, KS; Wichita, KS | Lincoln, NE; Grand Island, NE; Omaha, NE; Bellevue, NE",
+    url: "https://www.benesch.com/job-openings/5088285007?gh_jid=5088285007",
     department: "",
-    postedAt: "2025-12-02T16:25:46-05:00",
+    postedAt: "2026-03-24T15:06:05-04:00",
   },
   {
     title: "Bridge Design Project Manager ",
     company: "alfredbeneschco",
-    location: "Raleigh, NC | Boston, MA",
-    url: "https://www.benesch.com/job-openings/4771072007?gh_jid=4771072007",
+    location: "Boston, MA | Raleigh, NC",
+    url: "https://www.benesch.com/job-openings/4042776007?gh_jid=4042776007",
     department: "",
-    postedAt: "2025-06-24T16:56:46-04:00",
+    postedAt: "2023-08-02T10:22:57-04:00",
   },
   {
     title: "Bridge Design Technical Manager ",
@@ -81,10 +81,10 @@ export const jobs: Job[] = [
   {
     title: "Civil Site Designer II",
     company: "alfredbeneschco",
-    location: "Franklin, TN; Nashville, TN | Charlotte, NC; Raleigh, NC; Wilmington, NC",
-    url: "https://www.benesch.com/job-openings/5146414007?gh_jid=5146414007",
+    location: "Charlotte, NC; Raleigh, NC; Wilmington, NC | Franklin, TN; Nashville, TN",
+    url: "https://www.benesch.com/job-openings/4100876007?gh_jid=4100876007",
     department: "",
-    postedAt: "2026-05-29T10:38:09-04:00",
+    postedAt: "2023-10-11T18:04:28-04:00",
   },
   {
     title: "Project Manager - Railroad Civil Track Design",
@@ -177,14 +177,6 @@ export const jobs: Job[] = [
     url: "https://job-boards.greenhouse.io/anthropic/jobs/5223916008",
     department: "",
     postedAt: "2026-05-18T13:02:16-04:00",
-  },
-  {
-    title: "Motion Designer, Core Brand",
-    company: "Anthropic",
-    location: "Remote-Friendly, United States; San Francisco, CA | New York City, NY",
-    url: "https://job-boards.greenhouse.io/anthropic/jobs/5116771008",
-    department: "",
-    postedAt: "2026-02-12T14:46:57-05:00",
   },
   {
     title: "Policy Design Manager, Age-Appropriate Design",
@@ -317,16 +309,6 @@ export const jobs: Job[] = [
     postedAt: "2026-06-26T23:05:09.841+00:00",
   },
 
-  // ── Bloomreach ─────────────────────────────────────────────
-  {
-    title: " Conversational AI UX Designer ",
-    company: "Bloomreach",
-    location: "Czechia",
-    url: "https://job-boards.greenhouse.io/bloomreach/jobs/7820226",
-    department: "",
-    postedAt: "2026-04-16T02:48:52-04:00",
-  },
-
   // ── Braintrust ─────────────────────────────────────────────
   {
     title: "Design Engineer",
@@ -335,16 +317,6 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/braintrust/57487086-68ae-4c81-8c62-c6157c20e4ac",
     department: "Engineering",
     postedAt: "2024-10-09T20:55:56.052+00:00",
-  },
-
-  // ── Braze ──────────────────────────────────────────────────
-  {
-    title: "Lead Design Engineer",
-    company: "Braze",
-    location: "Austin | New York City | San Francisco | Chicago",
-    url: "https://boards.greenhouse.io/braze/jobs/7614563?gh_jid=7614563",
-    department: "",
-    postedAt: "2026-02-13T10:32:48-05:00",
   },
 
   // ── Brex ───────────────────────────────────────────────────
@@ -481,6 +453,16 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/claylabs/a284a622-0736-4558-be7a-76434f0dd147",
     department: "Product & Design",
     postedAt: "2026-04-22T21:21:09.451+00:00",
+  },
+
+  // ── clickup ────────────────────────────────────────────────
+  {
+    title: "Staff Product Designer",
+    company: "clickup",
+    location: "United States",
+    url: "https://jobs.ashbyhq.com/clickup/0b715fff-f8c2-4e87-880d-d390bb0cbc40",
+    department: "Product",
+    postedAt: "2026-06-17T13:42:46.465+00:00",
   },
 
   // ── Cloudflare ─────────────────────────────────────────────
@@ -709,8 +691,8 @@ export const jobs: Job[] = [
   {
     title: "Senior Product Design Manager",
     company: "Duolingo",
-    location: "New York, NY | Pittsburgh, PA",
-    url: "https://careers.duolingo.com/jobs/8385193002?gh_jid=8385193002",
+    location: "Pittsburgh, PA | New York, NY",
+    url: "https://careers.duolingo.com/jobs/8385195002?gh_jid=8385195002",
     department: "",
     postedAt: "2026-01-21T20:53:46-05:00",
   },
@@ -729,6 +711,16 @@ export const jobs: Job[] = [
     url: "https://careers.duolingo.com/jobs/8200009002?gh_jid=8200009002",
     department: "",
     postedAt: "2025-10-06T20:17:41-04:00",
+  },
+
+  // ── Electrified Thermal ────────────────────────────────────
+  {
+    title: "2026 Summer Design Engineer Internship",
+    company: "Electrified Thermal",
+    location: "Charlestown, MA",
+    url: "https://jobs.lever.co/ElectrifiedThermalSolutions/7ee98b9e-d86b-4068-9075-322c96912cb5",
+    department: "Engineering",
+    postedAt: "2026-04-24T17:39:09.427Z",
   },
 
   // ── Epsilon3 ───────────────────────────────────────────────
@@ -929,14 +921,6 @@ export const jobs: Job[] = [
     postedAt: "2026-01-14T09:34:07-05:00",
   },
   {
-    title: "Senior Product Designer",
-    company: "Gong",
-    location: "Tel Aviv",
-    url: "https://job-boards.greenhouse.io/gongio/jobs/4680480006",
-    department: "",
-    postedAt: "2026-05-19T02:54:39-04:00",
-  },
-  {
     title: "Senior Product Writer (UX)",
     company: "Gong",
     location: "Dublin",
@@ -1127,32 +1111,6 @@ export const jobs: Job[] = [
     postedAt: "2026-05-18T20:43:41.422+00:00",
   },
 
-  // ── Iru ────────────────────────────────────────────────────
-  {
-    title: "Creative Director",
-    company: "Iru",
-    location: "Miami",
-    url: "https://jobs.lever.co/iru/1586b4f5-d9ac-423f-a069-e95ee8ba7631",
-    department: "Marketing",
-    postedAt: "2026-06-26T17:05:49.692Z",
-  },
-  {
-    title: "Principal UI/UX Designer",
-    company: "Iru",
-    location: "Miami",
-    url: "https://jobs.lever.co/iru/0bf50a9a-1a25-492e-8b9d-03c6a0f6d5d8",
-    department: "Product Design",
-    postedAt: "2026-06-25T18:45:41.251Z",
-  },
-  {
-    title: "Visual Designer",
-    company: "Iru",
-    location: "Miami",
-    url: "https://jobs.lever.co/iru/f35ce733-dc18-4193-9853-5e6b5fbc81b5",
-    department: "Marketing",
-    postedAt: "2026-04-14T14:24:45.249Z",
-  },
-
   // ── Kaizen Gaming Careers ──────────────────────────────────
   {
     title: "Senior Product Designer, Sportsbook",
@@ -1176,9 +1134,9 @@ export const jobs: Job[] = [
     title: "Product Designer",
     company: "Klaviyo",
     location: "Boston, MA",
-    url: "https://www.klaviyo.com/careers/jobs/7708678003?gh_jid=7708678003",
+    url: "https://www.klaviyo.com/careers/jobs/7503712003?gh_jid=7503712003",
     department: "",
-    postedAt: "2026-05-05T14:49:59-04:00",
+    postedAt: "2025-10-24T15:05:56-04:00",
   },
   {
     title: "Senior Product Designer",
@@ -1306,6 +1264,14 @@ export const jobs: Job[] = [
   },
 
   // ── Mercor ─────────────────────────────────────────────────
+  {
+    title: "Assessment Designer & Learning Analyst",
+    company: "Mercor",
+    location: "Mercor HQ, 181 Fremont Street",
+    url: "https://jobs.ashbyhq.com/mercor/6299fe0b-9275-4bd2-b6e8-0de1d8b77f08",
+    department: "Operations",
+    postedAt: "2026-06-30T23:55:20.845+00:00",
+  },
   {
     title: "Learning Designer",
     company: "Mercor",
@@ -1649,10 +1615,10 @@ export const jobs: Job[] = [
   {
     title: "Senior Product Designer",
     company: "Robinhood",
-    location: "Menlo Park, CA | Menlo Park, CA; New York, NY",
-    url: "https://boards.greenhouse.io/robinhood/jobs/7960697?t=gh_src=&gh_jid=7960697",
+    location: "Menlo Park, CA; New York, NY | Menlo Park, CA",
+    url: "https://boards.greenhouse.io/robinhood/jobs/7490017?t=gh_src=&gh_jid=7490017",
     department: "",
-    postedAt: "2026-06-02T15:41:03-04:00",
+    postedAt: "2026-05-29T14:34:41-04:00",
   },
   {
     title: "Senior Product Designer, Banking",
@@ -2131,14 +2097,6 @@ export const jobs: Job[] = [
 
   // ── Vercel ─────────────────────────────────────────────────
   {
-    title: "Design Engineer",
-    company: "Vercel",
-    location: "Remote - United States",
-    url: "https://job-boards.greenhouse.io/vercel/jobs/5709080004",
-    department: "",
-    postedAt: "2025-12-09T17:58:13-05:00",
-  },
-  {
     title: "Senior Product Designer",
     company: "Vercel",
     location: "Remote - United States",
@@ -2155,16 +2113,6 @@ export const jobs: Job[] = [
     url: "https://careers.withwaymo.com/jobs?gh_jid=7442326",
     department: "",
     postedAt: "2025-12-10T14:11:30-05:00",
-  },
-
-  // ── WISEcode ───────────────────────────────────────────────
-  {
-    title: "Senior Mobile UX Designer",
-    company: "WISEcode",
-    location: "United States",
-    url: "https://jobs.lever.co/wisecode/83c3ce33-ad80-4c5b-a128-c55639d74620",
-    department: "Product",
-    postedAt: "2026-05-13T17:13:49.003Z",
   },
 
   // ── xAI ────────────────────────────────────────────────────
