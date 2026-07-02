@@ -7,7 +7,7 @@ export type Job = {
   postedAt: string;
 };
 
-// Auto-updated by scraper — 2026-07-01
+// Auto-updated by scraper — 2026-07-02
 export const jobs: Job[] = [
   // ── Affirm ─────────────────────────────────────────────────
   {
@@ -355,10 +355,10 @@ export const jobs: Job[] = [
   {
     title: "Staff Product Designer",
     company: "Brex",
-    location: "San Francisco, California, United States | New York, New York, United States",
-    url: "https://www.brex.com/careers/7669111002?gh_jid=7669111002",
+    location: "New York, New York, United States | San Francisco, California, United States",
+    url: "https://www.brex.com/careers/8124973002?gh_jid=8124973002",
     department: "",
-    postedAt: "2024-10-03T14:09:29-04:00",
+    postedAt: "2025-08-18T14:45:19-04:00",
   },
 
   // ── CesiumAstro ────────────────────────────────────────────
@@ -483,6 +483,16 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/coframe/29a944ba-7cae-429e-84e3-32f047d21c4a",
     department: "Product",
     postedAt: "2024-09-25T04:50:26.207+00:00",
+  },
+
+  // ── Cohere ─────────────────────────────────────────────────
+  {
+    title: "Senior Product Designer",
+    company: "Cohere",
+    location: "New York",
+    url: "https://jobs.ashbyhq.com/cohere/479bed98-46d3-4140-9d5e-96dc193fd845",
+    department: "Design",
+    postedAt: "2026-07-01T18:20:50.374+00:00",
   },
 
   // ── Coinbase ───────────────────────────────────────────────
@@ -689,14 +699,6 @@ export const jobs: Job[] = [
 
   // ── Duolingo ───────────────────────────────────────────────
   {
-    title: "Senior Product Design Manager",
-    company: "Duolingo",
-    location: "Pittsburgh, PA | New York, NY",
-    url: "https://careers.duolingo.com/jobs/8385195002?gh_jid=8385195002",
-    department: "",
-    postedAt: "2026-01-21T20:53:46-05:00",
-  },
-  {
     title: "Senior Product Designer",
     company: "Duolingo",
     location: "Seattle, WA",
@@ -711,6 +713,24 @@ export const jobs: Job[] = [
     url: "https://careers.duolingo.com/jobs/8200009002?gh_jid=8200009002",
     department: "",
     postedAt: "2025-10-06T20:17:41-04:00",
+  },
+
+  // ── Dutch ──────────────────────────────────────────────────
+  {
+    title: "Lead Product Designer",
+    company: "Dutch",
+    location: "Oakland, CA",
+    url: "https://jobs.lever.co/dutch/abb25c9c-47d8-417a-98d2-dd105d24f933",
+    department: "Product",
+    postedAt: "2026-06-08T15:46:26.365Z",
+  },
+  {
+    title: "Lead Product Designer (Canada)",
+    company: "Dutch",
+    location: "Ontario",
+    url: "https://jobs.lever.co/dutch/d6878126-8dd4-4ea4-aa86-6c613e61faeb",
+    department: "Product",
+    postedAt: "2026-06-04T15:28:13.203Z",
   },
 
   // ── Electrified Thermal ────────────────────────────────────
@@ -856,14 +876,6 @@ export const jobs: Job[] = [
     department: "",
     postedAt: "2026-06-29T19:45:12-04:00",
   },
-  {
-    title: "Product Designer ",
-    company: "Fireworks AI",
-    location: "San Mateo, CA",
-    url: "https://job-boards.greenhouse.io/fireworksai/jobs/4203054009",
-    department: "",
-    postedAt: "2026-03-27T13:03:44-04:00",
-  },
 
   // ── Fivetran ───────────────────────────────────────────────
   {
@@ -897,10 +909,10 @@ export const jobs: Job[] = [
   {
     title: "Staff Product Designer",
     company: "GlossGenius",
-    location: "Hybrid - New York City  | Hybrid - San Francisco ",
-    url: "https://job-boards.greenhouse.io/glossgenius/jobs/7580118003",
+    location: "Hybrid - San Francisco  | Hybrid - New York City ",
+    url: "https://job-boards.greenhouse.io/glossgenius/jobs/7728313003",
     department: "",
-    postedAt: "2026-01-06T15:28:32-05:00",
+    postedAt: "2026-05-08T10:05:00-04:00",
   },
 
   // ── Gong ───────────────────────────────────────────────────
@@ -1111,14 +1123,40 @@ export const jobs: Job[] = [
     postedAt: "2026-05-18T20:43:41.422+00:00",
   },
 
+  // ── iru ────────────────────────────────────────────────────
+  {
+    title: "Creative Director",
+    company: "iru",
+    location: "Miami",
+    url: "https://jobs.lever.co/iru/1586b4f5-d9ac-423f-a069-e95ee8ba7631",
+    department: "Marketing",
+    postedAt: "2026-06-26T17:05:49.692Z",
+  },
+  {
+    title: "Principal UI/UX Designer",
+    company: "iru",
+    location: "Miami",
+    url: "https://jobs.lever.co/iru/0bf50a9a-1a25-492e-8b9d-03c6a0f6d5d8",
+    department: "Product Design",
+    postedAt: "2026-06-25T18:45:41.251Z",
+  },
+  {
+    title: "Visual Designer",
+    company: "iru",
+    location: "Miami",
+    url: "https://jobs.lever.co/iru/f35ce733-dc18-4193-9853-5e6b5fbc81b5",
+    department: "Marketing",
+    postedAt: "2026-04-14T14:24:45.249Z",
+  },
+
   // ── Kaizen Gaming Careers ──────────────────────────────────
   {
     title: "Senior Product Designer, Sportsbook",
     company: "Kaizen Gaming Careers",
-    location: "Athens, Greece | Sliema, Malta",
-    url: "https://careers.kaizengaming.com/job-details/7471120003?gh_jid=7471120003",
+    location: "Sliema, Malta | Athens, Greece",
+    url: "https://careers.kaizengaming.com/job-details/7786455003?gh_jid=7786455003",
     department: "",
-    postedAt: "2026-01-07T07:55:07-05:00",
+    postedAt: "2026-06-26T02:08:33-04:00",
   },
 
   // ── Klaviyo ────────────────────────────────────────────────
@@ -1181,6 +1219,16 @@ export const jobs: Job[] = [
     url: "https://lattice.com/job?gh_jid=8553095002",
     department: "",
     postedAt: "2026-06-05T16:37:39-04:00",
+  },
+
+  // ── Lattice Partners ───────────────────────────────────────
+  {
+    title: "Product Designer, AI ",
+    company: "Lattice Partners",
+    location: "United States",
+    url: "https://jobs.ashbyhq.com/latticepartners/0d22eb9d-3a3b-4a21-86b6-99ba3f228173",
+    department: "Engineering",
+    postedAt: "2026-05-27T00:50:48.127+00:00",
   },
 
   // ── Linear ─────────────────────────────────────────────────
@@ -1557,7 +1605,7 @@ export const jobs: Job[] = [
     company: "Ramp",
     location: "New York, NY (HQ)",
     url: "https://jobs.ashbyhq.com/ramp/2c3c860b-4598-4bc3-a36b-e9f40b39768c",
-    department: "Marketing",
+    department: "Design",
     postedAt: "2026-05-22T16:36:46.626+00:00",
   },
   {
@@ -1841,14 +1889,6 @@ export const jobs: Job[] = [
     postedAt: "2026-06-15T22:21:12-04:00",
   },
   {
-    title: "Creative Director, Copy & Campaigns",
-    company: "Stripe",
-    location: "US",
-    url: "https://stripe.com/jobs/search?gh_jid=8001341",
-    department: "",
-    postedAt: "2026-06-18T21:05:52-04:00",
-  },
-  {
     title: "Design Program Manager, AI",
     company: "Stripe",
     location: "US",
@@ -2021,28 +2061,10 @@ export const jobs: Job[] = [
     postedAt: "2026-05-13T22:30:48.154+00:00",
   },
 
-  // ── Text ───────────────────────────────────────────────────
-  {
-    title: "Senior Product Designer - Lifecycle Growth",
-    company: "Text",
-    location: "Wrocław",
-    url: "https://jobs.lever.co/livechatinc/48351ae1-0f3b-4538-982d-91a47e44ebae",
-    department: "Lifecycle Growth",
-    postedAt: "2026-05-08T11:54:38.749Z",
-  },
-  {
-    title: "VP of Product Design",
-    company: "Text",
-    location: "Wrocław",
-    url: "https://jobs.lever.co/livechatinc/a31ee831-c45c-41d9-96c2-c519db99b70e",
-    department: "Text VPs",
-    postedAt: "2025-09-04T16:13:22.704Z",
-  },
-
-  // ── Thunkable ──────────────────────────────────────────────
+  // ── thunkable ──────────────────────────────────────────────
   {
     title: "Product Designer",
-    company: "Thunkable",
+    company: "thunkable",
     location: "San Francisco, CA",
     url: "https://jobs.lever.co/thunkable/9bbcc4b9-ee31-4921-b844-d8f1e0bc533f",
     department: "Product Design",
