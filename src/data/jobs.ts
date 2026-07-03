@@ -7,7 +7,7 @@ export type Job = {
   postedAt: string;
 };
 
-// Auto-updated by scraper — 2026-07-02
+// Auto-updated by scraper — 2026-07-03
 export const jobs: Job[] = [
   // ── Affirm ─────────────────────────────────────────────────
   {
@@ -37,92 +37,10 @@ export const jobs: Job[] = [
     postedAt: "2026-06-22T13:38:07-04:00",
   },
 
-  // ── alfredbeneschco ────────────────────────────────────────
-  {
-    title: "Aviation Designer",
-    company: "alfredbeneschco",
-    location: "Kansas City, KS; Kansas City, MO; Manhattan, KS; Overland Park, KS; Topeka, KS; Wichita, KS | Lincoln, NE; Grand Island, NE; Omaha, NE; Bellevue, NE",
-    url: "https://www.benesch.com/job-openings/5088285007?gh_jid=5088285007",
-    department: "",
-    postedAt: "2026-03-24T15:06:05-04:00",
-  },
-  {
-    title: "Bridge Design Project Manager ",
-    company: "alfredbeneschco",
-    location: "Boston, MA | Raleigh, NC",
-    url: "https://www.benesch.com/job-openings/4042776007?gh_jid=4042776007",
-    department: "",
-    postedAt: "2023-08-02T10:22:57-04:00",
-  },
-  {
-    title: "Bridge Design Technical Manager ",
-    company: "alfredbeneschco",
-    location: "Raleigh, NC",
-    url: "https://www.benesch.com/job-openings/4771064007?gh_jid=4771064007",
-    department: "",
-    postedAt: "2025-06-24T17:01:26-04:00",
-  },
-  {
-    title: "Bridge Designer (EIT)",
-    company: "alfredbeneschco",
-    location: "Fort Worth, TX",
-    url: "https://www.benesch.com/job-openings/4655359007?gh_jid=4655359007",
-    department: "",
-    postedAt: "2025-02-18T13:28:17-05:00",
-  },
-  {
-    title: "Civil Designer",
-    company: "alfredbeneschco",
-    location: "Chicago, IL",
-    url: "https://www.benesch.com/job-openings/5096563007?gh_jid=5096563007",
-    department: "",
-    postedAt: "2026-04-06T13:02:17-04:00",
-  },
-  {
-    title: "Civil Site Designer II",
-    company: "alfredbeneschco",
-    location: "Charlotte, NC; Raleigh, NC; Wilmington, NC | Franklin, TN; Nashville, TN",
-    url: "https://www.benesch.com/job-openings/4100876007?gh_jid=4100876007",
-    department: "",
-    postedAt: "2023-10-11T18:04:28-04:00",
-  },
-  {
-    title: "Project Manager - Railroad Civil Track Design",
-    company: "alfredbeneschco",
-    location: "Remote",
-    url: "https://www.benesch.com/job-openings/4513377007?gh_jid=4513377007",
-    department: "",
-    postedAt: "2024-09-10T06:51:24-04:00",
-  },
-  {
-    title: "Roadway Design Technical Manager ",
-    company: "alfredbeneschco",
-    location: "Raleigh, NC",
-    url: "https://www.benesch.com/job-openings/4869556007?gh_jid=4869556007",
-    department: "",
-    postedAt: "2025-10-29T12:24:58-04:00",
-  },
-  {
-    title: "Traffic Designer",
-    company: "alfredbeneschco",
-    location: "Kansas City, KS; Manhattan, KS; Overland Park, KS; Topeka, KS; Wichita, KS",
-    url: "https://www.benesch.com/job-openings/5154242007?gh_jid=5154242007",
-    department: "",
-    postedAt: "2026-06-09T14:59:22-04:00",
-  },
-  {
-    title: "Transportation Design Practice Lead",
-    company: "alfredbeneschco",
-    location: "Fort Lauderdale, FL; Jacksonville, FL; Miami, FL; Tampa, FL; Orlando, FL",
-    url: "https://www.benesch.com/job-openings/4840853007?gh_jid=4840853007",
-    department: "",
-    postedAt: "2025-08-29T13:27:48-04:00",
-  },
-
-  // ── Ando ───────────────────────────────────────────────────
+  // ── ando ───────────────────────────────────────────────────
   {
     title: "Brand Designer",
-    company: "Ando",
+    company: "ando",
     location: "San Francisco",
     url: "https://jobs.ashbyhq.com/ando/3ea1e324-dbe6-488f-94a1-00a4a03aec76",
     department: "Design",
@@ -130,7 +48,7 @@ export const jobs: Job[] = [
   },
   {
     title: "Design Engineer",
-    company: "Ando",
+    company: "ando",
     location: "San Francisco",
     url: "https://jobs.ashbyhq.com/ando/12f9f036-8aec-4b62-8617-fcdf12ff4c4f",
     department: "Engineering",
@@ -138,7 +56,7 @@ export const jobs: Job[] = [
   },
   {
     title: "Product Designer",
-    company: "Ando",
+    company: "ando",
     location: "San Francisco",
     url: "https://jobs.ashbyhq.com/ando/7de86b5b-cda4-4c3f-9d32-8defb3a1a191",
     department: "Design",
@@ -249,48 +167,6 @@ export const jobs: Job[] = [
     postedAt: "2026-06-11T15:07:58-04:00",
   },
 
-  // ── ashby ──────────────────────────────────────────────────
-  {
-    title: "Design Engineer, Americas",
-    company: "ashby",
-    location: "Remote - US",
-    url: "https://jobs.ashbyhq.com/ashby/fd86edd7-3af0-4977-a61a-215212c296fa",
-    department: "Engineering",
-    postedAt: "2026-06-12T21:11:08.658+00:00",
-  },
-  {
-    title: "Junior Design Engineer, Americas",
-    company: "ashby",
-    location: "Remote - US",
-    url: "https://jobs.ashbyhq.com/ashby/0f538da6-1e06-43f0-86cb-de8007814284",
-    department: "Engineering",
-    postedAt: "2026-06-15T19:38:47.287+00:00",
-  },
-  {
-    title: "Senior Product Designer",
-    company: "ashby",
-    location: "Remote - US",
-    url: "https://jobs.ashbyhq.com/ashby/f40ef345-82a8-4956-9150-193b4fdf8183",
-    department: "Design",
-    postedAt: "2025-12-05T22:43:22.147+00:00",
-  },
-  {
-    title: "Staff Design Engineer, Americas",
-    company: "ashby",
-    location: "Remote - US",
-    url: "https://jobs.ashbyhq.com/ashby/cc846e56-27dd-41b5-bf5b-64d5eeb5ff1a",
-    department: "Engineering",
-    postedAt: "2025-11-14T01:04:25.832+00:00",
-  },
-  {
-    title: "Staff Product Designer",
-    company: "ashby",
-    location: "Remote - US",
-    url: "https://jobs.ashbyhq.com/ashby/2373fcd5-144b-4d66-a98b-dd0efb4eb9d1",
-    department: "Design",
-    postedAt: "2025-12-11T04:38:54.143+00:00",
-  },
-
   // ── assembledhq ────────────────────────────────────────────
   {
     title: "Brand Designer",
@@ -362,6 +238,14 @@ export const jobs: Job[] = [
   },
 
   // ── CesiumAstro ────────────────────────────────────────────
+  {
+    title: "Antenna Design Engineer II",
+    company: "CesiumAstro",
+    location: "Austin, TX",
+    url: "https://jobs.lever.co/CesiumAstro/8e54ffa0-da7b-4622-a44d-6103ebd23dcc",
+    department: "Antenna",
+    postedAt: "2026-07-02T14:22:06.217Z",
+  },
   {
     title: "Principal Antenna Design Engineer I",
     company: "CesiumAstro",
@@ -681,7 +565,7 @@ export const jobs: Job[] = [
   {
     title: "Lead Design Engineer",
     company: "Descript",
-    location: "San Francisco, CA or Remote",
+    location: "San Francisco, CA or Remote, US",
     url: "https://boards.greenhouse.io/descript/jobs/7789070003?gh_jid=7789070003",
     department: "",
     postedAt: "2026-06-29T16:10:16-04:00",
@@ -701,10 +585,10 @@ export const jobs: Job[] = [
   {
     title: "Senior Product Designer",
     company: "Duolingo",
-    location: "Seattle, WA",
-    url: "https://careers.duolingo.com/jobs/8489189002?gh_jid=8489189002",
+    location: "New York, NY | Pittsburgh, PA",
+    url: "https://careers.duolingo.com/jobs/8618405002?gh_jid=8618405002",
     department: "",
-    postedAt: "2026-04-01T09:55:33-04:00",
+    postedAt: "2026-07-02T15:49:22-04:00",
   },
   {
     title: "Staff Product Designer",
@@ -731,16 +615,6 @@ export const jobs: Job[] = [
     url: "https://jobs.lever.co/dutch/d6878126-8dd4-4ea4-aa86-6c613e61faeb",
     department: "Product",
     postedAt: "2026-06-04T15:28:13.203Z",
-  },
-
-  // ── Electrified Thermal ────────────────────────────────────
-  {
-    title: "2026 Summer Design Engineer Internship",
-    company: "Electrified Thermal",
-    location: "Charlestown, MA",
-    url: "https://jobs.lever.co/ElectrifiedThermalSolutions/7ee98b9e-d86b-4068-9075-322c96912cb5",
-    department: "Engineering",
-    postedAt: "2026-04-24T17:39:09.427Z",
   },
 
   // ── Epsilon3 ───────────────────────────────────────────────
@@ -849,10 +723,10 @@ export const jobs: Job[] = [
     postedAt: "2026-05-11T13:09:18-04:00",
   },
 
-  // ── Firefly ────────────────────────────────────────────────
+  // ── firefly-co ─────────────────────────────────────────────
   {
     title: "Sr. Industrial Designer",
-    company: "Firefly",
+    company: "firefly-co",
     location: "New York City",
     url: "https://jobs.ashbyhq.com/firefly-co/5f584e7c-3264-451d-8842-f4d9beaa823b",
     department: "Product & Design",
@@ -860,7 +734,7 @@ export const jobs: Job[] = [
   },
   {
     title: "Visual Designer, Brand",
-    company: "Firefly",
+    company: "firefly-co",
     location: "New York City",
     url: "https://jobs.ashbyhq.com/firefly-co/47b070e9-d4f5-445b-85a5-139688b8674e",
     department: "Product & Design",
@@ -931,6 +805,14 @@ export const jobs: Job[] = [
     url: "https://job-boards.greenhouse.io/gongio/jobs/4638119006",
     department: "",
     postedAt: "2026-01-14T09:34:07-05:00",
+  },
+  {
+    title: "Senior Product Designer",
+    company: "Gong",
+    location: "Tel Aviv",
+    url: "https://job-boards.greenhouse.io/gongio/jobs/4680480006",
+    department: "",
+    postedAt: "2026-05-19T02:54:39-04:00",
   },
   {
     title: "Senior Product Writer (UX)",
@@ -1123,10 +1005,10 @@ export const jobs: Job[] = [
     postedAt: "2026-05-18T20:43:41.422+00:00",
   },
 
-  // ── iru ────────────────────────────────────────────────────
+  // ── Iru ────────────────────────────────────────────────────
   {
     title: "Creative Director",
-    company: "iru",
+    company: "Iru",
     location: "Miami",
     url: "https://jobs.lever.co/iru/1586b4f5-d9ac-423f-a069-e95ee8ba7631",
     department: "Marketing",
@@ -1134,7 +1016,7 @@ export const jobs: Job[] = [
   },
   {
     title: "Principal UI/UX Designer",
-    company: "iru",
+    company: "Iru",
     location: "Miami",
     url: "https://jobs.lever.co/iru/0bf50a9a-1a25-492e-8b9d-03c6a0f6d5d8",
     department: "Product Design",
@@ -1142,7 +1024,7 @@ export const jobs: Job[] = [
   },
   {
     title: "Visual Designer",
-    company: "iru",
+    company: "Iru",
     location: "Miami",
     url: "https://jobs.lever.co/iru/f35ce733-dc18-4193-9853-5e6b5fbc81b5",
     department: "Marketing",
@@ -1153,10 +1035,10 @@ export const jobs: Job[] = [
   {
     title: "Senior Product Designer, Sportsbook",
     company: "Kaizen Gaming Careers",
-    location: "Sliema, Malta | Athens, Greece",
-    url: "https://careers.kaizengaming.com/job-details/7786455003?gh_jid=7786455003",
+    location: "Athens, Greece | Sliema, Malta",
+    url: "https://careers.kaizengaming.com/job-details/7471120003?gh_jid=7471120003",
     department: "",
-    postedAt: "2026-06-26T02:08:33-04:00",
+    postedAt: "2026-01-07T07:55:07-05:00",
   },
 
   // ── Klaviyo ────────────────────────────────────────────────
@@ -1221,10 +1103,10 @@ export const jobs: Job[] = [
     postedAt: "2026-06-05T16:37:39-04:00",
   },
 
-  // ── Lattice Partners ───────────────────────────────────────
+  // ── latticepartners ────────────────────────────────────────
   {
     title: "Product Designer, AI ",
-    company: "Lattice Partners",
+    company: "latticepartners",
     location: "United States",
     url: "https://jobs.ashbyhq.com/latticepartners/0d22eb9d-3a3b-4a21-86b6-99ba3f228173",
     department: "Engineering",
@@ -1372,7 +1254,7 @@ export const jobs: Job[] = [
     location: "New York City",
     url: "https://jobs.ashbyhq.com/noise-labs/cf251165-a1a3-4386-930b-ce5879a073bd",
     department: "Design",
-    postedAt: "2026-04-20T16:13:27.335+00:00",
+    postedAt: "2026-07-02T20:54:07.646+00:00",
   },
 
   // ── Notion ─────────────────────────────────────────────────
@@ -1384,6 +1266,14 @@ export const jobs: Job[] = [
     department: "Customer Experience",
     postedAt: "2026-03-25T21:58:44.040+00:00",
   },
+  {
+    title: "Product Designer",
+    company: "Notion",
+    location: "San Francisco, California",
+    url: "https://jobs.ashbyhq.com/notion/d177d052-ef57-4900-acf2-d58e9eded620",
+    department: "Product Design",
+    postedAt: "2026-07-02T17:18:41.823+00:00",
+  },
 
   // ── Okta ───────────────────────────────────────────────────
   {
@@ -1393,14 +1283,6 @@ export const jobs: Job[] = [
     url: "https://www.okta.com/company/careers/opportunity/7839824?gh_jid=7839824",
     department: "",
     postedAt: "2026-05-14T17:21:17-04:00",
-  },
-  {
-    title: "Sr. Social Designer",
-    company: "Okta",
-    location: "San Francisco, California",
-    url: "https://www.okta.com/company/careers/opportunity/7821640?gh_jid=7821640",
-    department: "",
-    postedAt: "2026-04-16T13:09:32-04:00",
   },
 
   // ── OpenAI ─────────────────────────────────────────────────
@@ -1548,6 +1430,14 @@ export const jobs: Job[] = [
   },
 
   // ── Pinterest ──────────────────────────────────────────────
+  {
+    title: "Principal Product Designer, AI Native, Core",
+    company: "Pinterest",
+    location: "San Francisco, CA, US; Remote, US",
+    url: "https://www.pinterestcareers.com/jobs/?gh_jid=7638599",
+    department: "",
+    postedAt: "2026-07-02T12:57:20-04:00",
+  },
   {
     title: "Product Designer II, Pinner Actionability",
     company: "Pinterest",
@@ -1817,10 +1707,10 @@ export const jobs: Job[] = [
     postedAt: "2026-06-10T01:38:03-04:00",
   },
 
-  // ── skio ───────────────────────────────────────────────────
+  // ── Skio ───────────────────────────────────────────────────
   {
     title: "Product Designer",
-    company: "skio",
+    company: "Skio",
     location: "San Francisco, New York, or Remote",
     url: "https://jobs.lever.co/skio/0110e9f5-4640-4daf-bc53-da03d6a4e642",
     department: "Product",
@@ -1828,7 +1718,7 @@ export const jobs: Job[] = [
   },
   {
     title: "UX Engineer",
-    company: "skio",
+    company: "Skio",
     location: "San Francisco, New York, or Remote",
     url: "https://jobs.lever.co/skio/ba7c8bc7-9692-47bd-b212-6f2a4cea0c70",
     department: "Engineering",
@@ -2061,10 +1951,10 @@ export const jobs: Job[] = [
     postedAt: "2026-05-13T22:30:48.154+00:00",
   },
 
-  // ── thunkable ──────────────────────────────────────────────
+  // ── Thunkable ──────────────────────────────────────────────
   {
     title: "Product Designer",
-    company: "thunkable",
+    company: "Thunkable",
     location: "San Francisco, CA",
     url: "https://jobs.lever.co/thunkable/9bbcc4b9-ee31-4921-b844-d8f1e0bc533f",
     department: "Product Design",
