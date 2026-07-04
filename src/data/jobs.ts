@@ -7,7 +7,7 @@ export type Job = {
   postedAt: string;
 };
 
-// Auto-updated by scraper — 2026-07-03
+// Auto-updated by scraper — 2026-07-04
 export const jobs: Job[] = [
   // ── Affirm ─────────────────────────────────────────────────
   {
@@ -37,10 +37,10 @@ export const jobs: Job[] = [
     postedAt: "2026-06-22T13:38:07-04:00",
   },
 
-  // ── ando ───────────────────────────────────────────────────
+  // ── Ando ───────────────────────────────────────────────────
   {
     title: "Brand Designer",
-    company: "ando",
+    company: "Ando",
     location: "San Francisco",
     url: "https://jobs.ashbyhq.com/ando/3ea1e324-dbe6-488f-94a1-00a4a03aec76",
     department: "Design",
@@ -48,7 +48,7 @@ export const jobs: Job[] = [
   },
   {
     title: "Design Engineer",
-    company: "ando",
+    company: "Ando",
     location: "San Francisco",
     url: "https://jobs.ashbyhq.com/ando/12f9f036-8aec-4b62-8617-fcdf12ff4c4f",
     department: "Engineering",
@@ -56,7 +56,7 @@ export const jobs: Job[] = [
   },
   {
     title: "Product Designer",
-    company: "ando",
+    company: "Ando",
     location: "San Francisco",
     url: "https://jobs.ashbyhq.com/ando/7de86b5b-cda4-4c3f-9d32-8defb3a1a191",
     department: "Design",
@@ -165,6 +165,48 @@ export const jobs: Job[] = [
     url: "https://www.asana.com/jobs/apply/7952123?gh_jid=7952123",
     department: "",
     postedAt: "2026-06-11T15:07:58-04:00",
+  },
+
+  // ── ashby ──────────────────────────────────────────────────
+  {
+    title: "Design Engineer, Americas",
+    company: "ashby",
+    location: "Remote - US",
+    url: "https://jobs.ashbyhq.com/ashby/fd86edd7-3af0-4977-a61a-215212c296fa",
+    department: "Engineering",
+    postedAt: "2026-06-12T21:11:08.658+00:00",
+  },
+  {
+    title: "Junior Design Engineer, Americas",
+    company: "ashby",
+    location: "Remote - US",
+    url: "https://jobs.ashbyhq.com/ashby/0f538da6-1e06-43f0-86cb-de8007814284",
+    department: "Engineering",
+    postedAt: "2026-06-15T19:38:47.287+00:00",
+  },
+  {
+    title: "Senior Product Designer",
+    company: "ashby",
+    location: "Remote - US",
+    url: "https://jobs.ashbyhq.com/ashby/f40ef345-82a8-4956-9150-193b4fdf8183",
+    department: "Design",
+    postedAt: "2025-12-05T22:43:22.147+00:00",
+  },
+  {
+    title: "Staff Design Engineer, Americas",
+    company: "ashby",
+    location: "Remote - US",
+    url: "https://jobs.ashbyhq.com/ashby/cc846e56-27dd-41b5-bf5b-64d5eeb5ff1a",
+    department: "Engineering",
+    postedAt: "2025-11-14T01:04:25.832+00:00",
+  },
+  {
+    title: "Staff Product Designer",
+    company: "ashby",
+    location: "Remote - US",
+    url: "https://jobs.ashbyhq.com/ashby/2373fcd5-144b-4d66-a98b-dd0efb4eb9d1",
+    department: "Design",
+    postedAt: "2025-12-11T04:38:54.143+00:00",
   },
 
   // ── assembledhq ────────────────────────────────────────────
@@ -617,6 +659,16 @@ export const jobs: Job[] = [
     postedAt: "2026-06-04T15:28:13.203Z",
   },
 
+  // ── Electrified Thermal ────────────────────────────────────
+  {
+    title: "2026 Summer Design Engineer Internship",
+    company: "Electrified Thermal",
+    location: "Charlestown, MA",
+    url: "https://jobs.lever.co/ElectrifiedThermalSolutions/7ee98b9e-d86b-4068-9075-322c96912cb5",
+    department: "Engineering",
+    postedAt: "2026-04-24T17:39:09.427Z",
+  },
+
   // ── Epsilon3 ───────────────────────────────────────────────
   {
     title: "Senior Product Designer",
@@ -723,10 +775,10 @@ export const jobs: Job[] = [
     postedAt: "2026-05-11T13:09:18-04:00",
   },
 
-  // ── firefly-co ─────────────────────────────────────────────
+  // ── Firefly ────────────────────────────────────────────────
   {
     title: "Sr. Industrial Designer",
-    company: "firefly-co",
+    company: "Firefly",
     location: "New York City",
     url: "https://jobs.ashbyhq.com/firefly-co/5f584e7c-3264-451d-8842-f4d9beaa823b",
     department: "Product & Design",
@@ -734,7 +786,7 @@ export const jobs: Job[] = [
   },
   {
     title: "Visual Designer, Brand",
-    company: "firefly-co",
+    company: "Firefly",
     location: "New York City",
     url: "https://jobs.ashbyhq.com/firefly-co/47b070e9-d4f5-445b-85a5-139688b8674e",
     department: "Product & Design",
@@ -1005,10 +1057,10 @@ export const jobs: Job[] = [
     postedAt: "2026-05-18T20:43:41.422+00:00",
   },
 
-  // ── Iru ────────────────────────────────────────────────────
+  // ── iru ────────────────────────────────────────────────────
   {
     title: "Creative Director",
-    company: "Iru",
+    company: "iru",
     location: "Miami",
     url: "https://jobs.lever.co/iru/1586b4f5-d9ac-423f-a069-e95ee8ba7631",
     department: "Marketing",
@@ -1016,7 +1068,7 @@ export const jobs: Job[] = [
   },
   {
     title: "Principal UI/UX Designer",
-    company: "Iru",
+    company: "iru",
     location: "Miami",
     url: "https://jobs.lever.co/iru/0bf50a9a-1a25-492e-8b9d-03c6a0f6d5d8",
     department: "Product Design",
@@ -1024,7 +1076,7 @@ export const jobs: Job[] = [
   },
   {
     title: "Visual Designer",
-    company: "Iru",
+    company: "iru",
     location: "Miami",
     url: "https://jobs.lever.co/iru/f35ce733-dc18-4193-9853-5e6b5fbc81b5",
     department: "Marketing",
@@ -1103,10 +1155,10 @@ export const jobs: Job[] = [
     postedAt: "2026-06-05T16:37:39-04:00",
   },
 
-  // ── latticepartners ────────────────────────────────────────
+  // ── Lattice Partners ───────────────────────────────────────
   {
     title: "Product Designer, AI ",
-    company: "latticepartners",
+    company: "Lattice Partners",
     location: "United States",
     url: "https://jobs.ashbyhq.com/latticepartners/0d22eb9d-3a3b-4a21-86b6-99ba3f228173",
     department: "Engineering",
@@ -1707,24 +1759,6 @@ export const jobs: Job[] = [
     postedAt: "2026-06-10T01:38:03-04:00",
   },
 
-  // ── Skio ───────────────────────────────────────────────────
-  {
-    title: "Product Designer",
-    company: "Skio",
-    location: "San Francisco, New York, or Remote",
-    url: "https://jobs.lever.co/skio/0110e9f5-4640-4daf-bc53-da03d6a4e642",
-    department: "Product",
-    postedAt: "2026-01-12T16:24:14.734Z",
-  },
-  {
-    title: "UX Engineer",
-    company: "Skio",
-    location: "San Francisco, New York, or Remote",
-    url: "https://jobs.lever.co/skio/ba7c8bc7-9692-47bd-b212-6f2a4cea0c70",
-    department: "Engineering",
-    postedAt: "2021-10-21T01:10:43.363Z",
-  },
-
   // ── Snowflake ──────────────────────────────────────────────
   {
     title: "Senior Product Design Manager, Observe by Snowflake",
@@ -1951,10 +1985,10 @@ export const jobs: Job[] = [
     postedAt: "2026-05-13T22:30:48.154+00:00",
   },
 
-  // ── Thunkable ──────────────────────────────────────────────
+  // ── thunkable ──────────────────────────────────────────────
   {
     title: "Product Designer",
-    company: "Thunkable",
+    company: "thunkable",
     location: "San Francisco, CA",
     url: "https://jobs.lever.co/thunkable/9bbcc4b9-ee31-4921-b844-d8f1e0bc533f",
     department: "Product Design",
