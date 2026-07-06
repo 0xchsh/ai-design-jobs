@@ -7,7 +7,7 @@ export type Job = {
   postedAt: string;
 };
 
-// Auto-updated by scraper — 2026-07-05
+// Auto-updated by scraper — 2026-07-06
 export const jobs: Job[] = [
   // ── Affirm ─────────────────────────────────────────────────
   {
@@ -273,10 +273,10 @@ export const jobs: Job[] = [
   {
     title: "Staff Product Designer",
     company: "Brex",
-    location: "San Francisco, California, United States | New York, New York, United States",
-    url: "https://www.brex.com/careers/7669111002?gh_jid=7669111002",
+    location: "New York, New York, United States | San Francisco, California, United States",
+    url: "https://www.brex.com/careers/8124973002?gh_jid=8124973002",
     department: "",
-    postedAt: "2024-10-03T14:09:29-04:00",
+    postedAt: "2025-08-18T14:45:19-04:00",
   },
 
   // ── CesiumAstro ────────────────────────────────────────────
@@ -669,6 +669,40 @@ export const jobs: Job[] = [
     postedAt: "2026-04-24T17:39:09.427Z",
   },
 
+  // ── eliseai ────────────────────────────────────────────────
+  {
+    title: "Brand Designer",
+    company: "eliseai",
+    location: "New York City",
+    url: "https://jobs.ashbyhq.com/eliseai/361a4117-cc1d-4423-92b8-2fcbe364010a",
+    department: "Design",
+    postedAt: "2026-05-12T13:46:44.792+00:00",
+  },
+  {
+    title: "Design Engineer",
+    company: "eliseai",
+    location: "New York City",
+    url: "https://jobs.ashbyhq.com/eliseai/4037dde9-a809-4635-805a-869d1d119bd1",
+    department: "Design",
+    postedAt: "2026-04-10T20:23:48.574+00:00",
+  },
+  {
+    title: "Front-End Design Engineer",
+    company: "eliseai",
+    location: "New York City",
+    url: "https://jobs.ashbyhq.com/eliseai/a3bef764-0d55-4fa6-a7cd-726eaccc901a",
+    department: "Design",
+    postedAt: "2026-04-10T20:24:08.358+00:00",
+  },
+  {
+    title: "Motion Designer",
+    company: "eliseai",
+    location: "New York City",
+    url: "https://jobs.ashbyhq.com/eliseai/9f01a884-1fd3-43b5-be53-1f978511c318",
+    department: "Design",
+    postedAt: "2026-05-12T13:48:35.759+00:00",
+  },
+
   // ── Epsilon3 ───────────────────────────────────────────────
   {
     title: "Senior Product Designer",
@@ -677,6 +711,16 @@ export const jobs: Job[] = [
     url: "https://jobs.lever.co/epsilon3/388f36fb-3afd-4c99-99a4-60ea5a1fc2f6",
     department: "Engineering",
     postedAt: "2026-05-14T17:50:47.779Z",
+  },
+
+  // ── Eve ────────────────────────────────────────────────────
+  {
+    title: "Senior Brand Designer",
+    company: "Eve",
+    location: "Remote - US",
+    url: "https://job-boards.greenhouse.io/eve/jobs/4280854009",
+    department: "",
+    postedAt: "2026-06-09T20:07:55-04:00",
   },
 
   // ── Factory ────────────────────────────────────────────────
@@ -1605,10 +1649,10 @@ export const jobs: Job[] = [
   {
     title: "Senior Product Designer",
     company: "Robinhood",
-    location: "Menlo Park, CA | Menlo Park, CA; New York, NY",
-    url: "https://boards.greenhouse.io/robinhood/jobs/7960697?t=gh_src=&gh_jid=7960697",
+    location: "Menlo Park, CA; New York, NY | Menlo Park, CA",
+    url: "https://boards.greenhouse.io/robinhood/jobs/7490017?t=gh_src=&gh_jid=7490017",
     department: "",
-    postedAt: "2026-06-02T15:41:03-04:00",
+    postedAt: "2026-05-29T14:34:41-04:00",
   },
   {
     title: "Senior Product Designer, Banking",
