@@ -7,7 +7,7 @@ export type Job = {
   postedAt: string;
 };
 
-// Auto-updated by scraper — 2026-07-06
+// Auto-updated by scraper — 2026-07-07
 export const jobs: Job[] = [
   // ── Affirm ─────────────────────────────────────────────────
   {
@@ -227,6 +227,16 @@ export const jobs: Job[] = [
     postedAt: "2026-06-26T23:05:09.841+00:00",
   },
 
+  // ── Baseten ────────────────────────────────────────────────
+  {
+    title: "Brand Designer",
+    company: "Baseten",
+    location: "San Francisco",
+    url: "https://jobs.ashbyhq.com/baseten/c2f8fe4f-07c1-4d43-ae5c-05f057842e57",
+    department: "EPD",
+    postedAt: "2026-07-06T17:06:24.969+00:00",
+  },
+
   // ── Braintrust ─────────────────────────────────────────────
   {
     title: "Design Engineer",
@@ -379,16 +389,6 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/claylabs/a284a622-0736-4558-be7a-76434f0dd147",
     department: "Product & Design",
     postedAt: "2026-04-22T21:21:09.451+00:00",
-  },
-
-  // ── clickup ────────────────────────────────────────────────
-  {
-    title: "Staff Product Designer",
-    company: "clickup",
-    location: "United States",
-    url: "https://jobs.ashbyhq.com/clickup/0b715fff-f8c2-4e87-880d-d390bb0cbc40",
-    department: "Product",
-    postedAt: "2026-06-17T13:42:46.465+00:00",
   },
 
   // ── Cloudflare ─────────────────────────────────────────────
@@ -627,10 +627,10 @@ export const jobs: Job[] = [
   {
     title: "Senior Product Designer",
     company: "Duolingo",
-    location: "New York, NY | Pittsburgh, PA",
-    url: "https://careers.duolingo.com/jobs/8618405002?gh_jid=8618405002",
+    location: "Pittsburgh, PA | New York, NY",
+    url: "https://careers.duolingo.com/jobs/8489189002?gh_jid=8489189002",
     department: "",
-    postedAt: "2026-07-02T15:49:22-04:00",
+    postedAt: "2026-04-01T09:55:33-04:00",
   },
   {
     title: "Staff Product Designer",
@@ -667,40 +667,6 @@ export const jobs: Job[] = [
     url: "https://jobs.lever.co/ElectrifiedThermalSolutions/7ee98b9e-d86b-4068-9075-322c96912cb5",
     department: "Engineering",
     postedAt: "2026-04-24T17:39:09.427Z",
-  },
-
-  // ── eliseai ────────────────────────────────────────────────
-  {
-    title: "Brand Designer",
-    company: "eliseai",
-    location: "New York City",
-    url: "https://jobs.ashbyhq.com/eliseai/361a4117-cc1d-4423-92b8-2fcbe364010a",
-    department: "Design",
-    postedAt: "2026-05-12T13:46:44.792+00:00",
-  },
-  {
-    title: "Design Engineer",
-    company: "eliseai",
-    location: "New York City",
-    url: "https://jobs.ashbyhq.com/eliseai/4037dde9-a809-4635-805a-869d1d119bd1",
-    department: "Design",
-    postedAt: "2026-04-10T20:23:48.574+00:00",
-  },
-  {
-    title: "Front-End Design Engineer",
-    company: "eliseai",
-    location: "New York City",
-    url: "https://jobs.ashbyhq.com/eliseai/a3bef764-0d55-4fa6-a7cd-726eaccc901a",
-    department: "Design",
-    postedAt: "2026-04-10T20:24:08.358+00:00",
-  },
-  {
-    title: "Motion Designer",
-    company: "eliseai",
-    location: "New York City",
-    url: "https://jobs.ashbyhq.com/eliseai/9f01a884-1fd3-43b5-be53-1f978511c318",
-    department: "Design",
-    postedAt: "2026-05-12T13:48:35.759+00:00",
   },
 
   // ── Epsilon3 ───────────────────────────────────────────────
@@ -742,6 +708,14 @@ export const jobs: Job[] = [
   },
 
   // ── Faire ──────────────────────────────────────────────────
+  {
+    title: "Staff Designer, Product Creative",
+    company: "Faire",
+    location: "New York City, NY; San Francisco, CA",
+    url: "https://boards.greenhouse.io/faire/jobs/8618670002?gh_jid=8618670002",
+    department: "",
+    postedAt: "2026-07-06T21:19:45-04:00",
+  },
   {
     title: "Staff Product Designer (Multiple Openings)",
     company: "Faire",
@@ -1093,7 +1067,7 @@ export const jobs: Job[] = [
 
   // ── Infisical ──────────────────────────────────────────────
   {
-    title: "Brand Designer",
+    title: "Design Engineer, Brand",
     company: "Infisical",
     location: "United States",
     url: "https://jobs.ashbyhq.com/infisical/361a7451-0cfe-491e-b07a-80eac6e29a43",
@@ -1125,16 +1099,6 @@ export const jobs: Job[] = [
     url: "https://jobs.lever.co/iru/f35ce733-dc18-4193-9853-5e6b5fbc81b5",
     department: "Marketing",
     postedAt: "2026-04-14T14:24:45.249Z",
-  },
-
-  // ── Kaizen Gaming Careers ──────────────────────────────────
-  {
-    title: "Senior Product Designer, Sportsbook",
-    company: "Kaizen Gaming Careers",
-    location: "Athens, Greece | Sliema, Malta",
-    url: "https://careers.kaizengaming.com/job-details/7471120003?gh_jid=7471120003",
-    department: "",
-    postedAt: "2026-01-07T07:55:07-05:00",
   },
 
   // ── Klaviyo ────────────────────────────────────────────────
@@ -1280,14 +1244,6 @@ export const jobs: Job[] = [
     department: "",
     postedAt: "2026-06-09T12:11:41-04:00",
   },
-  {
-    title: "Senior Illustrator, Design Foundations & AI Transformation",
-    company: "Lyft",
-    location: "New York, NY",
-    url: "https://app.careerpuck.com/job-board/lyft/job/8585784002?gh_jid=8585784002",
-    department: "",
-    postedAt: "2026-06-10T11:10:41-04:00",
-  },
 
   // ── Mercor ─────────────────────────────────────────────────
   {
@@ -1313,16 +1269,6 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/mercor/79fc13c6-5c2a-4b08-bd31-24c091524354",
     department: "Engineering",
     postedAt: "2026-06-29T16:30:19.886+00:00",
-  },
-
-  // ── MongoDB ────────────────────────────────────────────────
-  {
-    title: "Senior Manager, Brand Design",
-    company: "MongoDB",
-    location: "Austin; California; Chicago; Nevada",
-    url: "https://www.mongodb.com/careers/job/?gh_jid=8023944",
-    department: "",
-    postedAt: "2026-06-26T17:00:17-04:00",
   },
 
   // ── Netic ──────────────────────────────────────────────────
@@ -1439,14 +1385,6 @@ export const jobs: Job[] = [
     postedAt: "2025-12-05T01:34:14.581+00:00",
   },
   {
-    title: "Product Design Manager ",
-    company: "OpenAI",
-    location: "San Francisco",
-    url: "https://jobs.ashbyhq.com/openai/72e206a6-9769-470d-8f9c-be7522d809e1",
-    department: "Product Design",
-    postedAt: "2026-04-15T01:58:35.117+00:00",
-  },
-  {
     title: "Product Design Program Manager",
     company: "OpenAI",
     location: "San Francisco",
@@ -1469,14 +1407,6 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/openai/3874db80-f3ec-4dd1-8d56-6441e8f7299d",
     department: "People",
     postedAt: "2026-03-26T23:22:08.357+00:00",
-  },
-  {
-    title: "Quantitative UX Researcher",
-    company: "OpenAI",
-    location: "San Francisco",
-    url: "https://jobs.ashbyhq.com/openai/250c5184-edb5-49eb-bb7e-1ddb47f1140d",
-    department: "Data Science",
-    postedAt: "2026-02-09T17:04:53.099+00:00",
   },
   {
     title: "Senior RTL Engineer, Interconnect Design",
@@ -1526,6 +1456,14 @@ export const jobs: Job[] = [
   },
 
   // ── Pinterest ──────────────────────────────────────────────
+  {
+    title: "Apprentice Product Designer",
+    company: "Pinterest",
+    location: "San Francisco, CA, US; Remote, US",
+    url: "https://www.pinterestcareers.com/jobs/?gh_jid=8016473",
+    department: "",
+    postedAt: "2026-07-06T13:00:30-04:00",
+  },
   {
     title: "Principal Product Designer, AI Native, Core",
     company: "Pinterest",
@@ -1649,10 +1587,10 @@ export const jobs: Job[] = [
   {
     title: "Senior Product Designer",
     company: "Robinhood",
-    location: "Menlo Park, CA; New York, NY | Menlo Park, CA",
-    url: "https://boards.greenhouse.io/robinhood/jobs/7490017?t=gh_src=&gh_jid=7490017",
+    location: "Menlo Park, CA | Menlo Park, CA; New York, NY",
+    url: "https://boards.greenhouse.io/robinhood/jobs/7960697?t=gh_src=&gh_jid=7960697",
     department: "",
-    postedAt: "2026-05-29T14:34:41-04:00",
+    postedAt: "2026-06-02T15:41:03-04:00",
   },
   {
     title: "Senior Product Designer, Banking",
@@ -1855,14 +1793,6 @@ export const jobs: Job[] = [
     url: "https://stripe.com/jobs/search?gh_jid=8001909",
     department: "",
     postedAt: "2026-06-15T22:21:12-04:00",
-  },
-  {
-    title: "Design Program Manager, AI",
-    company: "Stripe",
-    location: "US",
-    url: "https://stripe.com/jobs/search?gh_jid=7868564",
-    department: "",
-    postedAt: "2026-04-30T21:27:17-04:00",
   },
   {
     title: "Designer, Web Presence & Platform",
