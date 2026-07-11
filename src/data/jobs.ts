@@ -7,7 +7,7 @@ export type Job = {
   postedAt: string;
 };
 
-// Auto-updated by scraper — 2026-07-10
+// Auto-updated by scraper — 2026-07-11
 export const jobs: Job[] = [
   // ── Affirm ─────────────────────────────────────────────────
   {
@@ -113,6 +113,14 @@ export const jobs: Job[] = [
     url: "https://job-boards.greenhouse.io/anthropic/jobs/5156326008",
     department: "",
     postedAt: "2026-03-19T16:21:09-04:00",
+  },
+  {
+    title: "Safeguards Enforcement Analyst, Age-Appropriate Design",
+    company: "Anthropic",
+    location: "Remote-Friendly, United States; San Francisco, CA | New York City, NY | Washington, DC",
+    url: "https://job-boards.greenhouse.io/anthropic/jobs/5311234008",
+    department: "",
+    postedAt: "2026-07-10T19:53:33-04:00",
   },
 
   // ── Applied Labs ───────────────────────────────────────────
@@ -233,10 +241,10 @@ export const jobs: Job[] = [
   {
     title: "Staff Product Designer",
     company: "Brex",
-    location: "New York, New York, United States | San Francisco, California, United States",
-    url: "https://www.brex.com/careers/8124973002?gh_jid=8124973002",
+    location: "San Francisco, California, United States | New York, New York, United States",
+    url: "https://www.brex.com/careers/7669111002?gh_jid=7669111002",
     department: "",
-    postedAt: "2025-08-18T14:45:19-04:00",
+    postedAt: "2024-10-03T14:09:29-04:00",
   },
   {
     title: "Staff Product Designer, AI",
@@ -331,14 +339,6 @@ export const jobs: Job[] = [
     url: "https://boards.greenhouse.io/chime/jobs/8393494002?gh_jid=8393494002",
     department: "",
     postedAt: "2026-01-29T17:11:19-05:00",
-  },
-  {
-    title: "Product Designer, Disputes",
-    company: "Chime",
-    location: "San Francisco, CA, USA",
-    url: "https://boards.greenhouse.io/chime/jobs/8525321002?gh_jid=8525321002",
-    department: "",
-    postedAt: "2026-05-06T16:15:03-04:00",
   },
 
   // ── Clay ───────────────────────────────────────────────────
@@ -1070,6 +1070,14 @@ export const jobs: Job[] = [
     department: "",
     postedAt: "2026-06-08T13:59:40-04:00",
   },
+  {
+    title: "Senior Product Designer, Design Systems",
+    company: "Klaviyo",
+    location: "Boston, MA",
+    url: "https://www.klaviyo.com/careers/jobs/7801045003?gh_jid=7801045003",
+    department: "",
+    postedAt: "2026-07-10T16:11:53-04:00",
+  },
 
   // ── Krea ───────────────────────────────────────────────────
   {
@@ -1183,20 +1191,20 @@ export const jobs: Job[] = [
     postedAt: "2026-06-30T23:55:20.845+00:00",
   },
   {
+    title: "Lead Brand/Visual Designer",
+    company: "Mercor",
+    location: "San Francisco",
+    url: "https://jobs.ashbyhq.com/mercor/19821eb7-04ee-42ec-939d-04fa90661445",
+    department: "Engineering",
+    postedAt: "2026-07-10T17:35:50.756+00:00",
+  },
+  {
     title: "Learning Designer",
     company: "Mercor",
     location: "San Francisco",
     url: "https://jobs.ashbyhq.com/mercor/ea2c3bcc-5ebd-4061-9444-87d6bb27e38c",
     department: "Operations",
     postedAt: "2026-06-26T16:20:11.161+00:00",
-  },
-  {
-    title: "Web/Brand/Visual Designer",
-    company: "Mercor",
-    location: "San Francisco",
-    url: "https://jobs.ashbyhq.com/mercor/79fc13c6-5c2a-4b08-bd31-24c091524354",
-    department: "Engineering",
-    postedAt: "2026-06-29T16:30:19.886+00:00",
   },
 
   // ── MongoDB ────────────────────────────────────────────────
@@ -1403,14 +1411,6 @@ export const jobs: Job[] = [
 
   // ── Pinterest ──────────────────────────────────────────────
   {
-    title: "Apprentice Product Designer",
-    company: "Pinterest",
-    location: "San Francisco, CA, US; Remote, US",
-    url: "https://www.pinterestcareers.com/jobs/?gh_jid=8016473",
-    department: "",
-    postedAt: "2026-07-06T13:00:30-04:00",
-  },
-  {
     title: "Principal Product Designer, AI Native, Core",
     company: "Pinterest",
     location: "San Francisco, CA, US; Remote, US",
@@ -1433,6 +1433,14 @@ export const jobs: Job[] = [
     url: "https://www.pinterestcareers.com/jobs/?gh_jid=7770902",
     department: "",
     postedAt: "2026-06-18T12:10:48-04:00",
+  },
+  {
+    title: "Sr. Product Designer, Agency Lead",
+    company: "Pinterest",
+    location: "San Francisco, CA, US; Remote, US",
+    url: "https://www.pinterestcareers.com/jobs/?gh_jid=7773951",
+    department: "",
+    postedAt: "2026-07-10T11:30:32-04:00",
   },
   {
     title: "Staff Product Designer, Design Innovation",
@@ -1496,6 +1504,14 @@ export const jobs: Job[] = [
   },
 
   // ── Reddit ─────────────────────────────────────────────────
+  {
+    title: "Senior Android Engineer, Design System",
+    company: "Reddit",
+    location: "Remote - United States",
+    url: "https://job-boards.greenhouse.io/reddit/jobs/8055374",
+    department: "",
+    postedAt: "2026-07-10T11:38:22-04:00",
+  },
   {
     title: "Senior UX Researcher, Consumer Product",
     company: "Reddit",
@@ -1915,15 +1931,15 @@ export const jobs: Job[] = [
 
   // ── Synthesia ──────────────────────────────────────────────
   {
-    title: "Digital Designer ",
+    title: " Senior Digital Designer",
     company: "Synthesia",
     location: "Austin",
-    url: "https://jobs.ashbyhq.com/synthesia/f16a63d9-4418-4ad3-b7e9-003e0bd1f051",
+    url: "https://jobs.ashbyhq.com/synthesia/1dbcb20a-3701-4ccb-830f-745e85c31ef7",
     department: "Commercial",
-    postedAt: "2026-04-29T23:18:57.616+00:00",
+    postedAt: "2026-07-10T18:18:56.972+00:00",
   },
   {
-    title: "Manager, Digital Designer ",
+    title: "Creative Design Manager  ",
     company: "Synthesia",
     location: "Austin",
     url: "https://jobs.ashbyhq.com/synthesia/c511c8e2-a929-4b9c-af16-48f968fafc33",
@@ -2013,6 +2029,24 @@ export const jobs: Job[] = [
     url: "https://job-boards.greenhouse.io/udio/jobs/5071142008",
     department: "",
     postedAt: "2026-01-16T12:50:21-05:00",
+  },
+
+  // ── uipath ─────────────────────────────────────────────────
+  {
+    title: "Principal Designer",
+    company: "uipath",
+    location: "Bellevue",
+    url: "https://jobs.ashbyhq.com/uipath/c54b5591-dc75-4cb6-9002-acde22848849",
+    department: "Product",
+    postedAt: "2026-06-24T18:07:57.261+00:00",
+  },
+  {
+    title: "Principal Product Designer (Healthcare & Life Sciences)",
+    company: "uipath",
+    location: "Austin",
+    url: "https://jobs.ashbyhq.com/uipath/8cff1299-f4b4-41b0-997f-cd54f7c5d78e",
+    department: "Product",
+    postedAt: "2026-06-23T21:30:56.210+00:00",
   },
 
   // ── Vercel ─────────────────────────────────────────────────
