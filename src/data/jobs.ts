@@ -7,7 +7,7 @@ export type Job = {
   postedAt: string;
 };
 
-// Auto-updated by scraper — 2026-07-11
+// Auto-updated by scraper — 2026-07-12
 export const jobs: Job[] = [
   // ── Affirm ─────────────────────────────────────────────────
   {
@@ -635,6 +635,16 @@ export const jobs: Job[] = [
     url: "https://jobs.lever.co/ElectrifiedThermalSolutions/7ee98b9e-d86b-4068-9075-322c96912cb5",
     department: "Engineering",
     postedAt: "2026-04-24T17:39:09.427Z",
+  },
+
+  // ── Enterpret ──────────────────────────────────────────────
+  {
+    title: "Lead Brand Designer & Web Developer",
+    company: "Enterpret",
+    location: "New York (Remote) ",
+    url: "https://job-boards.greenhouse.io/enterpret/jobs/7801126003",
+    department: "",
+    postedAt: "2026-07-10T10:51:21-04:00",
   },
 
   // ── Epsilon3 ───────────────────────────────────────────────
@@ -1945,6 +1955,14 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/synthesia/c511c8e2-a929-4b9c-af16-48f968fafc33",
     department: "Commercial",
     postedAt: "2026-07-07T13:32:04.756+00:00",
+  },
+  {
+    title: "Digital Designer ",
+    company: "Synthesia",
+    location: "Austin",
+    url: "https://jobs.ashbyhq.com/synthesia/f16a63d9-4418-4ad3-b7e9-003e0bd1f051",
+    department: "Commercial",
+    postedAt: "2026-07-11T12:59:57.922+00:00",
   },
 
   // ── Tavus ──────────────────────────────────────────────────
