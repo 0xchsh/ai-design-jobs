@@ -7,16 +7,16 @@ export type Job = {
   postedAt: string;
 };
 
-// Auto-updated by scraper — 2026-07-14
+// Auto-updated by scraper — 2026-07-15
 export const jobs: Job[] = [
   // ── Affirm ─────────────────────────────────────────────────
   {
     title: "Staff Product Designer",
     company: "Affirm",
     location: "Remote US",
-    url: "https://job-boards.greenhouse.io/affirm/jobs/7605936003",
+    url: "https://job-boards.greenhouse.io/affirm/jobs/7799295003",
     department: "",
-    postedAt: "2026-02-03T12:33:07-05:00",
+    postedAt: "2026-07-13T11:46:27-04:00",
   },
 
   // ── Airtable ───────────────────────────────────────────────
@@ -477,48 +477,6 @@ export const jobs: Job[] = [
     postedAt: "2026-07-07T22:06:30.394+00:00",
   },
 
-  // ── CesiumAstro ────────────────────────────────────────────
-  {
-    title: "Principal Antenna Design Engineer I",
-    company: "CesiumAstro",
-    location: "Westminster, CO",
-    url: "https://jobs.lever.co/CesiumAstro/1712797e-5e68-46bb-bd06-ab688ba21f81",
-    department: "Antenna",
-    postedAt: "2025-10-09T14:33:38.214Z",
-  },
-  {
-    title: "Principal Launch Vehicle Design Engineer II",
-    company: "CesiumAstro",
-    location: "El Segundo, CA",
-    url: "https://jobs.lever.co/CesiumAstro/46db5b15-5824-4643-9437-d5d4f6cc2b11",
-    department: "Engineering",
-    postedAt: "2025-09-23T18:11:37.301Z",
-  },
-  {
-    title: "Senior Antenna Design Engineer I",
-    company: "CesiumAstro",
-    location: "Westminster, CO | Melbourne, FL",
-    url: "https://jobs.lever.co/CesiumAstro/bfe63f66-f954-4c6b-83d3-3b65870d8e4d",
-    department: "Antenna",
-    postedAt: "2025-10-02T15:22:44.276Z",
-  },
-  {
-    title: "Senior Launch Vehicle Design Engineer I",
-    company: "CesiumAstro",
-    location: "El Segundo, CA",
-    url: "https://jobs.lever.co/CesiumAstro/334a9393-0463-4f32-8b36-30460212cf33",
-    department: "Engineering",
-    postedAt: "2026-06-03T17:57:26.064Z",
-  },
-  {
-    title: "Senior Valve Design Engineer I",
-    company: "CesiumAstro",
-    location: "El Segundo, CA",
-    url: "https://jobs.lever.co/CesiumAstro/104e0154-8309-4e42-8737-10439ba770b1",
-    department: "Engineering",
-    postedAt: "2026-06-03T17:20:45.735Z",
-  },
-
   // ── Chime ──────────────────────────────────────────────────
   {
     title: "Associate Creative Director",
@@ -584,14 +542,6 @@ export const jobs: Job[] = [
   },
 
   // ── Coinbase ───────────────────────────────────────────────
-  {
-    title: "Staff Product Designer - Advanced Trade",
-    company: "Coinbase",
-    location: "Remote - USA",
-    url: "https://www.coinbase.com/careers/positions/7989037?gh_jid=7989037",
-    department: "",
-    postedAt: "2026-06-08T10:39:20-04:00",
-  },
   {
     title: "Staff Product Designer (Experience & Engagement)",
     company: "Coinbase",
@@ -815,34 +765,6 @@ export const jobs: Job[] = [
     postedAt: "2026-07-13T16:59:12.124+00:00",
   },
 
-  // ── Dutch ──────────────────────────────────────────────────
-  {
-    title: "Lead Product Designer",
-    company: "Dutch",
-    location: "Oakland, CA",
-    url: "https://jobs.lever.co/dutch/abb25c9c-47d8-417a-98d2-dd105d24f933",
-    department: "Product",
-    postedAt: "2026-06-08T15:46:26.365Z",
-  },
-  {
-    title: "Lead Product Designer (Canada)",
-    company: "Dutch",
-    location: "Ontario",
-    url: "https://jobs.lever.co/dutch/d6878126-8dd4-4ea4-aa86-6c613e61faeb",
-    department: "Product",
-    postedAt: "2026-06-04T15:28:13.203Z",
-  },
-
-  // ── Electrified Thermal ────────────────────────────────────
-  {
-    title: "2026 Summer Design Engineer Internship",
-    company: "Electrified Thermal",
-    location: "Charlestown, MA",
-    url: "https://jobs.lever.co/ElectrifiedThermalSolutions/7ee98b9e-d86b-4068-9075-322c96912cb5",
-    department: "Engineering",
-    postedAt: "2026-04-24T17:39:09.427Z",
-  },
-
   // ── Enterpret ──────────────────────────────────────────────
   {
     title: "Lead Brand Designer & Web Developer",
@@ -851,16 +773,6 @@ export const jobs: Job[] = [
     url: "https://job-boards.greenhouse.io/enterpret/jobs/7801126003",
     department: "",
     postedAt: "2026-07-10T10:51:21-04:00",
-  },
-
-  // ── Epsilon3 ───────────────────────────────────────────────
-  {
-    title: "Senior Product Designer",
-    company: "Epsilon3",
-    location: "Los Angeles",
-    url: "https://jobs.lever.co/epsilon3/388f36fb-3afd-4c99-99a4-60ea5a1fc2f6",
-    department: "Engineering",
-    postedAt: "2026-05-14T17:50:47.779Z",
   },
 
   // ── Factory ────────────────────────────────────────────────
@@ -1003,16 +915,6 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/FlutterFlow/224be149-19f8-469c-9767-f2f263f0ae5c",
     department: "Design",
     postedAt: "2026-03-05T16:20:31.878+00:00",
-  },
-
-  // ── Gather AI ──────────────────────────────────────────────
-  {
-    title: "UX Designer",
-    company: "Gather AI",
-    location: "Open to Remote (USA); Pittsburgh, PA",
-    url: "https://job-boards.greenhouse.io/gatherai/jobs/5176171007",
-    department: "",
-    postedAt: "2026-06-29T14:59:53-04:00",
   },
 
   // ── GlossGenius ────────────────────────────────────────────
@@ -1199,32 +1101,6 @@ export const jobs: Job[] = [
     postedAt: "2026-05-18T20:43:41.422+00:00",
   },
 
-  // ── Iru ────────────────────────────────────────────────────
-  {
-    title: "Creative Director",
-    company: "Iru",
-    location: "Miami",
-    url: "https://jobs.lever.co/iru/1586b4f5-d9ac-423f-a069-e95ee8ba7631",
-    department: "Marketing",
-    postedAt: "2026-06-26T17:05:49.692Z",
-  },
-  {
-    title: "Principal UI/UX Designer",
-    company: "Iru",
-    location: "Miami",
-    url: "https://jobs.lever.co/iru/0bf50a9a-1a25-492e-8b9d-03c6a0f6d5d8",
-    department: "Product Design",
-    postedAt: "2026-06-25T18:45:41.251Z",
-  },
-  {
-    title: "Visual Designer",
-    company: "Iru",
-    location: "Miami",
-    url: "https://jobs.lever.co/iru/f35ce733-dc18-4193-9853-5e6b5fbc81b5",
-    department: "Marketing",
-    postedAt: "2026-04-14T14:24:45.249Z",
-  },
-
   // ── Klaviyo ────────────────────────────────────────────────
   {
     title: "Lead Product Designer, AI & Analytics",
@@ -1249,14 +1125,6 @@ export const jobs: Job[] = [
     url: "https://www.klaviyo.com/careers/jobs/7503717003?gh_jid=7503717003",
     department: "",
     postedAt: "2025-10-21T10:50:00-04:00",
-  },
-  {
-    title: "Senior Product Designer - Growth",
-    company: "Klaviyo",
-    location: "Boston, MA",
-    url: "https://www.klaviyo.com/careers/jobs/7636082003?gh_jid=7636082003",
-    department: "",
-    postedAt: "2026-06-08T13:59:40-04:00",
   },
   {
     title: "Senior Product Designer, Design Systems",
@@ -1477,14 +1345,6 @@ export const jobs: Job[] = [
     postedAt: "2026-07-09T22:05:32.443+00:00",
   },
   {
-    title: "Lead Industrial Designer, Robotics",
-    company: "OpenAI",
-    location: "San Francisco",
-    url: "https://jobs.ashbyhq.com/openai/04a780c7-f672-43d1-9e73-37ce17b82403",
-    department: "Research",
-    postedAt: "2026-06-16T19:29:41.084+00:00",
-  },
-  {
     title: "Model Designer",
     company: "OpenAI",
     location: "San Francisco",
@@ -1666,14 +1526,6 @@ export const jobs: Job[] = [
     department: "",
     postedAt: "2026-07-10T11:38:22-04:00",
   },
-  {
-    title: "Senior UX Researcher, Consumer Product",
-    company: "Reddit",
-    location: "Remote - United States",
-    url: "https://job-boards.greenhouse.io/reddit/jobs/8027458",
-    department: "",
-    postedAt: "2026-07-09T10:14:52-04:00",
-  },
 
   // ── Replit ─────────────────────────────────────────────────
   {
@@ -1705,10 +1557,10 @@ export const jobs: Job[] = [
   {
     title: "Senior Product Designer",
     company: "Robinhood",
-    location: "Menlo Park, CA | Menlo Park, CA; New York, NY",
-    url: "https://boards.greenhouse.io/robinhood/jobs/7960697?t=gh_src=&gh_jid=7960697",
+    location: "Menlo Park, CA; New York, NY | Menlo Park, CA",
+    url: "https://boards.greenhouse.io/robinhood/jobs/7490017?t=gh_src=&gh_jid=7490017",
     department: "",
-    postedAt: "2026-06-02T15:41:03-04:00",
+    postedAt: "2026-05-29T14:34:41-04:00",
   },
   {
     title: "Staff Product Designer, Brokerage",
@@ -1761,12 +1613,20 @@ export const jobs: Job[] = [
     postedAt: "2024-02-16T14:13:47.318+00:00",
   },
   {
-    title: "Sr./Staff Product Designer",
+    title: "Sr./Staff Product Designer, Developer Platform",
     company: "runway-ml",
     location: "Remote",
     url: "https://jobs.ashbyhq.com/runway-ml/e0fec99f-ae6e-4f92-ac1a-7d227179261f",
     department: "Product Design",
     postedAt: "2023-08-31T19:41:06.375+00:00",
+  },
+  {
+    title: "Sr./Staff Product Designer, Growth",
+    company: "runway-ml",
+    location: "Remote",
+    url: "https://jobs.ashbyhq.com/runway-ml/28e151ac-cb29-4695-9041-a9e352624111",
+    department: "Product Design",
+    postedAt: "2026-07-15T01:36:41.775+00:00",
   },
 
   // ── Semgrep ────────────────────────────────────────────────
@@ -2091,16 +1951,6 @@ export const jobs: Job[] = [
     postedAt: "2026-05-13T22:30:48.154+00:00",
   },
 
-  // ── Thunkable ──────────────────────────────────────────────
-  {
-    title: "Product Designer",
-    company: "Thunkable",
-    location: "San Francisco, CA",
-    url: "https://jobs.lever.co/thunkable/9bbcc4b9-ee31-4921-b844-d8f1e0bc533f",
-    department: "Product Design",
-    postedAt: "2026-06-02T21:57:12.412Z",
-  },
-
   // ── Together AI ────────────────────────────────────────────
   {
     title: "Infrastructure Design Engineer",
@@ -2179,14 +2029,6 @@ export const jobs: Job[] = [
 
   // ── xAI ────────────────────────────────────────────────────
   {
-    title: "Architectural Designer ",
-    company: "xAI",
-    location: "Memphis, TN",
-    url: "https://job-boards.greenhouse.io/xai/jobs/5149595007",
-    department: "",
-    postedAt: "2026-06-02T15:28:34-04:00",
-  },
-  {
     title: "Exceptional Designer",
     company: "xAI",
     location: "Palo Alto, CA",
@@ -2203,6 +2045,14 @@ export const jobs: Job[] = [
     url: "https://jobs.lever.co/zoox/63829003-24ba-4169-96a6-a3349b68bf17",
     department: "Quality and Reliability",
     postedAt: "2026-01-26T20:03:44.471Z",
+  },
+  {
+    title: "Senior Design Project Manager, Places & Build",
+    company: "Zoox",
+    location: "Foster City, CA",
+    url: "https://jobs.lever.co/zoox/f30603f7-cc6f-41b5-91e5-ead70d880135",
+    department: "Places and Build",
+    postedAt: "2026-07-13T18:54:04.238Z",
   },
   {
     title: "Senior Manager, Robot Industrial Design",
