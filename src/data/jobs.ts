@@ -7,16 +7,16 @@ export type Job = {
   postedAt: string;
 };
 
-// Auto-updated by scraper — 2026-07-18
+// Auto-updated by scraper — 2026-07-19
 export const jobs: Job[] = [
   // ── Affirm ─────────────────────────────────────────────────
   {
     title: "Staff Product Designer",
     company: "Affirm",
     location: "Remote US",
-    url: "https://job-boards.greenhouse.io/affirm/jobs/7605936003",
+    url: "https://job-boards.greenhouse.io/affirm/jobs/7799295003",
     department: "",
-    postedAt: "2026-02-03T12:33:07-05:00",
+    postedAt: "2026-07-13T11:46:27-04:00",
   },
 
   // ── Airtable ───────────────────────────────────────────────
@@ -787,6 +787,16 @@ export const jobs: Job[] = [
     url: "https://jobs.lever.co/ElectrifiedThermalSolutions/7ee98b9e-d86b-4068-9075-322c96912cb5",
     department: "Engineering",
     postedAt: "2026-04-24T17:39:09.427Z",
+  },
+
+  // ── Enterpret ──────────────────────────────────────────────
+  {
+    title: "Lead Brand Designer & Web Developer",
+    company: "Enterpret",
+    location: "New York (Remote) ",
+    url: "https://job-boards.greenhouse.io/enterpret/jobs/7801126003",
+    department: "",
+    postedAt: "2026-07-10T10:51:21-04:00",
   },
 
   // ── Epsilon3 ───────────────────────────────────────────────
