@@ -7,16 +7,16 @@ export type Job = {
   postedAt: string;
 };
 
-// Auto-updated by scraper — 2026-07-19
+// Auto-updated by scraper — 2026-07-20
 export const jobs: Job[] = [
   // ── Affirm ─────────────────────────────────────────────────
   {
     title: "Staff Product Designer",
     company: "Affirm",
     location: "Remote US",
-    url: "https://job-boards.greenhouse.io/affirm/jobs/7799295003",
+    url: "https://job-boards.greenhouse.io/affirm/jobs/7605936003",
     department: "",
-    postedAt: "2026-07-13T11:46:27-04:00",
+    postedAt: "2026-02-03T12:33:07-05:00",
   },
 
   // ── Airtable ───────────────────────────────────────────────
@@ -243,6 +243,16 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/betterup/5b54523c-44e4-4913-8599-da4e641706e7",
     department: "Design",
     postedAt: "2026-04-20T15:25:06.690+00:00",
+  },
+
+  // ── BillionToOne ───────────────────────────────────────────
+  {
+    title: "Lead UX Designer",
+    company: "BillionToOne",
+    location: "Menlo Park, CA",
+    url: "https://job-boards.greenhouse.io/billiontoone/jobs/4704105005",
+    department: "",
+    postedAt: "2026-06-08T18:49:55-04:00",
   },
 
   // ── bjakcareer ─────────────────────────────────────────────
@@ -787,26 +797,6 @@ export const jobs: Job[] = [
     url: "https://jobs.lever.co/ElectrifiedThermalSolutions/7ee98b9e-d86b-4068-9075-322c96912cb5",
     department: "Engineering",
     postedAt: "2026-04-24T17:39:09.427Z",
-  },
-
-  // ── Enterpret ──────────────────────────────────────────────
-  {
-    title: "Lead Brand Designer & Web Developer",
-    company: "Enterpret",
-    location: "New York (Remote) ",
-    url: "https://job-boards.greenhouse.io/enterpret/jobs/7801126003",
-    department: "",
-    postedAt: "2026-07-10T10:51:21-04:00",
-  },
-
-  // ── Epsilon3 ───────────────────────────────────────────────
-  {
-    title: "Senior Product Designer",
-    company: "Epsilon3",
-    location: "Los Angeles",
-    url: "https://jobs.lever.co/epsilon3/388f36fb-3afd-4c99-99a4-60ea5a1fc2f6",
-    department: "Engineering",
-    postedAt: "2026-05-14T17:50:47.779Z",
   },
 
   // ── Factory ────────────────────────────────────────────────
@@ -2001,24 +1991,6 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/tavus/45fdebdf-c3e1-480f-bbfb-ab4deee35db7",
     department: "Engineering, Product, & Design",
     postedAt: "2026-07-09T22:41:30.723+00:00",
-  },
-
-  // ── tessera-labs ───────────────────────────────────────────
-  {
-    title: "Design Engineer",
-    company: "tessera-labs",
-    location: "San Jose Office (HQ)",
-    url: "https://jobs.ashbyhq.com/tessera-labs/7b861e6e-9681-4e06-a3fc-b6b294152c6d",
-    department: "Product",
-    postedAt: "2026-06-19T16:38:01.319+00:00",
-  },
-  {
-    title: "Senior Product Designer",
-    company: "tessera-labs",
-    location: "Remote in the U.S.",
-    url: "https://jobs.ashbyhq.com/tessera-labs/742eb648-a305-4da8-90fa-6d3af8e16f8d",
-    department: "Product",
-    postedAt: "2026-05-13T22:30:48.154+00:00",
   },
 
   // ── Thunkable ──────────────────────────────────────────────
