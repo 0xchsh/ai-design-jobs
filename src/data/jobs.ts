@@ -7,8 +7,26 @@ export type Job = {
   postedAt: string;
 };
 
-// Auto-updated by scraper — 2026-07-23
+// Auto-updated by scraper — 2026-07-24
 export const jobs: Job[] = [
+  // ── affinity.co ────────────────────────────────────────────
+  {
+    title: "Senior Product Designer",
+    company: "affinity.co",
+    location: "San Francisco | Toronto",
+    url: "https://jobs.ashbyhq.com/affinity.co/6e25419b-2968-4cdd-84bc-deaeef7827ee",
+    department: "Product Design",
+    postedAt: "2026-07-13T21:22:32.543+00:00",
+  },
+  {
+    title: "Staff Product Designer",
+    company: "affinity.co",
+    location: "Toronto | San Francisco",
+    url: "https://jobs.ashbyhq.com/affinity.co/3294ad90-4854-431e-9e6d-122929347e76",
+    department: "Product Design",
+    postedAt: "2026-07-13T23:19:22.316+00:00",
+  },
+
   // ── Affirm ─────────────────────────────────────────────────
   {
     title: "Staff Product Designer",
@@ -53,6 +71,24 @@ export const jobs: Job[] = [
     url: "https://job-boards.greenhouse.io/amplitude/jobs/8622704002",
     department: "",
     postedAt: "2026-07-07T12:09:42-04:00",
+  },
+
+  // ── ando ───────────────────────────────────────────────────
+  {
+    title: "Brand Designer",
+    company: "ando",
+    location: "San Francisco",
+    url: "https://jobs.ashbyhq.com/ando/3ea1e324-dbe6-488f-94a1-00a4a03aec76",
+    department: "Design",
+    postedAt: "2026-03-09T16:45:08.439+00:00",
+  },
+  {
+    title: "Product Designer",
+    company: "ando",
+    location: "San Francisco",
+    url: "https://jobs.ashbyhq.com/ando/7de86b5b-cda4-4c3f-9d32-8defb3a1a191",
+    department: "Design",
+    postedAt: "2026-03-09T16:51:04.215+00:00",
   },
 
   // ── Anthropic ──────────────────────────────────────────────
@@ -129,10 +165,10 @@ export const jobs: Job[] = [
   {
     title: "Product Designer",
     company: "Asana",
-    location: "Vancouver, BC | San Francisco",
-    url: "https://www.asana.com/jobs/apply/8024052?gh_jid=8024052",
+    location: "San Francisco | Vancouver, BC",
+    url: "https://www.asana.com/jobs/apply/7952123?gh_jid=7952123",
     department: "",
-    postedAt: "2026-07-21T14:21:12-04:00",
+    postedAt: "2026-06-11T15:07:58-04:00",
   },
   {
     title: "Product Designer, Adapt",
@@ -661,10 +697,10 @@ export const jobs: Job[] = [
   {
     title: "Staff Product Designer",
     company: "Brex",
-    location: "New York, New York, United States | San Francisco, California, United States",
-    url: "https://www.brex.com/careers/8124973002?gh_jid=8124973002",
+    location: "San Francisco, California, United States | New York, New York, United States",
+    url: "https://www.brex.com/careers/7669111002?gh_jid=7669111002",
     department: "",
-    postedAt: "2025-08-18T14:45:19-04:00",
+    postedAt: "2024-10-03T14:09:29-04:00",
   },
   {
     title: "Staff Product Designer, AI",
@@ -988,7 +1024,7 @@ export const jobs: Job[] = [
     location: "New York",
     url: "https://jobs.ashbyhq.com/dust/f60f148d-54ce-4352-a247-9c2571cafa85",
     department: "Marketing",
-    postedAt: "2026-07-13T16:59:12.124+00:00",
+    postedAt: "2026-07-23T17:25:37.025+00:00",
   },
 
   // ── Elastic ────────────────────────────────────────────────
@@ -1325,7 +1361,7 @@ export const jobs: Job[] = [
     postedAt: "2026-04-02T20:08:12.118+00:00",
   },
   {
-    title: "Staff Design Systems Designer",
+    title: "Senior/Staff Design Engineer",
     company: "Harvey AI",
     location: "San Francisco | New York",
     url: "https://jobs.ashbyhq.com/harvey/aede4098-91f4-44f5-9d53-27c15cb2bae7",
@@ -1359,6 +1395,32 @@ export const jobs: Job[] = [
     postedAt: "2025-12-07T23:03:28-05:00",
   },
 
+  // ── hiive ──────────────────────────────────────────────────
+  {
+    title: "Director of Product Design",
+    company: "hiive",
+    location: "Vancouver, BC (HQ)",
+    url: "https://jobs.ashbyhq.com/hiive/50db0972-912f-4aa1-81bd-9bd8ed1f267c",
+    department: "Product Design",
+    postedAt: "2026-01-23T04:07:50.748+00:00",
+  },
+  {
+    title: "Product Designer",
+    company: "hiive",
+    location: "Vancouver, BC (HQ)",
+    url: "https://jobs.ashbyhq.com/hiive/574d0653-6f71-4d82-9f11-05d74c003c07",
+    department: "Product Design",
+    postedAt: "2026-02-04T18:43:14.026+00:00",
+  },
+  {
+    title: "Senior Product Designer",
+    company: "hiive",
+    location: "Vancouver, BC (HQ)",
+    url: "https://jobs.ashbyhq.com/hiive/25bbd0fd-ff23-43cd-8a3c-1708654dccf6",
+    department: "Product Design",
+    postedAt: "2026-07-09T19:00:46.932+00:00",
+  },
+
   // ── Infisical ──────────────────────────────────────────────
   {
     title: "Design Engineer, Brand",
@@ -1385,14 +1447,6 @@ export const jobs: Job[] = [
     url: "https://www.klaviyo.com/careers/jobs/7503717003?gh_jid=7503717003",
     department: "",
     postedAt: "2025-10-21T10:50:00-04:00",
-  },
-  {
-    title: "Senior Product Designer, Design Systems",
-    company: "Klaviyo",
-    location: "Boston, MA",
-    url: "https://www.klaviyo.com/careers/jobs/7801045003?gh_jid=7801045003",
-    department: "",
-    postedAt: "2026-07-10T16:11:53-04:00",
   },
 
   // ── kota ───────────────────────────────────────────────────
@@ -1841,16 +1895,6 @@ export const jobs: Job[] = [
     postedAt: "2026-06-10T12:17:31-04:00",
   },
 
-  // ── Railway ────────────────────────────────────────────────
-  {
-    title: "Product Designer",
-    company: "Railway",
-    location: "Remote (United States)",
-    url: "https://jobs.ashbyhq.com/railway/6fb07755-acd8-4400-9de3-fa598e4eeb7d",
-    department: "Product",
-    postedAt: "2025-11-03T23:54:45.950+00:00",
-  },
-
   // ── Ramp ───────────────────────────────────────────────────
   {
     title: "Associate Creative Director, Customer Stories",
@@ -1917,10 +1961,10 @@ export const jobs: Job[] = [
   {
     title: "Senior Product Designer",
     company: "Robinhood",
-    location: "Menlo Park, CA; New York, NY | Menlo Park, CA",
-    url: "https://boards.greenhouse.io/robinhood/jobs/7490017?t=gh_src=&gh_jid=7490017",
+    location: "Menlo Park, CA | Menlo Park, CA; New York, NY",
+    url: "https://boards.greenhouse.io/robinhood/jobs/7960697?t=gh_src=&gh_jid=7960697",
     department: "",
-    postedAt: "2026-05-29T14:34:41-04:00",
+    postedAt: "2026-06-02T15:41:03-04:00",
   },
   {
     title: "Staff Product Designer, Brokerage",
@@ -1980,14 +2024,6 @@ export const jobs: Job[] = [
     department: "Product Design",
     postedAt: "2023-08-31T19:41:06.375+00:00",
   },
-  {
-    title: "Sr./Staff Product Designer, Growth",
-    company: "runway-ml",
-    location: "Remote",
-    url: "https://jobs.ashbyhq.com/runway-ml/28e151ac-cb29-4695-9041-a9e352624111",
-    department: "Product Design",
-    postedAt: "2026-07-15T01:36:41.775+00:00",
-  },
 
   // ── Semgrep ────────────────────────────────────────────────
   {
@@ -1997,6 +2033,16 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/semgrep/cc1b67ab-953e-4f88-8f90-478ae207edfc",
     department: "Product Org",
     postedAt: "2026-06-01T22:41:29.525+00:00",
+  },
+
+  // ── sevenai ────────────────────────────────────────────────
+  {
+    title: "Sr. Visual Designer",
+    company: "sevenai",
+    location: "Boston, MA",
+    url: "https://jobs.ashbyhq.com/sevenai/2aae838c-070b-40e3-bb1c-876ea789469f",
+    department: "Product",
+    postedAt: "2026-07-13T16:51:52.679+00:00",
   },
 
   // ── Sierra AI ──────────────────────────────────────────────
