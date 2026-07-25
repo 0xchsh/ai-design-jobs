@@ -7,7 +7,7 @@ export type Job = {
   postedAt: string;
 };
 
-// Auto-updated by scraper — 2026-07-24
+// Auto-updated by scraper — 2026-07-25
 export const jobs: Job[] = [
   // ── affinity.co ────────────────────────────────────────────
   {
@@ -73,24 +73,6 @@ export const jobs: Job[] = [
     postedAt: "2026-07-07T12:09:42-04:00",
   },
 
-  // ── ando ───────────────────────────────────────────────────
-  {
-    title: "Brand Designer",
-    company: "ando",
-    location: "San Francisco",
-    url: "https://jobs.ashbyhq.com/ando/3ea1e324-dbe6-488f-94a1-00a4a03aec76",
-    department: "Design",
-    postedAt: "2026-03-09T16:45:08.439+00:00",
-  },
-  {
-    title: "Product Designer",
-    company: "ando",
-    location: "San Francisco",
-    url: "https://jobs.ashbyhq.com/ando/7de86b5b-cda4-4c3f-9d32-8defb3a1a191",
-    department: "Design",
-    postedAt: "2026-03-09T16:51:04.215+00:00",
-  },
-
   // ── Anthropic ──────────────────────────────────────────────
   {
     title: "Art Director, Claude",
@@ -107,14 +89,6 @@ export const jobs: Job[] = [
     url: "https://job-boards.greenhouse.io/anthropic/jobs/5157023008",
     department: "",
     postedAt: "2026-03-18T12:47:40-04:00",
-  },
-  {
-    title: "Design Engineer, Education Labs",
-    company: "Anthropic",
-    location: "San Francisco, CA | New York City, NY",
-    url: "https://job-boards.greenhouse.io/anthropic/jobs/5097186008",
-    department: "",
-    postedAt: "2026-01-27T15:23:29-05:00",
   },
   {
     title: "Design Engineer, Web",
@@ -197,56 +171,6 @@ export const jobs: Job[] = [
     postedAt: "2026-07-06T17:06:24.969+00:00",
   },
 
-  // ── betterup ───────────────────────────────────────────────
-  {
-    title: "Principal Product Designer, Core",
-    company: "betterup",
-    location: "Austin, TX",
-    url: "https://jobs.ashbyhq.com/betterup/3eb362fc-4911-42d4-b022-69d5c8c343ac",
-    department: "Design",
-    postedAt: "2026-04-20T20:13:01.407+00:00",
-  },
-  {
-    title: "Principal Product Designer, Partner Experience",
-    company: "betterup",
-    location: "Austin, TX",
-    url: "https://jobs.ashbyhq.com/betterup/bad7334f-032f-4263-a8db-3bf8b0fcc1a0",
-    department: "Design",
-    postedAt: "2026-06-16T18:56:03.618+00:00",
-  },
-  {
-    title: "Principal UX Researcher ",
-    company: "betterup",
-    location: "Arlington, VA",
-    url: "https://jobs.ashbyhq.com/betterup/b16b26a9-a282-46b2-8b8b-c92717a9d097",
-    department: "Design",
-    postedAt: "2026-07-07T19:24:15.577+00:00",
-  },
-  {
-    title: "Product Design Manager, Vertical Experiences",
-    company: "betterup",
-    location: "Austin, TX",
-    url: "https://jobs.ashbyhq.com/betterup/7a069da5-2041-4bce-ba61-7ec90ae07a69",
-    department: "Design",
-    postedAt: "2026-06-11T14:01:56.191+00:00",
-  },
-  {
-    title: "Staff Product Designer, Design Systems",
-    company: "betterup",
-    location: "Austin, TX",
-    url: "https://jobs.ashbyhq.com/betterup/faa62bc5-cee2-4514-aab2-e656cf40b88c",
-    department: "Design",
-    postedAt: "2026-05-19T12:53:13.591+00:00",
-  },
-  {
-    title: "Staff Product Designer, Growth",
-    company: "betterup",
-    location: "Austin, TX",
-    url: "https://jobs.ashbyhq.com/betterup/5b54523c-44e4-4913-8599-da4e641706e7",
-    department: "Design",
-    postedAt: "2026-04-20T15:25:06.690+00:00",
-  },
-
   // ── BillionToOne ───────────────────────────────────────────
   {
     title: "Lead UX Designer",
@@ -255,400 +179,6 @@ export const jobs: Job[] = [
     url: "https://job-boards.greenhouse.io/billiontoone/jobs/4704105005",
     department: "",
     postedAt: "2026-06-08T18:49:55-04:00",
-  },
-
-  // ── bjakcareer ─────────────────────────────────────────────
-  {
-    title: "Art Director ",
-    company: "bjakcareer",
-    location: "Malaysia",
-    url: "https://jobs.ashbyhq.com/bjakcareer/77136332-7ed6-4a46-a33c-53fa1354799a",
-    department: "Creative",
-    postedAt: "2026-06-17T08:20:10.905+00:00",
-  },
-  {
-    title: "Assistant Creative Director - Indonesia",
-    company: "bjakcareer",
-    location: "Indonesia",
-    url: "https://jobs.ashbyhq.com/bjakcareer/c87bc5d9-4e2c-4712-9c05-2d613b747122",
-    department: "Creative",
-    postedAt: "2026-04-21T14:07:00.009+00:00",
-  },
-  {
-    title: "Brand Designer ",
-    company: "bjakcareer",
-    location: "Indonesia",
-    url: "https://jobs.ashbyhq.com/bjakcareer/f25e9c8a-8d26-4c62-9a71-49d1b005c6ed",
-    department: "Creative",
-    postedAt: "2026-07-05T15:23:07.252+00:00",
-  },
-  {
-    title: "Conversation Designer, HCI",
-    company: "bjakcareer",
-    location: "New York, United States",
-    url: "https://jobs.ashbyhq.com/bjakcareer/1080c9cb-f5fa-4ce7-88ec-cd888027ca6a",
-    department: "A1 Product",
-    postedAt: "2026-05-19T14:34:32.157+00:00",
-  },
-  {
-    title: "Graphic Designer - Freelance",
-    company: "bjakcareer",
-    location: "Malaysia",
-    url: "https://jobs.ashbyhq.com/bjakcareer/06f78b31-4f2d-4b52-a948-2762a7265cbe",
-    department: "Creative",
-    postedAt: "2026-03-26T09:10:35.189+00:00",
-  },
-  {
-    title: "Graphic Designer ID",
-    company: "bjakcareer",
-    location: "Indonesia",
-    url: "https://jobs.ashbyhq.com/bjakcareer/2a42b65a-f16b-4f95-9285-24037d33a11f",
-    department: "Marketing",
-    postedAt: "2026-07-05T16:08:49.147+00:00",
-  },
-  {
-    title: "Interaction Designer, HCI",
-    company: "bjakcareer",
-    location: "United States",
-    url: "https://jobs.ashbyhq.com/bjakcareer/a8504fb1-5cd9-49fc-a3b3-4c39ad2a52ac",
-    department: "A1 Product",
-    postedAt: "2026-05-19T14:32:25.841+00:00",
-  },
-  {
-    title: "Lead Brand Designer",
-    company: "bjakcareer",
-    location: "Malaysia",
-    url: "https://jobs.ashbyhq.com/bjakcareer/21f25a65-2933-413b-afcc-d3a29b43d290",
-    department: "Creative",
-    postedAt: "2026-07-05T15:23:50.249+00:00",
-  },
-  {
-    title: "Malaysia - Assistant Creative Director ",
-    company: "bjakcareer",
-    location: "Malaysia",
-    url: "https://jobs.ashbyhq.com/bjakcareer/1246630e-8bf5-46ec-a01d-902e5f5cbc4f",
-    department: "Creative",
-    postedAt: "2026-04-21T14:11:08.611+00:00",
-  },
-  {
-    title: "Mobile UI Designer",
-    company: "bjakcareer",
-    location: "Malaysia",
-    url: "https://jobs.ashbyhq.com/bjakcareer/3be8dc6d-5c1f-419a-9e71-59b48136b381",
-    department: "Product",
-    postedAt: "2026-07-21T16:45:29.282+00:00",
-  },
-  {
-    title: "Mobile UI Designer (Austria)",
-    company: "bjakcareer",
-    location: "Austria",
-    url: "https://jobs.ashbyhq.com/bjakcareer/5f6ec90a-bd97-4b66-9a81-9249d3e1ca72",
-    department: "Product",
-    postedAt: "2026-07-22T00:55:52.708+00:00",
-  },
-  {
-    title: "Mobile UI Designer (China)",
-    company: "bjakcareer",
-    location: "China",
-    url: "https://jobs.ashbyhq.com/bjakcareer/7f20138b-634c-4b5d-9bba-1dd041ba295c",
-    department: "Product",
-    postedAt: "2026-07-22T01:00:43.128+00:00",
-  },
-  {
-    title: "Mobile UI Designer (Hong Kong)",
-    company: "bjakcareer",
-    location: "Hong Kong",
-    url: "https://jobs.ashbyhq.com/bjakcareer/fa81b2ac-f11c-475d-a579-d408def5703d",
-    department: "Product",
-    postedAt: "2026-07-22T01:01:22.713+00:00",
-  },
-  {
-    title: "Mobile UI Designer (Indonesia)",
-    company: "bjakcareer",
-    location: "Indonesia",
-    url: "https://jobs.ashbyhq.com/bjakcareer/ee062598-8642-45e2-9e03-644e00b15d3d",
-    department: "Product",
-    postedAt: "2026-07-22T01:03:23.162+00:00",
-  },
-  {
-    title: "Mobile UI Designer (Philippines)",
-    company: "bjakcareer",
-    location: "Philippines",
-    url: "https://jobs.ashbyhq.com/bjakcareer/e39da36f-0010-471e-9441-4fff5876c4f2",
-    department: "Product",
-    postedAt: "2026-07-22T01:02:09.983+00:00",
-  },
-  {
-    title: "Mobile UI Designer (Taiwan)",
-    company: "bjakcareer",
-    location: "Taipei, Taiwan",
-    url: "https://jobs.ashbyhq.com/bjakcareer/b9df38e0-88b3-49f2-91ab-86cd0f9d3dc7",
-    department: "Product",
-    postedAt: "2026-07-22T01:06:21.026+00:00",
-  },
-  {
-    title: "Mobile UI Designer (Thailand)",
-    company: "bjakcareer",
-    location: "Thailand",
-    url: "https://jobs.ashbyhq.com/bjakcareer/b3b3ee63-3667-45c4-a209-3b7eeb361bef",
-    department: "Product",
-    postedAt: "2026-07-22T01:02:38.818+00:00",
-  },
-  {
-    title: "Mobile UI Designer (US)",
-    company: "bjakcareer",
-    location: "United States",
-    url: "https://jobs.ashbyhq.com/bjakcareer/d1621d5e-e36d-4f88-b476-f42453a51b4e",
-    department: "Product",
-    postedAt: "2026-07-22T01:04:39.240+00:00",
-  },
-  {
-    title: "Mobile UI Designer (Vietnam)",
-    company: "bjakcareer",
-    location: "Vietnam",
-    url: "https://jobs.ashbyhq.com/bjakcareer/ddc3d225-aff7-4390-966d-175cff9975cc",
-    department: "Product",
-    postedAt: "2026-07-22T01:05:52.027+00:00",
-  },
-  {
-    title: "Motion Designer (UX/Interface)",
-    company: "bjakcareer",
-    location: "New York, United States",
-    url: "https://jobs.ashbyhq.com/bjakcareer/c8a45923-af0f-4570-a53d-7edac286a02d",
-    department: "A1 Product",
-    postedAt: "2026-05-19T14:32:48.671+00:00",
-  },
-  {
-    title: "Motions Designer - Freelance",
-    company: "bjakcareer",
-    location: "Malaysia",
-    url: "https://jobs.ashbyhq.com/bjakcareer/9334b579-4b24-41e0-9db5-11190eb7d9d2",
-    department: "Creative",
-    postedAt: "2026-03-26T08:58:41.991+00:00",
-  },
-  {
-    title: "Product Designer (UI/UX)",
-    company: "bjakcareer",
-    location: "Malaysia",
-    url: "https://jobs.ashbyhq.com/bjakcareer/6446849e-5525-45dc-ba30-a4bd05e6226d",
-    department: "Product",
-    postedAt: "2026-07-21T16:41:59.270+00:00",
-  },
-  {
-    title: "Product Designer (UI/UX) (Austria)",
-    company: "bjakcareer",
-    location: "Austria",
-    url: "https://jobs.ashbyhq.com/bjakcareer/0ec5f94d-e4cf-4e54-acbd-30f8aa1dc2e2",
-    department: "Product",
-    postedAt: "2026-07-22T01:42:00.512+00:00",
-  },
-  {
-    title: "Product Designer (UI/UX) (China)",
-    company: "bjakcareer",
-    location: "China",
-    url: "https://jobs.ashbyhq.com/bjakcareer/0506fe0e-54e8-4efe-b236-5823e82696f3",
-    department: "Product",
-    postedAt: "2026-07-22T01:41:29.242+00:00",
-  },
-  {
-    title: "Product Designer (UI/UX) (Hong Kong)",
-    company: "bjakcareer",
-    location: "Hong Kong",
-    url: "https://jobs.ashbyhq.com/bjakcareer/b085f7e7-d0e6-4443-8806-34043ea339d6",
-    department: "Product",
-    postedAt: "2026-07-22T01:40:31.135+00:00",
-  },
-  {
-    title: "Product Designer (UI/UX) (Indonesia)",
-    company: "bjakcareer",
-    location: "Indonesia",
-    url: "https://jobs.ashbyhq.com/bjakcareer/9542fbe7-fd31-4a0f-8b31-04ff2df56857",
-    department: "Product",
-    postedAt: "2026-07-22T01:39:31.410+00:00",
-  },
-  {
-    title: "Product Designer (UI/UX) (Philippines)",
-    company: "bjakcareer",
-    location: "Philippines",
-    url: "https://jobs.ashbyhq.com/bjakcareer/b34ac3f3-02db-4256-bf2b-0c05e960bd1e",
-    department: "Product",
-    postedAt: "2026-07-22T01:35:57.905+00:00",
-  },
-  {
-    title: "Product Designer (UI/UX) (Taiwan)",
-    company: "bjakcareer",
-    location: "Taipei, Taiwan",
-    url: "https://jobs.ashbyhq.com/bjakcareer/fc459c03-8278-4043-be59-db47d0330348",
-    department: "Product",
-    postedAt: "2026-07-22T01:28:28.746+00:00",
-  },
-  {
-    title: "Product Designer (UI/UX) (Thailand)",
-    company: "bjakcareer",
-    location: "Thailand",
-    url: "https://jobs.ashbyhq.com/bjakcareer/c9acd1fd-2408-4531-b683-2ba746a152b5",
-    department: "Product",
-    postedAt: "2026-07-22T01:32:14.166+00:00",
-  },
-  {
-    title: "Product Designer (UI/UX) (UK)",
-    company: "bjakcareer",
-    location: "Taipei, Taiwan",
-    url: "https://jobs.ashbyhq.com/bjakcareer/b7726954-cbbc-4be0-b5b3-0653cfd118da",
-    department: "Product",
-    postedAt: "2026-07-22T01:29:23.956+00:00",
-  },
-  {
-    title: "Product Designer (UI/UX) (US)",
-    company: "bjakcareer",
-    location: "United States",
-    url: "https://jobs.ashbyhq.com/bjakcareer/3dfde650-4e74-4668-b190-6c832dd10797",
-    department: "Product",
-    postedAt: "2026-07-22T01:31:33.263+00:00",
-  },
-  {
-    title: "Product Designer (UI/UX) (Vietnam)",
-    company: "bjakcareer",
-    location: "Vietnam",
-    url: "https://jobs.ashbyhq.com/bjakcareer/bfbce6c4-1882-4c9b-bb8e-2475da437648",
-    department: "Product",
-    postedAt: "2026-07-22T01:30:03.951+00:00",
-  },
-  {
-    title: "Product Designer (UX), HCI",
-    company: "bjakcareer",
-    location: "United States",
-    url: "https://jobs.ashbyhq.com/bjakcareer/d0ccb5bc-a558-439f-b8b6-2ba865bfabf9",
-    department: "A1 Product",
-    postedAt: "2026-05-19T14:28:24.870+00:00",
-  },
-  {
-    title: "Senior Brand Designer ",
-    company: "bjakcareer",
-    location: "Malaysia",
-    url: "https://jobs.ashbyhq.com/bjakcareer/1810bb90-fe0d-414c-ac13-04dc2e45c6d1",
-    department: "Creative",
-    postedAt: "2026-07-05T15:23:39.701+00:00",
-  },
-  {
-    title: "Senior Motion Designer",
-    company: "bjakcareer",
-    location: "Malaysia",
-    url: "https://jobs.ashbyhq.com/bjakcareer/f10b7f36-e60d-42fd-aaaf-96764bd6efc5",
-    department: "Creative",
-    postedAt: "2026-07-05T15:30:02.138+00:00",
-  },
-  {
-    title: "Senior Motions Designer ",
-    company: "bjakcareer",
-    location: "Indonesia",
-    url: "https://jobs.ashbyhq.com/bjakcareer/a20b20c7-8205-481e-9155-fa9a6924f27e",
-    department: "Creative",
-    postedAt: "2026-07-05T15:23:21.911+00:00",
-  },
-  {
-    title: "UI Designer - AI Neobank App",
-    company: "bjakcareer",
-    location: "Malaysia",
-    url: "https://jobs.ashbyhq.com/bjakcareer/728fa980-15ae-43cd-8cde-751bb6391895",
-    department: "Product",
-    postedAt: "2026-07-21T16:20:33.998+00:00",
-  },
-  {
-    title: "UI Designer - AI Neobank App (Austria) ",
-    company: "bjakcareer",
-    location: "Austria",
-    url: "https://jobs.ashbyhq.com/bjakcareer/27f00c2f-b6c1-49ac-8b32-559b8009f6d0",
-    department: "Product",
-    postedAt: "2026-07-21T17:04:15.866+00:00",
-  },
-  {
-    title: "UI Designer - AI Neobank App (China)",
-    company: "bjakcareer",
-    location: "China",
-    url: "https://jobs.ashbyhq.com/bjakcareer/b7d45ff0-c15d-443b-8c5f-d9fe6f2f4067",
-    department: "Product",
-    postedAt: "2026-07-21T16:58:40.217+00:00",
-  },
-  {
-    title: "UI Designer - AI Neobank App (Hong Kong) ",
-    company: "bjakcareer",
-    location: "Hong Kong",
-    url: "https://jobs.ashbyhq.com/bjakcareer/ad0922ea-152d-4a7a-8249-3284e2f9db64",
-    department: "Product",
-    postedAt: "2026-07-21T16:57:40.990+00:00",
-  },
-  {
-    title: "UI Designer - AI Neobank App (Indonesia) ",
-    company: "bjakcareer",
-    location: "Indonesia",
-    url: "https://jobs.ashbyhq.com/bjakcareer/73a6caf0-d256-4d4b-899c-fb4e6eaed1af",
-    department: "Product",
-    postedAt: "2026-07-21T16:53:50.790+00:00",
-  },
-  {
-    title: "UI Designer - AI Neobank App (Philippines) ",
-    company: "bjakcareer",
-    location: "Philippines",
-    url: "https://jobs.ashbyhq.com/bjakcareer/0e039330-8473-4940-9b83-211cc0153f58",
-    department: "Product",
-    postedAt: "2026-07-21T16:55:52.119+00:00",
-  },
-  {
-    title: "UI Designer - AI Neobank App (Taiwan) ",
-    company: "bjakcareer",
-    location: "Taipei, Taiwan",
-    url: "https://jobs.ashbyhq.com/bjakcareer/3a6ff50c-38df-45dd-9ce6-9f258c28e010",
-    department: "Product",
-    postedAt: "2026-07-21T16:49:05.046+00:00",
-  },
-  {
-    title: "UI Designer - AI Neobank App (Thailand) ",
-    company: "bjakcareer",
-    location: "Thailand",
-    url: "https://jobs.ashbyhq.com/bjakcareer/443d5d12-8e35-4cad-930f-66d1e5198c14",
-    department: "Product",
-    postedAt: "2026-07-21T16:54:46.568+00:00",
-  },
-  {
-    title: "UI Designer - AI Neobank App (US) ",
-    company: "bjakcareer",
-    location: "United States",
-    url: "https://jobs.ashbyhq.com/bjakcareer/91870487-4047-4579-83bc-fd25625c9a90",
-    department: "Product",
-    postedAt: "2026-07-21T16:50:49.144+00:00",
-  },
-  {
-    title: "UI Designer - AI Neobank App (Vietnam) ",
-    company: "bjakcareer",
-    location: "Vietnam",
-    url: "https://jobs.ashbyhq.com/bjakcareer/02ae292e-5d6e-4dbc-9e00-766122c59209",
-    department: "Product",
-    postedAt: "2026-07-21T16:51:50.410+00:00",
-  },
-  {
-    title: "UX Designer, AI App",
-    company: "bjakcareer",
-    location: "New York, United States",
-    url: "https://jobs.ashbyhq.com/bjakcareer/c246767a-624a-4f7c-af0e-48353acb192c",
-    department: "A1 Product",
-    postedAt: "2026-05-19T14:31:29.369+00:00",
-  },
-  {
-    title: "UX Engineer, HCI",
-    company: "bjakcareer",
-    location: "United States",
-    url: "https://jobs.ashbyhq.com/bjakcareer/103f8ea8-9d61-44bf-8183-5c0451896a03",
-    department: "A1 Product",
-    postedAt: "2026-05-19T14:36:18.711+00:00",
-  },
-  {
-    title: "Visual Designer",
-    company: "bjakcareer",
-    location: "New York, United States",
-    url: "https://jobs.ashbyhq.com/bjakcareer/a7c3de0b-6513-49d7-aba8-4c0a15bcae3c",
-    department: "A1 Product",
-    postedAt: "2026-05-19T14:32:37.730+00:00",
   },
 
   // ── Braintrust ─────────────────────────────────────────────
@@ -669,6 +199,14 @@ export const jobs: Job[] = [
     url: "https://www.brex.com/careers/8393510002?gh_jid=8393510002",
     department: "",
     postedAt: "2026-01-27T18:12:06-05:00",
+  },
+  {
+    title: "Senior Design Sourcer",
+    company: "Brex",
+    location: "Seattle, Washington, United States | New York, New York, United States | San Francisco, California, United States",
+    url: "https://www.brex.com/careers/8434443002?gh_jid=8434443002",
+    department: "",
+    postedAt: "2026-02-23T20:40:31-05:00",
   },
   {
     title: "Senior Motion Designer",
@@ -697,10 +235,10 @@ export const jobs: Job[] = [
   {
     title: "Staff Product Designer",
     company: "Brex",
-    location: "San Francisco, California, United States | New York, New York, United States",
-    url: "https://www.brex.com/careers/7669111002?gh_jid=7669111002",
+    location: "New York, New York, United States | San Francisco, California, United States",
+    url: "https://www.brex.com/careers/8124973002?gh_jid=8124973002",
     department: "",
-    postedAt: "2024-10-03T14:09:29-04:00",
+    postedAt: "2025-08-18T14:45:19-04:00",
   },
   {
     title: "Staff Product Designer, AI",
@@ -933,24 +471,6 @@ export const jobs: Job[] = [
     postedAt: "2025-12-24T10:18:06-05:00",
   },
 
-  // ── decagon ────────────────────────────────────────────────
-  {
-    title: "Brand Designer",
-    company: "decagon",
-    location: "San Francisco",
-    url: "https://jobs.ashbyhq.com/decagon/60613af4-9061-426a-b4d6-720a4399be37",
-    department: "Marketing",
-    postedAt: "2026-06-15T23:37:22.339+00:00",
-  },
-  {
-    title: "Conversation Designer",
-    company: "decagon",
-    location: "Remote",
-    url: "https://jobs.ashbyhq.com/decagon/ad6db669-0ff9-41c6-b86b-8e567ad7fbbd",
-    department: "Deployment Strategists",
-    postedAt: "2026-07-22T18:54:26.948+00:00",
-  },
-
   // ── Deepgram ───────────────────────────────────────────────
   {
     title: "Staff Product Designer (PST)",
@@ -1003,16 +523,16 @@ export const jobs: Job[] = [
   {
     title: "Senior Product Designer",
     company: "Duolingo",
-    location: "Pittsburgh, PA | New York, NY",
-    url: "https://careers.duolingo.com/jobs/8489189002?gh_jid=8489189002",
+    location: "New York, NY | Pittsburgh, PA",
+    url: "https://careers.duolingo.com/jobs/8618405002?gh_jid=8618405002",
     department: "",
-    postedAt: "2026-04-01T09:55:33-04:00",
+    postedAt: "2026-07-02T15:49:22-04:00",
   },
   {
     title: "Staff Product Designer",
     company: "Duolingo",
-    location: "New York, NY | Pittsburgh, PA",
-    url: "https://careers.duolingo.com/jobs/8200010002?gh_jid=8200010002",
+    location: "Pittsburgh, PA | New York, NY",
+    url: "https://careers.duolingo.com/jobs/8200009002?gh_jid=8200009002",
     department: "",
     postedAt: "2025-10-06T20:17:41-04:00",
   },
@@ -1035,6 +555,16 @@ export const jobs: Job[] = [
     url: "https://jobs.elastic.co/jobs?gh_jid=8035673&gh_jid=8035673",
     department: "",
     postedAt: "2026-07-15T13:44:12-04:00",
+  },
+
+  // ── enterpret ──────────────────────────────────────────────
+  {
+    title: "Lead Brand Designer & Web Developer",
+    company: "enterpret",
+    location: "New York (Remote) ",
+    url: "https://job-boards.greenhouse.io/enterpret/jobs/7801126003",
+    department: "",
+    postedAt: "2026-07-10T10:51:21-04:00",
   },
 
   // ── Factory ────────────────────────────────────────────────
@@ -1175,6 +705,14 @@ export const jobs: Job[] = [
     url: "https://www.fivetran.com/careers/job?gh_jid=7656004003",
     department: "",
     postedAt: "2026-03-09T18:05:25-04:00",
+  },
+  {
+    title: "Senior Product Design Manager",
+    company: "Fivetran",
+    location: "Oakland, California, United States, AMER",
+    url: "https://www.fivetran.com/careers/job?gh_jid=7808191003",
+    department: "",
+    postedAt: "2026-07-24T13:43:46-04:00",
   },
 
   // ── FlutterFlow ────────────────────────────────────────────
@@ -1449,16 +987,6 @@ export const jobs: Job[] = [
     postedAt: "2025-10-21T10:50:00-04:00",
   },
 
-  // ── kota ───────────────────────────────────────────────────
-  {
-    title: "Senior Product Designer ",
-    company: "kota",
-    location: "Remote",
-    url: "https://jobs.ashbyhq.com/kota/17be8362-a6d0-49fa-a127-53d66ca8745e",
-    department: "Product",
-    postedAt: "2026-03-19T15:44:53.567+00:00",
-  },
-
   // ── Krea ───────────────────────────────────────────────────
   {
     title: "Product Designer",
@@ -1631,14 +1159,54 @@ export const jobs: Job[] = [
     postedAt: "2026-07-17T18:25:25.161+00:00",
   },
 
-  // ── MongoDB ────────────────────────────────────────────────
+  // ── Mob Entertainment ──────────────────────────────────────
   {
-    title: "Senior Manager, Brand Design",
-    company: "MongoDB",
+    title: "Contract Technical Cinematic Designer",
+    company: "Mob Entertainment",
     location: "United States",
-    url: "https://www.mongodb.com/careers/job/?gh_jid=8023944",
+    url: "https://job-boards.greenhouse.io/mobentertainment/jobs/5152392007",
     department: "",
-    postedAt: "2026-06-26T17:00:17-04:00",
+    postedAt: "2026-06-01T20:37:16-04:00",
+  },
+  {
+    title: "Contract UI/UX Designer - Video Games",
+    company: "Mob Entertainment",
+    location: "United States",
+    url: "https://job-boards.greenhouse.io/mobentertainment/jobs/5124055007",
+    department: "",
+    postedAt: "2026-04-29T21:54:58-04:00",
+  },
+  {
+    title: "Lead Game Designer",
+    company: "Mob Entertainment",
+    location: "United States",
+    url: "https://job-boards.greenhouse.io/mobentertainment/jobs/5191660007",
+    department: "",
+    postedAt: "2026-07-20T19:37:23-04:00",
+  },
+  {
+    title: "Lead Level Designer",
+    company: "Mob Entertainment",
+    location: "United States",
+    url: "https://job-boards.greenhouse.io/mobentertainment/jobs/5191615007",
+    department: "",
+    postedAt: "2026-07-20T19:13:11-04:00",
+  },
+  {
+    title: "Senior AI Game Designer",
+    company: "Mob Entertainment",
+    location: "United States",
+    url: "https://job-boards.greenhouse.io/mobentertainment/jobs/5187651007",
+    department: "",
+    postedAt: "2026-07-19T01:55:36-04:00",
+  },
+  {
+    title: "Senior Player Mechanics Designer",
+    company: "Mob Entertainment",
+    location: "United States",
+    url: "https://job-boards.greenhouse.io/mobentertainment/jobs/5189344007",
+    department: "",
+    postedAt: "2026-07-16T20:13:38-04:00",
   },
 
   // ── Netic ──────────────────────────────────────────────────
@@ -1687,14 +1255,6 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/nubank/905d91da-d7d7-4ddf-b5a8-76d7e57ed003",
     department: "Executive",
     postedAt: "2026-07-19T23:35:06.623+00:00",
-  },
-  {
-    title: "Senior Design Manager — AI Private Banker",
-    company: "nubank",
-    location: "Miami",
-    url: "https://jobs.ashbyhq.com/nubank/d91e0c01-91ca-48f5-ac15-48e421b64f21",
-    department: "Design",
-    postedAt: "2026-07-20T00:22:05.475+00:00",
   },
   {
     title: "Senior Product Designer - Mexico",
@@ -1855,6 +1415,14 @@ export const jobs: Job[] = [
 
   // ── Pinterest ──────────────────────────────────────────────
   {
+    title: "Creative Director, Copy (Brand Narratives)",
+    company: "Pinterest",
+    location: "San Francisco, CA, US; Remote, US",
+    url: "https://www.pinterestcareers.com/jobs/?gh_jid=8029917",
+    department: "",
+    postedAt: "2026-07-13T18:41:11-04:00",
+  },
+  {
     title: "Principal Product Designer, AI Native, Core",
     company: "Pinterest",
     location: "San Francisco, CA, US; Remote, US",
@@ -1893,6 +1461,32 @@ export const jobs: Job[] = [
     url: "https://www.pinterestcareers.com/jobs/?gh_jid=7839695",
     department: "",
     postedAt: "2026-06-10T12:17:31-04:00",
+  },
+
+  // ── qualdoc ────────────────────────────────────────────────
+  {
+    title: "Junior Mechanical Equipment Design Engineer",
+    company: "qualdoc",
+    location: "Chesterfield, VA",
+    url: "https://jobs.lever.co/qualdoc/3b1c6291-07ff-4635-8221-e82eb1fe0bd9",
+    department: "Qualdoc Staffing",
+    postedAt: "2026-07-13T12:29:25.988Z",
+  },
+  {
+    title: "Mechanical Product Design Engineer",
+    company: "qualdoc",
+    location: "Chesterfield, VA",
+    url: "https://jobs.lever.co/qualdoc/3bdd6bfb-09bd-496d-a2f3-242fc3b38e5e",
+    department: "Qualdoc Staffing",
+    postedAt: "2026-07-23T05:23:49.485Z",
+  },
+  {
+    title: "Power Distribution Product Design Engineer",
+    company: "qualdoc",
+    location: "Marietta, OH",
+    url: "https://jobs.lever.co/qualdoc/3c532264-0f55-4afd-a4a2-4b305d5dfae9",
+    department: "Qualdoc Staffing",
+    postedAt: "2026-06-08T10:05:56.463Z",
   },
 
   // ── Ramp ───────────────────────────────────────────────────
@@ -1961,10 +1555,10 @@ export const jobs: Job[] = [
   {
     title: "Senior Product Designer",
     company: "Robinhood",
-    location: "Menlo Park, CA | Menlo Park, CA; New York, NY",
-    url: "https://boards.greenhouse.io/robinhood/jobs/7960697?t=gh_src=&gh_jid=7960697",
+    location: "Menlo Park, CA; New York, NY | Menlo Park, CA",
+    url: "https://boards.greenhouse.io/robinhood/jobs/7490017?t=gh_src=&gh_jid=7490017",
     department: "",
-    postedAt: "2026-06-02T15:41:03-04:00",
+    postedAt: "2026-05-29T14:34:41-04:00",
   },
   {
     title: "Staff Product Designer, Brokerage",
@@ -2033,16 +1627,6 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/semgrep/cc1b67ab-953e-4f88-8f90-478ae207edfc",
     department: "Product Org",
     postedAt: "2026-06-01T22:41:29.525+00:00",
-  },
-
-  // ── sevenai ────────────────────────────────────────────────
-  {
-    title: "Sr. Visual Designer",
-    company: "sevenai",
-    location: "Boston, MA",
-    url: "https://jobs.ashbyhq.com/sevenai/2aae838c-070b-40e3-bb1c-876ea789469f",
-    department: "Product",
-    postedAt: "2026-07-13T16:51:52.679+00:00",
   },
 
   // ── Sierra AI ──────────────────────────────────────────────
@@ -2133,6 +1717,16 @@ export const jobs: Job[] = [
     url: "http://stability.ai/careers?gh_jid=4932950101",
     department: "",
     postedAt: "2026-07-20T20:50:06-04:00",
+  },
+
+  // ── Striim, Inc. ───────────────────────────────────────────
+  {
+    title: "Principal UX Designer",
+    company: "Striim, Inc.",
+    location: "Palo Alto, California, United States",
+    url: "https://job-boards.greenhouse.io/striiminc/jobs/5135371007",
+    department: "",
+    postedAt: "2026-07-20T17:08:54-04:00",
   },
 
   // ── Stripe ─────────────────────────────────────────────────
@@ -2369,16 +1963,6 @@ export const jobs: Job[] = [
     postedAt: "2026-02-26T14:25:29-05:00",
   },
 
-  // ── truelogic ──────────────────────────────────────────────
-  {
-    title: "Senior UX/UI Designer (UX focused) - Advertising",
-    company: "truelogic",
-    location: "LatAm | Bogota | Santo Domingo | São Paulo",
-    url: "https://jobs.ashbyhq.com/truelogic/c448834d-b83a-4ad0-bd60-423ae470a539",
-    department: "Operations",
-    postedAt: "2026-07-22T13:41:52.454+00:00",
-  },
-
   // ── Typeface ───────────────────────────────────────────────
   {
     title: "Staff Product Designer",
@@ -2397,24 +1981,6 @@ export const jobs: Job[] = [
     url: "https://job-boards.greenhouse.io/udio/jobs/5071142008",
     department: "",
     postedAt: "2026-01-16T12:50:21-05:00",
-  },
-
-  // ── uipath ─────────────────────────────────────────────────
-  {
-    title: "Principal Designer",
-    company: "uipath",
-    location: "Bellevue",
-    url: "https://jobs.ashbyhq.com/uipath/c54b5591-dc75-4cb6-9002-acde22848849",
-    department: "Product",
-    postedAt: "2026-06-24T18:07:57.261+00:00",
-  },
-  {
-    title: "Principal Product Designer (Healthcare & Life Sciences)",
-    company: "uipath",
-    location: "Austin",
-    url: "https://jobs.ashbyhq.com/uipath/8cff1299-f4b4-41b0-997f-cd54f7c5d78e",
-    department: "Product",
-    postedAt: "2026-06-23T21:30:56.210+00:00",
   },
 
   // ── Vercel ─────────────────────────────────────────────────
