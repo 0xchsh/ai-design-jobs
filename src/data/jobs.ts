@@ -7,7 +7,7 @@ export type Job = {
   postedAt: string;
 };
 
-// Auto-updated by scraper — 2026-07-25
+// Auto-updated by scraper — 2026-07-26
 export const jobs: Job[] = [
   // ── affinity.co ────────────────────────────────────────────
   {
@@ -71,6 +71,24 @@ export const jobs: Job[] = [
     url: "https://job-boards.greenhouse.io/amplitude/jobs/8622704002",
     department: "",
     postedAt: "2026-07-07T12:09:42-04:00",
+  },
+
+  // ── ando ───────────────────────────────────────────────────
+  {
+    title: "Brand Designer",
+    company: "ando",
+    location: "San Francisco",
+    url: "https://jobs.ashbyhq.com/ando/3ea1e324-dbe6-488f-94a1-00a4a03aec76",
+    department: "Design",
+    postedAt: "2026-03-09T16:45:08.439+00:00",
+  },
+  {
+    title: "Product Designer",
+    company: "ando",
+    location: "San Francisco",
+    url: "https://jobs.ashbyhq.com/ando/7de86b5b-cda4-4c3f-9d32-8defb3a1a191",
+    department: "Design",
+    postedAt: "2026-03-09T16:51:04.215+00:00",
   },
 
   // ── Anthropic ──────────────────────────────────────────────
@@ -139,10 +157,10 @@ export const jobs: Job[] = [
   {
     title: "Product Designer",
     company: "Asana",
-    location: "San Francisco | Vancouver, BC",
-    url: "https://www.asana.com/jobs/apply/7952123?gh_jid=7952123",
+    location: "Vancouver, BC | San Francisco",
+    url: "https://www.asana.com/jobs/apply/8024052?gh_jid=8024052",
     department: "",
-    postedAt: "2026-06-11T15:07:58-04:00",
+    postedAt: "2026-07-21T14:21:12-04:00",
   },
   {
     title: "Product Designer, Adapt",
@@ -1523,6 +1541,24 @@ export const jobs: Job[] = [
     postedAt: "2026-02-09T20:22:43.425+00:00",
   },
 
+  // ── Red Cell Partners ──────────────────────────────────────
+  {
+    title: "Lead UX/UI Engineer",
+    company: "Red Cell Partners",
+    location: "Remote",
+    url: "https://job-boards.greenhouse.io/redcellpartners/jobs/5099455007",
+    department: "",
+    postedAt: "2026-04-03T16:50:57-04:00",
+  },
+  {
+    title: "UX Designer (Contract)",
+    company: "Red Cell Partners",
+    location: "Remote",
+    url: "https://job-boards.greenhouse.io/redcellpartners/jobs/5095257007",
+    department: "",
+    postedAt: "2026-03-31T16:55:49-04:00",
+  },
+
   // ── Reddit ─────────────────────────────────────────────────
   {
     title: "Senior Android Engineer, Design System",
@@ -1619,6 +1655,24 @@ export const jobs: Job[] = [
     postedAt: "2023-08-31T19:41:06.375+00:00",
   },
 
+  // ── sauna.ai ───────────────────────────────────────────────
+  {
+    title: "Creative Director / Story Crafter",
+    company: "sauna.ai",
+    location: "San Francisco",
+    url: "https://jobs.ashbyhq.com/sauna.ai/442a9d0f-30a3-4bbf-97d3-6e2c4b770b13",
+    department: "Growth",
+    postedAt: "2026-07-14T17:04:30.820+00:00",
+  },
+  {
+    title: "Product Designer",
+    company: "sauna.ai",
+    location: "San Francisco",
+    url: "https://jobs.ashbyhq.com/sauna.ai/42eb2ae9-0ba2-4332-a4c2-3f66ebe02ac3",
+    department: "Product & Experience",
+    postedAt: "2026-05-20T17:29:34.435+00:00",
+  },
+
   // ── Semgrep ────────────────────────────────────────────────
   {
     title: "Staff Product Designer",
@@ -1627,6 +1681,16 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/semgrep/cc1b67ab-953e-4f88-8f90-478ae207edfc",
     department: "Product Org",
     postedAt: "2026-06-01T22:41:29.525+00:00",
+  },
+
+  // ── sevenai ────────────────────────────────────────────────
+  {
+    title: "Sr. Visual Designer",
+    company: "sevenai",
+    location: "Boston, MA",
+    url: "https://jobs.ashbyhq.com/sevenai/2aae838c-070b-40e3-bb1c-876ea789469f",
+    department: "Product",
+    postedAt: "2026-07-13T16:51:52.679+00:00",
   },
 
   // ── Sierra AI ──────────────────────────────────────────────
