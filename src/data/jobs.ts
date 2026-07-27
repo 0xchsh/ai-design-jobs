@@ -7,7 +7,7 @@ export type Job = {
   postedAt: string;
 };
 
-// Auto-updated by scraper — 2026-07-26
+// Auto-updated by scraper — 2026-07-27
 export const jobs: Job[] = [
   // ── affinity.co ────────────────────────────────────────────
   {
@@ -71,24 +71,6 @@ export const jobs: Job[] = [
     url: "https://job-boards.greenhouse.io/amplitude/jobs/8622704002",
     department: "",
     postedAt: "2026-07-07T12:09:42-04:00",
-  },
-
-  // ── ando ───────────────────────────────────────────────────
-  {
-    title: "Brand Designer",
-    company: "ando",
-    location: "San Francisco",
-    url: "https://jobs.ashbyhq.com/ando/3ea1e324-dbe6-488f-94a1-00a4a03aec76",
-    department: "Design",
-    postedAt: "2026-03-09T16:45:08.439+00:00",
-  },
-  {
-    title: "Product Designer",
-    company: "ando",
-    location: "San Francisco",
-    url: "https://jobs.ashbyhq.com/ando/7de86b5b-cda4-4c3f-9d32-8defb3a1a191",
-    department: "Design",
-    postedAt: "2026-03-09T16:51:04.215+00:00",
   },
 
   // ── Anthropic ──────────────────────────────────────────────
@@ -187,16 +169,6 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/baseten/c2f8fe4f-07c1-4d43-ae5c-05f057842e57",
     department: "EPD",
     postedAt: "2026-07-06T17:06:24.969+00:00",
-  },
-
-  // ── BillionToOne ───────────────────────────────────────────
-  {
-    title: "Lead UX Designer",
-    company: "BillionToOne",
-    location: "Menlo Park, CA",
-    url: "https://job-boards.greenhouse.io/billiontoone/jobs/4704105005",
-    department: "",
-    postedAt: "2026-06-08T18:49:55-04:00",
   },
 
   // ── Braintrust ─────────────────────────────────────────────
@@ -573,16 +545,6 @@ export const jobs: Job[] = [
     url: "https://jobs.elastic.co/jobs?gh_jid=8035673&gh_jid=8035673",
     department: "",
     postedAt: "2026-07-15T13:44:12-04:00",
-  },
-
-  // ── enterpret ──────────────────────────────────────────────
-  {
-    title: "Lead Brand Designer & Web Developer",
-    company: "enterpret",
-    location: "New York (Remote) ",
-    url: "https://job-boards.greenhouse.io/enterpret/jobs/7801126003",
-    department: "",
-    postedAt: "2026-07-10T10:51:21-04:00",
   },
 
   // ── Factory ────────────────────────────────────────────────
@@ -1177,56 +1139,6 @@ export const jobs: Job[] = [
     postedAt: "2026-07-17T18:25:25.161+00:00",
   },
 
-  // ── Mob Entertainment ──────────────────────────────────────
-  {
-    title: "Contract Technical Cinematic Designer",
-    company: "Mob Entertainment",
-    location: "United States",
-    url: "https://job-boards.greenhouse.io/mobentertainment/jobs/5152392007",
-    department: "",
-    postedAt: "2026-06-01T20:37:16-04:00",
-  },
-  {
-    title: "Contract UI/UX Designer - Video Games",
-    company: "Mob Entertainment",
-    location: "United States",
-    url: "https://job-boards.greenhouse.io/mobentertainment/jobs/5124055007",
-    department: "",
-    postedAt: "2026-04-29T21:54:58-04:00",
-  },
-  {
-    title: "Lead Game Designer",
-    company: "Mob Entertainment",
-    location: "United States",
-    url: "https://job-boards.greenhouse.io/mobentertainment/jobs/5191660007",
-    department: "",
-    postedAt: "2026-07-20T19:37:23-04:00",
-  },
-  {
-    title: "Lead Level Designer",
-    company: "Mob Entertainment",
-    location: "United States",
-    url: "https://job-boards.greenhouse.io/mobentertainment/jobs/5191615007",
-    department: "",
-    postedAt: "2026-07-20T19:13:11-04:00",
-  },
-  {
-    title: "Senior AI Game Designer",
-    company: "Mob Entertainment",
-    location: "United States",
-    url: "https://job-boards.greenhouse.io/mobentertainment/jobs/5187651007",
-    department: "",
-    postedAt: "2026-07-19T01:55:36-04:00",
-  },
-  {
-    title: "Senior Player Mechanics Designer",
-    company: "Mob Entertainment",
-    location: "United States",
-    url: "https://job-boards.greenhouse.io/mobentertainment/jobs/5189344007",
-    department: "",
-    postedAt: "2026-07-16T20:13:38-04:00",
-  },
-
   // ── Netic ──────────────────────────────────────────────────
   {
     title: "Founding UI/UX Engineer",
@@ -1399,16 +1311,6 @@ export const jobs: Job[] = [
     url: "https://jobs.lever.co/palantir/a3eaa0ef-3378-495f-8308-edbd9a93d26c",
     department: "Communications",
     postedAt: "2026-06-23T20:45:30.367Z",
-  },
-
-  // ── pandektes ──────────────────────────────────────────────
-  {
-    title: "Senior Product Designer ",
-    company: "pandektes",
-    location: "Copenhagen",
-    url: "https://jobs.ashbyhq.com/pandektes/e8b0ad19-66b7-4e1c-b5cf-3d6346009d19",
-    department: "Product & Engineering",
-    postedAt: "2026-05-18T15:10:27.639+00:00",
   },
 
   // ── Pendo ──────────────────────────────────────────────────
@@ -1655,24 +1557,6 @@ export const jobs: Job[] = [
     postedAt: "2023-08-31T19:41:06.375+00:00",
   },
 
-  // ── sauna.ai ───────────────────────────────────────────────
-  {
-    title: "Creative Director / Story Crafter",
-    company: "sauna.ai",
-    location: "San Francisco",
-    url: "https://jobs.ashbyhq.com/sauna.ai/442a9d0f-30a3-4bbf-97d3-6e2c4b770b13",
-    department: "Growth",
-    postedAt: "2026-07-14T17:04:30.820+00:00",
-  },
-  {
-    title: "Product Designer",
-    company: "sauna.ai",
-    location: "San Francisco",
-    url: "https://jobs.ashbyhq.com/sauna.ai/42eb2ae9-0ba2-4332-a4c2-3f66ebe02ac3",
-    department: "Product & Experience",
-    postedAt: "2026-05-20T17:29:34.435+00:00",
-  },
-
   // ── Semgrep ────────────────────────────────────────────────
   {
     title: "Staff Product Designer",
@@ -1681,16 +1565,6 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/semgrep/cc1b67ab-953e-4f88-8f90-478ae207edfc",
     department: "Product Org",
     postedAt: "2026-06-01T22:41:29.525+00:00",
-  },
-
-  // ── sevenai ────────────────────────────────────────────────
-  {
-    title: "Sr. Visual Designer",
-    company: "sevenai",
-    location: "Boston, MA",
-    url: "https://jobs.ashbyhq.com/sevenai/2aae838c-070b-40e3-bb1c-876ea789469f",
-    department: "Product",
-    postedAt: "2026-07-13T16:51:52.679+00:00",
   },
 
   // ── Sierra AI ──────────────────────────────────────────────
@@ -1781,16 +1655,6 @@ export const jobs: Job[] = [
     url: "http://stability.ai/careers?gh_jid=4932950101",
     department: "",
     postedAt: "2026-07-20T20:50:06-04:00",
-  },
-
-  // ── Striim, Inc. ───────────────────────────────────────────
-  {
-    title: "Principal UX Designer",
-    company: "Striim, Inc.",
-    location: "Palo Alto, California, United States",
-    url: "https://job-boards.greenhouse.io/striiminc/jobs/5135371007",
-    department: "",
-    postedAt: "2026-07-20T17:08:54-04:00",
   },
 
   // ── Stripe ─────────────────────────────────────────────────
