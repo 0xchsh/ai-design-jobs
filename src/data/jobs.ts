@@ -7,7 +7,7 @@ export type Job = {
   postedAt: string;
 };
 
-// Auto-updated by scraper — 2026-07-29
+// Auto-updated by scraper — 2026-07-30
 export const jobs: Job[] = [
   // ── affinity.co ────────────────────────────────────────────
   {
@@ -71,24 +71,6 @@ export const jobs: Job[] = [
     url: "https://job-boards.greenhouse.io/amplitude/jobs/8622704002",
     department: "",
     postedAt: "2026-07-07T12:09:42-04:00",
-  },
-
-  // ── ando ───────────────────────────────────────────────────
-  {
-    title: "Brand Designer",
-    company: "ando",
-    location: "San Francisco",
-    url: "https://jobs.ashbyhq.com/ando/3ea1e324-dbe6-488f-94a1-00a4a03aec76",
-    department: "Design",
-    postedAt: "2026-03-09T16:45:08.439+00:00",
-  },
-  {
-    title: "Product Designer",
-    company: "ando",
-    location: "San Francisco",
-    url: "https://jobs.ashbyhq.com/ando/7de86b5b-cda4-4c3f-9d32-8defb3a1a191",
-    department: "Design",
-    postedAt: "2026-03-09T16:51:04.215+00:00",
   },
 
   // ── Anthropic ──────────────────────────────────────────────
@@ -179,6 +161,48 @@ export const jobs: Job[] = [
     postedAt: "2026-06-13T19:47:18-04:00",
   },
 
+  // ── ATOMS Careers page ─────────────────────────────────────
+  {
+    title: "Culinary Brand Designer",
+    company: "ATOMS Careers page",
+    location: "Los Angeles, CA",
+    url: "https://job-boards.greenhouse.io/cssmerge/jobs/8628396002",
+    department: "",
+    postedAt: "2026-07-10T11:47:49-04:00",
+  },
+  {
+    title: "Lead Designer, Brand & Growth",
+    company: "ATOMS Careers page",
+    location: "Los Angeles, CA | San Francisco, CA",
+    url: "https://job-boards.greenhouse.io/cssmerge/jobs/8583362002",
+    department: "",
+    postedAt: "2026-06-09T10:26:36-04:00",
+  },
+  {
+    title: "Lead Product Designer - Facility Tech",
+    company: "ATOMS Careers page",
+    location: "San Francisco, CA | Seattle, WA",
+    url: "https://job-boards.greenhouse.io/cssmerge/jobs/8619441002",
+    department: "",
+    postedAt: "2026-07-03T12:20:11-04:00",
+  },
+  {
+    title: "Product Designer",
+    company: "ATOMS Careers page",
+    location: "Pittsburgh, PA",
+    url: "https://job-boards.greenhouse.io/cssmerge/jobs/8618142002",
+    department: "",
+    postedAt: "2026-07-02T15:51:09-04:00",
+  },
+  {
+    title: "UI/UX Designer",
+    company: "ATOMS Careers page",
+    location: "Pittsburgh, PA | Los Angeles, CA",
+    url: "https://job-boards.greenhouse.io/cssmerge/jobs/8612961002",
+    department: "",
+    postedAt: "2026-06-29T20:52:16-04:00",
+  },
+
   // ── Baseten ────────────────────────────────────────────────
   {
     title: "Brand Designer",
@@ -211,10 +235,10 @@ export const jobs: Job[] = [
   {
     title: "Senior Design Sourcer",
     company: "Brex",
-    location: "New York, New York, United States | San Francisco, California, United States | Seattle, Washington, United States",
-    url: "https://www.brex.com/careers/8434442002?gh_jid=8434442002",
+    location: "San Francisco, California, United States | Seattle, Washington, United States | New York, New York, United States",
+    url: "https://www.brex.com/careers/8434432002?gh_jid=8434432002",
     department: "",
-    postedAt: "2026-02-23T20:40:30-05:00",
+    postedAt: "2026-02-23T20:05:17-05:00",
   },
   {
     title: "Senior Motion Designer",
@@ -410,47 +434,13 @@ export const jobs: Job[] = [
     department: "",
     postedAt: "2025-10-29T15:58:11-04:00",
   },
-
-  // ── cssmerge ───────────────────────────────────────────────
   {
-    title: "Culinary Brand Designer",
-    company: "cssmerge",
-    location: "Los Angeles, CA",
-    url: "https://job-boards.greenhouse.io/cssmerge/jobs/8628396002",
+    title: "Manager, Demo Engineering & Design",
+    company: "Cresta",
+    location: "United States (Remote)",
+    url: "https://job-boards.greenhouse.io/cresta/jobs/5171827008",
     department: "",
-    postedAt: "2026-07-10T11:47:49-04:00",
-  },
-  {
-    title: "Lead Designer, Brand & Growth",
-    company: "cssmerge",
-    location: "San Francisco, CA | Los Angeles, CA",
-    url: "https://job-boards.greenhouse.io/cssmerge/jobs/8583363002",
-    department: "",
-    postedAt: "2026-06-09T10:26:38-04:00",
-  },
-  {
-    title: "Lead Product Designer - Facility Tech",
-    company: "cssmerge",
-    location: "Seattle, WA | San Francisco, CA",
-    url: "https://job-boards.greenhouse.io/cssmerge/jobs/8637222002",
-    department: "",
-    postedAt: "2026-07-16T15:02:30-04:00",
-  },
-  {
-    title: "Product Designer",
-    company: "cssmerge",
-    location: "Warrendale, PA",
-    url: "https://job-boards.greenhouse.io/cssmerge/jobs/8618142002",
-    department: "",
-    postedAt: "2026-07-02T15:51:09-04:00",
-  },
-  {
-    title: "UI/UX Designer",
-    company: "cssmerge",
-    location: "Pittsburgh, PA | Los Angeles, CA",
-    url: "https://job-boards.greenhouse.io/cssmerge/jobs/8612961002",
-    department: "",
-    postedAt: "2026-06-29T20:52:16-04:00",
+    postedAt: "2026-04-02T16:00:58-04:00",
   },
 
   // ── Databricks ─────────────────────────────────────────────
@@ -472,14 +462,6 @@ export const jobs: Job[] = [
   },
 
   // ── Datadog ────────────────────────────────────────────────
-  {
-    title: "Product Designer II, Metrics",
-    company: "Datadog",
-    location: "New York, New York, USA",
-    url: "https://careers.datadoghq.com/detail/8075709/?gh_jid=8075709",
-    department: "",
-    postedAt: "2026-07-20T16:54:30-04:00",
-  },
   {
     title: "Senior Product Designer - AAA",
     company: "Datadog",
@@ -573,8 +555,8 @@ export const jobs: Job[] = [
   {
     title: "Staff Product Designer",
     company: "Duolingo",
-    location: "Pittsburgh, PA | New York, NY",
-    url: "https://careers.duolingo.com/jobs/8200009002?gh_jid=8200009002",
+    location: "New York, NY | Pittsburgh, PA",
+    url: "https://careers.duolingo.com/jobs/8200010002?gh_jid=8200010002",
     department: "",
     postedAt: "2025-10-06T20:17:41-04:00",
   },
@@ -589,24 +571,6 @@ export const jobs: Job[] = [
     postedAt: "2026-07-23T17:25:37.025+00:00",
   },
 
-  // ── echo ───────────────────────────────────────────────────
-  {
-    title: "Brand and Visual Designer",
-    company: "echo",
-    location: "San Francisco",
-    url: "https://job-boards.greenhouse.io/echo/jobs/4320977009",
-    department: "",
-    postedAt: "2026-07-17T14:39:14-04:00",
-  },
-  {
-    title: "Software Design Control Engineer",
-    company: "echo",
-    location: "San Francisco",
-    url: "https://job-boards.greenhouse.io/echo/jobs/4320962009",
-    department: "",
-    postedAt: "2026-07-17T14:38:40-04:00",
-  },
-
   // ── Elastic ────────────────────────────────────────────────
   {
     title: "Associate Creative Director",
@@ -615,6 +579,16 @@ export const jobs: Job[] = [
     url: "https://jobs.elastic.co/jobs?gh_jid=8035673&gh_jid=8035673",
     department: "",
     postedAt: "2026-07-15T13:44:12-04:00",
+  },
+
+  // ── enterpret ──────────────────────────────────────────────
+  {
+    title: "Lead Brand Designer & Web Developer",
+    company: "enterpret",
+    location: "New York (Remote) ",
+    url: "https://job-boards.greenhouse.io/enterpret/jobs/7801126003",
+    department: "",
+    postedAt: "2026-07-10T10:51:21-04:00",
   },
 
   // ── Factory ────────────────────────────────────────────────
@@ -709,6 +683,14 @@ export const jobs: Job[] = [
     url: "https://boards.greenhouse.io/figma/jobs/5711913004?gh_jid=5711913004",
     department: "",
     postedAt: "2025-11-21T11:05:35-05:00",
+  },
+  {
+    title: "Product Designer, CMS",
+    company: "Figma",
+    location: "San Francisco, CA • New York, NY • United States",
+    url: "https://boards.greenhouse.io/figma/jobs/6126976004?gh_jid=6126976004",
+    department: "",
+    postedAt: "2026-07-29T12:33:52-04:00",
   },
   {
     title: "Product Designer, Design, Dev, & AI Tools",
@@ -837,40 +819,6 @@ export const jobs: Job[] = [
     postedAt: "2026-03-17T13:28:00-04:00",
   },
 
-  // ── Gradial ────────────────────────────────────────────────
-  {
-    title: "Creative Director",
-    company: "Gradial",
-    location: "Seattle, WA",
-    url: "https://job-boards.greenhouse.io/gradial/jobs/4087685009",
-    department: "",
-    postedAt: "2025-12-19T14:28:28-05:00",
-  },
-  {
-    title: "Principal Product Designer",
-    company: "Gradial",
-    location: "Seattle, WA",
-    url: "https://job-boards.greenhouse.io/gradial/jobs/4312843009",
-    department: "",
-    postedAt: "2026-07-09T19:12:08-04:00",
-  },
-  {
-    title: "Product Engineer (UX/UI)",
-    company: "Gradial",
-    location: "Seattle, Washington, United States",
-    url: "https://job-boards.greenhouse.io/gradial/jobs/4006977009",
-    department: "",
-    postedAt: "2025-07-01T14:37:24-04:00",
-  },
-  {
-    title: "Senior Motion Designer",
-    company: "Gradial",
-    location: "Seattle, WA",
-    url: "https://job-boards.greenhouse.io/gradial/jobs/4327507009",
-    department: "",
-    postedAt: "2026-07-21T20:06:11-04:00",
-  },
-
   // ── Gusto ──────────────────────────────────────────────────
   {
     title: "Head of Design, Unified Service Platform",
@@ -931,7 +879,7 @@ export const jobs: Job[] = [
     postedAt: "2026-04-02T20:08:12.118+00:00",
   },
   {
-    title: "Senior/Staff Design Engineer",
+    title: "Senior/Staff Design Engineer, Design Systems",
     company: "Harvey AI",
     location: "San Francisco | New York",
     url: "https://jobs.ashbyhq.com/harvey/aede4098-91f4-44f5-9d53-27c15cb2bae7",
@@ -1156,14 +1104,6 @@ export const jobs: Job[] = [
   },
 
   // ── Mob Entertainment ──────────────────────────────────────
-  {
-    title: "Contract Technical Cinematic Designer",
-    company: "Mob Entertainment",
-    location: "United States",
-    url: "https://job-boards.greenhouse.io/mobentertainment/jobs/5152392007",
-    department: "",
-    postedAt: "2026-06-01T20:37:16-04:00",
-  },
   {
     title: "Contract Technical UI/UX Designer - Video Games",
     company: "Mob Entertainment",
@@ -1425,32 +1365,6 @@ export const jobs: Job[] = [
     postedAt: "2026-06-10T12:17:31-04:00",
   },
 
-  // ── qualdoc ────────────────────────────────────────────────
-  {
-    title: "Junior Mechanical Equipment Design Engineer",
-    company: "qualdoc",
-    location: "Chesterfield, VA",
-    url: "https://jobs.lever.co/qualdoc/3b1c6291-07ff-4635-8221-e82eb1fe0bd9",
-    department: "Qualdoc Staffing",
-    postedAt: "2026-07-13T12:29:25.988Z",
-  },
-  {
-    title: "Mechanical Product Design Engineer",
-    company: "qualdoc",
-    location: "Chesterfield, VA",
-    url: "https://jobs.lever.co/qualdoc/3bdd6bfb-09bd-496d-a2f3-242fc3b38e5e",
-    department: "Qualdoc Staffing",
-    postedAt: "2026-07-23T05:23:49.485Z",
-  },
-  {
-    title: "Power Distribution Product Design Engineer",
-    company: "qualdoc",
-    location: "Marietta, OH",
-    url: "https://jobs.lever.co/qualdoc/3c532264-0f55-4afd-a4a2-4b305d5dfae9",
-    department: "Qualdoc Staffing",
-    postedAt: "2026-06-08T10:05:56.463Z",
-  },
-
   // ── Ramp ───────────────────────────────────────────────────
   {
     title: "Associate Creative Director, Customer Stories",
@@ -1615,22 +1529,14 @@ export const jobs: Job[] = [
     postedAt: "2023-08-31T19:41:06.375+00:00",
   },
 
-  // ── sauna.ai ───────────────────────────────────────────────
+  // ── Scale AI ───────────────────────────────────────────────
   {
-    title: "Creative Director / Story Crafter",
-    company: "sauna.ai",
-    location: "San Francisco",
-    url: "https://jobs.ashbyhq.com/sauna.ai/442a9d0f-30a3-4bbf-97d3-6e2c4b770b13",
-    department: "Growth",
-    postedAt: "2026-07-14T17:04:30.820+00:00",
-  },
-  {
-    title: "Product Designer",
-    company: "sauna.ai",
-    location: "San Francisco",
-    url: "https://jobs.ashbyhq.com/sauna.ai/42eb2ae9-0ba2-4332-a4c2-3f66ebe02ac3",
-    department: "Product & Experience",
-    postedAt: "2026-05-20T17:29:34.435+00:00",
+    title: "Platform Designer",
+    company: "Scale AI",
+    location: "San Francisco, CA; New York, NY",
+    url: "https://job-boards.greenhouse.io/scaleai/jobs/4718917005",
+    department: "",
+    postedAt: "2026-07-29T14:10:45-04:00",
   },
 
   // ── Semgrep ────────────────────────────────────────────────
@@ -1741,16 +1647,6 @@ export const jobs: Job[] = [
     postedAt: "2026-07-20T20:50:06-04:00",
   },
 
-  // ── Striim, Inc. ───────────────────────────────────────────
-  {
-    title: "Principal UX Designer",
-    company: "Striim, Inc.",
-    location: "Palo Alto, California, United States",
-    url: "https://job-boards.greenhouse.io/striiminc/jobs/5135371007",
-    department: "",
-    postedAt: "2026-07-20T17:08:54-04:00",
-  },
-
   // ── Stripe ─────────────────────────────────────────────────
   {
     title: "Art Director ",
@@ -1759,6 +1655,14 @@ export const jobs: Job[] = [
     url: "https://stripe.com/jobs/search?gh_jid=7823683",
     department: "",
     postedAt: "2026-05-04T05:30:14-04:00",
+  },
+  {
+    title: "Brand Designer, Advertising",
+    company: "Stripe",
+    location: "US",
+    url: "https://stripe.com/jobs/search?gh_jid=7793636",
+    department: "",
+    postedAt: "2026-04-08T17:25:34-04:00",
   },
   {
     title: "Creative Director, Brand Experiences",
@@ -1853,28 +1757,12 @@ export const jobs: Job[] = [
     postedAt: "2026-06-26T15:46:05.012+00:00",
   },
   {
-    title: "Senior Graphic Designer, Paid Media",
-    company: "Suno",
-    location: "Los Angeles",
-    url: "https://jobs.ashbyhq.com/suno/777f2aa8-50fb-40ef-9dcf-9f8c0df2b03f",
-    department: "Growth",
-    postedAt: "2026-04-01T17:36:54.517+00:00",
-  },
-  {
-    title: "Senior Performance Creative Designer",
-    company: "Suno",
-    location: "Los Angeles",
-    url: "https://jobs.ashbyhq.com/suno/e4b620ad-d1ba-410f-8042-4753c740e7cb",
-    department: "Growth",
-    postedAt: "2026-04-07T15:38:05.758+00:00",
-  },
-  {
     title: "Senior/Staff Design Engineer, iOS",
     company: "Suno",
     location: "NYC",
     url: "https://jobs.ashbyhq.com/suno/e7169fc2-c1c5-416a-a4aa-48190e1febfd",
     department: "Design",
-    postedAt: "2026-06-15T15:35:08.399+00:00",
+    postedAt: "2026-07-29T17:55:56.116+00:00",
   },
 
   // ── Supabase ───────────────────────────────────────────────
