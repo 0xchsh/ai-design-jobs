@@ -7,7 +7,7 @@ export type Job = {
   postedAt: string;
 };
 
-// Auto-updated by scraper — 2026-08-01
+// Auto-updated by scraper — 2026-08-02
 export const jobs: Job[] = [
   // ── Affirm ─────────────────────────────────────────────────
   {
@@ -274,9 +274,9 @@ export const jobs: Job[] = [
     title: "Interaction Designer, HCI",
     company: "bjakcareer",
     location: "United States",
-    url: "https://jobs.ashbyhq.com/bjakcareer/a8504fb1-5cd9-49fc-a3b3-4c39ad2a52ac",
+    url: "https://jobs.ashbyhq.com/bjakcareer/3b664a5b-d0fc-4b8c-8bf2-b1656c363b29",
     department: "A1 Product",
-    postedAt: "2026-05-19T14:32:25.841+00:00",
+    postedAt: "2026-08-02T09:32:05.927+00:00",
   },
   {
     title: "Lead Brand Designer",
@@ -346,9 +346,9 @@ export const jobs: Job[] = [
     title: "Product Designer (UX), HCI",
     company: "bjakcareer",
     location: "United States",
-    url: "https://jobs.ashbyhq.com/bjakcareer/d0ccb5bc-a558-439f-b8b6-2ba865bfabf9",
+    url: "https://jobs.ashbyhq.com/bjakcareer/123d959b-a14a-4ec8-970d-fc803473e2c6",
     department: "A1 Product",
-    postedAt: "2026-05-19T14:28:24.870+00:00",
+    postedAt: "2026-08-02T09:39:32.823+00:00",
   },
   {
     title: "Senior Brand Designer",
@@ -453,10 +453,10 @@ export const jobs: Job[] = [
   {
     title: "Senior Design Sourcer",
     company: "Brex",
-    location: "Seattle, Washington, United States | New York, New York, United States | San Francisco, California, United States",
-    url: "https://www.brex.com/careers/8434443002?gh_jid=8434443002",
+    location: "New York, New York, United States | San Francisco, California, United States | Seattle, Washington, United States",
+    url: "https://www.brex.com/careers/8434442002?gh_jid=8434442002",
     department: "",
-    postedAt: "2026-02-23T20:40:31-05:00",
+    postedAt: "2026-02-23T20:40:30-05:00",
   },
   {
     title: "Staff Brand Designer",
@@ -751,24 +751,6 @@ export const jobs: Job[] = [
     postedAt: "2026-06-29T16:10:16-04:00",
   },
 
-  // ── Docebo ─────────────────────────────────────────────────
-  {
-    title: "Product Designer, Creator Experience",
-    company: "Docebo",
-    location: "Toronto, Ontario",
-    url: "https://jobs.ashbyhq.com/docebo/1f7e1dd8-3821-42e5-9fbe-b3b7ea29fc63",
-    department: "Product",
-    postedAt: "2026-07-07T15:20:13.166+00:00",
-  },
-  {
-    title: "Senior Product Designer, AI Experience",
-    company: "Docebo",
-    location: "Toronto, Ontario",
-    url: "https://jobs.ashbyhq.com/docebo/f50b43f8-7dc2-454e-8618-bc52b0d78591",
-    department: "Product",
-    postedAt: "2026-07-07T20:04:28.406+00:00",
-  },
-
   // ── Doji ───────────────────────────────────────────────────
   {
     title: "Design Engineer",
@@ -975,10 +957,10 @@ export const jobs: Job[] = [
   {
     title: "Senior Product Design Manager",
     company: "Fivetran",
-    location: "Oakland, California, United States, AMER | Denver, Colorado, United States, AMER",
-    url: "https://www.fivetran.com/careers/job?gh_jid=7808191003",
+    location: "Denver, Colorado, United States, AMER | Oakland, California, United States, AMER",
+    url: "https://www.fivetran.com/careers/job?gh_jid=7822456003",
     department: "",
-    postedAt: "2026-07-24T13:43:46-04:00",
+    postedAt: "2026-07-30T20:43:54-04:00",
   },
 
   // ── FlutterFlow ────────────────────────────────────────────
@@ -1051,6 +1033,40 @@ export const jobs: Job[] = [
     url: "https://job-boards.greenhouse.io/deepmind/jobs/7728122",
     department: "",
     postedAt: "2026-03-17T13:28:00-04:00",
+  },
+
+  // ── Gradial ────────────────────────────────────────────────
+  {
+    title: "Creative Director",
+    company: "Gradial",
+    location: "Seattle, WA",
+    url: "https://job-boards.greenhouse.io/gradial/jobs/4087685009",
+    department: "",
+    postedAt: "2025-12-19T14:28:28-05:00",
+  },
+  {
+    title: "Principal Product Designer",
+    company: "Gradial",
+    location: "Seattle, WA",
+    url: "https://job-boards.greenhouse.io/gradial/jobs/4312843009",
+    department: "",
+    postedAt: "2026-07-09T19:12:08-04:00",
+  },
+  {
+    title: "Product Engineer (UX/UI)",
+    company: "Gradial",
+    location: "Seattle, WA",
+    url: "https://job-boards.greenhouse.io/gradial/jobs/4338059009",
+    department: "",
+    postedAt: "2026-07-29T12:25:44-04:00",
+  },
+  {
+    title: "Senior Motion Designer",
+    company: "Gradial",
+    location: "Seattle, WA",
+    url: "https://job-boards.greenhouse.io/gradial/jobs/4327507009",
+    department: "",
+    postedAt: "2026-07-21T20:06:11-04:00",
   },
 
   // ── Gusto ──────────────────────────────────────────────────
@@ -1247,6 +1263,16 @@ export const jobs: Job[] = [
     postedAt: "2026-07-23T04:09:14.348+00:00",
   },
 
+  // ── Lattice Partners ───────────────────────────────────────
+  {
+    title: "Product Designer, AI ",
+    company: "Lattice Partners",
+    location: "United States",
+    url: "https://jobs.ashbyhq.com/latticepartners/0d22eb9d-3a3b-4a21-86b6-99ba3f228173",
+    department: "Engineering",
+    postedAt: "2026-05-27T00:50:48.127+00:00",
+  },
+
   // ── Linear ─────────────────────────────────────────────────
   {
     title: "Senior / Staff Product Designer",
@@ -1383,10 +1409,10 @@ export const jobs: Job[] = [
     postedAt: "2026-07-16T19:18:50.059+00:00",
   },
 
-  // ── nectar-social ──────────────────────────────────────────
+  // ── Nectar Social ──────────────────────────────────────────
   {
     title: " Staff Product Designer",
-    company: "nectar-social",
+    company: "Nectar Social",
     location: "Palo Alto, CA",
     url: "https://jobs.ashbyhq.com/nectar-social/673bbd54-9a3b-4478-840e-d60e2dc1ba82",
     department: "Product",
@@ -1394,7 +1420,7 @@ export const jobs: Job[] = [
   },
   {
     title: "Brand Designer",
-    company: "nectar-social",
+    company: "Nectar Social",
     location: "Palo Alto, CA",
     url: "https://jobs.ashbyhq.com/nectar-social/c9265056-f040-4c19-b2aa-f49ecdd48a5d",
     department: "Business",
@@ -1402,7 +1428,7 @@ export const jobs: Job[] = [
   },
   {
     title: "Senior Visual Designer",
-    company: "nectar-social",
+    company: "Nectar Social",
     location: "Lahore, Pakistan",
     url: "https://jobs.ashbyhq.com/nectar-social/3ab9bdb6-2e27-4494-aaa9-81da22bfcb68",
     department: "Operations",
@@ -1933,6 +1959,16 @@ export const jobs: Job[] = [
     url: "http://stability.ai/careers?gh_jid=4932950101",
     department: "",
     postedAt: "2026-07-20T20:50:06-04:00",
+  },
+
+  // ── Striim, Inc. ───────────────────────────────────────────
+  {
+    title: "Principal UX Designer",
+    company: "Striim, Inc.",
+    location: "Palo Alto, California, United States",
+    url: "https://job-boards.greenhouse.io/striiminc/jobs/5135371007",
+    department: "",
+    postedAt: "2026-07-20T17:08:54-04:00",
   },
 
   // ── Stripe ─────────────────────────────────────────────────
