@@ -7,7 +7,7 @@ export type Job = {
   postedAt: string;
 };
 
-// Auto-updated by scraper — 2026-08-02
+// Auto-updated by scraper — 2026-08-03
 export const jobs: Job[] = [
   // ── Affirm ─────────────────────────────────────────────────
   {
@@ -223,44 +223,12 @@ export const jobs: Job[] = [
 
   // ── bjakcareer ─────────────────────────────────────────────
   {
-    title: "Art Director ",
-    company: "bjakcareer",
-    location: "Malaysia",
-    url: "https://jobs.ashbyhq.com/bjakcareer/77136332-7ed6-4a46-a33c-53fa1354799a",
-    department: "Creative",
-    postedAt: "2026-06-17T08:20:10.905+00:00",
-  },
-  {
-    title: "Assistant Creative Director - Indonesia",
-    company: "bjakcareer",
-    location: "Indonesia",
-    url: "https://jobs.ashbyhq.com/bjakcareer/c87bc5d9-4e2c-4712-9c05-2d613b747122",
-    department: "Creative",
-    postedAt: "2026-04-21T14:07:00.009+00:00",
-  },
-  {
-    title: "Brand Designer ",
-    company: "bjakcareer",
-    location: "Indonesia",
-    url: "https://jobs.ashbyhq.com/bjakcareer/f25e9c8a-8d26-4c62-9a71-49d1b005c6ed",
-    department: "Creative",
-    postedAt: "2026-07-05T15:23:07.252+00:00",
-  },
-  {
     title: "Conversation Designer, HCI",
     company: "bjakcareer",
     location: "New York, United States",
     url: "https://jobs.ashbyhq.com/bjakcareer/1080c9cb-f5fa-4ce7-88ec-cd888027ca6a",
     department: "A1 Product",
     postedAt: "2026-05-19T14:34:32.157+00:00",
-  },
-  {
-    title: "Graphic Designer - Freelance",
-    company: "bjakcareer",
-    location: "Malaysia",
-    url: "https://jobs.ashbyhq.com/bjakcareer/06f78b31-4f2d-4b52-a948-2762a7265cbe",
-    department: "Creative",
-    postedAt: "2026-03-26T09:10:35.189+00:00",
   },
   {
     title: "Graphic Designer ID",
@@ -295,14 +263,6 @@ export const jobs: Job[] = [
     postedAt: "2026-07-31T13:16:08.158+00:00",
   },
   {
-    title: "Malaysia - Assistant Creative Director ",
-    company: "bjakcareer",
-    location: "Malaysia",
-    url: "https://jobs.ashbyhq.com/bjakcareer/1246630e-8bf5-46ec-a01d-902e5f5cbc4f",
-    department: "Creative",
-    postedAt: "2026-04-21T14:11:08.611+00:00",
-  },
-  {
     title: "Mobile UI Designer",
     company: "bjakcareer",
     location: "Malaysia | China | Hong Kong | Philippines | Thailand | Indonesia | United States | Vietnam | Taipei, Taiwan | Austria",
@@ -317,14 +277,6 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/bjakcareer/c8a45923-af0f-4570-a53d-7edac286a02d",
     department: "A1 Product",
     postedAt: "2026-05-19T14:32:48.671+00:00",
-  },
-  {
-    title: "Motions Designer - Freelance",
-    company: "bjakcareer",
-    location: "Malaysia",
-    url: "https://jobs.ashbyhq.com/bjakcareer/9334b579-4b24-41e0-9db5-11190eb7d9d2",
-    department: "Creative",
-    postedAt: "2026-03-26T08:58:41.991+00:00",
   },
   {
     title: "Principal Designer",
@@ -367,22 +319,6 @@ export const jobs: Job[] = [
     postedAt: "2026-07-05T15:23:39.701+00:00",
   },
   {
-    title: "Senior Motion Designer",
-    company: "bjakcareer",
-    location: "Malaysia",
-    url: "https://jobs.ashbyhq.com/bjakcareer/f10b7f36-e60d-42fd-aaaf-96764bd6efc5",
-    department: "Creative",
-    postedAt: "2026-07-05T15:30:02.138+00:00",
-  },
-  {
-    title: "Senior Motions Designer ",
-    company: "bjakcareer",
-    location: "Indonesia",
-    url: "https://jobs.ashbyhq.com/bjakcareer/a20b20c7-8205-481e-9155-fa9a6924f27e",
-    department: "Creative",
-    postedAt: "2026-07-05T15:23:21.911+00:00",
-  },
-  {
     title: "UI Designer - AI Neobank App",
     company: "bjakcareer",
     location: "Thailand | Philippines | Taipei, Taiwan | United States | Malaysia | Vietnam | Hong Kong | China | Indonesia | Austria",
@@ -410,17 +346,17 @@ export const jobs: Job[] = [
     title: "UX Designer, AI App",
     company: "bjakcareer",
     location: "New York, United States",
-    url: "https://jobs.ashbyhq.com/bjakcareer/c246767a-624a-4f7c-af0e-48353acb192c",
+    url: "https://jobs.ashbyhq.com/bjakcareer/fb818c30-91cf-4a2a-a716-c58942b06597",
     department: "A1 Product",
-    postedAt: "2026-05-19T14:31:29.369+00:00",
+    postedAt: "2026-08-02T11:46:49.484+00:00",
   },
   {
     title: "UX Engineer, HCI",
     company: "bjakcareer",
     location: "United States",
-    url: "https://jobs.ashbyhq.com/bjakcareer/103f8ea8-9d61-44bf-8183-5c0451896a03",
+    url: "https://jobs.ashbyhq.com/bjakcareer/2b96d1ef-46d2-492d-996a-c753be0052e7",
     department: "A1 Product",
-    postedAt: "2026-05-19T14:36:18.711+00:00",
+    postedAt: "2026-08-02T11:10:21.615+00:00",
   },
   {
     title: "Visual Designer",
@@ -453,10 +389,10 @@ export const jobs: Job[] = [
   {
     title: "Senior Design Sourcer",
     company: "Brex",
-    location: "New York, New York, United States | San Francisco, California, United States | Seattle, Washington, United States",
-    url: "https://www.brex.com/careers/8434442002?gh_jid=8434442002",
+    location: "Seattle, Washington, United States | New York, New York, United States | San Francisco, California, United States",
+    url: "https://www.brex.com/careers/8434443002?gh_jid=8434443002",
     department: "",
-    postedAt: "2026-02-23T20:40:30-05:00",
+    postedAt: "2026-02-23T20:40:31-05:00",
   },
   {
     title: "Staff Brand Designer",
@@ -507,6 +443,64 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/browserbase/b340041a-72ad-47f9-a419-b2c283548104",
     department: "Design",
     postedAt: "2026-07-07T22:06:30.394+00:00",
+  },
+
+  // ── CesiumAstro ────────────────────────────────────────────
+  {
+    title: "Principal Antenna Design Engineer I",
+    company: "CesiumAstro",
+    location: "Westminster, CO",
+    url: "https://jobs.lever.co/CesiumAstro/1712797e-5e68-46bb-bd06-ab688ba21f81",
+    department: "Antenna",
+    postedAt: "2025-10-09T14:33:38.214Z",
+  },
+  {
+    title: "Principal Launch Vehicle Design Engineer II",
+    company: "CesiumAstro",
+    location: "El Segundo, CA",
+    url: "https://jobs.lever.co/CesiumAstro/46db5b15-5824-4643-9437-d5d4f6cc2b11",
+    department: "Engineering",
+    postedAt: "2025-09-23T18:11:37.301Z",
+  },
+  {
+    title: "Senior 3D Motion Designer",
+    company: "CesiumAstro",
+    location: "Austin, TX",
+    url: "https://jobs.lever.co/CesiumAstro/12c92c04-77de-4519-aed3-07182581e92c",
+    department: "Marketing",
+    postedAt: "2026-07-28T22:12:18.246Z",
+  },
+  {
+    title: "Senior Antenna Design Engineer I",
+    company: "CesiumAstro",
+    location: "Melbourne, FL",
+    url: "https://jobs.lever.co/CesiumAstro/cf7d7e6c-6267-4abd-8bc3-6b58e9824407",
+    department: "Antenna",
+    postedAt: "2026-02-02T14:38:10.677Z",
+  },
+  {
+    title: "Senior Launch Vehicle Design Engineer I",
+    company: "CesiumAstro",
+    location: "El Segundo, CA",
+    url: "https://jobs.lever.co/CesiumAstro/334a9393-0463-4f32-8b36-30460212cf33",
+    department: "Engineering",
+    postedAt: "2026-06-03T17:57:26.064Z",
+  },
+  {
+    title: "Senior Valve Design Engineer I",
+    company: "CesiumAstro",
+    location: "El Segundo, CA",
+    url: "https://jobs.lever.co/CesiumAstro/104e0154-8309-4e42-8737-10439ba770b1",
+    department: "Engineering",
+    postedAt: "2026-06-03T17:20:45.735Z",
+  },
+  {
+    title: "Senior Web Designer",
+    company: "CesiumAstro",
+    location: "Austin, TX",
+    url: "https://jobs.lever.co/CesiumAstro/eb6acb5b-e845-40aa-a030-4a3af5e2e60f",
+    department: "Marketing",
+    postedAt: "2026-07-28T22:04:24.175Z",
   },
 
   // ── Chime ──────────────────────────────────────────────────
@@ -957,10 +951,10 @@ export const jobs: Job[] = [
   {
     title: "Senior Product Design Manager",
     company: "Fivetran",
-    location: "Denver, Colorado, United States, AMER | Oakland, California, United States, AMER",
-    url: "https://www.fivetran.com/careers/job?gh_jid=7822456003",
+    location: "Oakland, California, United States, AMER | Denver, Colorado, United States, AMER",
+    url: "https://www.fivetran.com/careers/job?gh_jid=7808191003",
     department: "",
-    postedAt: "2026-07-30T20:43:54-04:00",
+    postedAt: "2026-07-24T13:43:46-04:00",
   },
 
   // ── FlutterFlow ────────────────────────────────────────────
@@ -1117,6 +1111,16 @@ export const jobs: Job[] = [
     url: "https://job-boards.greenhouse.io/gusto/jobs/7254336",
     department: "",
     postedAt: "2026-01-07T14:40:37-05:00",
+  },
+
+  // ── Happy Health ───────────────────────────────────────────
+  {
+    title: "Product Designer II",
+    company: "Happy Health",
+    location: "Remote",
+    url: "https://jobs.lever.co/happy-sleep/cc59e4ab-750f-4aa8-9096-ebf4169f3364",
+    department: "Product",
+    postedAt: "2026-07-29T21:27:15.262Z",
   },
 
   // ── Harvey AI ──────────────────────────────────────────────
@@ -2097,14 +2101,6 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/supabase/4a85c92b-1d0d-43ee-8dbc-0e45a58be208",
     department: "Design",
     postedAt: "2026-06-23T14:51:39.758+00:00",
-  },
-  {
-    title: "Design Engineer",
-    company: "Supabase",
-    location: "Remote",
-    url: "https://jobs.ashbyhq.com/supabase/2e6ee4b3-6573-477f-9c95-d1221cd9f9f9",
-    department: "Design",
-    postedAt: "2026-04-28T10:08:07.322+00:00",
   },
   {
     title: "Product Designer",
