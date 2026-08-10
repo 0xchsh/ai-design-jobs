@@ -7,7 +7,7 @@ export type Job = {
   postedAt: string;
 };
 
-// Auto-updated by scraper — 2026-08-09
+// Auto-updated by scraper — 2026-08-10
 export const jobs: Job[] = [
   // ── Affirm ─────────────────────────────────────────────────
   {
@@ -131,10 +131,10 @@ export const jobs: Job[] = [
   {
     title: "Product Designer",
     company: "Asana",
-    location: "San Francisco | Vancouver, BC",
-    url: "https://www.asana.com/jobs/apply/7952123?gh_jid=7952123",
+    location: "Vancouver, BC | San Francisco",
+    url: "https://www.asana.com/jobs/apply/8024052?gh_jid=8024052",
     department: "",
-    postedAt: "2026-06-11T15:07:58-04:00",
+    postedAt: "2026-07-21T14:21:12-04:00",
   },
   {
     title: "Product Designer, Adapt",
@@ -439,10 +439,10 @@ export const jobs: Job[] = [
   {
     title: "Senior Design Sourcer",
     company: "Brex",
-    location: "New York, New York, United States | San Francisco, California, United States | Seattle, Washington, United States",
-    url: "https://www.brex.com/careers/8434442002?gh_jid=8434442002",
+    location: "Seattle, Washington, United States | San Francisco, California, United States | New York, New York, United States",
+    url: "https://www.brex.com/careers/8434443002?gh_jid=8434443002",
     department: "",
-    postedAt: "2026-02-23T20:40:30-05:00",
+    postedAt: "2026-02-23T20:40:31-05:00",
   },
   {
     title: "Staff Brand Designer",
@@ -463,10 +463,10 @@ export const jobs: Job[] = [
   {
     title: "Staff Product Designer",
     company: "Brex",
-    location: "New York, New York, United States | San Francisco, California, United States",
-    url: "https://www.brex.com/careers/8124973002?gh_jid=8124973002",
+    location: "San Francisco, California, United States | New York, New York, United States",
+    url: "https://www.brex.com/careers/7669111002?gh_jid=7669111002",
     department: "",
-    postedAt: "2025-08-18T14:45:19-04:00",
+    postedAt: "2024-10-03T14:09:29-04:00",
   },
   {
     title: "Staff Product Designer, AI",
@@ -1013,10 +1013,10 @@ export const jobs: Job[] = [
   {
     title: "Senior Product Design Manager",
     company: "Fivetran",
-    location: "Oakland, California, United States, AMER | Denver, Colorado, United States, AMER",
-    url: "https://www.fivetran.com/careers/job?gh_jid=7808191003",
+    location: "Denver, Colorado, United States, AMER | Oakland, California, United States, AMER",
+    url: "https://www.fivetran.com/careers/job?gh_jid=7822456003",
     department: "",
-    postedAt: "2026-07-24T13:43:46-04:00",
+    postedAt: "2026-07-30T20:43:54-04:00",
   },
 
   // ── FlutterFlow ────────────────────────────────────────────
@@ -1099,40 +1099,6 @@ export const jobs: Job[] = [
     url: "https://job-boards.greenhouse.io/deepmind/jobs/7728122",
     department: "",
     postedAt: "2026-03-17T13:28:00-04:00",
-  },
-
-  // ── Gradial ────────────────────────────────────────────────
-  {
-    title: "Creative Director",
-    company: "Gradial",
-    location: "Seattle, WA",
-    url: "https://job-boards.greenhouse.io/gradial/jobs/4087685009",
-    department: "",
-    postedAt: "2025-12-19T14:28:28-05:00",
-  },
-  {
-    title: "Principal Product Designer",
-    company: "Gradial",
-    location: "Seattle, WA",
-    url: "https://job-boards.greenhouse.io/gradial/jobs/4312843009",
-    department: "",
-    postedAt: "2026-07-09T19:12:08-04:00",
-  },
-  {
-    title: "Product Engineer (UX/UI)",
-    company: "Gradial",
-    location: "Seattle, WA",
-    url: "https://job-boards.greenhouse.io/gradial/jobs/4338059009",
-    department: "",
-    postedAt: "2026-07-29T12:25:44-04:00",
-  },
-  {
-    title: "Senior Motion Designer",
-    company: "Gradial",
-    location: "Seattle, WA",
-    url: "https://job-boards.greenhouse.io/gradial/jobs/4327507009",
-    department: "",
-    postedAt: "2026-07-21T20:06:11-04:00",
   },
 
   // ── Gusto ──────────────────────────────────────────────────
@@ -1455,10 +1421,10 @@ export const jobs: Job[] = [
   {
     title: "Learning Experience Designer",
     company: "Metropolis",
-    location: "Los Angeles, California, United States | New York, New York, United States",
-    url: "https://job-boards.greenhouse.io/metropolis/jobs/7782388003",
+    location: "New York, New York, United States | Los Angeles, California, United States",
+    url: "https://job-boards.greenhouse.io/metropolis/jobs/7782384003",
     department: "",
-    postedAt: "2026-07-28T17:09:45-04:00",
+    postedAt: "2026-07-28T17:08:59-04:00",
   },
   {
     title: "Product Designer",
@@ -2261,6 +2227,16 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/tavus/45fdebdf-c3e1-480f-bbfb-ab4deee35db7",
     department: "Engineering, Product, & Design",
     postedAt: "2026-07-09T22:41:30.723+00:00",
+  },
+
+  // ── thunkable ──────────────────────────────────────────────
+  {
+    title: "Product Designer",
+    company: "thunkable",
+    location: "San Francisco, CA",
+    url: "https://jobs.lever.co/thunkable/9bbcc4b9-ee31-4921-b844-d8f1e0bc533f",
+    department: "Product Design",
+    postedAt: "2026-06-02T21:57:12.412Z",
   },
 
   // ── Together AI ────────────────────────────────────────────
