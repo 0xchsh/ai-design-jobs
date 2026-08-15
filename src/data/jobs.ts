@@ -7,7 +7,7 @@ export type Job = {
   postedAt: string;
 };
 
-// Auto-updated by scraper — 2026-08-14
+// Auto-updated by scraper — 2026-08-15
 export const jobs: Job[] = [
   // ── Affirm ─────────────────────────────────────────────────
   {
@@ -97,10 +97,10 @@ export const jobs: Job[] = [
   {
     title: "Product Designer",
     company: "Asana",
-    location: "Vancouver, BC | San Francisco",
-    url: "https://www.asana.com/jobs/apply/8024052?gh_jid=8024052",
+    location: "San Francisco | Vancouver, BC",
+    url: "https://www.asana.com/jobs/apply/7952123?gh_jid=7952123",
     department: "",
-    postedAt: "2026-07-21T14:21:12-04:00",
+    postedAt: "2026-06-11T15:07:58-04:00",
   },
   {
     title: "Product Designer, Coordinate",
@@ -407,10 +407,10 @@ export const jobs: Job[] = [
   {
     title: "Senior Design Sourcer",
     company: "Brex",
-    location: "New York, New York, United States | San Francisco, California, United States | Seattle, Washington, United States",
-    url: "https://www.brex.com/careers/8434442002?gh_jid=8434442002",
+    location: "Seattle, Washington, United States | New York, New York, United States | San Francisco, California, United States",
+    url: "https://www.brex.com/careers/8434443002?gh_jid=8434443002",
     department: "",
-    postedAt: "2026-02-23T20:40:30-05:00",
+    postedAt: "2026-02-23T20:40:31-05:00",
   },
   {
     title: "Staff Brand Designer",
@@ -907,6 +907,16 @@ export const jobs: Job[] = [
     postedAt: "2026-08-11T20:25:53.626+00:00",
   },
 
+  // ── Enterpret ──────────────────────────────────────────────
+  {
+    title: "Lead Brand Designer",
+    company: "Enterpret",
+    location: "New York (Remote) ",
+    url: "https://job-boards.greenhouse.io/enterpret/jobs/7801126003",
+    department: "",
+    postedAt: "2026-07-10T10:51:21-04:00",
+  },
+
   // ── Factory ────────────────────────────────────────────────
   {
     title: "Graphic Designer",
@@ -947,6 +957,14 @@ export const jobs: Job[] = [
 
   // ── Figma ──────────────────────────────────────────────────
   {
+    title: "Brand Designer,  Product Launches",
+    company: "Figma",
+    location: "San Francisco, CA • New York, NY • United States",
+    url: "https://boards.greenhouse.io/figma/jobs/6131079004?gh_jid=6131079004",
+    department: "",
+    postedAt: "2026-08-14T20:02:16-04:00",
+  },
+  {
     title: "Designer Advocate - Figma Weave (New York, United States)",
     company: "Figma",
     location: "New York, NY",
@@ -969,6 +987,14 @@ export const jobs: Job[] = [
     url: "https://boards.greenhouse.io/figma/jobs/6115082004?gh_jid=6115082004",
     department: "",
     postedAt: "2026-07-15T18:44:03-04:00",
+  },
+  {
+    title: "Manager, Design - Systems & Infrastructure",
+    company: "Figma",
+    location: "San Francisco, CA • New York, NY • United States",
+    url: "https://boards.greenhouse.io/figma/jobs/6135656004?gh_jid=6135656004",
+    department: "",
+    postedAt: "2026-08-14T12:47:07-04:00",
   },
   {
     title: "Manager, Product Design",
@@ -1001,6 +1027,14 @@ export const jobs: Job[] = [
     url: "https://boards.greenhouse.io/figma/jobs/6126976004?gh_jid=6126976004",
     department: "",
     postedAt: "2026-07-29T12:33:52-04:00",
+  },
+  {
+    title: "Product Designer, Design Systems",
+    company: "Figma",
+    location: "San Francisco, CA • New York, NY • United States",
+    url: "https://boards.greenhouse.io/figma/jobs/5787576004?gh_jid=5787576004",
+    department: "",
+    postedAt: "2026-08-14T14:28:33-04:00",
   },
   {
     title: "Product Designer, Design, Dev, & AI Tools",
@@ -1041,10 +1075,10 @@ export const jobs: Job[] = [
   {
     title: "Senior Product Design Manager",
     company: "Fivetran",
-    location: "Oakland, California, United States, AMER | Denver, Colorado, United States, AMER",
-    url: "https://www.fivetran.com/careers/job?gh_jid=7808191003",
+    location: "Denver, Colorado, United States, AMER | Oakland, California, United States, AMER",
+    url: "https://www.fivetran.com/careers/job?gh_jid=7822456003",
     department: "",
-    postedAt: "2026-07-24T13:43:46-04:00",
+    postedAt: "2026-07-30T20:43:54-04:00",
   },
 
   // ── FlutterFlow ────────────────────────────────────────────
@@ -1131,6 +1165,14 @@ export const jobs: Job[] = [
 
   // ── Gusto ──────────────────────────────────────────────────
   {
+    title: "Design Systems, Product Designer",
+    company: "Gusto",
+    location: "Denver, CO - Hybrid; New York, New York, United States; San Francisco, CA - Hybrid",
+    url: "https://job-boards.greenhouse.io/gusto/jobs/8111984",
+    department: "",
+    postedAt: "2026-08-14T15:27:51-04:00",
+  },
+  {
     title: "Head of Design, Unified Service Platform",
     company: "Gusto",
     location: "New York, New York, United States",
@@ -1177,6 +1219,16 @@ export const jobs: Job[] = [
     url: "https://job-boards.greenhouse.io/gusto/jobs/7514758",
     department: "",
     postedAt: "2026-04-01T19:29:41-04:00",
+  },
+
+  // ── Happy Health ───────────────────────────────────────────
+  {
+    title: "Product Designer II",
+    company: "Happy Health",
+    location: "Remote",
+    url: "https://jobs.lever.co/happy-sleep/cc59e4ab-750f-4aa8-9096-ebf4169f3364",
+    department: "Product",
+    postedAt: "2026-07-29T21:27:15.262Z",
   },
 
   // ── Harvey AI ──────────────────────────────────────────────
@@ -1282,6 +1334,14 @@ export const jobs: Job[] = [
     department: "",
     postedAt: "2026-08-12T20:12:00-04:00",
   },
+  {
+    title: "Staff Product Designer, Design Systems",
+    company: "HubSpot",
+    location: "Remote - USA",
+    url: "https://www.hubspot.com/careers/jobs/7255442?gh_jid=7255442",
+    department: "",
+    postedAt: "2026-08-14T13:24:09-04:00",
+  },
 
   // ── Infisical ──────────────────────────────────────────────
   {
@@ -1306,9 +1366,9 @@ export const jobs: Job[] = [
     title: "Senior Product Designer",
     company: "Klaviyo",
     location: "Boston, MA",
-    url: "https://www.klaviyo.com/careers/jobs/7636105003?gh_jid=7636105003",
+    url: "https://www.klaviyo.com/careers/jobs/7503717003?gh_jid=7503717003",
     department: "",
-    postedAt: "2026-03-20T13:32:26-04:00",
+    postedAt: "2025-10-21T10:50:00-04:00",
   },
 
   // ── kota ───────────────────────────────────────────────────
@@ -1483,16 +1543,6 @@ export const jobs: Job[] = [
     postedAt: "2026-07-17T18:25:25.161+00:00",
   },
 
-  // ── Nectar Social ──────────────────────────────────────────
-  {
-    title: "Brand Designer",
-    company: "Nectar Social",
-    location: "Palo Alto, CA",
-    url: "https://jobs.ashbyhq.com/nectar-social/c9265056-f040-4c19-b2aa-f49ecdd48a5d",
-    department: "Business",
-    postedAt: "2026-07-22T04:34:22.624+00:00",
-  },
-
   // ── Netic ──────────────────────────────────────────────────
   {
     title: "Founding UI/UX Engineer",
@@ -1631,6 +1681,14 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/openai/73fdf2c0-4318-4b13-addc-b66bc1308ba4",
     department: "Product Design",
     postedAt: "2026-08-06T17:39:11.107+00:00",
+  },
+  {
+    title: "Product Designer, Identity",
+    company: "OpenAI",
+    location: "San Francisco",
+    url: "https://jobs.ashbyhq.com/openai/d5de4cd0-9c4e-4266-93f2-8c1d5fc4a912",
+    department: "Product Design",
+    postedAt: "2026-08-14T17:20:34.839+00:00",
   },
   {
     title: "Product Designer, Payments",
@@ -1809,16 +1867,6 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/Plaud/077bef7d-5159-49cc-a15f-b8f81bb3884f",
     department: "Global Brand Center",
     postedAt: "2026-08-03T17:35:46.371+00:00",
-  },
-
-  // ── qualtrics ──────────────────────────────────────────────
-  {
-    title: "Staff UX Designer - AI",
-    company: "qualtrics",
-    location: "Seattle, Washington,  United States",
-    url: "https://www.qualtrics.com/careers/us/en/job/8060192?gh_jid=8060192",
-    department: "",
-    postedAt: "2026-07-17T12:56:55-04:00",
   },
 
   // ── Ramp ───────────────────────────────────────────────────
@@ -2012,6 +2060,14 @@ export const jobs: Job[] = [
   },
 
   // ── Scale AI ───────────────────────────────────────────────
+  {
+    title: "Forward Deployed Product Designer",
+    company: "Scale AI",
+    location: "New York, NY; Washington, DC",
+    url: "https://job-boards.greenhouse.io/scaleai/jobs/4724276005",
+    department: "",
+    postedAt: "2026-08-14T12:31:30-04:00",
+  },
   {
     title: "Senior Product Design Manager",
     company: "Scale AI",
@@ -2217,14 +2273,6 @@ export const jobs: Job[] = [
 
   // ── Suno ───────────────────────────────────────────────────
   {
-    title: "Qualitative UX Researcher (Contract)",
-    company: "Suno",
-    location: "Los Angeles",
-    url: "https://jobs.ashbyhq.com/suno/e1cc1336-f396-45fd-aa1b-894771b0ccfe",
-    department: "Product",
-    postedAt: "2026-06-30T02:36:41.789+00:00",
-  },
-  {
     title: "Senior / Staff Product Designer",
     company: "Suno",
     location: "NYC",
@@ -2293,16 +2341,6 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/tavus/45fdebdf-c3e1-480f-bbfb-ab4deee35db7",
     department: "Engineering, Product, & Design",
     postedAt: "2026-07-09T22:41:30.723+00:00",
-  },
-
-  // ── thunkable ──────────────────────────────────────────────
-  {
-    title: "Product Designer",
-    company: "thunkable",
-    location: "San Francisco, CA",
-    url: "https://jobs.lever.co/thunkable/9bbcc4b9-ee31-4921-b844-d8f1e0bc533f",
-    department: "Product Design",
-    postedAt: "2026-06-02T21:57:12.412Z",
   },
 
   // ── Together AI ────────────────────────────────────────────
@@ -2431,16 +2469,6 @@ export const jobs: Job[] = [
     url: "https://job-boards.greenhouse.io/webflow/jobs/8096142",
     department: "",
     postedAt: "2026-07-30T11:41:00-04:00",
-  },
-
-  // ── Zero Carbon Systems, Inc. ──────────────────────────────
-  {
-    title: "Senior Process Design Engineer",
-    company: "Zero Carbon Systems, Inc.",
-    location: "Remote",
-    url: "https://jobs.lever.co/zerocarbonsystems/65780f81-f731-4d66-8802-0e1c6e0b9d22",
-    department: "Process Engineering",
-    postedAt: "2026-06-22T21:09:40.977Z",
   },
 
   // ── Zoox ───────────────────────────────────────────────────
