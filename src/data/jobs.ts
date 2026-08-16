@@ -7,7 +7,7 @@ export type Job = {
   postedAt: string;
 };
 
-// Auto-updated by scraper — 2026-08-15
+// Auto-updated by scraper — 2026-08-16
 export const jobs: Job[] = [
   // ── Affirm ─────────────────────────────────────────────────
   {
@@ -25,6 +25,24 @@ export const jobs: Job[] = [
     url: "https://job-boards.greenhouse.io/affirm/jobs/7799295003",
     department: "",
     postedAt: "2026-07-13T11:46:27-04:00",
+  },
+
+  // ── Aircall.io, Inc. ───────────────────────────────────────
+  {
+    title: "Product Designer, AI Voice Agents",
+    company: "Aircall.io, Inc.",
+    location: "San Francisco Office",
+    url: "https://job-boards.greenhouse.io/aircallioinc/jobs/4310339009",
+    department: "",
+    postedAt: "2026-07-15T01:18:17-04:00",
+  },
+  {
+    title: "Senior Product Designer",
+    company: "Aircall.io, Inc.",
+    location: "Madrid Office",
+    url: "https://job-boards.greenhouse.io/aircallioinc/jobs/4307487009",
+    department: "",
+    postedAt: "2026-07-30T05:29:59-04:00",
   },
 
   // ── Airtable ───────────────────────────────────────────────
@@ -97,10 +115,10 @@ export const jobs: Job[] = [
   {
     title: "Product Designer",
     company: "Asana",
-    location: "San Francisco | Vancouver, BC",
-    url: "https://www.asana.com/jobs/apply/7952123?gh_jid=7952123",
+    location: "Vancouver, BC | San Francisco",
+    url: "https://www.asana.com/jobs/apply/8024052?gh_jid=8024052",
     department: "",
-    postedAt: "2026-06-11T15:07:58-04:00",
+    postedAt: "2026-07-21T14:21:12-04:00",
   },
   {
     title: "Product Designer, Coordinate",
@@ -497,14 +515,6 @@ export const jobs: Job[] = [
     url: "https://jobs.lever.co/CesiumAstro/12c92c04-77de-4519-aed3-07182581e92c",
     department: "Marketing",
     postedAt: "2026-07-28T22:12:18.246Z",
-  },
-  {
-    title: "Senior Antenna Design Engineer I",
-    company: "CesiumAstro",
-    location: "Melbourne, FL",
-    url: "https://jobs.lever.co/CesiumAstro/cf7d7e6c-6267-4abd-8bc3-6b58e9824407",
-    department: "Antenna",
-    postedAt: "2026-02-02T14:38:10.677Z",
   },
   {
     title: "Senior Launch Vehicle Design Engineer I",
@@ -1327,14 +1337,6 @@ export const jobs: Job[] = [
 
   // ── HubSpot ────────────────────────────────────────────────
   {
-    title: "Product Designer, Go-to-Market AI",
-    company: "HubSpot",
-    location: "Remote - USA",
-    url: "https://www.hubspot.com/careers/jobs/8104716?gh_jid=8104716",
-    department: "",
-    postedAt: "2026-08-12T20:12:00-04:00",
-  },
-  {
     title: "Staff Product Designer, Design Systems",
     company: "HubSpot",
     location: "Remote - USA",
@@ -1358,17 +1360,17 @@ export const jobs: Job[] = [
     title: "Product Designer",
     company: "Klaviyo",
     location: "Boston, MA",
-    url: "https://www.klaviyo.com/careers/jobs/7503712003?gh_jid=7503712003",
+    url: "https://www.klaviyo.com/careers/jobs/7855794003?gh_jid=7855794003",
     department: "",
-    postedAt: "2025-10-24T15:05:56-04:00",
+    postedAt: "2026-08-12T16:34:05-04:00",
   },
   {
     title: "Senior Product Designer",
     company: "Klaviyo",
     location: "Boston, MA",
-    url: "https://www.klaviyo.com/careers/jobs/7503717003?gh_jid=7503717003",
+    url: "https://www.klaviyo.com/careers/jobs/7636105003?gh_jid=7636105003",
     department: "",
-    postedAt: "2025-10-21T10:50:00-04:00",
+    postedAt: "2026-03-20T13:32:26-04:00",
   },
 
   // ── kota ───────────────────────────────────────────────────
@@ -1519,10 +1521,10 @@ export const jobs: Job[] = [
   {
     title: "Learning Experience Designer",
     company: "Metropolis",
-    location: "Los Angeles, California, United States | New York, New York, United States",
-    url: "https://job-boards.greenhouse.io/metropolis/jobs/7782388003",
+    location: "New York, New York, United States | Los Angeles, California, United States",
+    url: "https://job-boards.greenhouse.io/metropolis/jobs/7782384003",
     department: "",
-    postedAt: "2026-07-28T17:09:45-04:00",
+    postedAt: "2026-07-28T17:08:59-04:00",
   },
   {
     title: "Product Designer",
@@ -1971,32 +1973,6 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/resend/8d7e13ac-4c08-4981-9589-c163a4b29dee",
     department: "Design",
     postedAt: "2026-07-31T17:12:49.889+00:00",
-  },
-
-  // ── retell-ai ──────────────────────────────────────────────
-  {
-    title: "Design Engineer",
-    company: "retell-ai",
-    location: "San Francisco Bay Area",
-    url: "https://jobs.ashbyhq.com/retell-ai/42680778-ec20-4fb0-9057-3b1f35128a64",
-    department: "Product",
-    postedAt: "2026-05-14T16:55:07.850+00:00",
-  },
-  {
-    title: "Senior Brand Designer",
-    company: "retell-ai",
-    location: "San Francisco Bay Area",
-    url: "https://jobs.ashbyhq.com/retell-ai/b65e7015-f4fc-4599-9c08-cdf2a1700416",
-    department: "Marketing",
-    postedAt: "2026-08-13T02:29:42.009+00:00",
-  },
-  {
-    title: "Senior Product Designer",
-    company: "retell-ai",
-    location: "San Francisco Bay Area",
-    url: "https://jobs.ashbyhq.com/retell-ai/9b165c15-aa78-49a7-a755-8c2379fd5416",
-    department: "Product",
-    postedAt: "2026-01-19T01:12:57.485+00:00",
   },
 
   // ── Robinhood ──────────────────────────────────────────────
