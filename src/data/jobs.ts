@@ -7,8 +7,18 @@ export type Job = {
   postedAt: string;
 };
 
-// Auto-updated by scraper — 2026-08-16
+// Auto-updated by scraper — 2026-08-17
 export const jobs: Job[] = [
+  // ── affinity.co ────────────────────────────────────────────
+  {
+    title: "Senior Product Designer",
+    company: "affinity.co",
+    location: "San Francisco | Toronto",
+    url: "https://jobs.ashbyhq.com/affinity.co/6e25419b-2968-4cdd-84bc-deaeef7827ee",
+    department: "Product Design",
+    postedAt: "2026-07-13T21:22:32.543+00:00",
+  },
+
   // ── Affirm ─────────────────────────────────────────────────
   {
     title: "Staff Product Designer",
@@ -865,16 +875,16 @@ export const jobs: Job[] = [
   {
     title: "Senior Product Designer",
     company: "Duolingo",
-    location: "Beijing, China | Pittsburgh, PA | New York, NY",
-    url: "https://careers.duolingo.com/jobs/8675713002?gh_jid=8675713002",
+    location: "Pittsburgh, PA | New York, NY | Beijing, China",
+    url: "https://careers.duolingo.com/jobs/8489189002?gh_jid=8489189002",
     department: "",
-    postedAt: "2026-08-04T09:42:33-04:00",
+    postedAt: "2026-04-01T09:55:33-04:00",
   },
   {
     title: "Staff Product Designer",
     company: "Duolingo",
-    location: "New York, NY | Pittsburgh, PA",
-    url: "https://careers.duolingo.com/jobs/8200010002?gh_jid=8200010002",
+    location: "Pittsburgh, PA | New York, NY",
+    url: "https://careers.duolingo.com/jobs/8200009002?gh_jid=8200009002",
     department: "",
     postedAt: "2025-10-06T20:17:41-04:00",
   },
@@ -915,16 +925,6 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/EliseAI/ef9611a4-58eb-4a4f-8e85-c5382ec3be44",
     department: "Design",
     postedAt: "2026-08-11T20:25:53.626+00:00",
-  },
-
-  // ── Enterpret ──────────────────────────────────────────────
-  {
-    title: "Lead Brand Designer",
-    company: "Enterpret",
-    location: "New York (Remote) ",
-    url: "https://job-boards.greenhouse.io/enterpret/jobs/7801126003",
-    department: "",
-    postedAt: "2026-07-10T10:51:21-04:00",
   },
 
   // ── Factory ────────────────────────────────────────────────
@@ -1231,16 +1231,6 @@ export const jobs: Job[] = [
     postedAt: "2026-04-01T19:29:41-04:00",
   },
 
-  // ── Happy Health ───────────────────────────────────────────
-  {
-    title: "Product Designer II",
-    company: "Happy Health",
-    location: "Remote",
-    url: "https://jobs.lever.co/happy-sleep/cc59e4ab-750f-4aa8-9096-ebf4169f3364",
-    department: "Product",
-    postedAt: "2026-07-29T21:27:15.262Z",
-  },
-
   // ── Harvey AI ──────────────────────────────────────────────
   {
     title: "Head of Creative Design",
@@ -1309,32 +1299,6 @@ export const jobs: Job[] = [
     postedAt: "2025-12-07T23:03:28-05:00",
   },
 
-  // ── hiive ──────────────────────────────────────────────────
-  {
-    title: "Director of Product Design",
-    company: "hiive",
-    location: "Vancouver, BC (HQ)",
-    url: "https://jobs.ashbyhq.com/hiive/50db0972-912f-4aa1-81bd-9bd8ed1f267c",
-    department: "Product Design",
-    postedAt: "2026-01-23T04:07:50.748+00:00",
-  },
-  {
-    title: "Product Designer",
-    company: "hiive",
-    location: "Vancouver, BC (HQ)",
-    url: "https://jobs.ashbyhq.com/hiive/574d0653-6f71-4d82-9f11-05d74c003c07",
-    department: "Product Design",
-    postedAt: "2026-02-04T18:43:14.026+00:00",
-  },
-  {
-    title: "Senior Product Designer",
-    company: "hiive",
-    location: "Vancouver, BC (HQ)",
-    url: "https://jobs.ashbyhq.com/hiive/25bbd0fd-ff23-43cd-8a3c-1708654dccf6",
-    department: "Product Design",
-    postedAt: "2026-07-09T19:00:46.932+00:00",
-  },
-
   // ── HubSpot ────────────────────────────────────────────────
   {
     title: "Staff Product Designer, Design Systems",
@@ -1360,17 +1324,17 @@ export const jobs: Job[] = [
     title: "Product Designer",
     company: "Klaviyo",
     location: "Boston, MA",
-    url: "https://www.klaviyo.com/careers/jobs/7855794003?gh_jid=7855794003",
+    url: "https://www.klaviyo.com/careers/jobs/7503712003?gh_jid=7503712003",
     department: "",
-    postedAt: "2026-08-12T16:34:05-04:00",
+    postedAt: "2025-10-24T15:05:56-04:00",
   },
   {
     title: "Senior Product Designer",
     company: "Klaviyo",
     location: "Boston, MA",
-    url: "https://www.klaviyo.com/careers/jobs/7636105003?gh_jid=7636105003",
+    url: "https://www.klaviyo.com/careers/jobs/7503717003?gh_jid=7503717003",
     department: "",
-    postedAt: "2026-03-20T13:32:26-04:00",
+    postedAt: "2025-10-21T10:50:00-04:00",
   },
 
   // ── kota ───────────────────────────────────────────────────
@@ -1529,10 +1493,10 @@ export const jobs: Job[] = [
   {
     title: "Product Designer",
     company: "Metropolis",
-    location: "New York, New York, United States | Los Angeles, California, United States",
-    url: "https://job-boards.greenhouse.io/metropolis/jobs/7732225003",
+    location: "Los Angeles, California, United States | New York, New York, United States",
+    url: "https://job-boards.greenhouse.io/metropolis/jobs/7732229003",
     department: "",
-    postedAt: "2026-05-12T12:18:23-04:00",
+    postedAt: "2026-05-12T12:18:45-04:00",
   },
 
   // ── Mintlify ───────────────────────────────────────────────
@@ -1785,6 +1749,16 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/perplexity/3d277236-2cf3-4a59-b435-71540cc05712",
     department: "Design",
     postedAt: "2026-07-09T23:45:58.153+00:00",
+  },
+
+  // ── Phoenix Ecommerce Technologies ─────────────────────────
+  {
+    title: "AI UX Product Designer",
+    company: "Phoenix Ecommerce Technologies",
+    location: "Remote (U.S.)",
+    url: "https://jobs.lever.co/phoenixtechnologies/5a30e730-e121-4cfe-911a-10940dc154e8",
+    department: "Product",
+    postedAt: "2026-08-12T17:24:29.483Z",
   },
 
   // ── Pinterest ──────────────────────────────────────────────
