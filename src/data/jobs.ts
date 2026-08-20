@@ -7,7 +7,7 @@ export type Job = {
   postedAt: string;
 };
 
-// Auto-updated by scraper — 2026-08-19
+// Auto-updated by scraper — 2026-08-20
 export const jobs: Job[] = [
   // ── affinity.co ────────────────────────────────────────────
   {
@@ -125,10 +125,10 @@ export const jobs: Job[] = [
   {
     title: "Product Designer",
     company: "Asana",
-    location: "Vancouver, BC | San Francisco",
-    url: "https://www.asana.com/jobs/apply/8024052?gh_jid=8024052",
+    location: "San Francisco | Vancouver, BC",
+    url: "https://www.asana.com/jobs/apply/7952123?gh_jid=7952123",
     department: "",
-    postedAt: "2026-07-21T14:21:12-04:00",
+    postedAt: "2026-06-11T15:07:58-04:00",
   },
   {
     title: "Product Designer, Coordinate",
@@ -157,56 +157,6 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/baseten/c2f8fe4f-07c1-4d43-ae5c-05f057842e57",
     department: "EPD",
     postedAt: "2026-07-06T17:06:24.969+00:00",
-  },
-
-  // ── betterup ───────────────────────────────────────────────
-  {
-    title: "Principal Product Designer, Core",
-    company: "betterup",
-    location: "Austin, TX",
-    url: "https://jobs.ashbyhq.com/betterup/3eb362fc-4911-42d4-b022-69d5c8c343ac",
-    department: "Design",
-    postedAt: "2026-04-20T20:13:01.407+00:00",
-  },
-  {
-    title: "Principal Product Designer, Partner Experience",
-    company: "betterup",
-    location: "Austin, TX",
-    url: "https://jobs.ashbyhq.com/betterup/bad7334f-032f-4263-a8db-3bf8b0fcc1a0",
-    department: "Design",
-    postedAt: "2026-06-16T18:56:03.618+00:00",
-  },
-  {
-    title: "Principal UX Researcher ",
-    company: "betterup",
-    location: "Arlington, VA",
-    url: "https://jobs.ashbyhq.com/betterup/b16b26a9-a282-46b2-8b8b-c92717a9d097",
-    department: "Design",
-    postedAt: "2026-07-07T19:24:15.577+00:00",
-  },
-  {
-    title: "Product Design Manager, Vertical Experiences",
-    company: "betterup",
-    location: "Austin, TX",
-    url: "https://jobs.ashbyhq.com/betterup/7a069da5-2041-4bce-ba61-7ec90ae07a69",
-    department: "Design",
-    postedAt: "2026-06-11T14:01:56.191+00:00",
-  },
-  {
-    title: "Staff Product Designer, Design Systems",
-    company: "betterup",
-    location: "Austin, TX",
-    url: "https://jobs.ashbyhq.com/betterup/faa62bc5-cee2-4514-aab2-e656cf40b88c",
-    department: "Design",
-    postedAt: "2026-05-19T12:53:13.591+00:00",
-  },
-  {
-    title: "Staff Product Designer, Growth",
-    company: "betterup",
-    location: "Austin, TX",
-    url: "https://jobs.ashbyhq.com/betterup/5b54523c-44e4-4913-8599-da4e641706e7",
-    department: "Design",
-    postedAt: "2026-04-20T15:25:06.690+00:00",
   },
 
   // ── bjakcareer ─────────────────────────────────────────────
@@ -419,10 +369,10 @@ export const jobs: Job[] = [
   {
     title: "Senior Design Sourcer",
     company: "Brex",
-    location: "New York, New York, United States | Seattle, Washington, United States | San Francisco, California, United States",
-    url: "https://www.brex.com/careers/8434442002?gh_jid=8434442002",
+    location: "Seattle, Washington, United States | New York, New York, United States | San Francisco, California, United States",
+    url: "https://www.brex.com/careers/8434443002?gh_jid=8434443002",
     department: "",
-    postedAt: "2026-02-23T20:40:30-05:00",
+    postedAt: "2026-02-23T20:40:31-05:00",
   },
   {
     title: "Staff Brand Designer",
@@ -695,16 +645,6 @@ export const jobs: Job[] = [
     postedAt: "2026-06-09T09:49:15-04:00",
   },
 
-  // ── Cresta ─────────────────────────────────────────────────
-  {
-    title: "Manager, Demo Engineering & Design",
-    company: "Cresta",
-    location: "United States (Remote)",
-    url: "https://job-boards.greenhouse.io/cresta/jobs/5171827008",
-    department: "",
-    postedAt: "2026-04-02T16:00:58-04:00",
-  },
-
   // ── d-matrix ───────────────────────────────────────────────
   {
     title: "Staff Analog Design Engineer",
@@ -875,16 +815,16 @@ export const jobs: Job[] = [
   {
     title: "Senior Product Designer",
     company: "Duolingo",
-    location: "Beijing, China | Pittsburgh, PA | New York, NY",
-    url: "https://careers.duolingo.com/jobs/8675713002?gh_jid=8675713002",
+    location: "Pittsburgh, PA | New York, NY | Beijing, China",
+    url: "https://careers.duolingo.com/jobs/8489189002?gh_jid=8489189002",
     department: "",
-    postedAt: "2026-08-04T09:42:33-04:00",
+    postedAt: "2026-04-01T09:55:33-04:00",
   },
   {
     title: "Staff Product Designer",
     company: "Duolingo",
-    location: "Pittsburgh, PA | New York, NY",
-    url: "https://careers.duolingo.com/jobs/8200009002?gh_jid=8200009002",
+    location: "New York, NY | Pittsburgh, PA",
+    url: "https://careers.duolingo.com/jobs/8200010002?gh_jid=8200010002",
     department: "",
     postedAt: "2025-10-06T20:17:41-04:00",
   },
@@ -1181,6 +1121,14 @@ export const jobs: Job[] = [
     postedAt: "2026-07-22T19:11:19-04:00",
   },
   {
+    title: "People Partner - Product and Product Design",
+    company: "Gusto",
+    location: "San Francisco, CA - Hybrid",
+    url: "https://job-boards.greenhouse.io/gusto/jobs/8119974",
+    department: "",
+    postedAt: "2026-08-19T12:43:07-04:00",
+  },
+  {
     title: "Product Design Manager, Payroll",
     company: "Gusto",
     location: "Denver, CO - Hybrid; New York, New York, United States",
@@ -1307,16 +1255,6 @@ export const jobs: Job[] = [
     postedAt: "2025-12-07T23:03:28-05:00",
   },
 
-  // ── HubSpot ────────────────────────────────────────────────
-  {
-    title: "Staff Product Designer, Design Systems",
-    company: "HubSpot",
-    location: "Remote - USA",
-    url: "https://www.hubspot.com/careers/jobs/7255442?gh_jid=7255442",
-    department: "",
-    postedAt: "2026-08-14T13:24:09-04:00",
-  },
-
   // ── Infisical ──────────────────────────────────────────────
   {
     title: "Design Engineer, Brand",
@@ -1340,9 +1278,9 @@ export const jobs: Job[] = [
     title: "Senior Product Designer",
     company: "Klaviyo",
     location: "Boston, MA",
-    url: "https://www.klaviyo.com/careers/jobs/7503717003?gh_jid=7503717003",
+    url: "https://www.klaviyo.com/careers/jobs/7636105003?gh_jid=7636105003",
     department: "",
-    postedAt: "2025-10-21T10:50:00-04:00",
+    postedAt: "2026-03-20T13:32:26-04:00",
   },
 
   // ── kota ───────────────────────────────────────────────────
@@ -1468,7 +1406,7 @@ export const jobs: Job[] = [
     location: "San Francisco",
     url: "https://jobs.ashbyhq.com/mercor/00061949-e19a-4d79-aaa4-c0010e6d1d36",
     department: "Engineering",
-    postedAt: "2026-08-19T04:15:57.401+00:00",
+    postedAt: "2026-08-19T15:47:17.488+00:00",
   },
   {
     title: "Learning Designer",
@@ -1523,16 +1461,6 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/netic/2b65d752-605f-4ccc-a25e-c7a8b18c191e",
     department: "Engineering, Product, and Design",
     postedAt: "2026-02-16T22:50:36.829+00:00",
-  },
-
-  // ── Netspend-Careers-Page ──────────────────────────────────
-  {
-    title: "Senior Designer, Design Systems",
-    company: "Netspend-Careers-Page",
-    location: "Austin, TX",
-    url: "https://jobs.ashbyhq.com/Netspend-Careers-Page/115e96dd-904e-46ba-915b-4cdb562cee0d",
-    department: "Product",
-    postedAt: "2026-08-11T19:39:04.641+00:00",
   },
 
   // ── Noise Labs ─────────────────────────────────────────────
@@ -1893,7 +1821,7 @@ export const jobs: Job[] = [
     postedAt: "2026-02-09T20:22:43.425+00:00",
   },
   {
-    title: "Senior Brand Designer | Growth",
+    title: "Senior Brand Designer, Growth",
     company: "Ramp",
     location: "San Francisco, CA",
     url: "https://jobs.ashbyhq.com/ramp/a8451979-2691-440e-851b-49a3b807729b",
@@ -2295,6 +2223,16 @@ export const jobs: Job[] = [
     postedAt: "2026-08-07T13:13:19.226+00:00",
   },
 
+  // ── Tailscale ──────────────────────────────────────────────
+  {
+    title: "Brand Designer",
+    company: "Tailscale",
+    location: "Remote (United States)",
+    url: "https://job-boards.greenhouse.io/tailscale/jobs/4723980005",
+    department: "",
+    postedAt: "2026-08-19T14:53:04-04:00",
+  },
+
   // ── Tavus ──────────────────────────────────────────────────
   {
     title: "Brand & Product Designer",
@@ -2331,16 +2269,6 @@ export const jobs: Job[] = [
     postedAt: "2026-02-26T14:25:29-05:00",
   },
 
-  // ── Tremendous ─────────────────────────────────────────────
-  {
-    title: "Senior Product Designer",
-    company: "Tremendous",
-    location: "United States",
-    url: "https://jobs.ashbyhq.com/Tremendous/61534849-aa96-450b-b3a6-0ea9d14d8753",
-    department: "Design",
-    postedAt: "2026-08-05T23:23:58.076+00:00",
-  },
-
   // ── Typeface ───────────────────────────────────────────────
   {
     title: "Staff Product Designer",
@@ -2369,6 +2297,14 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/uipath/c54b5591-dc75-4cb6-9002-acde22848849",
     department: "Product",
     postedAt: "2026-06-24T18:07:57.261+00:00",
+  },
+  {
+    title: "Principal Product Designer, Vertical Solutions",
+    company: "uipath",
+    location: "Austin",
+    url: "https://jobs.ashbyhq.com/uipath/bf7296cc-1f50-4977-8e82-c5becd9fd679",
+    department: "Product",
+    postedAt: "2026-08-19T17:31:53.849+00:00",
   },
 
   // ── Vercel ─────────────────────────────────────────────────
