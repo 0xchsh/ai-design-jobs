@@ -7,7 +7,7 @@ export type Job = {
   postedAt: string;
 };
 
-// Auto-updated by scraper — 2026-08-22
+// Auto-updated by scraper — 2026-08-23
 export const jobs: Job[] = [
   // ── Abaka AI ───────────────────────────────────────────────
   {
@@ -509,6 +509,16 @@ export const jobs: Job[] = [
     postedAt: "2026-07-28T22:04:24.175Z",
   },
 
+  // ── Charta Health ──────────────────────────────────────────
+  {
+    title: "Brand Designer",
+    company: "Charta Health",
+    location: "San Francisco",
+    url: "https://jobs.ashbyhq.com/chartahealth/bc8cf02e-4d9c-4854-a5fe-4a77a607d001",
+    department: "Marketing",
+    postedAt: "2026-08-07T03:53:00.768+00:00",
+  },
+
   // ── Chime ──────────────────────────────────────────────────
   {
     title: "Design Director",
@@ -871,6 +881,32 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/EliseAI/ef9611a4-58eb-4a4f-8e85-c5382ec3be44",
     department: "Design",
     postedAt: "2026-08-11T20:25:53.626+00:00",
+  },
+
+  // ── enter-ai ───────────────────────────────────────────────
+  {
+    title: "Brand Designer",
+    company: "enter-ai",
+    location: "São Paulo",
+    url: "https://jobs.ashbyhq.com/enter-ai/d36f8293-40b0-4b74-939b-81226301b928",
+    department: "Product",
+    postedAt: "2026-08-18T13:10:15.646+00:00",
+  },
+  {
+    title: "Head of Design",
+    company: "enter-ai",
+    location: "São Paulo",
+    url: "https://jobs.ashbyhq.com/enter-ai/8629afdf-eb03-4359-b2b9-943b5a66c30a",
+    department: "Product",
+    postedAt: "2026-08-10T21:02:22.128+00:00",
+  },
+  {
+    title: "Product Designer",
+    company: "enter-ai",
+    location: "São Paulo",
+    url: "https://jobs.ashbyhq.com/enter-ai/733013f0-6f79-43a7-9be3-a4dcd4b78d1e",
+    department: "Product",
+    postedAt: "2026-08-10T20:57:53.046+00:00",
   },
 
   // ── Factory ────────────────────────────────────────────────
@@ -1447,24 +1483,6 @@ export const jobs: Job[] = [
     postedAt: "2026-06-26T16:20:11.161+00:00",
   },
 
-  // ── Metropolis ─────────────────────────────────────────────
-  {
-    title: "Learning Experience Designer",
-    company: "Metropolis",
-    location: "Los Angeles, California, United States | New York, New York, United States",
-    url: "https://job-boards.greenhouse.io/metropolis/jobs/7782388003",
-    department: "",
-    postedAt: "2026-07-28T17:09:45-04:00",
-  },
-  {
-    title: "Product Designer",
-    company: "Metropolis",
-    location: "New York, New York, United States | Los Angeles, California, United States",
-    url: "https://job-boards.greenhouse.io/metropolis/jobs/7732225003",
-    department: "",
-    postedAt: "2026-05-12T12:18:23-04:00",
-  },
-
   // ── Mintlify ───────────────────────────────────────────────
   {
     title: "Senior Web Designer (SF/NYC In-Person)",
@@ -1937,6 +1955,32 @@ export const jobs: Job[] = [
     postedAt: "2026-07-31T17:12:49.889+00:00",
   },
 
+  // ── retell-ai ──────────────────────────────────────────────
+  {
+    title: "Design Engineer",
+    company: "retell-ai",
+    location: "San Francisco Bay Area",
+    url: "https://jobs.ashbyhq.com/retell-ai/42680778-ec20-4fb0-9057-3b1f35128a64",
+    department: "Product",
+    postedAt: "2026-05-14T16:55:07.850+00:00",
+  },
+  {
+    title: "Senior Brand Designer",
+    company: "retell-ai",
+    location: "San Francisco Bay Area",
+    url: "https://jobs.ashbyhq.com/retell-ai/b65e7015-f4fc-4599-9c08-cdf2a1700416",
+    department: "Marketing",
+    postedAt: "2026-08-13T02:29:42.009+00:00",
+  },
+  {
+    title: "Senior Product Designer",
+    company: "retell-ai",
+    location: "San Francisco Bay Area",
+    url: "https://jobs.ashbyhq.com/retell-ai/9b165c15-aa78-49a7-a755-8c2379fd5416",
+    department: "Product",
+    postedAt: "2026-01-19T01:12:57.485+00:00",
+  },
+
   // ── Robinhood ──────────────────────────────────────────────
   {
     title: "Senior Product Designer",
@@ -2033,6 +2077,24 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/sevenai/2aae838c-070b-40e3-bb1c-876ea789469f",
     department: "Product",
     postedAt: "2026-07-13T16:51:52.679+00:00",
+  },
+
+  // ── shopmy ─────────────────────────────────────────────────
+  {
+    title: "Senior Brand Designer, Creative",
+    company: "shopmy",
+    location: "US-Remote",
+    url: "https://job-boards.greenhouse.io/shopmy/jobs/5385286008",
+    department: "",
+    postedAt: "2026-08-10T16:52:29-04:00",
+  },
+  {
+    title: "Senior Product Designer",
+    company: "shopmy",
+    location: "Remote, USA",
+    url: "https://job-boards.greenhouse.io/shopmy/jobs/4893334008",
+    department: "",
+    postedAt: "2026-01-15T10:44:20-05:00",
   },
 
   // ── Sierra AI ──────────────────────────────────────────────
