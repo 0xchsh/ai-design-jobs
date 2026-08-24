@@ -7,7 +7,7 @@ export type Job = {
   postedAt: string;
 };
 
-// Auto-updated by scraper — 2026-08-23
+// Auto-updated by scraper — 2026-08-24
 export const jobs: Job[] = [
   // ── Abaka AI ───────────────────────────────────────────────
   {
@@ -17,16 +17,6 @@ export const jobs: Job[] = [
     url: "https://job-boards.greenhouse.io/abakaai/jobs/4289289009",
     department: "",
     postedAt: "2026-06-18T01:14:32-04:00",
-  },
-
-  // ── affinity.co ────────────────────────────────────────────
-  {
-    title: "Senior Product Designer",
-    company: "affinity.co",
-    location: "San Francisco | Toronto",
-    url: "https://jobs.ashbyhq.com/affinity.co/6e25419b-2968-4cdd-84bc-deaeef7827ee",
-    department: "Product Design",
-    postedAt: "2026-07-13T21:22:32.543+00:00",
   },
 
   // ── Affirm ─────────────────────────────────────────────────
@@ -125,10 +115,10 @@ export const jobs: Job[] = [
   {
     title: "Product Designer",
     company: "Asana",
-    location: "Vancouver, BC | San Francisco",
-    url: "https://www.asana.com/jobs/apply/8024052?gh_jid=8024052",
+    location: "San Francisco | Vancouver, BC",
+    url: "https://www.asana.com/jobs/apply/7952123?gh_jid=7952123",
     department: "",
-    postedAt: "2026-07-21T14:21:12-04:00",
+    postedAt: "2026-06-11T15:07:58-04:00",
   },
   {
     title: "Product Designer, Coordinate",
@@ -187,12 +177,12 @@ export const jobs: Job[] = [
 
   // ── bjakcareer ─────────────────────────────────────────────
   {
-    title: "Conversation Designer, HCI",
+    title: "Brand Identity Designer",
     company: "bjakcareer",
-    location: "New York, United States",
-    url: "https://jobs.ashbyhq.com/bjakcareer/1080c9cb-f5fa-4ce7-88ec-cd888027ca6a",
+    location: "United States",
+    url: "https://jobs.ashbyhq.com/bjakcareer/7829ba57-c304-4ca3-9dd5-86a4136868b3",
     department: "A1 Product",
-    postedAt: "2026-05-19T14:34:32.157+00:00",
+    postedAt: "2026-08-24T07:43:22.042+00:00",
   },
   {
     title: "Creative Design Lead ",
@@ -201,6 +191,14 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/bjakcareer/327ff1a3-5a50-443a-8b26-f95aa66453f6",
     department: "Creative",
     postedAt: "2026-08-04T02:02:42.895+00:00",
+  },
+  {
+    title: "Creative Director",
+    company: "bjakcareer",
+    location: "New York, United States",
+    url: "https://jobs.ashbyhq.com/bjakcareer/f5bf9e07-5cc8-4c1b-8714-496fef3f90b9",
+    department: "A1 Product",
+    postedAt: "2026-08-24T07:48:40.710+00:00",
   },
   {
     title: "Interaction Designer, HCI",
@@ -217,6 +215,14 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/bjakcareer/21f25a65-2933-413b-afcc-d3a29b43d290",
     department: "Creative",
     postedAt: "2026-07-05T15:23:50.249+00:00",
+  },
+  {
+    title: "Lead Graphic Designer",
+    company: "bjakcareer",
+    location: "New York, United States",
+    url: "https://jobs.ashbyhq.com/bjakcareer/8de7f80b-55fb-4ab0-9b39-1b06d9be033e",
+    department: "A1 Product",
+    postedAt: "2026-08-24T07:46:46.446+00:00",
   },
   {
     title: "Lead Graphic Designer ",
@@ -259,14 +265,6 @@ export const jobs: Job[] = [
     postedAt: "2026-08-04T03:46:49.233+00:00",
   },
   {
-    title: "Principal Designer",
-    company: "bjakcareer",
-    location: "United States",
-    url: "https://jobs.ashbyhq.com/bjakcareer/a26a9050-33cb-40b3-802f-404023f36c32",
-    department: "A1 Product",
-    postedAt: "2026-07-31T13:25:41.066+00:00",
-  },
-  {
     title: "Product Designer (UI/UX)",
     company: "bjakcareer",
     location: "Malaysia | Thailand | Philippines | Indonesia | Hong Kong | China | Austria | Taipei, Taiwan | Vietnam | United States | Switzerland",
@@ -286,9 +284,9 @@ export const jobs: Job[] = [
     title: "Senior Brand Designer",
     company: "bjakcareer",
     location: "United States",
-    url: "https://jobs.ashbyhq.com/bjakcareer/9d87a9aa-6cea-4dc1-98f7-6a37369cb08a",
+    url: "https://jobs.ashbyhq.com/bjakcareer/ece211c9-6493-4300-b2c0-fded15aa2749",
     department: "A1 Product",
-    postedAt: "2026-08-22T04:24:32.901+00:00",
+    postedAt: "2026-08-24T07:38:16.213+00:00",
   },
   {
     title: "Senior Brand Designer ",
@@ -299,9 +297,17 @@ export const jobs: Job[] = [
     postedAt: "2026-07-05T15:23:39.701+00:00",
   },
   {
+    title: "Senior Designer",
+    company: "bjakcareer",
+    location: "United States",
+    url: "https://jobs.ashbyhq.com/bjakcareer/d1a82aff-e55b-467c-b9f9-bff79055052b",
+    department: "A1 Product",
+    postedAt: "2026-08-24T07:44:52.390+00:00",
+  },
+  {
     title: "Senior Graphic Designer",
     company: "bjakcareer",
-    location: "United States | Switzerland",
+    location: "United States | Switzerland | New York, United States",
     url: "https://jobs.ashbyhq.com/bjakcareer/6d232dd4-313d-479c-9531-d76e31e17351",
     department: "Creative",
     postedAt: "2026-08-04T04:22:33.335+00:00",
@@ -323,14 +329,6 @@ export const jobs: Job[] = [
     postedAt: "2026-07-21T16:54:46.568+00:00",
   },
   {
-    title: "UI/UX Engineer",
-    company: "bjakcareer",
-    location: "United States",
-    url: "https://jobs.ashbyhq.com/bjakcareer/8fab2957-a3ca-41bb-9032-75b3c458c18a",
-    department: "A1 Product",
-    postedAt: "2026-07-31T13:19:07.091+00:00",
-  },
-  {
     title: "UX Designer",
     company: "bjakcareer",
     location: "United States",
@@ -347,20 +345,12 @@ export const jobs: Job[] = [
     postedAt: "2026-08-22T03:00:08.480+00:00",
   },
   {
-    title: "UX Engineer, HCI",
-    company: "bjakcareer",
-    location: "United States",
-    url: "https://jobs.ashbyhq.com/bjakcareer/d633831b-4afa-45fc-a66e-bbad554cc251",
-    department: "A1 Product",
-    postedAt: "2026-08-22T03:33:32.243+00:00",
-  },
-  {
     title: "Visual Designer",
     company: "bjakcareer",
     location: "New York, United States",
-    url: "https://jobs.ashbyhq.com/bjakcareer/a7c3de0b-6513-49d7-aba8-4c0a15bcae3c",
+    url: "https://jobs.ashbyhq.com/bjakcareer/ad0cb479-f828-459e-80f8-935e2e300ca4",
     department: "A1 Product",
-    postedAt: "2026-05-19T14:32:37.730+00:00",
+    postedAt: "2026-08-24T07:41:18.986+00:00",
   },
 
   // ── Bolt ───────────────────────────────────────────────────
@@ -403,10 +393,10 @@ export const jobs: Job[] = [
   {
     title: "Senior Design Sourcer",
     company: "Brex",
-    location: "New York, New York, United States | San Francisco, California, United States | Seattle, Washington, United States",
-    url: "https://www.brex.com/careers/8434442002?gh_jid=8434442002",
+    location: "Seattle, Washington, United States | New York, New York, United States | San Francisco, California, United States",
+    url: "https://www.brex.com/careers/8434443002?gh_jid=8434443002",
     department: "",
-    postedAt: "2026-02-23T20:40:30-05:00",
+    postedAt: "2026-02-23T20:40:31-05:00",
   },
   {
     title: "Staff Brand Designer",
@@ -427,10 +417,10 @@ export const jobs: Job[] = [
   {
     title: "Staff Product Designer",
     company: "Brex",
-    location: "New York, New York, United States | San Francisco, California, United States",
-    url: "https://www.brex.com/careers/8124973002?gh_jid=8124973002",
+    location: "San Francisco, California, United States | New York, New York, United States",
+    url: "https://www.brex.com/careers/7669111002?gh_jid=7669111002",
     department: "",
-    postedAt: "2025-08-18T14:45:19-04:00",
+    postedAt: "2024-10-03T14:09:29-04:00",
   },
   {
     title: "Staff Product Designer, AI",
@@ -863,50 +853,6 @@ export const jobs: Job[] = [
     url: "https://jobs.elastic.co/jobs?gh_jid=8035673&gh_jid=8035673",
     department: "",
     postedAt: "2026-07-15T13:44:12-04:00",
-  },
-
-  // ── EliseAI ────────────────────────────────────────────────
-  {
-    title: "Brand Designer",
-    company: "EliseAI",
-    location: "New York City",
-    url: "https://jobs.ashbyhq.com/EliseAI/ceae21c5-b8b8-45c9-b963-cb21d13e02af",
-    department: "Design",
-    postedAt: "2026-07-21T14:50:15.845+00:00",
-  },
-  {
-    title: "Graphic Designer",
-    company: "EliseAI",
-    location: "New York City",
-    url: "https://jobs.ashbyhq.com/EliseAI/ef9611a4-58eb-4a4f-8e85-c5382ec3be44",
-    department: "Design",
-    postedAt: "2026-08-11T20:25:53.626+00:00",
-  },
-
-  // ── enter-ai ───────────────────────────────────────────────
-  {
-    title: "Brand Designer",
-    company: "enter-ai",
-    location: "São Paulo",
-    url: "https://jobs.ashbyhq.com/enter-ai/d36f8293-40b0-4b74-939b-81226301b928",
-    department: "Product",
-    postedAt: "2026-08-18T13:10:15.646+00:00",
-  },
-  {
-    title: "Head of Design",
-    company: "enter-ai",
-    location: "São Paulo",
-    url: "https://jobs.ashbyhq.com/enter-ai/8629afdf-eb03-4359-b2b9-943b5a66c30a",
-    department: "Product",
-    postedAt: "2026-08-10T21:02:22.128+00:00",
-  },
-  {
-    title: "Product Designer",
-    company: "enter-ai",
-    location: "São Paulo",
-    url: "https://jobs.ashbyhq.com/enter-ai/733013f0-6f79-43a7-9be3-a4dcd4b78d1e",
-    department: "Product",
-    postedAt: "2026-08-10T20:57:53.046+00:00",
   },
 
   // ── Factory ────────────────────────────────────────────────
@@ -1601,6 +1547,14 @@ export const jobs: Job[] = [
     postedAt: "2026-08-08T00:35:24.594+00:00",
   },
   {
+    title: "BIM Designer & Coordinator",
+    company: "OpenAI",
+    location: "San Francisco",
+    url: "https://jobs.ashbyhq.com/openai/ad6b55f9-fa63-4860-b852-d90592e49d1c",
+    department: "Scaling",
+    postedAt: "2026-08-23T21:53:27.920+00:00",
+  },
+  {
     title: "Data Center Design Engineer, Electrical - Industrial Compute",
     company: "OpenAI",
     location: "San Francisco",
@@ -2067,16 +2021,6 @@ export const jobs: Job[] = [
     url: "https://job-boards.greenhouse.io/scaleai/jobs/4721008005",
     department: "",
     postedAt: "2026-08-06T13:54:57-04:00",
-  },
-
-  // ── sevenai ────────────────────────────────────────────────
-  {
-    title: "Sr. Visual Designer",
-    company: "sevenai",
-    location: "Boston, MA",
-    url: "https://jobs.ashbyhq.com/sevenai/2aae838c-070b-40e3-bb1c-876ea789469f",
-    department: "Product",
-    postedAt: "2026-07-13T16:51:52.679+00:00",
   },
 
   // ── shopmy ─────────────────────────────────────────────────
