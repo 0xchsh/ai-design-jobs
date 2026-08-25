@@ -7,7 +7,7 @@ export type Job = {
   postedAt: string;
 };
 
-// Auto-updated by scraper — 2026-08-24
+// Auto-updated by scraper — 2026-08-25
 export const jobs: Job[] = [
   // ── Abaka AI ───────────────────────────────────────────────
   {
@@ -393,10 +393,10 @@ export const jobs: Job[] = [
   {
     title: "Senior Design Sourcer",
     company: "Brex",
-    location: "Seattle, Washington, United States | New York, New York, United States | San Francisco, California, United States",
-    url: "https://www.brex.com/careers/8434443002?gh_jid=8434443002",
+    location: "San Francisco, California, United States | New York, New York, United States | Seattle, Washington, United States",
+    url: "https://www.brex.com/careers/8434432002?gh_jid=8434432002",
     department: "",
-    postedAt: "2026-02-23T20:40:31-05:00",
+    postedAt: "2026-02-23T20:05:17-05:00",
   },
   {
     title: "Staff Brand Designer",
@@ -821,10 +821,10 @@ export const jobs: Job[] = [
   {
     title: "Senior Product Designer",
     company: "Duolingo",
-    location: "Pittsburgh, PA | Beijing, China | New York, NY",
-    url: "https://careers.duolingo.com/jobs/8489189002?gh_jid=8489189002",
+    location: "Beijing, China | Pittsburgh, PA | New York, NY",
+    url: "https://careers.duolingo.com/jobs/8675713002?gh_jid=8675713002",
     department: "",
-    postedAt: "2026-04-01T09:55:33-04:00",
+    postedAt: "2026-08-04T09:42:33-04:00",
   },
   {
     title: "Staff Product Designer",
@@ -853,6 +853,32 @@ export const jobs: Job[] = [
     url: "https://jobs.elastic.co/jobs?gh_jid=8035673&gh_jid=8035673",
     department: "",
     postedAt: "2026-07-15T13:44:12-04:00",
+  },
+
+  // ── enter-ai ───────────────────────────────────────────────
+  {
+    title: "Brand Designer",
+    company: "enter-ai",
+    location: "São Paulo",
+    url: "https://jobs.ashbyhq.com/enter-ai/d36f8293-40b0-4b74-939b-81226301b928",
+    department: "Product",
+    postedAt: "2026-08-18T13:10:15.646+00:00",
+  },
+  {
+    title: "Head of Design",
+    company: "enter-ai",
+    location: "São Paulo",
+    url: "https://jobs.ashbyhq.com/enter-ai/8629afdf-eb03-4359-b2b9-943b5a66c30a",
+    department: "Product",
+    postedAt: "2026-08-10T21:02:22.128+00:00",
+  },
+  {
+    title: "Product Designer",
+    company: "enter-ai",
+    location: "São Paulo",
+    url: "https://jobs.ashbyhq.com/enter-ai/733013f0-6f79-43a7-9be3-a4dcd4b78d1e",
+    department: "Product",
+    postedAt: "2026-08-10T20:57:53.046+00:00",
   },
 
   // ── Factory ────────────────────────────────────────────────
@@ -1259,6 +1285,16 @@ export const jobs: Job[] = [
     postedAt: "2025-12-07T23:03:28-05:00",
   },
 
+  // ── HubSpot ────────────────────────────────────────────────
+  {
+    title: "Principal Product Designer ",
+    company: "HubSpot",
+    location: "Remote - USA",
+    url: "https://www.hubspot.com/careers/jobs/7740667?gh_jid=7740667",
+    department: "",
+    postedAt: "2026-08-24T15:50:43-04:00",
+  },
+
   // ── Infisical ──────────────────────────────────────────────
   {
     title: "Design Engineer, Brand",
@@ -1274,9 +1310,9 @@ export const jobs: Job[] = [
     title: "Product Designer",
     company: "Klaviyo",
     location: "Boston, MA",
-    url: "https://www.klaviyo.com/careers/jobs/7503712003?gh_jid=7503712003",
+    url: "https://www.klaviyo.com/careers/jobs/7855794003?gh_jid=7855794003",
     department: "",
-    postedAt: "2025-10-24T15:05:56-04:00",
+    postedAt: "2026-08-12T16:34:05-04:00",
   },
   {
     title: "Senior Product Designer",
@@ -1361,6 +1397,14 @@ export const jobs: Job[] = [
 
   // ── Lovable ────────────────────────────────────────────────
   {
+    title: "Brand Designer, Web",
+    company: "Lovable",
+    location: "New York",
+    url: "https://jobs.ashbyhq.com/lovable/76f4a64e-b343-4c0e-b5f1-ea7686001346",
+    department: "Design",
+    postedAt: "2026-08-24T09:22:28.531+00:00",
+  },
+  {
     title: "HR Business Partner - Engineering, Product, Design (EPD)",
     company: "Lovable",
     location: "Stockholm",
@@ -1401,6 +1445,14 @@ export const jobs: Job[] = [
     url: "https://app.careerpuck.com/job-board/lyft/job/8584091002?gh_jid=8584091002",
     department: "",
     postedAt: "2026-06-09T12:11:41-04:00",
+  },
+  {
+    title: "Staff Design Program Manager",
+    company: "Lyft",
+    location: "San Francisco, CA | New York, NY",
+    url: "https://app.careerpuck.com/job-board/lyft/job/8743229002?gh_jid=8743229002",
+    department: "",
+    postedAt: "2026-08-24T20:33:59-04:00",
   },
 
   // ── Mercor ─────────────────────────────────────────────────
@@ -1486,6 +1538,14 @@ export const jobs: Job[] = [
     department: "Product Design",
     postedAt: "2026-07-02T17:18:41.823+00:00",
   },
+  {
+    title: "Workflow + Process Designer (AI Enablement)",
+    company: "Notion",
+    location: "San Francisco, California",
+    url: "https://jobs.ashbyhq.com/notion/c799f1f0-0e7b-4eac-98ce-44223130f2b0",
+    department: "Business Technology",
+    postedAt: "2026-08-24T22:48:20.355+00:00",
+  },
 
   // ── Okta ───────────────────────────────────────────────────
   {
@@ -1503,14 +1563,6 @@ export const jobs: Job[] = [
     url: "https://www.okta.com/company/careers/opportunity/8109371?gh_jid=8109371",
     department: "",
     postedAt: "2026-08-07T11:56:10-04:00",
-  },
-  {
-    title: "Senior Principal Product Designer",
-    company: "Okta",
-    location: "Bellevue, Washington; Chicago, Illinois; New York, New York; Washington, DC",
-    url: "https://www.okta.com/company/careers/opportunity/7839824?gh_jid=7839824",
-    department: "",
-    postedAt: "2026-05-14T17:21:17-04:00",
   },
   {
     title: "Staff Product Designer (Auth0) ",
@@ -1571,7 +1623,7 @@ export const jobs: Job[] = [
     postedAt: "2026-06-26T23:56:02.695+00:00",
   },
   {
-    title: "Product Design Leadership, Growth",
+    title: "Product Design Lead, Growth - Codex",
     company: "OpenAI",
     location: "San Francisco",
     url: "https://jobs.ashbyhq.com/openai/bce2bcbd-01e6-4afc-9109-d325483aa47e",
@@ -1771,14 +1823,6 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/Plaud/5de81f57-ede3-4cbf-8bd9-48fd1911d2ab",
     department: "Global Brand Center",
     postedAt: "2026-08-03T17:35:11.396+00:00",
-  },
-  {
-    title: "Product Designer (Contract)- San Francisco",
-    company: "Plaud",
-    location: "San Francisco, CA",
-    url: "https://jobs.ashbyhq.com/Plaud/3f58500a-2f40-40c3-bf0e-cbf714f05ee4",
-    department: "Global Product R&D Center",
-    postedAt: "2026-07-22T04:37:10.891+00:00",
   },
   {
     title: "Senior Industrial Designer - San Francisco",
@@ -2301,32 +2345,6 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/synthesia/c511c8e2-a929-4b9c-af16-48f968fafc33",
     department: "Commercial",
     postedAt: "2026-08-07T13:13:19.226+00:00",
-  },
-
-  // ── Tailscale ──────────────────────────────────────────────
-  {
-    title: "Brand Designer",
-    company: "Tailscale",
-    location: "Remote (United States)",
-    url: "https://job-boards.greenhouse.io/tailscale/jobs/4723980005",
-    department: "",
-    postedAt: "2026-08-19T14:53:04-04:00",
-  },
-  {
-    title: "UX Researcher (Growth)",
-    company: "Tailscale",
-    location: "Remote (United States)",
-    url: "https://job-boards.greenhouse.io/tailscale/jobs/4725885005",
-    department: "",
-    postedAt: "2026-08-20T17:15:07-04:00",
-  },
-  {
-    title: "UX Researcher (Mixed Methods)",
-    company: "Tailscale",
-    location: "Remote (United States)",
-    url: "https://job-boards.greenhouse.io/tailscale/jobs/4725870005",
-    department: "",
-    postedAt: "2026-08-20T17:15:11-04:00",
   },
 
   // ── Tavus ──────────────────────────────────────────────────
