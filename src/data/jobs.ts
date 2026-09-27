@@ -7,7 +7,7 @@ export type Job = {
   postedAt: string;
 };
 
-// Auto-updated by scraper — 2026-09-26
+// Auto-updated by scraper — 2026-09-27
 export const jobs: Job[] = [
   // ── 0g ─────────────────────────────────────────────────────
   {
@@ -891,18 +891,10 @@ export const jobs: Job[] = [
   {
     title: "Founding Product Designer",
     company: "Clera",
-    location: "Copenhagen | San Francisco",
-    url: "https://jobs.ashbyhq.com/clera/c1c4c925-fb4d-40b5-8160-e72de4171629",
-    department: "Engineering",
-    postedAt: "2026-09-19T17:26:49.985+00:00",
-  },
-  {
-    title: "Fractional Founding Designer",
-    company: "Clera",
     location: "San Francisco",
-    url: "https://jobs.ashbyhq.com/clera/8ac2fb8c-0b65-4e03-a27d-a50d192d6d31",
+    url: "https://jobs.ashbyhq.com/clera/7a043fc0-02cd-4e98-bab4-5a6c0a994a1e",
     department: "Engineering",
-    postedAt: "2026-09-19T17:25:57.644+00:00",
+    postedAt: "2026-09-25T17:09:48.542+00:00",
   },
   {
     title: "Freelance Product Designer (Fractional)",
@@ -911,22 +903,6 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/clera/58e9588c-9a0b-4924-91aa-8351c01f43a2",
     department: "Engineering",
     postedAt: "2026-09-22T17:13:31.026+00:00",
-  },
-  {
-    title: "Head of Product Design",
-    company: "Clera",
-    location: "Munich",
-    url: "https://jobs.ashbyhq.com/clera/ddbbd232-b993-434d-a72d-42cd340fc959",
-    department: "Engineering",
-    postedAt: "2026-09-20T17:25:20.498+00:00",
-  },
-  {
-    title: "Junior Product Designer (Senior optional not specified)",
-    company: "Clera",
-    location: "Munich",
-    url: "https://jobs.ashbyhq.com/clera/0d993092-a42b-4024-80bd-ee095149baf6",
-    department: "Engineering",
-    postedAt: "2026-09-20T17:17:02.264+00:00",
   },
   {
     title: "Lead Product Designer (m/w/d)",
@@ -959,6 +935,14 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/clera/8a650213-06f1-46e1-b1c5-5d7fe17dc006",
     department: "Engineering",
     postedAt: "2026-09-24T17:26:12.255+00:00",
+  },
+  {
+    title: "Visual Designer",
+    company: "Clera",
+    location: "Vienna",
+    url: "https://jobs.ashbyhq.com/clera/325e1c17-c8ae-4f71-9f30-5017558762ff",
+    department: "Engineering",
+    postedAt: "2026-09-26T17:26:44.724+00:00",
   },
 
   // ── clerk ──────────────────────────────────────────────────
@@ -1007,16 +991,6 @@ export const jobs: Job[] = [
     url: "https://www.coinbase.com/careers/positions/8114474?gh_jid=8114474",
     department: "",
     postedAt: "2026-08-07T13:26:58-04:00",
-  },
-
-  // ── Collate ────────────────────────────────────────────────
-  {
-    title: "Product Designer",
-    company: "Collate",
-    location: "San Francisco",
-    url: "https://jobs.lever.co/collate/6633e7fe-4954-47d5-a3f3-a15adabb1f4e",
-    department: "Design",
-    postedAt: "2026-07-09T20:53:23.659Z",
   },
 
   // ── ComfyUI ────────────────────────────────────────────────
@@ -1677,6 +1651,16 @@ export const jobs: Job[] = [
     url: "https://job-boards.greenhouse.io/figureai/jobs/4705588006",
     department: "",
     postedAt: "2026-08-17T19:51:01-04:00",
+  },
+
+  // ── Fireworks ──────────────────────────────────────────────
+  {
+    title: "Product Designer ",
+    company: "Fireworks",
+    location: "San Mateo",
+    url: "https://jobs.ashbyhq.com/fireworks/17a81efc-93db-457d-b92b-996722a0f64d",
+    department: "Product",
+    postedAt: "2026-08-13T00:12:17.655+00:00",
   },
 
   // ── Fivetran ───────────────────────────────────────────────
@@ -2347,6 +2331,16 @@ export const jobs: Job[] = [
     postedAt: "2026-08-22T02:01:29.778+00:00",
   },
 
+  // ── latamcent ──────────────────────────────────────────────
+  {
+    title: "Forward Deployed Design Engineer",
+    company: "latamcent",
+    location: "Argentina",
+    url: "https://jobs.ashbyhq.com/latamcent/572013e6-0ad2-4dbe-b094-57ea588ffb58",
+    department: "Engineering & Artificial Intelligence",
+    postedAt: "2026-08-28T18:43:49.068+00:00",
+  },
+
   // ── Latentlabs ─────────────────────────────────────────────
   {
     title: "Computational Protein Designer",
@@ -2573,16 +2567,6 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/mercor/faabb06e-5d95-4872-9655-1f18d9f91aac",
     department: "Engineering",
     postedAt: "2026-08-31T16:55:00.644+00:00",
-  },
-
-  // ── Meshy ──────────────────────────────────────────────────
-  {
-    title: "Senior UI/UX Designer",
-    company: "Meshy",
-    location: "Beijing",
-    url: "https://jobs.ashbyhq.com/meshy/9a58b214-b4fe-47ec-a0a6-cb1d0afc51c1",
-    department: "Product",
-    postedAt: "2025-12-19T08:35:58.762+00:00",
   },
 
   // ── Mintlify ───────────────────────────────────────────────
@@ -3188,7 +3172,7 @@ export const jobs: Job[] = [
     location: "San Francisco",
     url: "https://jobs.ashbyhq.com/patch.io/f050a34d-83ff-4b92-a073-7fee34176f41",
     department: "Marketing",
-    postedAt: "2026-08-15T04:01:44.116+00:00",
+    postedAt: "2026-09-26T21:10:30.769+00:00",
   },
 
   // ── Perplexity ─────────────────────────────────────────────
@@ -3952,9 +3936,9 @@ export const jobs: Job[] = [
     title: "Design Criteria Engineer (Starship)",
     company: "Spacex",
     location: "Starbase, TX",
-    url: "https://boards.greenhouse.io/spacex/jobs/8760091002?gh_jid=8760091002",
+    url: "https://boards.greenhouse.io/spacex/jobs/8499349002?gh_jid=8499349002",
     department: "",
-    postedAt: "2026-08-28T16:48:53-04:00",
+    postedAt: "2026-04-08T17:17:50-04:00",
   },
   {
     title: "Design Reliability Engineer (Falcon & Dragon)",
@@ -3991,7 +3975,7 @@ export const jobs: Job[] = [
   {
     title: "Physical Design Engineer (Silicon Engineering)",
     company: "Spacex",
-    location: "Palo Alto, CA | Irvine, CA | Austin, TX",
+    location: "Palo Alto, CA | Austin, TX | Irvine, CA",
     url: "https://boards.greenhouse.io/spacex/jobs/8800800002?gh_jid=8800800002",
     department: "",
     postedAt: "2026-09-11T11:23:12-04:00",
@@ -4015,10 +3999,10 @@ export const jobs: Job[] = [
   {
     title: "RFIC Layout Designer (RFIC Engineering)",
     company: "Spacex",
-    location: "Irvine, CA | Palo Alto, CA | Redmond, WA",
-    url: "https://boards.greenhouse.io/spacex/jobs/8642048002?gh_jid=8642048002",
+    location: "Palo Alto, CA | Redmond, WA | Irvine, CA",
+    url: "https://boards.greenhouse.io/spacex/jobs/8642055002?gh_jid=8642055002",
     department: "",
-    postedAt: "2026-07-21T12:27:59-04:00",
+    postedAt: "2026-07-21T12:28:29-04:00",
   },
   {
     title: "RFIC Layout Designer (Starshield Silicon)",
@@ -4111,18 +4095,18 @@ export const jobs: Job[] = [
   {
     title: "Sr. RFIC Design Engineer (RFIC Engineering)",
     company: "Spacex",
-    location: "Redmond, WA | Palo Alto, CA | Irvine, CA",
-    url: "https://boards.greenhouse.io/spacex/jobs/8642083002?gh_jid=8642083002",
+    location: "Irvine, CA | Redmond, WA | Palo Alto, CA",
+    url: "https://boards.greenhouse.io/spacex/jobs/8642078002?gh_jid=8642078002",
     department: "",
-    postedAt: "2026-07-21T11:56:44-04:00",
+    postedAt: "2026-07-21T11:56:26-04:00",
   },
   {
     title: "Sr. RFIC Layout Designer (RFIC Engineering)",
     company: "Spacex",
-    location: "Redmond, WA | Irvine, CA | Palo Alto, CA",
-    url: "https://boards.greenhouse.io/spacex/jobs/8642095002?gh_jid=8642095002",
+    location: "Palo Alto, CA | Irvine, CA | Redmond, WA",
+    url: "https://boards.greenhouse.io/spacex/jobs/8642096002?gh_jid=8642096002",
     department: "",
-    postedAt: "2026-07-21T11:17:43-04:00",
+    postedAt: "2026-07-21T11:19:46-04:00",
   },
   {
     title: "Sr. RFIC Layout Designer (Starshield Silicon)",
@@ -4135,10 +4119,10 @@ export const jobs: Job[] = [
   {
     title: "Sr. RTL Design Engineer (Silicon Engineering)",
     company: "Spacex",
-    location: "Redmond, WA | Palo Alto, CA | Austin, TX | Irvine, CA",
-    url: "https://boards.greenhouse.io/spacex/jobs/8560208002?gh_jid=8560208002",
+    location: "Austin, TX | Irvine, CA | Redmond, WA | Palo Alto, CA",
+    url: "https://boards.greenhouse.io/spacex/jobs/8461485002?gh_jid=8461485002",
     department: "",
-    postedAt: "2026-05-21T11:35:52-04:00",
+    postedAt: "2026-03-13T11:53:05-04:00",
   },
   {
     title: "Sr. Silicon Photonics Design Engineer (RFIC Engineering)",
@@ -4151,7 +4135,7 @@ export const jobs: Job[] = [
   {
     title: "Sr. SOC/ASIC Physical Design Engineer (Silicon Engineering)",
     company: "Spacex",
-    location: "Palo Alto, CA | Irvine, CA | Austin, TX",
+    location: "Palo Alto, CA | Austin, TX | Irvine, CA",
     url: "https://boards.greenhouse.io/spacex/jobs/8564781002?gh_jid=8564781002",
     department: "",
     postedAt: "2026-05-26T15:33:46-04:00",
@@ -4235,10 +4219,10 @@ export const jobs: Job[] = [
   {
     title: "Designer, Web Presence & Platform",
     company: "Stripe",
-    location: "US-Remote | US / Cananda",
-    url: "https://stripe.com/jobs/search?gh_jid=8130913",
+    location: "US / Cananda | US-Remote",
+    url: "https://stripe.com/jobs/search?gh_jid=7977745",
     department: "",
-    postedAt: "2026-08-31T12:15:39-04:00",
+    postedAt: "2026-06-04T21:30:40-04:00",
   },
   {
     title: "Product Designer, Growth",
@@ -4409,6 +4393,32 @@ export const jobs: Job[] = [
     postedAt: "2026-08-11T20:15:20.287+00:00",
   },
 
+  // ── Tempo ──────────────────────────────────────────────────
+  {
+    title: "Product Designer - Agent+",
+    company: "Tempo",
+    location: "Philippines - Remote",
+    url: "https://jobs.ashbyhq.com/Tempo/d37e806a-9e55-46fe-a681-09957a6d8e4c",
+    department: "Product Design",
+    postedAt: "2025-09-23T14:14:28.813+00:00",
+  },
+  {
+    title: "Senior Product Designer - Agent+",
+    company: "Tempo",
+    location: "Argentina (Remote)",
+    url: "https://jobs.ashbyhq.com/Tempo/892b867a-7eb6-493a-84a2-ec4c7d9acad4",
+    department: "Product Design",
+    postedAt: "2025-10-28T16:04:59.345+00:00",
+  },
+  {
+    title: "Video Editor / Motion Designer",
+    company: "Tempo",
+    location: "Philippines - Remote | Argentina (Remote)",
+    url: "https://jobs.ashbyhq.com/Tempo/ead1d7c5-8d75-4515-9553-1db20b16dd8e",
+    department: "Growth",
+    postedAt: "2026-06-28T15:13:26.252+00:00",
+  },
+
   // ── Tenstorrent ────────────────────────────────────────────
   {
     title: "AI/ML Physical Design Flow Engineer",
@@ -4513,32 +4523,6 @@ export const jobs: Job[] = [
     url: "https://job-boards.greenhouse.io/tenstorrent/jobs/5108447007",
     department: "",
     postedAt: "2026-04-16T11:02:41-04:00",
-  },
-
-  // ── truelogic ──────────────────────────────────────────────
-  {
-    title: "Junior Mobile UI / Design Systems Designer - News & Media",
-    company: "truelogic",
-    location: "LatAm | Santo Domingo | São Paulo | Bogota",
-    url: "https://jobs.ashbyhq.com/truelogic/1c571ddc-d821-4aef-b84b-ee31ec04d545",
-    department: "Operations",
-    postedAt: "2026-09-17T21:18:08.020+00:00",
-  },
-  {
-    title: "Senior Digital Designer (AI & Creative) - Technology",
-    company: "truelogic",
-    location: "LatAm | Bogota | Santo Domingo | São Paulo",
-    url: "https://jobs.ashbyhq.com/truelogic/8b16d262-c71c-4f01-bca6-18fca7cfc7e4",
-    department: "Operations",
-    postedAt: "2026-09-10T17:10:21.777+00:00",
-  },
-  {
-    title: "Senior Product Designer - Technology",
-    company: "truelogic",
-    location: "LatAm | Bogota | Santo Domingo | São Paulo",
-    url: "https://jobs.ashbyhq.com/truelogic/67d7f84b-7cbd-4a33-ba5f-6147328deb0b",
-    department: "Operations",
-    postedAt: "2026-09-17T20:20:51.518+00:00",
   },
 
   // ── Typeface ───────────────────────────────────────────────
