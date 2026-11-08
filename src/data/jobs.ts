@@ -7,7 +7,7 @@ export type Job = {
   postedAt: string;
 };
 
-// Auto-updated by scraper — 2026-11-07
+// Auto-updated by scraper — 2026-11-08
 export const jobs: Job[] = [
   // ── 0g ─────────────────────────────────────────────────────
   {
@@ -17,6 +17,24 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/0g/0b157aaa-27a4-4ffd-b978-ac8c8565f0fe",
     department: "Marketing",
     postedAt: "2026-08-18T02:44:49.660+00:00",
+  },
+
+  // ── abaka.ai ───────────────────────────────────────────────
+  {
+    title: "Brand Designer",
+    company: "abaka.ai",
+    location: "Mountain View HQ",
+    url: "https://jobs.ashbyhq.com/abaka.ai/36f984e3-d0ea-4b35-a4cc-315a5a4fa1c6",
+    department: "Marketing",
+    postedAt: "2026-06-18T05:14:32.071+00:00",
+  },
+  {
+    title: "Design Technologist",
+    company: "abaka.ai",
+    location: "Mountain View HQ",
+    url: "https://jobs.ashbyhq.com/abaka.ai/00d83132-c150-41aa-a334-4f12cef3eec5",
+    department: "Engineering",
+    postedAt: "2026-10-28T08:32:12.291+00:00",
   },
 
   // ── Aegis ──────────────────────────────────────────────────
@@ -181,6 +199,40 @@ export const jobs: Job[] = [
     postedAt: "2026-06-13T19:47:18-04:00",
   },
 
+  // ── Ashby ──────────────────────────────────────────────────
+  {
+    title: "Design Engineer - Americas",
+    company: "Ashby",
+    location: "Remote - US",
+    url: "https://jobs.ashbyhq.com/Ashby/fd86edd7-3af0-4977-a61a-215212c296fa",
+    department: "Engineering",
+    postedAt: "2026-06-12T21:11:08.658+00:00",
+  },
+  {
+    title: "Senior Product Designer",
+    company: "Ashby",
+    location: "Remote - US",
+    url: "https://jobs.ashbyhq.com/Ashby/f40ef345-82a8-4956-9150-193b4fdf8183",
+    department: "Design",
+    postedAt: "2025-12-05T22:43:22.147+00:00",
+  },
+  {
+    title: "Staff Design Engineer - Americas",
+    company: "Ashby",
+    location: "Remote - US",
+    url: "https://jobs.ashbyhq.com/Ashby/cc846e56-27dd-41b5-bf5b-64d5eeb5ff1a",
+    department: "Engineering",
+    postedAt: "2025-11-14T01:04:25.832+00:00",
+  },
+  {
+    title: "Staff Product Designer",
+    company: "Ashby",
+    location: "Remote - US",
+    url: "https://jobs.ashbyhq.com/Ashby/2373fcd5-144b-4d66-a98b-dd0efb4eb9d1",
+    department: "Design",
+    postedAt: "2025-12-11T04:38:54.143+00:00",
+  },
+
   // ── Baseten ────────────────────────────────────────────────
   {
     title: "Brand Designer",
@@ -259,17 +311,17 @@ export const jobs: Job[] = [
   {
     title: "Senior Product Designer, Data",
     company: "Braze",
-    location: "Vancouver | Toronto",
-    url: "https://job-boards.greenhouse.io/braze/jobs/8223381",
+    location: "Toronto | Vancouver",
+    url: "https://job-boards.greenhouse.io/braze/jobs/8211012",
     department: "",
-    postedAt: "2026-09-22T11:35:29-04:00",
+    postedAt: "2026-09-22T11:35:27-04:00",
   },
 
   // ── Brex ───────────────────────────────────────────────────
   {
     title: "Brand Design Manager, Growth",
     company: "Brex",
-    location: "San Francisco, California, United States | Seattle, Washington, United States | New York, New York, United States",
+    location: "San Francisco, California, United States | New York, New York, United States | Seattle, Washington, United States",
     url: "https://www.brex.com/careers/8920564002?gh_jid=8920564002",
     department: "",
     postedAt: "2026-11-05T14:07:25-05:00",
@@ -277,10 +329,10 @@ export const jobs: Job[] = [
   {
     title: "Senior Brand Designer",
     company: "Brex",
-    location: "New York, New York, United States | San Francisco, California, United States",
-    url: "https://www.brex.com/careers/8782440002?gh_jid=8782440002",
+    location: "San Francisco, California, United States | New York, New York, United States",
+    url: "https://www.brex.com/careers/8782450002?gh_jid=8782450002",
     department: "",
-    postedAt: "2026-09-03T13:49:41-04:00",
+    postedAt: "2026-09-03T13:50:04-04:00",
   },
   {
     title: "Senior Product Designer, T&E",
@@ -301,18 +353,18 @@ export const jobs: Job[] = [
   {
     title: "Staff Brand Designer, Interactive",
     company: "Brex",
-    location: "New York, New York, United States | San Francisco, California, United States",
-    url: "https://www.brex.com/careers/8782407002?gh_jid=8782407002",
+    location: "San Francisco, California, United States | New York, New York, United States",
+    url: "https://www.brex.com/careers/8782404002?gh_jid=8782404002",
     department: "",
-    postedAt: "2026-09-08T13:54:44-04:00",
+    postedAt: "2026-09-03T13:37:10-04:00",
   },
   {
     title: "Staff Product Designer",
     company: "Brex",
-    location: "Seattle, Washington, United States | San Francisco, California, United States | New York, New York, United States",
-    url: "https://www.brex.com/careers/8777953002?gh_jid=8777953002",
+    location: "New York, New York, United States | Seattle, Washington, United States | San Francisco, California, United States",
+    url: "https://www.brex.com/careers/8777938002?gh_jid=8777938002",
     department: "",
-    postedAt: "2026-09-02T13:30:02-04:00",
+    postedAt: "2026-09-02T13:28:19-04:00",
   },
   {
     title: "Staff Product Designer, AI",
@@ -475,14 +527,6 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/Clera/2e5c0f56-070f-4343-b98d-0a00e2114f72",
     department: "Engineering",
     postedAt: "2026-08-01T14:03:41.701+00:00",
-  },
-  {
-    title: "Founding Product Designer",
-    company: "Clera",
-    location: "San Francisco",
-    url: "https://jobs.ashbyhq.com/Clera/9c739a05-cc20-418a-8bac-77f7cb12b2aa",
-    department: "Engineering",
-    postedAt: "2026-10-31T17:15:01.091+00:00",
   },
   {
     title: "Founding Product Designer/Engineer",
@@ -859,16 +903,6 @@ export const jobs: Job[] = [
     postedAt: "2026-09-19T00:20:13.299+00:00",
   },
 
-  // ── Demandbase ─────────────────────────────────────────────
-  {
-    title: "Senior UX Engineer",
-    company: "Demandbase",
-    location: "Hyderabad",
-    url: "https://jobs.ashbyhq.com/demandbase/72fb09d2-50cb-4c75-8e2c-036e17e7174f",
-    department: "Engineering",
-    postedAt: "2026-08-18T09:13:41.363+00:00",
-  },
-
   // ── Dept ───────────────────────────────────────────────────
   {
     title: "AI Motion Designer & Creative Technologist",
@@ -961,10 +995,10 @@ export const jobs: Job[] = [
   {
     title: "Senior UX Designer (Focus on Research)",
     company: "Dept",
-    location: "Budapest | Skopje | Zagreb",
-    url: "https://job-boards.greenhouse.io/dept/jobs/8336607",
+    location: "Skopje | Budapest | Zagreb",
+    url: "https://job-boards.greenhouse.io/dept/jobs/8336632",
     department: "",
-    postedAt: "2026-10-30T08:53:56-04:00",
+    postedAt: "2026-10-30T08:55:50-04:00",
   },
   {
     title: "UI Designer",
@@ -1123,6 +1157,16 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/embedding-vc/02569dd1-9d52-4b2a-92b5-fde80a84833f",
     department: "OpenArt",
     postedAt: "2026-09-03T03:22:29.262+00:00",
+  },
+
+  // ── Endorlabs ──────────────────────────────────────────────
+  {
+    title: "Staff UX Designer",
+    company: "Endorlabs",
+    location: "Palo Alto, CA",
+    url: "https://job-boards.greenhouse.io/endorlabs/jobs/4751731005",
+    department: "",
+    postedAt: "2026-11-05T19:51:11-05:00",
   },
 
   // ── Engramme ───────────────────────────────────────────────
@@ -1705,6 +1749,16 @@ export const jobs: Job[] = [
     postedAt: "2026-08-22T02:01:29.778+00:00",
   },
 
+  // ── Lightsage ──────────────────────────────────────────────
+  {
+    title: "Founding Design Engineer",
+    company: "Lightsage",
+    location: "San Francisco",
+    url: "https://jobs.ashbyhq.com/lightsage/e5907305-b7f2-430d-a60b-02d54ffef654",
+    department: "Product",
+    postedAt: "2026-09-19T21:35:53.849+00:00",
+  },
+
   // ── Linear ─────────────────────────────────────────────────
   {
     title: "Mobile Product Designer",
@@ -1895,6 +1949,24 @@ export const jobs: Job[] = [
     url: "https://job-boards.greenhouse.io/newtonresearch/jobs/5458469008",
     department: "",
     postedAt: "2026-10-20T15:27:58-04:00",
+  },
+
+  // ── Niural ─────────────────────────────────────────────────
+  {
+    title: "Graphic Designer",
+    company: "Niural",
+    location: "Niural Nepal",
+    url: "https://jobs.ashbyhq.com/Niural/bd9e712a-f8f5-4846-850c-2a037bcf24b2",
+    department: "Operations",
+    postedAt: "2026-10-08T08:31:09.445+00:00",
+  },
+  {
+    title: "Product Designer",
+    company: "Niural",
+    location: "Niural Nepal",
+    url: "https://jobs.ashbyhq.com/Niural/89d9837d-04ea-434b-8759-fd8b9eb4d168",
+    department: "Product",
+    postedAt: "2026-09-16T09:35:09.709+00:00",
   },
 
   // ── Noise Labs ─────────────────────────────────────────────
@@ -2341,6 +2413,16 @@ export const jobs: Job[] = [
     postedAt: "2026-07-20T10:34:37-04:00",
   },
 
+  // ── PointOne ───────────────────────────────────────────────
+  {
+    title: "Brand Designer",
+    company: "PointOne",
+    location: "New York City",
+    url: "https://jobs.ashbyhq.com/PointOne/5d4ba03a-0078-47ed-a081-15c63e67a8a7",
+    department: "GTM",
+    postedAt: "2026-09-30T13:25:09.843+00:00",
+  },
+
   // ── Prime Intellect ────────────────────────────────────────
   {
     title: "Applied Researcher - Chip Design",
@@ -2501,16 +2583,6 @@ export const jobs: Job[] = [
     url: "https://job-boards.greenhouse.io/reddit/jobs/7701558",
     department: "",
     postedAt: "2026-03-10T17:57:04-04:00",
-  },
-
-  // ── Reflectionai ───────────────────────────────────────────
-  {
-    title: "Brand Designer",
-    company: "Reflectionai",
-    location: "New York, NY",
-    url: "https://jobs.ashbyhq.com/reflectionai/60336677-e165-4401-8d02-5cb76887d170",
-    department: "Corporate Affairs",
-    postedAt: "2026-11-02T19:13:51.639+00:00",
   },
 
   // ── Robinhood ──────────────────────────────────────────────
@@ -2791,6 +2863,24 @@ export const jobs: Job[] = [
     postedAt: "2026-06-10T01:38:03-04:00",
   },
 
+  // ── Simplisafe ─────────────────────────────────────────────
+  {
+    title: "Director, Ecommerce Product Design",
+    company: "Simplisafe",
+    location: "Boston, MA",
+    url: "https://job-boards.greenhouse.io/simplisafe/jobs/8164235",
+    department: "",
+    postedAt: "2026-09-02T12:24:15-04:00",
+  },
+  {
+    title: "Industrial Designer II",
+    company: "Simplisafe",
+    location: "Boston, MA",
+    url: "https://job-boards.greenhouse.io/simplisafe/jobs/8318279",
+    department: "",
+    postedAt: "2026-10-26T13:33:31-04:00",
+  },
+
   // ── Skildai ────────────────────────────────────────────────
   {
     title: "Founding Brand Design Intern",
@@ -3011,22 +3101,14 @@ export const jobs: Job[] = [
     postedAt: "2026-09-16T20:35:26.975+00:00",
   },
 
-  // ── Synthetic ──────────────────────────────────────────────
+  // ── Tailscale ──────────────────────────────────────────────
   {
-    title: "Brand Designer",
-    company: "Synthetic",
-    location: "San Francisco",
-    url: "https://jobs.ashbyhq.com/synthetic/77d45bc4-009e-4b16-85bb-a3ff487f109c",
-    department: "Core team",
-    postedAt: "2026-09-25T02:03:17.281+00:00",
-  },
-  {
-    title: "Brand Designer (Remote)",
-    company: "Synthetic",
-    location: "United States",
-    url: "https://jobs.ashbyhq.com/synthetic/99e4d83b-817e-4d4a-bf30-40c01316b909",
-    department: "Engineering - Remote",
-    postedAt: "2026-09-25T02:18:51.373+00:00",
+    title: "Product Designer (Growth)",
+    company: "Tailscale",
+    location: "Remote (United States)",
+    url: "https://job-boards.greenhouse.io/tailscale/jobs/4726090005",
+    department: "",
+    postedAt: "2026-08-25T12:12:30-04:00",
   },
 
   // ── Tavus ──────────────────────────────────────────────────
@@ -3065,16 +3147,6 @@ export const jobs: Job[] = [
     url: "https://jobs.ashbyhq.com/themuralgroup/57683054-3325-4d9f-b0f6-30b9f2f5ed1b",
     department: "Technology",
     postedAt: "2026-10-28T02:31:24.865+00:00",
-  },
-
-  // ── Trovehq ────────────────────────────────────────────────
-  {
-    title: "Senior Product Designer",
-    company: "Trovehq",
-    location: "New York",
-    url: "https://jobs.ashbyhq.com/trovehq/83f2d9c9-a8b8-4016-8f9e-2e4b13694cec",
-    department: "Design",
-    postedAt: "2026-10-07T15:57:39.966+00:00",
   },
 
   // ── Twinhealth ─────────────────────────────────────────────
