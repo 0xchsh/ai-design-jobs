@@ -7,7 +7,7 @@ export type Job = {
   postedAt: string;
 };
 
-// Auto-updated by scraper — 2026-11-21
+// Auto-updated by scraper — 2026-11-22
 export const jobs: Job[] = [
   // ── Andurilindustries ──────────────────────────────────────
   {
@@ -261,10 +261,10 @@ export const jobs: Job[] = [
   {
     title: "Senior Product Designer, Mission Autonomy",
     company: "Andurilindustries",
-    location: "Washington, District of Columbia, United States | Costa Mesa, California, United States",
-    url: "https://boards.greenhouse.io/andurilindustries/jobs/5261560007?gh_jid=5261560007",
+    location: "Costa Mesa, California, United States | Washington, District of Columbia, United States",
+    url: "https://boards.greenhouse.io/andurilindustries/jobs/5158219007?gh_jid=5158219007",
     department: "",
-    postedAt: "2026-10-14T16:54:38-04:00",
+    postedAt: "2026-10-14T16:54:36-04:00",
   },
   {
     title: "Senior Product Designer, Space",
@@ -873,6 +873,14 @@ export const jobs: Job[] = [
     postedAt: "2026-11-20T08:45:02.128+00:00",
   },
   {
+    title: "Founding Product Designer",
+    company: "Clera",
+    location: "San Francisco",
+    url: "https://jobs.ashbyhq.com/Clera/507a2662-aa91-4f75-899c-72c513308bb2",
+    department: "Engineering",
+    postedAt: "2026-11-21T17:05:16.763+00:00",
+  },
+  {
     title: "Product Engineer (Consumer, Design Heavy)",
     company: "Clera",
     location: "Palo Alto",
@@ -1243,10 +1251,10 @@ export const jobs: Job[] = [
   {
     title: "Director, Visual Design",
     company: "Dept",
-    location: "San Francisco, New York, Remote  | United States",
-    url: "https://job-boards.greenhouse.io/dept/jobs/8365796",
+    location: "United States | San Francisco, New York, Remote ",
+    url: "https://job-boards.greenhouse.io/dept/jobs/8406229",
     department: "",
-    postedAt: "2026-11-10T08:37:19-05:00",
+    postedAt: "2026-11-20T16:51:29-05:00",
   },
   {
     title: "Mid/Senior Motion Designer",
@@ -1753,32 +1761,6 @@ export const jobs: Job[] = [
     url: "https://job-boards.greenhouse.io/gongio/jobs/4725063006",
     department: "",
     postedAt: "2026-11-06T14:20:43-05:00",
-  },
-
-  // ── Gumloop ────────────────────────────────────────────────
-  {
-    title: "Design Engineer",
-    company: "Gumloop",
-    location: "San Francisco Office",
-    url: "https://jobs.ashbyhq.com/Gumloop/cdb897fd-bd89-4395-bbb0-d29a83c02357",
-    department: "Design",
-    postedAt: "2026-06-30T22:12:36.010+00:00",
-  },
-  {
-    title: "Senior Product Designer",
-    company: "Gumloop",
-    location: "San Francisco Office",
-    url: "https://jobs.ashbyhq.com/Gumloop/7bd94324-7b7b-4bb8-b4f1-6bc20cfdd900",
-    department: "Design",
-    postedAt: "2026-08-25T17:45:13.033+00:00",
-  },
-  {
-    title: "Staff Brand Designer",
-    company: "Gumloop",
-    location: "San Francisco Office",
-    url: "https://jobs.ashbyhq.com/Gumloop/d7628845-fe92-458c-9587-5d5c68afc4fd",
-    department: "Design",
-    postedAt: "2026-08-18T21:21:15.476+00:00",
   },
 
   // ── Gusto ──────────────────────────────────────────────────
