@@ -7,7 +7,7 @@ export type Job = {
   postedAt: string;
 };
 
-// Auto-updated by scraper — 2026-11-24
+// Auto-updated by scraper — 2026-11-25
 export const jobs: Job[] = [
   // ── Aegis ──────────────────────────────────────────────────
   {
@@ -205,7 +205,7 @@ export const jobs: Job[] = [
   {
     title: "Sr. Full-Stack Developer, AI Design-to-Dev",
     company: "Appnovation",
-    location: "San José, Costa Rica | São Paulo | Toronto",
+    location: "San José, Costa Rica | Toronto | São Paulo",
     url: "https://job-boards.greenhouse.io/appnovation/jobs/8435267002",
     department: "",
     postedAt: "2026-02-24T09:02:55-05:00",
@@ -263,6 +263,14 @@ export const jobs: Job[] = [
     url: "https://www.asana.com/jobs/apply/7587002?gh_jid=7587002",
     department: "",
     postedAt: "2026-06-13T19:47:18-04:00",
+  },
+  {
+    title: "Staff Product Designer",
+    company: "Asana",
+    location: "New York City",
+    url: "https://www.asana.com/jobs/apply/8369137?gh_jid=8369137",
+    department: "",
+    postedAt: "2026-11-25T09:11:10-05:00",
   },
   {
     title: "Staff Product Designer, AI",
@@ -415,44 +423,44 @@ export const jobs: Job[] = [
   {
     title: "Senior Product Designer, Data",
     company: "Braze",
-    location: "Vancouver | Toronto",
-    url: "https://job-boards.greenhouse.io/braze/jobs/8223381",
+    location: "Toronto | Vancouver",
+    url: "https://job-boards.greenhouse.io/braze/jobs/8211012",
     department: "",
-    postedAt: "2026-09-22T11:35:29-04:00",
+    postedAt: "2026-09-22T11:35:27-04:00",
   },
 
   // ── Brex ───────────────────────────────────────────────────
   {
     title: "Brand Design Manager, Growth",
     company: "Brex",
-    location: "New York, New York, United States | San Francisco, California, United States | Seattle, Washington, United States",
-    url: "https://www.brex.com/careers/8932572002?gh_jid=8932572002",
+    location: "San Francisco, California, United States | Seattle, Washington, United States | New York, New York, United States",
+    url: "https://www.brex.com/careers/8920564002?gh_jid=8920564002",
     department: "",
-    postedAt: "2026-11-05T15:14:11-05:00",
+    postedAt: "2026-11-05T14:07:25-05:00",
   },
   {
     title: "Senior Brand Designer",
     company: "Brex",
-    location: "New York, New York, United States | San Francisco, California, United States",
-    url: "https://www.brex.com/careers/8782440002?gh_jid=8782440002",
+    location: "San Francisco, California, United States | New York, New York, United States",
+    url: "https://www.brex.com/careers/8782450002?gh_jid=8782450002",
     department: "",
-    postedAt: "2026-09-03T13:49:41-04:00",
+    postedAt: "2026-09-03T13:50:04-04:00",
   },
   {
     title: "Senior Product Designer, T&E",
     company: "Brex",
-    location: "San Francisco, California, United States | New York, New York, United States",
-    url: "https://www.brex.com/careers/8919847002?gh_jid=8919847002",
+    location: "New York, New York, United States | San Francisco, California, United States",
+    url: "https://www.brex.com/careers/8935731002?gh_jid=8935731002",
     department: "",
-    postedAt: "2026-11-04T18:35:13-05:00",
+    postedAt: "2026-11-09T17:28:02-05:00",
   },
   {
     title: "Staff Brand Designer",
     company: "Brex",
-    location: "San Francisco, California, United States | New York, New York, United States",
-    url: "https://www.brex.com/careers/8782403002?gh_jid=8782403002",
+    location: "New York, New York, United States | San Francisco, California, United States",
+    url: "https://www.brex.com/careers/8782405002?gh_jid=8782405002",
     department: "",
-    postedAt: "2026-09-03T13:36:24-04:00",
+    postedAt: "2026-09-03T13:38:01-04:00",
   },
   {
     title: "Staff Brand Designer, Interactive",
@@ -465,7 +473,7 @@ export const jobs: Job[] = [
   {
     title: "Staff Product Designer",
     company: "Brex",
-    location: "Seattle, Washington, United States | New York, New York, United States | San Francisco, California, United States",
+    location: "Seattle, Washington, United States | San Francisco, California, United States | New York, New York, United States",
     url: "https://www.brex.com/careers/8777953002?gh_jid=8777953002",
     department: "",
     postedAt: "2026-09-02T13:30:02-04:00",
@@ -487,6 +495,16 @@ export const jobs: Job[] = [
     url: "https://job-boards.greenhouse.io/calm/jobs/8924756002",
     department: "",
     postedAt: "2026-10-29T20:40:20-04:00",
+  },
+
+  // ── Cambly ─────────────────────────────────────────────────
+  {
+    title: "Design Systems Designer (Contract)",
+    company: "Cambly",
+    location: "San Francisco",
+    url: "https://jobs.ashbyhq.com/Cambly/c1a6134c-5a63-411b-9127-6fd03cf837fb",
+    department: "Research & Development",
+    postedAt: "2026-11-24T00:45:38.218+00:00",
   },
 
   // ── Cantina ────────────────────────────────────────────────
@@ -583,16 +601,6 @@ export const jobs: Job[] = [
     postedAt: "2025-12-17T16:18:49-05:00",
   },
 
-  // ── Cie ────────────────────────────────────────────────────
-  {
-    title: "Product Designer (UX/UI) - Contract",
-    company: "Cie",
-    location: "Irvine, California, United States",
-    url: "https://job-boards.greenhouse.io/cie/jobs/4693861006",
-    department: "",
-    postedAt: "2026-07-01T18:59:04-04:00",
-  },
-
   // ── Clara ──────────────────────────────────────────────────
   {
     title: "Growth Designer (AI Focused) - Bogotá (Hybrid)",
@@ -609,14 +617,6 @@ export const jobs: Job[] = [
     url: "https://job-boards.greenhouse.io/clara/jobs/5219625007",
     department: "",
     postedAt: "2026-08-23T23:33:42-04:00",
-  },
-  {
-    title: "Head of Brand & Design - Bogotá (Hybrid)",
-    company: "Clara",
-    location: "Bogota D.C. / DC / Colombia",
-    url: "https://job-boards.greenhouse.io/clara/jobs/5228837007",
-    department: "",
-    postedAt: "2026-09-02T15:23:43-04:00",
   },
 
   // ── Clay ───────────────────────────────────────────────────
@@ -1053,10 +1053,10 @@ export const jobs: Job[] = [
   {
     title: "Director, Visual Design",
     company: "Dept",
-    location: "United States | San Francisco, New York, Remote ",
-    url: "https://job-boards.greenhouse.io/dept/jobs/8406229",
+    location: "San Francisco, New York, Remote  | United States",
+    url: "https://job-boards.greenhouse.io/dept/jobs/8365796",
     department: "",
-    postedAt: "2026-11-20T16:51:29-05:00",
+    postedAt: "2026-11-10T08:37:19-05:00",
   },
   {
     title: "Mid/Senior Motion Designer",
@@ -1085,7 +1085,7 @@ export const jobs: Job[] = [
   {
     title: "Principal, Visual Design",
     company: "Dept",
-    location: "NY, US, CA, US, IL, US - Remote",
+    location: "NY, US, CA, US, IL, US - Remote | Capital Federal or Gran Buenos Aires, Argentina; Mar del Plata, Buenos Aires, Argentina",
     url: "https://job-boards.greenhouse.io/dept/jobs/8110118",
     department: "",
     postedAt: "2026-08-05T17:34:38-04:00",
@@ -1117,10 +1117,10 @@ export const jobs: Job[] = [
   {
     title: "Senior UX Designer (Focus on Research)",
     company: "Dept",
-    location: "Skopje | Zagreb",
-    url: "https://job-boards.greenhouse.io/dept/jobs/8336632",
+    location: "Budapest | Zagreb",
+    url: "https://job-boards.greenhouse.io/dept/jobs/8336607",
     department: "",
-    postedAt: "2026-10-30T08:55:50-04:00",
+    postedAt: "2026-10-30T08:53:56-04:00",
   },
   {
     title: "UI Designer",
@@ -1245,6 +1245,16 @@ export const jobs: Job[] = [
     postedAt: "2026-11-12T18:50:00.342+00:00",
   },
 
+  // ── Ellevation ─────────────────────────────────────────────
+  {
+    title: "Product Designer II",
+    company: "Ellevation",
+    location: "Boston, MA or Remote",
+    url: "https://jobs.lever.co/ellevationeducation/34a4c59b-112e-4889-9162-9b7cfc46f1cd",
+    department: "Product",
+    postedAt: "2026-10-05T16:50:21.662Z",
+  },
+
   // ── Endorlabs ──────────────────────────────────────────────
   {
     title: "Staff Product (UX) Designer",
@@ -1273,6 +1283,16 @@ export const jobs: Job[] = [
     postedAt: "2026-10-15T00:46:39.317+00:00",
   },
 
+  // ── Epoch AI ───────────────────────────────────────────────
+  {
+    title: "Design Lead / Head of Design",
+    company: "Epoch AI",
+    location: "Remote",
+    url: "https://jobs.lever.co/epoch-ai/b71cd010-d3cf-446c-80fa-fa5737573e82",
+    department: "Product & Design",
+    postedAt: "2026-06-15T20:41:29.220Z",
+  },
+
   // ── Eragon ─────────────────────────────────────────────────
   {
     title: "Member of Design Staff - Creative Director",
@@ -1299,6 +1319,144 @@ export const jobs: Job[] = [
     url: "https://job-boards.greenhouse.io/evydtech/jobs/6199727004",
     department: "",
     postedAt: "2026-09-18T02:53:44-04:00",
+  },
+
+  // ── F7d8749a ───────────────────────────────────────────────
+  {
+    title: "Aerostructures Design Engineer II (R5156)",
+    company: "F7d8749a",
+    location: "Seattle, WA, US",
+    url: "https://jobs.ashbyhq.com/shield/a51d6f52-768c-49b6-8e0c-cd9daa17d682",
+    department: "Aircraft",
+    postedAt: "2026-10-12T23:54:19.022+00:00",
+  },
+  {
+    title: "Construction Design Manager (R5486)",
+    company: "F7d8749a",
+    location: "Dallas, TX, US",
+    url: "https://jobs.ashbyhq.com/shield/2d264204-e873-46f9-a5ff-8eb57744c8a5",
+    department: "Aircraft",
+    postedAt: "2026-08-26T20:17:44.130+00:00",
+  },
+  {
+    title: "Director, Engineering Excellence & Design Standards",
+    company: "F7d8749a",
+    location: "Seattle, WA, US",
+    url: "https://jobs.ashbyhq.com/shield/3ade275d-5f79-41a3-a62e-0adbaec5e7f6",
+    department: "Aircraft",
+    postedAt: "2026-08-24T15:56:13.848+00:00",
+  },
+  {
+    title: "Engineer II, Thermal Design and Analysis (R4934)",
+    company: "F7d8749a",
+    location: "Seattle, WA, US",
+    url: "https://jobs.ashbyhq.com/shield/c8106e18-3f0e-4005-afe1-8fcdf3d7791f",
+    department: "Aircraft",
+    postedAt: "2026-08-25T05:01:32.069+00:00",
+  },
+  {
+    title: "Flight Sciences Engineer, Aerodynamic Design (R6357)",
+    company: "F7d8749a",
+    location: "Seattle, WA, US",
+    url: "https://jobs.ashbyhq.com/shield/643c67ec-f059-4ad9-9fbb-86796a910244",
+    department: "Aircraft",
+    postedAt: "2026-11-12T23:17:00.035+00:00",
+  },
+  {
+    title: "FPGA Design Engineer (R5347)",
+    company: "F7d8749a",
+    location: "Seattle, WA, US",
+    url: "https://jobs.ashbyhq.com/shield/578bfbd2-cab2-4d83-8502-724c5da741b0",
+    department: "Aircraft",
+    postedAt: "2026-11-03T21:07:54.131+00:00",
+  },
+  {
+    title: "Head of Product Design (R5776)",
+    company: "F7d8749a",
+    location: "San Diego, CA, US",
+    url: "https://jobs.ashbyhq.com/shield/080e593a-068e-448f-a786-505cbc874dd6",
+    department: "Hivemind",
+    postedAt: "2026-11-12T17:31:22.957+00:00",
+  },
+  {
+    title: "Manager, Aerostructures Design, X-BAT (R5633)",
+    company: "F7d8749a",
+    location: "Seattle, WA, US",
+    url: "https://jobs.ashbyhq.com/shield/23d9a745-18d5-429f-a9b3-6e1e7c4f5af3",
+    department: "Aircraft",
+    postedAt: "2026-10-15T20:22:16.364+00:00",
+  },
+  {
+    title: "Presentation Designer (R5945)",
+    company: "F7d8749a",
+    location: "Arlington, VA, US",
+    url: "https://jobs.ashbyhq.com/shield/6ad0d18f-5e5d-43f9-a1e0-0b1da3e47d6e",
+    department: "Corporate",
+    postedAt: "2026-10-14T22:00:25.178+00:00",
+  },
+  {
+    title: "Senior Staff Aerostructures Design Engineer - RX (R5846)",
+    company: "F7d8749a",
+    location: "Dallas, TX, US",
+    url: "https://jobs.ashbyhq.com/shield/5ad834cf-4ba2-433a-84a0-84e3e37bba87",
+    department: "Aircraft",
+    postedAt: "2026-11-09T19:36:03.174+00:00",
+  },
+  {
+    title: "Senior Staff Engineer, Actuation Systems Architecture & Design (RX) (R6003)",
+    company: "F7d8749a",
+    location: "Dallas, TX, US",
+    url: "https://jobs.ashbyhq.com/shield/8c88fb92-ca8e-4ea4-b164-4bdfdb6b9b85",
+    department: "Aircraft",
+    postedAt: "2026-11-09T19:36:25.378+00:00",
+  },
+  {
+    title: "Sr. Manager, Aerostructures Design, X-BAT (R5633)",
+    company: "F7d8749a",
+    location: "Seattle, WA, US",
+    url: "https://jobs.ashbyhq.com/shield/066c7de3-35ff-41d3-a0bf-8a428bf7db08",
+    department: "Aircraft",
+    postedAt: "2026-10-15T20:21:49.824+00:00",
+  },
+  {
+    title: "Staff Aerostructures Design Engineer - Ranger (R6355)",
+    company: "F7d8749a",
+    location: "Seattle, WA, US",
+    url: "https://jobs.ashbyhq.com/shield/5105e173-eb44-4590-92c3-c6d5567976d7",
+    department: "Aircraft",
+    postedAt: "2026-11-12T22:38:14.023+00:00",
+  },
+  {
+    title: "Staff Aerostructures Design Engineer (R5159)",
+    company: "F7d8749a",
+    location: "Seattle, WA, US",
+    url: "https://jobs.ashbyhq.com/shield/ee5cc037-10db-4ff6-a370-ca4fbe32a604",
+    department: "Aircraft",
+    postedAt: "2026-10-12T23:52:30.506+00:00",
+  },
+  {
+    title: "Staff Aerostructures Design Engineer (R5160)",
+    company: "F7d8749a",
+    location: "Seattle, WA, US",
+    url: "https://jobs.ashbyhq.com/shield/07944c1e-d573-4e68-8751-616449581128",
+    department: "Aircraft",
+    postedAt: "2026-10-12T23:52:46.545+00:00",
+  },
+  {
+    title: "Staff Designer, Generalist (R5944)",
+    company: "F7d8749a",
+    location: "Arlington, VA, US",
+    url: "https://jobs.ashbyhq.com/shield/f40e1f4f-e015-45b1-a277-94437e59b075",
+    department: "Corporate",
+    postedAt: "2026-09-30T20:59:24.975+00:00",
+  },
+  {
+    title: "Staff Engineer, Electromechanical Motor Design (R6028)",
+    company: "F7d8749a",
+    location: "Seattle, WA, US",
+    url: "https://jobs.ashbyhq.com/shield/3cec979d-49d8-4ecd-a2fa-3bef6ac53fcb",
+    department: "Aircraft",
+    postedAt: "2026-10-01T18:31:57.432+00:00",
   },
 
   // ── Factory ────────────────────────────────────────────────
@@ -1491,10 +1649,10 @@ export const jobs: Job[] = [
   {
     title: "Staff Web Designer",
     company: "Fivetran",
-    location: "USA - New York (dbt) | USA - Philadelphia (dbt) | USA - Austin (dbt) | Denver, Colorado, United States, AMER | Oakland, California, United States, AMER",
-    url: "https://www.fivetran.com/careers/job?gh_jid=8210560003",
+    location: "Oakland, California, United States, AMER | Denver, Colorado, United States, AMER | USA - New York (dbt) | USA - Austin (dbt) | USA - Philadelphia (dbt)",
+    url: "https://www.fivetran.com/careers/job?gh_jid=8204103003",
     department: "",
-    postedAt: "2026-11-20T09:43:07-05:00",
+    postedAt: "2026-11-17T12:18:26-05:00",
   },
 
   // ── Freehand ───────────────────────────────────────────────
@@ -1779,6 +1937,16 @@ export const jobs: Job[] = [
     url: "https://www.klaviyo.com/careers/jobs/7636105003?gh_jid=7636105003",
     department: "",
     postedAt: "2026-03-20T13:32:26-04:00",
+  },
+
+  // ── Komodohealth ───────────────────────────────────────────
+  {
+    title: "Staff Product Designer, AI Products",
+    company: "Komodohealth",
+    location: "United States",
+    url: "https://job-boards.greenhouse.io/komodohealth/jobs/8927314002",
+    department: "",
+    postedAt: "2026-11-05T14:00:09-05:00",
   },
 
   // ── Kraken.com ─────────────────────────────────────────────
@@ -2149,56 +2317,6 @@ export const jobs: Job[] = [
     postedAt: "2026-10-27T21:05:08.616+00:00",
   },
 
-  // ── neurophos ──────────────────────────────────────────────
-  {
-    title: "Design for Test Lead",
-    company: "neurophos",
-    location: "Austin, Texas",
-    url: "https://jobs.ashbyhq.com/neurophos/751850bb-1578-4d90-b04d-1916c6e9c92f",
-    department: "Engineering",
-    postedAt: "2026-09-18T14:52:22.989+00:00",
-  },
-  {
-    title: "Director of Analog and Mixed-Signal IC Design",
-    company: "neurophos",
-    location: "Austin, Texas",
-    url: "https://jobs.ashbyhq.com/neurophos/86be4964-5ca0-4bcb-ae84-8bf06387d8b8",
-    department: "Engineering",
-    postedAt: "2026-10-02T22:30:56.245+00:00",
-  },
-  {
-    title: "Physical Design / Implementation Lead",
-    company: "neurophos",
-    location: "Austin, Texas",
-    url: "https://jobs.ashbyhq.com/neurophos/400401dd-b638-4532-b635-858a9671f0a7",
-    department: "Engineering",
-    postedAt: "2026-09-03T19:39:14.244+00:00",
-  },
-  {
-    title: "Principal Analog Design Engineer",
-    company: "neurophos",
-    location: "Austin, Texas",
-    url: "https://jobs.ashbyhq.com/neurophos/aa626cda-b00c-4a45-ac32-305a468d1b86",
-    department: "Engineering",
-    postedAt: "2025-12-17T19:50:07.738+00:00",
-  },
-  {
-    title: "Principal SoC Design Engineer / SoC Lead",
-    company: "neurophos",
-    location: "Austin, Texas",
-    url: "https://jobs.ashbyhq.com/neurophos/70518c7c-f9c5-4969-a006-e99e13ac1ffa",
-    department: "Engineering",
-    postedAt: "2026-09-03T21:18:46.835+00:00",
-  },
-  {
-    title: "Staff Optomechanical Design Engineer - FSO",
-    company: "neurophos",
-    location: "Austin, Texas",
-    url: "https://jobs.ashbyhq.com/neurophos/ee52a147-d01e-47b6-b9d6-fca3e34bfedd",
-    department: "Engineering",
-    postedAt: "2026-11-10T22:11:19.852+00:00",
-  },
-
   // ── neye-systems-inc. ──────────────────────────────────────
   {
     title: "Senior Silicon Photonics Designer",
@@ -2255,10 +2373,10 @@ export const jobs: Job[] = [
     postedAt: "2026-11-10T19:08:59.709+00:00",
   },
 
-  // ── nubank ─────────────────────────────────────────────────
+  // ── Nubank ─────────────────────────────────────────────────
   {
     title: "AI Engineer, Design",
-    company: "nubank",
+    company: "Nubank",
     location: "Palo Alto",
     url: "https://jobs.ashbyhq.com/nubank/fac13a25-9ede-43a9-b644-ad0e2760cb6d",
     department: "Design",
@@ -2266,7 +2384,7 @@ export const jobs: Job[] = [
   },
   {
     title: "Head of Design, AI Private Banker",
-    company: "nubank",
+    company: "Nubank",
     location: "Palo Alto",
     url: "https://jobs.ashbyhq.com/nubank/d91e0c01-91ca-48f5-ac15-48e421b64f21",
     department: "Design",
@@ -2274,7 +2392,7 @@ export const jobs: Job[] = [
   },
   {
     title: "Head of Design, Digital Assets",
-    company: "nubank",
+    company: "Nubank",
     location: "Palo Alto",
     url: "https://jobs.ashbyhq.com/nubank/691d4bd9-7b3c-4488-b33b-e8a7dda0fe0c",
     department: "Design",
@@ -2282,7 +2400,7 @@ export const jobs: Job[] = [
   },
   {
     title: "Head of Design, Global App Platforms",
-    company: "nubank",
+    company: "Nubank",
     location: "Palo Alto",
     url: "https://jobs.ashbyhq.com/nubank/f259b325-0d6f-462f-96c5-da0e51ca9d0e",
     department: "Design",
@@ -2290,7 +2408,7 @@ export const jobs: Job[] = [
   },
   {
     title: "Principal Product Designer",
-    company: "nubank",
+    company: "Nubank",
     location: "Palo Alto",
     url: "https://jobs.ashbyhq.com/nubank/905d91da-d7d7-4ddf-b5a8-76d7e57ed003",
     department: "Executive",
@@ -2298,7 +2416,7 @@ export const jobs: Job[] = [
   },
   {
     title: "Senior Staff Product Designer, Global Expansion",
-    company: "nubank",
+    company: "Nubank",
     location: "Miami",
     url: "https://jobs.ashbyhq.com/nubank/a7e55abf-570f-4dc6-8b4b-b542c943e48b",
     department: "Design",
@@ -2306,7 +2424,7 @@ export const jobs: Job[] = [
   },
   {
     title: "Staff Product Designer",
-    company: "nubank",
+    company: "Nubank",
     location: "Bogota",
     url: "https://jobs.ashbyhq.com/nubank/1e355247-891e-4678-a471-a15af3929836",
     department: "Design",
@@ -2314,7 +2432,7 @@ export const jobs: Job[] = [
   },
   {
     title: "Staff Product Designer ",
-    company: "nubank",
+    company: "Nubank",
     location: "Palo Alto",
     url: "https://jobs.ashbyhq.com/nubank/903bba47-c9c3-4589-a068-0d2d49caabf0",
     department: "Design",
@@ -2322,7 +2440,7 @@ export const jobs: Job[] = [
   },
   {
     title: "Staff Product Designer, Credit Builder",
-    company: "nubank",
+    company: "Nubank",
     location: "Miami",
     url: "https://jobs.ashbyhq.com/nubank/e3a354cb-6420-4f94-b531-75ddc2280765",
     department: "Design",
@@ -2415,12 +2533,12 @@ export const jobs: Job[] = [
     postedAt: "2026-11-05T18:45:51.030+00:00",
   },
   {
-    title: "Content Designer",
+    title: "Organizational Design Lead",
     company: "OpenAI",
     location: "San Francisco",
-    url: "https://jobs.ashbyhq.com/openai/3942de32-739a-409a-841c-828af04bad83",
-    department: "Product Design",
-    postedAt: "2026-10-27T22:43:21.681+00:00",
+    url: "https://jobs.ashbyhq.com/openai/2c4516ae-b440-40b3-8068-8131772f36ae",
+    department: "People",
+    postedAt: "2026-11-24T20:44:24.681+00:00",
   },
   {
     title: "Physical Design Engineer ",
@@ -2991,6 +3109,56 @@ export const jobs: Job[] = [
     postedAt: "2026-09-23T19:40:40.940+00:00",
   },
 
+  // ── Rho ────────────────────────────────────────────────────
+  {
+    title: "Design Engineer",
+    company: "Rho",
+    location: "NYC",
+    url: "https://jobs.ashbyhq.com/rho/6a66eb99-7576-4335-8d28-16ec1d9ee887",
+    department: "Product",
+    postedAt: "2026-05-12T16:13:55.519+00:00",
+  },
+  {
+    title: "Lead Web Designer",
+    company: "Rho",
+    location: "NYC",
+    url: "https://jobs.ashbyhq.com/rho/3d50825d-9270-4d64-9a58-656f7ae369b5",
+    department: "Product",
+    postedAt: "2026-11-19T22:18:16.982+00:00",
+  },
+  {
+    title: "Principal Product Designer",
+    company: "Rho",
+    location: "NYC",
+    url: "https://jobs.ashbyhq.com/rho/6b281078-b577-4b6c-8236-b9abe1de0fc0",
+    department: "Product",
+    postedAt: "2025-10-12T21:34:15.295+00:00",
+  },
+  {
+    title: "Senior Product Designer",
+    company: "Rho",
+    location: "NYC",
+    url: "https://jobs.ashbyhq.com/rho/f4ece49b-3b53-4ffb-861f-9cc972c10b27",
+    department: "Product",
+    postedAt: "2025-10-12T21:33:51.090+00:00",
+  },
+  {
+    title: "Staff / Principal Product Designer, Design Systems",
+    company: "Rho",
+    location: "NYC",
+    url: "https://jobs.ashbyhq.com/rho/df320a8b-217d-46e3-a73a-6be53c2278ff",
+    department: "Product",
+    postedAt: "2026-08-25T15:37:51.122+00:00",
+  },
+  {
+    title: "Staff Product Designer",
+    company: "Rho",
+    location: "NYC",
+    url: "https://jobs.ashbyhq.com/rho/11ee3334-0ef1-48d7-a31a-2dcae37d3b62",
+    department: "Product",
+    postedAt: "2025-10-12T21:33:56.024+00:00",
+  },
+
   // ── Riveron ────────────────────────────────────────────────
   {
     title: "Manager - Graphic & Presentation Design",
@@ -3003,20 +3171,28 @@ export const jobs: Job[] = [
 
   // ── Robinhood ──────────────────────────────────────────────
   {
+    title: "Creative Director, Brand (Art)",
+    company: "Robinhood",
+    location: "Menlo Park, CA; New York, NY",
+    url: "https://boards.greenhouse.io/robinhood/jobs/8346570?t=gh_src=&gh_jid=8346570",
+    department: "",
+    postedAt: "2026-11-24T20:31:20-05:00",
+  },
+  {
+    title: "Creative Director, Brand (Copy)",
+    company: "Robinhood",
+    location: "Menlo Park, CA; New York, NY",
+    url: "https://boards.greenhouse.io/robinhood/jobs/8346575?t=gh_src=&gh_jid=8346575",
+    department: "",
+    postedAt: "2026-11-24T20:29:36-05:00",
+  },
+  {
     title: "Principal Creative Director",
     company: "Robinhood",
     location: "Menlo Park, CA; New York, NY",
     url: "https://boards.greenhouse.io/robinhood/jobs/8265130?t=gh_src=&gh_jid=8265130",
     department: "",
     postedAt: "2026-11-10T17:31:45-05:00",
-  },
-  {
-    title: "Product Designer, International",
-    company: "Robinhood",
-    location: "Menlo Park, CA; New York, NY",
-    url: "https://boards.greenhouse.io/robinhood/jobs/8240638?t=gh_src=&gh_jid=8240638",
-    department: "",
-    postedAt: "2026-09-29T17:04:00-04:00",
   },
   {
     title: "Senior Content Designer",
@@ -3111,6 +3287,14 @@ export const jobs: Job[] = [
     postedAt: "2026-10-23T16:53:40.631+00:00",
   },
   {
+    title: "Research, Motion Designer",
+    company: "Runway",
+    location: "Remote",
+    url: "https://jobs.ashbyhq.com/runway-ml/08647ea7-af95-42cc-9e41-5cedba9c839e",
+    department: "Runway Labs",
+    postedAt: "2026-11-25T15:40:06.267+00:00",
+  },
+  {
     title: "Sr./Staff Product Designer",
     company: "Runway",
     location: "Remote",
@@ -3198,9 +3382,9 @@ export const jobs: Job[] = [
     title: "Senior Engineer, PLL Design",
     company: "Samsungsemiconductor",
     location: "San Jose, California, United States",
-    url: "https://job-boards.greenhouse.io/samsungsemiconductor/jobs/7992082003",
+    url: "https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8007042003",
     department: "",
-    postedAt: "2026-10-05T18:11:44-04:00",
+    postedAt: "2026-10-01T15:11:46-04:00",
   },
   {
     title: "Senior HSIO Digital Design Engineer",
@@ -3275,162 +3459,6 @@ export const jobs: Job[] = [
     url: "https://job-boards.greenhouse.io/scaleai/jobs/4743989005",
     department: "",
     postedAt: "2026-10-16T14:32:47-04:00",
-  },
-
-  // ── Sentry ─────────────────────────────────────────────────
-  {
-    title: "Manager, Design Engineering",
-    company: "Sentry",
-    location: "San Francisco, California",
-    url: "https://jobs.ashbyhq.com/sentry/9405b1d7-9a4e-424d-b5b2-4bc3cb2ba5cb",
-    department: "Product Design",
-    postedAt: "2026-10-01T20:09:31.554+00:00",
-  },
-
-  // ── Shield ─────────────────────────────────────────────────
-  {
-    title: "Aerostructures Design Engineer II (R5156)",
-    company: "Shield",
-    location: "Seattle, WA, US",
-    url: "https://jobs.ashbyhq.com/shield/a51d6f52-768c-49b6-8e0c-cd9daa17d682",
-    department: "Aircraft",
-    postedAt: "2026-10-12T23:54:19.022+00:00",
-  },
-  {
-    title: "Construction Design Manager (R5486)",
-    company: "Shield",
-    location: "Dallas, TX, US",
-    url: "https://jobs.ashbyhq.com/shield/2d264204-e873-46f9-a5ff-8eb57744c8a5",
-    department: "Aircraft",
-    postedAt: "2026-08-26T20:17:44.130+00:00",
-  },
-  {
-    title: "Director, Engineering Excellence & Design Standards",
-    company: "Shield",
-    location: "Seattle, WA, US",
-    url: "https://jobs.ashbyhq.com/shield/3ade275d-5f79-41a3-a62e-0adbaec5e7f6",
-    department: "Aircraft",
-    postedAt: "2026-08-24T15:56:13.848+00:00",
-  },
-  {
-    title: "Electrical Engineer, Test Equipment Design",
-    company: "Shield",
-    location: "Dallas, TX, US",
-    url: "https://jobs.ashbyhq.com/shield/c9344bba-d17d-4601-b6af-ebc4d4385a05",
-    department: "Aircraft",
-    postedAt: "2026-10-30T19:53:14.848+00:00",
-  },
-  {
-    title: "Engineer II, Thermal Design and Analysis (R4934)",
-    company: "Shield",
-    location: "Seattle, WA, US",
-    url: "https://jobs.ashbyhq.com/shield/c8106e18-3f0e-4005-afe1-8fcdf3d7791f",
-    department: "Aircraft",
-    postedAt: "2026-08-25T05:01:32.069+00:00",
-  },
-  {
-    title: "Flight Sciences Engineer, Aerodynamic Design (R6357)",
-    company: "Shield",
-    location: "Seattle, WA, US",
-    url: "https://jobs.ashbyhq.com/shield/643c67ec-f059-4ad9-9fbb-86796a910244",
-    department: "Aircraft",
-    postedAt: "2026-11-12T23:17:00.035+00:00",
-  },
-  {
-    title: "FPGA Design Engineer (R5347)",
-    company: "Shield",
-    location: "Seattle, WA, US",
-    url: "https://jobs.ashbyhq.com/shield/578bfbd2-cab2-4d83-8502-724c5da741b0",
-    department: "Aircraft",
-    postedAt: "2026-11-03T21:07:54.131+00:00",
-  },
-  {
-    title: "Head of Product Design (R5776)",
-    company: "Shield",
-    location: "San Diego, CA, US",
-    url: "https://jobs.ashbyhq.com/shield/080e593a-068e-448f-a786-505cbc874dd6",
-    department: "Hivemind",
-    postedAt: "2026-11-12T17:31:22.957+00:00",
-  },
-  {
-    title: "Manager, Aerostructures Design, X-BAT (R5633)",
-    company: "Shield",
-    location: "Seattle, WA, US",
-    url: "https://jobs.ashbyhq.com/shield/23d9a745-18d5-429f-a9b3-6e1e7c4f5af3",
-    department: "Aircraft",
-    postedAt: "2026-10-15T20:22:16.364+00:00",
-  },
-  {
-    title: "Presentation Designer (R5945)",
-    company: "Shield",
-    location: "Arlington, VA, US",
-    url: "https://jobs.ashbyhq.com/shield/6ad0d18f-5e5d-43f9-a1e0-0b1da3e47d6e",
-    department: "Corporate",
-    postedAt: "2026-10-14T22:00:25.178+00:00",
-  },
-  {
-    title: "Senior Staff Aerostructures Design Engineer - RX (R5846)",
-    company: "Shield",
-    location: "Dallas, TX, US",
-    url: "https://jobs.ashbyhq.com/shield/5ad834cf-4ba2-433a-84a0-84e3e37bba87",
-    department: "Aircraft",
-    postedAt: "2026-11-09T19:36:03.174+00:00",
-  },
-  {
-    title: "Senior Staff Engineer, Actuation Systems Architecture & Design (RX) (R6003)",
-    company: "Shield",
-    location: "Dallas, TX, US",
-    url: "https://jobs.ashbyhq.com/shield/8c88fb92-ca8e-4ea4-b164-4bdfdb6b9b85",
-    department: "Aircraft",
-    postedAt: "2026-11-09T19:36:25.378+00:00",
-  },
-  {
-    title: "Sr. Manager, Aerostructures Design, X-BAT (R5633)",
-    company: "Shield",
-    location: "Seattle, WA, US",
-    url: "https://jobs.ashbyhq.com/shield/066c7de3-35ff-41d3-a0bf-8a428bf7db08",
-    department: "Aircraft",
-    postedAt: "2026-10-15T20:21:49.824+00:00",
-  },
-  {
-    title: "Staff Aerostructures Design Engineer - Ranger (R6355)",
-    company: "Shield",
-    location: "Seattle, WA, US",
-    url: "https://jobs.ashbyhq.com/shield/5105e173-eb44-4590-92c3-c6d5567976d7",
-    department: "Aircraft",
-    postedAt: "2026-11-12T22:38:14.023+00:00",
-  },
-  {
-    title: "Staff Aerostructures Design Engineer (R5159)",
-    company: "Shield",
-    location: "Seattle, WA, US",
-    url: "https://jobs.ashbyhq.com/shield/ee5cc037-10db-4ff6-a370-ca4fbe32a604",
-    department: "Aircraft",
-    postedAt: "2026-10-12T23:52:30.506+00:00",
-  },
-  {
-    title: "Staff Aerostructures Design Engineer (R5160)",
-    company: "Shield",
-    location: "Seattle, WA, US",
-    url: "https://jobs.ashbyhq.com/shield/07944c1e-d573-4e68-8751-616449581128",
-    department: "Aircraft",
-    postedAt: "2026-10-12T23:52:46.545+00:00",
-  },
-  {
-    title: "Staff Designer, Generalist (R5944)",
-    company: "Shield",
-    location: "Arlington, VA, US",
-    url: "https://jobs.ashbyhq.com/shield/f40e1f4f-e015-45b1-a277-94437e59b075",
-    department: "Corporate",
-    postedAt: "2026-09-30T20:59:24.975+00:00",
-  },
-  {
-    title: "Staff Engineer, Electromechanical Motor Design (R6028)",
-    company: "Shield",
-    location: "Seattle, WA, US",
-    url: "https://jobs.ashbyhq.com/shield/3cec979d-49d8-4ecd-a2fa-3bef6ac53fcb",
-    department: "Aircraft",
-    postedAt: "2026-10-01T18:31:57.432+00:00",
   },
 
   // ── Sierra AI ──────────────────────────────────────────────
@@ -3703,6 +3731,32 @@ export const jobs: Job[] = [
     postedAt: "2026-09-16T20:35:26.975+00:00",
   },
 
+  // ── surveymonkey ───────────────────────────────────────────
+  {
+    title: "Lead Product Designer - Incubator",
+    company: "surveymonkey",
+    location: "Ottawa | US - Remote | San Mateo | Portland",
+    url: "https://jobs.ashbyhq.com/surveymonkey/a0b07352-9e04-4de1-9c13-825ca45a4a2e",
+    department: "Product Design & Research",
+    postedAt: "2026-11-24T20:53:59.992+00:00",
+  },
+  {
+    title: "Senior Manager, Design",
+    company: "surveymonkey",
+    location: "Bengaluru",
+    url: "https://jobs.ashbyhq.com/surveymonkey/346fc0e9-ef30-45f4-a8a0-ba06426d91f3",
+    department: "Product Design & Research",
+    postedAt: "2026-11-24T20:19:48.493+00:00",
+  },
+  {
+    title: "Senior Product Designer - Growth",
+    company: "surveymonkey",
+    location: "San Mateo | Portland | US - Remote | Ottawa",
+    url: "https://jobs.ashbyhq.com/surveymonkey/7ee4ebe8-ac4a-4550-ba9c-3d273d5c379e",
+    department: "Product Design & Research",
+    postedAt: "2026-11-24T20:37:53.105+00:00",
+  },
+
   // ── Talkiatry ──────────────────────────────────────────────
   {
     title: "Staff Product Designer",
@@ -3845,9 +3899,17 @@ export const jobs: Job[] = [
     postedAt: "2026-10-23T14:48:41.329+00:00",
   },
   {
+    title: "Game Designer (Multiplayer Gameplay Modes) - Paper.io 2",
+    company: "Voodoo",
+    location: "Istanbul",
+    url: "https://jobs.ashbyhq.com/voodoo/0aaf28df-8ff3-484c-98cd-cd1fdf001ce6",
+    department: "Gaming",
+    postedAt: "2026-11-25T08:50:35.767+00:00",
+  },
+  {
     title: "Senior Game Developer (Game Feel, UI, Animations, VFX) - Paper.io2",
     company: "Voodoo",
-    location: "Barcelona",
+    location: "Barcelona | Istanbul",
     url: "https://jobs.ashbyhq.com/voodoo/8f86c74e-7d06-447d-bd1b-ad268e46bb3e",
     department: "Gaming",
     postedAt: "2026-11-24T07:43:02.265+00:00",
